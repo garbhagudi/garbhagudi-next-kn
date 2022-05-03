@@ -1,6 +1,26 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
+module.exports = {
   reactStrictMode: true,
-}
+  images: {
+    domains: ["res.cloudinary.com"],
+  },
+  rewrite: async () => [
+    {
+      source: "/public/contact.html",
+      destination: "/src/pages/api/contact.tsx",
+    },
+    {
+      source: "/public/contact.html",
+      destination: "/src/pages/api/contact.tsx",
+    },
+  ],
+};
 
-module.exports = nextConfig
+// const withPWA = require("next-pwa");
+
+// module.exports = withPWA({
+//   pwa: {
+//     dest: "public",
+//     register: true,
+//     skipWaiting: true,
+//   },
+// });
