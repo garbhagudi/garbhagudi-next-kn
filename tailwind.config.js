@@ -410,7 +410,6 @@ module.exports = {
       heading: "B612",
       content: "Nunito",
       benne: "Benne",
-      dm: "DM Sans",
     },
     fontSize: {
       xs: ["0.75rem", { lineHeight: "1rem" }],

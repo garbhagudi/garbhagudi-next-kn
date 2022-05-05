@@ -108,7 +108,7 @@ const Features = () => {
                           />
                         </span>
                       </div>
-                      <h3 className="mt-8 text-3xl text-brandDark  font-kanHeadingBold">
+                      <h3 className="mt-8 text-3xl text-brandDark  font-kanContent">
                         {feature.name}
                       </h3>
                       <p className="mt-5 text-brandDark text-2xl font-kanContent min-h-[130px] tracking-tight">

@@ -105,7 +105,7 @@ const Home = ({ homeData }) => {
         <div className="max-w-7xl mx-auto py-16 px-4 text-center sm:px-6 lg:px-8 lg:py-12">
           <div className="space-y-12">
             <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-              <h2 className="text-3xl sm:text-5xl text-brandDark font-kanHeadingBold">
+              <h2 className="text-3xl sm:text-5xl text-brandPink font-kanHeadingBold">
                 £ÀªÀÄä vÀdÕgÀ£ÀÄß ¨sÉÃn ªÀiÁr
               </h2>
               <p className="text-2xl text-brandDark font-kanContent">
@@ -115,7 +115,7 @@ const Home = ({ homeData }) => {
                 AiÀÄ±À¹ìUÉ ºÉ¸ÀgÀÄªÁ¹AiÀiÁVzÉ.
               </p>
             </div>
-            <ul className="mx-auto space-y-0 grid grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-7xl">
+            <ul className="mx-auto space-y-0 grid grid-cols-1 sm:gap-16 sm:space-y-0 md:grid-col-2 lg:grid-cols-4 lg:max-w-7xl">
               {homeData?.doctors.map((item) => {
                 return (
                   <li
