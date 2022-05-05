@@ -18,7 +18,7 @@ const HomeComponent = () => {
       <Video />
       <Features />
       <Stat />
-      <Testimonial />
+      {/* <Testimonial /> */}
     </div>
   );
 };

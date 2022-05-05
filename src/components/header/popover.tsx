@@ -102,57 +102,57 @@ const Location = [
 
 const valueAddedServices = [
   {
-    name: "High Success Rates",
+    name: "L«J¥sï£À  AiÀÄ±À¹ì£À ªÀÄlÖUÀ¼ÀÄ",
     href: "/features/success-rates-of-ivf",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841374/Icons/Why%20GarbhaGudi/Success_Rate_abmaf0.svg",
   },
   {
-    name: "World-Class Care",
+    name: "«±Àé zÀeÉðAiÀÄ ¥sÀnð°n DgÉÊPÉ",
     href: "/features/world-class-fertility-care",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840286/Icons/Features/World_Class_Fertility_Care_un83f6.svg",
   },
   {
-    name: "Top Fertility Specialists",
+    name: "G£ÀßvÀ ¥sÀ®ªÀvÀÛvÉ vÀdÕgÀÄ",
     href: "/locations/fertility-experts",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840305/Icons/Features/Top_Fertility_Specialists_zkyl9x.svg",
   },
   {
-    name: "Afforbable Treatments",
+    name: "PÉÊUÉlÄPÀÄªÀ aQvÉìUÀ¼ÀÄ",
     href: "/features/affordable-treatments",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840310/Icons/Features/Affordable_Treatment_lwaaku.svg",
   },
   {
-    name: "Holistic Approach",
+    name: "¸ÀªÀÄUÀæ ªÀiÁUÀð",
     href: "/features/holistic-approach",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841451/Icons/Why%20GarbhaGudi/Holistic_Approach_sxh54y.svg",
   },
   {
-    name: "Financing Options",
+    name: "ºÀtPÁ¸ÀÄ £ÉgÀªÀÅ DAiÉÄÌUÀ¼ÀÄ",
     href: "/features/financing-options",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840329/Icons/Features/Financial_Options_rrv8hi.svg",
   },
   {
-    name: "Treatment Protocols",
+    name: "¸ÁA¥ÀæzÁ¬ÄPÀ ²µÁÖZÁgÀUÀ¼ÀÄ",
     href: "/features/treatment-protocols",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840352/Icons/Features/Treatment_Protocols_hll4cu.svg",
   },
   {
-    name: "IVF from Home",
+    name: "ªÀÄ£É¬ÄAzÀ L«J¥sï",
     href: "/features/ivf-from-home",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841462/Icons/Why%20GarbhaGudi/IVF_from_Home_qriw7n.svg",
   },
   {
-    name: "Best in Class Facilities",
+    name: "CvÀÄåvÀÛªÀÄ ¸Ë®¨sÀåUÀ¼ÀÄ",
     href: "/features/best-in-class-facilities",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840357/Icons/Features/Best_in_Class_Facilities_fchmjr.svg",
   },
   {
-    name: "Paripoorna",
+    name: "¥Àj¥ÀÆtð",
     href: "/features/paripoorna",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841468/Icons/Why%20GarbhaGudi/Paripoorna_nikziu.svg",
   },
   {
-    name: "GarbhaGriha",
+    name: "UÀ¨sÀðUÀÈºÀ ",
     href: "/features/garbhagriha",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841473/Icons/Why%20GarbhaGudi/GarbhaGriha_gyai6w.svg",
   },
@@ -287,7 +287,7 @@ export function Treatment() {
                         <img src={item.icon} alt={item.name} />
                       </div>
                       <div className="ml-4">
-                        <p className="text-sm font-medium text-gray-900">
+                        <p className="text-2xl font-kanContent text-gray-900">
                           {item.name}
                         </p>
                       </div>

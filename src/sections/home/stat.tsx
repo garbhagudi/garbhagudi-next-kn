@@ -4,22 +4,22 @@ const metrics = [
   {
     id: 1,
     stat: "7000+",
-    emphasis: "Happy Families",
+    emphasis: "¸ÀAvÉÆÃμÀ vÀÄA©zÀ PÀÄlÄA§UÀ¼ÀÄ",
   },
   {
     id: 2,
     stat: "111+",
-    emphasis: "Free Fertility Awareness Camps",
+    emphasis: "GavÀ ¥sÀnð°n eÁUÀÈw ²©gÀUÀ¼ÀÄ",
   },
   {
     id: 3,
     stat: "65-73%",
-    emphasis: "IVF Success Rate",
+    emphasis: "L«J¥sï AiÀÄ±À¹ì£À ªÀÄlÖ ",
   },
   {
     id: 4,
     stat: "5",
-    emphasis: "Centres Across Bangalore",
+    emphasis: "¨ÉAUÀ¼ÀÆj£À ««zsÉqÉ 5 PÉÃAzÀæUÀ¼ÀÄ",
   },
 ];
 
@@ -43,15 +43,17 @@ const Stat = () => {
       </div>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
         <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
-          <p className="mt-3 text-3xl font-extrabold text-brandDark font-heading">
-            Our Ever-Growing Success
+          <p className="mt-3 text-5xl text-brandDark font-kanHeadingBold">
+            £ÀªÀÄä ¸ÀzÁ ¨É¼ÉAiÀÄÄwÛgÀÄªÀ AiÀÄ±À¸ÀÄì
           </p>
-          <p className="mt-5 text-lg text-brandDark font-content">
-            GarbhaGudi is a place where dreams come alive, hopes never fade, and
-            possibilities never end. We ceaselessly work to help you cherish the
-            golden moment of holding your little bundles of joy. Along with our
-            quality of treatment and care, some of the other contributing
-            factors for achieving high success rates are:
+          <p className="mt-5 text-2xl text-brandDark font-kanContent">
+            UÀ¨sÀðUÀÄr JAzÀgÉ PÀ£À¸ÀÄUÀ¼ÀÄ fÃªÀAvÀªÁVgÀÄªÀ ¸ÀÜ¼À, E°è
+            ¨sÀgÀªÀ¸ÉUÀ¼ÀÄ JA¢UÀÆ ªÀÄgÉAiÀiÁUÀÄªÀÅ¢®è ªÀÄvÀÄÛ ¸ÁzsÀåvÉUÀ¼ÀÄ
+            JA¢UÀÆ PÉÆ£ÉUÉÆ¼ÀÄîªÀÅ¢®è. ¤ªÀÄä D£ÀAzÀzÀ PÀAzÀªÀÄäUÀ¼À£ÀÄß
+            PÉÊAiÀÄ°è JwÛ»rAiÀÄÄªÀ ¸ÀÄªÀtð PÀëtªÀ£ÀÄß C£ÀÄ¨sÀ«¸À®Ä ¤ªÀÄUÉ
+            ¸ÀºÁAiÀÄ ªÀiÁqÀ®Ä £ÁªÀÅ ¤gÀAvÀgÀªÁV PÉ®¸À ªÀiÁqÀÄvÉÛÃªÉ. £ÀªÀÄä
+            UÀÄtªÀÄlÖzÀ aQvÉì ªÀÄvÀÄÛ DgÉÊPÉAiÀÄ eÉÆvÉUÉ, G£ÀßvÀ AiÀÄ±À¹ì£À
+            ªÀÄlÖUÀ¼À£ÀÄß ¸Á¢ü¸À®Ä PÉÆqÀÄUÉ ¤ÃqÀÄªÀ EvÀgÀ PÉ®ªÀÅ CA±ÀUÀ¼ÀÄ:
           </p>
           <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
             {metrics.map((item) => (
@@ -59,10 +61,10 @@ const Stat = () => {
                 <span className="block text-2xl font-bold text-brandDark">
                   {item.stat}
                 </span>
-                <span className="mt-1 block text-base text-brandliteGray">
-                  <span className="font-medium text-brandDark font-content">
+                <span className="mt-1 block text-brandliteGray">
+                  <span className="text-2xl text-brandDark font-kanContent">
                     {item.emphasis}
-                  </span>{" "}
+                  </span>
                 </span>
               </p>
             ))}

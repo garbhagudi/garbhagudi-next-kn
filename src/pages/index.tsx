@@ -105,13 +105,14 @@ const Home = ({ homeData }) => {
         <div className="max-w-7xl mx-auto py-16 px-4 text-center sm:px-6 lg:px-8 lg:py-12">
           <div className="space-y-12">
             <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-              <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl text-brandDark font-heading">
-                Meet our Experts
+              <h2 className="text-3xl sm:text-5xl text-brandDark font-kanHeadingBold">
+                £ÀªÀÄä vÀdÕgÀ£ÀÄß ¨sÉÃn ªÀiÁr
               </h2>
-              <p className="text-md text-brandDark font-content">
-                Our team of fertility specialists have been known for their
-                extensive clinical experience and research contributions and
-                their success in treating the most challenging fertility cases.
+              <p className="text-2xl text-brandDark font-kanContent">
+                £ÀªÀÄä ¥sÀ®ªÀvÀÛvÉ vÀdÕgÀ vÀAqÀªÀÅ CªÀgÀ ªÁå¥ÀPÀªÁzÀ Qè¤PÀ¯ï
+                C£ÀÄ¨sÀªÀ ªÀÄvÀÄÛ ¸ÀA±ÉÆÃzsÀ£Á PÉÆqÀÄUÉUÀ¼ÀÄ ªÀÄvÀÄÛ CvÀåAvÀ
+                ¸ÀªÁ°£À ¥sÀ®ªÀvÀÛvÉ ¥ÀæPÀgÀtUÀ½UÉ aQvÉì ¤ÃqÀÄªÀ°è CªÀgÀ
+                AiÀÄ±À¹ìUÉ ºÉ¸ÀgÀÄªÁ¹AiÀiÁVzÉ.
               </p>
             </div>
             <ul className="mx-auto space-y-0 grid grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-7xl">
@@ -130,14 +131,14 @@ const Home = ({ homeData }) => {
                             alt={item?.name}
                           />
                           <div className="space-y-4">
-                            <div className="text-lg leading-6 font-medium space-y-1">
-                              <h3 className="text-brandDark font-content">
+                            <div className="text-2xl leading-6 font-medium space-y-1">
+                              <h3 className="text-brandDark font-kanContent">
                                 {item?.name}
                               </h3>
                               <p className="text-brandPurpleDark text-sm font-content">
                                 {item?.qualification}
                               </p>
-                              <p className="text-brandPink text-sm font-content pb-2">
+                              <p className="text-brandPink text-2xl font-kanContent pb-2">
                                 {item?.designation}
                               </p>
                             </div>
@@ -167,7 +168,7 @@ export const getServerSideProps = async () => {
   });
   const query = gql`
     query {
-      doctors {
+      doctors(locales: [kn, en]) {
         name
         qualification
         slug
