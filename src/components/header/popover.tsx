@@ -211,7 +211,7 @@ export function About() {
                 ${open ? "" : "text-opacity-90"}
                  `}
           >
-            <span className="font-kanHeadingBold text-xl">£ÀªÀÄä §UÉÎ</span>
+            <span className="font-kanContent text-xl">£ÀªÀÄä §UÉÎ</span>
             <HiChevronDown className="inline-block font-bold" />
           </Popover.Button>
           <Transition
@@ -262,7 +262,7 @@ export function Treatment() {
                   ${open ? "" : "text-opacity-90"}
                    `}
           >
-            <span className="font-kanHeadingBold text-xl">UÀ¨sÀðUÀÄr KPÉ?</span>
+            <span className="font-kanContent text-xl">UÀ¨sÀðUÀÄr KPÉ?</span>
             <HiChevronDown className="inline-block" />
           </Popover.Button>
           <Transition
@@ -313,7 +313,7 @@ export function KnowledgeCenter() {
                   ${open ? "" : "text-opacity-90"}
                   `}
           >
-            <span className="font-kanHeadingBold text-xl">¸ÀA¥À£ÀÆä®</span>
+            <span className="font-kanContent text-xl">¸ÀA¥À£ÀÆä®</span>
             <HiChevronDown className="inline-block" />
           </Popover.Button>
           <Transition
@@ -365,7 +365,7 @@ export function Contact() {
                   ${open ? "" : "text-opacity-90"}
                   `}
           >
-            <span className="font-kanHeadingBold text-xl">¸ÀA¥ÀQð¹</span>
+            <span className="font-kanContent text-xl">¸ÀA¥ÀQð¹</span>
             <HiChevronDown className="inline-block" />
           </Popover.Button>
           <Transition
@@ -416,7 +416,7 @@ export function Locations() {
                 ${open ? "" : "text-opacity-90"}
                  `}
           >
-            <span className="font-kanHeadingBold text-xl">±ÁSÉUÀ¼ÀÄ</span>
+            <span className="font-kanContent text-xl">±ÁSÉUÀ¼ÀÄ</span>
             <HiChevronDown className="inline-block" />
           </Popover.Button>
           <Transition

@@ -40,7 +40,7 @@ const responsive = {
 const Video = () => {
   return (
     <div className="container mx-auto text-center my-8">
-      <span className="text-4xl lg:text-5xl text-brandDark font-kanHeadingBold">
+      <span className="text-4xl lg:text-5xl text-brandDark font-kanHeadingBold px-3">
         £ÀªÀÄä ¸ÀAvÉÆÃμÀUÉÆAqÀÀ zÀA¥ÀwUÀ½AzÀ ¥Àæ±ÀA¸Á ¥ÀæªÀiÁt¥ÀvÀæUÀ¼ÀÄ
       </span>
       <div className="px-3 sm:px-0">

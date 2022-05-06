@@ -37,29 +37,29 @@ const Nav = () => {
                     <span
                       className={
                         router.pathname == "/"
-                          ? "bg-brandPink text-white px-3 py-2 rounded-2xl text-xl font-kanHeadingBold"
-                          : "text-gray-700 hover:bg-brandPink hover:text-white px-3 py-2 rounded-2xl text-xl font-kanHeadingBold cursor-pointer"
+                          ? "bg-brandPink text-white px-3 py-2 rounded-2xl text-xl font-kanContent"
+                          : "text-gray-700 hover:bg-brandPink hover:text-white px-3 py-2 rounded-2xl text-xl font-kanContent cursor-pointer"
                       }
                     >
                       ªÀÄ£É
                     </span>
                   </Link>
 
-                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 py-2 text-sm font-content">
+                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 py-2 text-sm font-kanContent">
                     <About />
                   </span>
 
-                  <span className=" text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 py-2 text-sm font-content">
+                  <span className=" text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 py-2 text-sm font-kanContent">
                     <Treatment />
                   </span>
 
-                  <span className=" text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 py-2 text-sm font-content">
+                  <span className=" text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 py-2 text-sm font-kanContent">
                     <KnowledgeCenter />
                   </span>
-                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 py-2 text-sm font-content">
+                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 py-2 text-sm font-kanContent">
                     <Contact />
                   </span>
-                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 py-2 text-sm font-content">
+                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 py-2 text-sm font-kanContent">
                     <Locations />
                   </span>
 

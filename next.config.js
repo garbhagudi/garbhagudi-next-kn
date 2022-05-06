@@ -13,6 +13,15 @@ module.exports = {
       destination: "/src/pages/api/contact.tsx",
     },
   ],
+  // async redirects() {
+  //   return [
+  //     {
+  //       source: "/kn",
+  //       destination: "https://garbhagudi.com",
+  //       permanent: true,
+  //     },
+  //   ];
+  // },
 };
 
 // const withPWA = require("next-pwa");
