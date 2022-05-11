@@ -105,14 +105,13 @@ const Home = ({ homeData }) => {
         <div className="max-w-7xl mx-auto py-16 px-4 text-center sm:px-6 lg:px-8 lg:py-12">
           <div className="space-y-12">
             <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-              <h2 className="text-3xl sm:text-5xl text-brandPink font-kanHeadingBold">
-                £ÀªÀÄä vÀdÕgÀ£ÀÄß ¨sÉÃn ªÀiÁr
+              <h2 className="text-3xl sm:text-4xl font-semibold text-brandPink font-heading">
+                ನಮ್ಮ ತಜ್ಞರನ್ನು ಭೇಟಿ ಮಾಡಿ
               </h2>
-              <p className="text-2xl text-brandDark font-kanContent">
-                £ÀªÀÄä ¥sÀ®ªÀvÀÛvÉ vÀdÕgÀ vÀAqÀªÀÅ CªÀgÀ ªÁå¥ÀPÀªÁzÀ Qè¤PÀ¯ï
-                C£ÀÄ¨sÀªÀ ªÀÄvÀÄÛ ¸ÀA±ÉÆÃzsÀ£Á PÉÆqÀÄUÉUÀ¼ÀÄ ªÀÄvÀÄÛ CvÀåAvÀ
-                ¸ÀªÁ°£À ¥sÀ®ªÀvÀÛvÉ ¥ÀæPÀgÀtUÀ½UÉ aQvÉì ¤ÃqÀÄªÀ°è CªÀgÀ
-                AiÀÄ±À¹ìUÉ ºÉ¸ÀgÀÄªÁ¹AiÀiÁVzÉ.
+              <p className="text-2xl text-brandDark font-content">
+                ನಮ್ಮ ಫಲವತ್ತತೆ ತಜ್ಞರ ತಂಡವು ಅವರ ವ್ಯಾಪಕವಾದ ಕ್ಲಿನಿಕಲ್ ಅನುಭವ ಮತ್ತು
+                ಸಂಶೋಧನಾ ಕೊಡುಗೆಗಳು ಮತ್ತು ಅತ್ಯಂತ ಸವಾಲಿನ ಫಲವತ್ತತೆ ಪ್ರಕರಣಗಳಿಗೆ
+                ಚಿಕಿತ್ಸೆ ನೀಡುವಲ್ಲಿ ಅವರ ಯಶಸ್ಸಿಗೆ ಹೆಸರುವಾಸಿಯಾಗಿದೆ.
               </p>
             </div>
             <ul className="mx-auto space-y-0 grid grid-cols-1 sm:gap-16 sm:space-y-0 md:grid-col-2 lg:grid-cols-4 lg:max-w-7xl">
@@ -131,14 +130,14 @@ const Home = ({ homeData }) => {
                             alt={item?.name}
                           />
                           <div className="space-y-4">
-                            <div className="text-2xl leading-6 font-medium space-y-1">
-                              <h3 className="text-brandDark font-kanContent">
+                            <div className="text-xl leading-6 font-medium space-y-1">
+                              <h3 className="text-brandDark font-content">
                                 {item?.name}
                               </h3>
                               <p className="text-brandPurpleDark text-sm font-content">
                                 {item?.qualification}
                               </p>
-                              <p className="text-brandPink text-2xl font-kanContent pb-2">
+                              <p className="text-brandPink text-sm font-content pb-2">
                                 {item?.designation}
                               </p>
                             </div>

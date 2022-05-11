@@ -40,8 +40,8 @@ const responsive = {
 const Video = () => {
   return (
     <div className="container mx-auto text-center my-8">
-      <span className="text-4xl lg:text-5xl text-brandDark font-kanHeadingBold px-3">
-        £ÀªÀÄä ¸ÀAvÉÆÃμÀUÉÆAqÀÀ zÀA¥ÀwUÀ½AzÀ ¥Àæ±ÀA¸Á ¥ÀæªÀiÁt¥ÀvÀæUÀ¼ÀÄ
+      <span className="text-3xl lg:text-4xl text-brandPink font-semibold font-heading px-3">
+        ನಮ್ಮ ಸಂತೋಷಗೊಂಡ ದಂಪತಿಗಳಿಂದ ಪ್ರಶಂಸಾ ಪ್ರಮಾಣಪತ್ರಗಳು
       </span>
       <div className="px-3 sm:px-0">
         <Carousel

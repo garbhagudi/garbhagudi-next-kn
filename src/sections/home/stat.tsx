@@ -4,22 +4,22 @@ const metrics = [
   {
     id: 1,
     stat: "7000+",
-    emphasis: "¸ÀAvÉÆÃμÀ vÀÄA©zÀ PÀÄlÄA§UÀ¼ÀÄ",
+    emphasis: "ಸಂತೋಷ ತುಂಬಿದ ಕುಟುಂಬಗಳು",
   },
   {
     id: 2,
     stat: "111+",
-    emphasis: "GavÀ ¥sÀnð°n eÁUÀÈw ²©gÀUÀ¼ÀÄ",
+    emphasis: "ಉಚಿತ ಫರ್ಟಿಲಿಟಿ ಜಾಗೃತಿ ಶಿಬಿರಗಳು",
   },
   {
     id: 3,
     stat: "65-73%",
-    emphasis: "L«J¥sï AiÀÄ±À¹ì£À ªÀÄlÖ ",
+    emphasis: "ಐವಿಎಫ್ ಯಶಸ್ಸಿನ ಮಟ್ಟ ",
   },
   {
     id: 4,
     stat: "5",
-    emphasis: "¨ÉAUÀ¼ÀÆj£À ««zsÉqÉ 5 PÉÃAzÀæUÀ¼ÀÄ",
+    emphasis: "ಬೆಂಗಳೂರಿನ ವಿವಿಧೆಡೆ 5 ಕೇಂದ್ರಗಳು",
   },
 ];
 
@@ -32,7 +32,7 @@ const Stat = () => {
             <img
               className="h-full w-full object-cover opacity-70 xl:absolute xl:inset-0"
               src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643272924/Home/Our_never_ending_s0dbde.webp"
-              alt="People working on laptops"
+              alt="Garbhagudi Statistics"
             />
             <div
               aria-hidden="true"
@@ -43,17 +43,16 @@ const Stat = () => {
       </div>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
         <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
-          <p className="mt-3 text-5xl text-brandDark font-kanHeadingBold">
-            £ÀªÀÄä ¸ÀzÁ ¨É¼ÉAiÀÄÄwÛgÀÄªÀ AiÀÄ±À¸ÀÄì
+          <p className="mt-3 text-4xl text-brandPink font-semibold font-heading">
+            ನಮ್ಮ ಸದಾ ಬೆಳೆಯುತ್ತಿರುವ ಯಶಸ್ಸು
           </p>
-          <p className="mt-5 text-2xl text-brandDark font-kanContent">
-            UÀ¨sÀðUÀÄr JAzÀgÉ PÀ£À¸ÀÄUÀ¼ÀÄ fÃªÀAvÀªÁVgÀÄªÀ ¸ÀÜ¼À, E°è
-            ¨sÀgÀªÀ¸ÉUÀ¼ÀÄ JA¢UÀÆ ªÀÄgÉAiÀiÁUÀÄªÀÅ¢®è ªÀÄvÀÄÛ ¸ÁzsÀåvÉUÀ¼ÀÄ
-            JA¢UÀÆ PÉÆ£ÉUÉÆ¼ÀÄîªÀÅ¢®è. ¤ªÀÄä D£ÀAzÀzÀ PÀAzÀªÀÄäUÀ¼À£ÀÄß
-            PÉÊAiÀÄ°è JwÛ»rAiÀÄÄªÀ ¸ÀÄªÀtð PÀëtªÀ£ÀÄß C£ÀÄ¨sÀ«¸À®Ä ¤ªÀÄUÉ
-            ¸ÀºÁAiÀÄ ªÀiÁqÀ®Ä £ÁªÀÅ ¤gÀAvÀgÀªÁV PÉ®¸À ªÀiÁqÀÄvÉÛÃªÉ. £ÀªÀÄä
-            UÀÄtªÀÄlÖzÀ aQvÉì ªÀÄvÀÄÛ DgÉÊPÉAiÀÄ eÉÆvÉUÉ, G£ÀßvÀ AiÀÄ±À¹ì£À
-            ªÀÄlÖUÀ¼À£ÀÄß ¸Á¢ü¸À®Ä PÉÆqÀÄUÉ ¤ÃqÀÄªÀ EvÀgÀ PÉ®ªÀÅ CA±ÀUÀ¼ÀÄ:
+          <p className="mt-5 text-xl text-brandDark font-content">
+            ಗರ್ಭಗುಡಿ ಎಂದರೆ ಕನಸುಗಳು ಜೀವಂತವಾಗಿರುವ ಸ್ಥಳ, ಇಲ್ಲಿ ಭರವಸೆಗಳು ಎಂದಿಗೂ
+            ಮರೆಯಾಗುವುದಿಲ್ಲ ಮತ್ತು ಸಾಧ್ಯತೆಗಳು ಎಂದಿಗೂ ಕೊನೆಗೊಳ್ಳುವುದಿಲ್ಲ. ನಿಮ್ಮ
+            ಆನಂದದ ಕಂದಮ್ಮಗಳನ್ನು ಕೈಯಲ್ಲಿ ಎತ್ತಿಹಿಡಿಯುವ ಸುವರ್ಣ ಕ್ಷಣವನ್ನು ಅನುಭವಿಸಲು
+            ನಿಮಗೆ ಸಹಾಯ ಮಾಡಲು ನಾವು ನಿರಂತರವಾಗಿ ಕೆಲಸ ಮಾಡುತ್ತೇವೆ. ನಮ್ಮ ಗುಣಮಟ್ಟದ
+            ಚಿಕಿತ್ಸೆ ಮತ್ತು ಆರೈಕೆಯ ಜೊತೆಗೆ, ಉನ್ನತ ಯಶಸ್ಸಿನ ಮಟ್ಟಗಳನ್ನು ಸಾಧಿಸಲು
+            ಕೊಡುಗೆ ನೀಡುವ ಇತರ ಕೆಲವು ಅಂಶಗಳು:
           </p>
           <div className="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
             {metrics.map((item) => (
@@ -62,7 +61,7 @@ const Stat = () => {
                   {item.stat}
                 </span>
                 <span className="mt-1 block text-brandliteGray">
-                  <span className="text-2xl text-brandDark font-kanContent">
+                  <span className="text-xl text-brandDark font-content">
                     {item.emphasis}
                   </span>
                 </span>

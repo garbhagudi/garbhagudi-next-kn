@@ -37,29 +37,29 @@ const Nav = () => {
                     <span
                       className={
                         router.pathname == "/"
-                          ? "bg-brandPink text-white px-3 py-2 rounded-2xl text-xl font-kanContent"
-                          : "text-gray-700 hover:bg-brandPink hover:text-white px-3 py-2 rounded-2xl text-xl font-kanContent cursor-pointer"
+                          ? "bg-brandPink text-white px-3 pt-2 pb-[2px] rounded-2xl text-md font-content"
+                          : "text-gray-700 hover:bg-brandPink hover:text-white px-3 py-2 rounded-2xl text-xl font-conteent cursor-pointer"
                       }
                     >
-                      ªÀÄ£É
+                      ಮನೆ
                     </span>
                   </Link>
 
-                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 py-2 text-sm font-kanContent">
+                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 pt-2 pb-[2px] text-md font-content">
                     <About />
                   </span>
 
-                  <span className=" text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 py-2 text-sm font-kanContent">
+                  <span className=" text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 pt-2 pb-[2px] text-md font-content">
                     <Treatment />
                   </span>
 
-                  <span className=" text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 py-2 text-sm font-kanContent">
+                  <span className=" text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 pt-2 pb-[2px] text-md font-content">
                     <KnowledgeCenter />
                   </span>
-                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 py-2 text-sm font-kanContent">
+                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 pt-2 pb-[2px] text-md font-content">
                     <Contact />
                   </span>
-                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 py-2 text-sm font-kanContent">
+                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 pt-2 pb-[2px] text-md font-content">
                     <Locations />
                   </span>
 
@@ -68,8 +68,8 @@ const Nav = () => {
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    <span className="text-white bg-brandPink font-semibold px-3 py-2 rounded-2xl text-xl font-kanHeadingBold cursor-pointer hover:bg-brandPink3">
-                      £ÉÃªÀÄPÁw
+                    <span className="text-white bg-brandPink font-semibold px-3 pt-2 pb-[2px] rounded-2xl text-md font-content cursor-pointer hover:bg-brandPink3">
+                      ಬುಕ್ ಮಾಡಿ
                     </span>
                   </a>
                 </div>
@@ -79,11 +79,11 @@ const Nav = () => {
               <button className="mt-4 mr-4">
                 <a
                   href="https://consult.bestdocapp.com/home/GARBHAGUDI"
-                  className="bg-brandPink hover:bg-gray-800 text-white px-3 py-2 rounded-2xl text-xs font-bold font-content"
+                  className="bg-brandPink hover:bg-gray-800 text-white px-3 pt-2 pb-[2px] rounded-2xl text-md font-bold font-content"
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  Book Now
+                  ಬುಕ್ ಮಾಡಿ
                 </a>
               </button>
               <button
@@ -145,24 +145,24 @@ const Nav = () => {
             <div className="xl:hidden" id="mobile-menu">
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <Link href="/">
-                  <a className="text-brandDark hover:bg-brandPink hover:text-white block px-3 py-2 rounded-md text-sm font-content">
-                    Home
+                  <a className="text-brandDark hover:bg-brandPink hover:text-white block px-3 pt-2 pb-[2px] rounded-md text-md font-content">
+                    ಮನೆ
                   </a>
                 </Link>
-                <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 py-2 rounded-md text-sm font-content">
+                <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 pt-2 pb-[2px] rounded-md text-md font-content">
                   <About />
                 </span>
 
-                <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 py-2 rounded-md text-sm font-content">
+                <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 pt-2 pb-[2px] rounded-md text-md font-content">
                   <Treatment />
                 </span>
-                <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 py-2 rounded-md text-sm font-content">
+                <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 pt-2 pb-[2px] rounded-md text-md font-content">
                   <KnowledgeCenter />
                 </span>
-                <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 py-2 rounded-md text-sm font-content">
+                <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 pt-2 pb-[2px] rounded-md text-md font-content">
                   <Contact />
                 </span>
-                <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 py-2 rounded-md text-sm font-content">
+                <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 pt-2 pb-[2px] rounded-md text-md font-content">
                   <Locations />
                 </span>
                 <a
@@ -170,8 +170,8 @@ const Nav = () => {
                   target={"_blank"}
                   rel="noreferrer"
                 >
-                  <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 py-2 rounded-md text-xl font-kanHeadingBold cursor-pointer">
-                    £ÉÃªÀÄPÁw
+                  <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 py-2 rounded-md text-md font-content cursor-pointer">
+                    ಬುಕ್ ಮಾಡಿ
                   </span>
                 </a>
               </div>

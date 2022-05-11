@@ -102,57 +102,57 @@ const Location = [
 
 const valueAddedServices = [
   {
-    name: "L«J¥sï£À  AiÀÄ±À¹ì£À ªÀÄlÖUÀ¼ÀÄ",
+    name: "High Success Rates",
     href: "/features/success-rates-of-ivf",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841374/Icons/Why%20GarbhaGudi/Success_Rate_abmaf0.svg",
   },
   {
-    name: "«±Àé zÀeÉðAiÀÄ ¥sÀnð°n DgÉÊPÉ",
+    name: "World-Class Care",
     href: "/features/world-class-fertility-care",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840286/Icons/Features/World_Class_Fertility_Care_un83f6.svg",
   },
   {
-    name: "G£ÀßvÀ ¥sÀ®ªÀvÀÛvÉ vÀdÕgÀÄ",
+    name: "Top Fertility Specialists",
     href: "/locations/fertility-experts",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840305/Icons/Features/Top_Fertility_Specialists_zkyl9x.svg",
   },
   {
-    name: "PÉÊUÉlÄPÀÄªÀ aQvÉìUÀ¼ÀÄ",
+    name: "Afforbable Treatments",
     href: "/features/affordable-treatments",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840310/Icons/Features/Affordable_Treatment_lwaaku.svg",
   },
   {
-    name: "¸ÀªÀÄUÀæ ªÀiÁUÀð",
+    name: "Holistic Approach",
     href: "/features/holistic-approach",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841451/Icons/Why%20GarbhaGudi/Holistic_Approach_sxh54y.svg",
   },
   {
-    name: "ºÀtPÁ¸ÀÄ £ÉgÀªÀÅ DAiÉÄÌUÀ¼ÀÄ",
+    name: "Financing Options",
     href: "/features/financing-options",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840329/Icons/Features/Financial_Options_rrv8hi.svg",
   },
   {
-    name: "¸ÁA¥ÀæzÁ¬ÄPÀ ²µÁÖZÁgÀUÀ¼ÀÄ",
+    name: "Treatment Protocols",
     href: "/features/treatment-protocols",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840352/Icons/Features/Treatment_Protocols_hll4cu.svg",
   },
   {
-    name: "ªÀÄ£É¬ÄAzÀ L«J¥sï",
+    name: "IVF from Home",
     href: "/features/ivf-from-home",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841462/Icons/Why%20GarbhaGudi/IVF_from_Home_qriw7n.svg",
   },
   {
-    name: "CvÀÄåvÀÛªÀÄ ¸Ë®¨sÀåUÀ¼ÀÄ",
+    name: "Best in Class Facilities",
     href: "/features/best-in-class-facilities",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840357/Icons/Features/Best_in_Class_Facilities_fchmjr.svg",
   },
   {
-    name: "¥Àj¥ÀÆtð",
+    name: "Paripoorna",
     href: "/features/paripoorna",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841468/Icons/Why%20GarbhaGudi/Paripoorna_nikziu.svg",
   },
   {
-    name: "UÀ¨sÀðUÀÈºÀ ",
+    name: "GarbhaGriha",
     href: "/features/garbhagriha",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841473/Icons/Why%20GarbhaGudi/GarbhaGriha_gyai6w.svg",
   },
@@ -160,27 +160,27 @@ const valueAddedServices = [
 
 const aboutUs = [
   {
-    name: "£ÀªÀÄä §UÉÎ",
+    name: "About Us",
     href: "/about/overview",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642838895/Icons/About/About_Us_01_yz3h95.svg",
   },
   {
-    name: "«ÄμÀ£ï ªÀÄvÀÄÛ «μÀ£ï",
+    name: "Mission & Vision",
     href: "/about/vision-and-mission",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839038/Icons/About/Vision_jaxu8d.svg",
   },
   {
-    name: "qÁ D±Á J¸ï «dAiÀiï",
+    name: "Dr Asha S Vijay",
     href: "/doctors/dr-asha-s-vijay",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642838895/Icons/About/Asha_Vijay_zpq05s.svg",
   },
   {
-    name: "¸ÀA¸ÁÜ¥ÀPÀgÀÄ ªÀÄvÀÄÛ ¤zÉÃð±ÀPÀgÀÄ",
+    name: "Founders & Directors",
     href: "/about/overview",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839222/Icons/About/Directors_w3497h.svg",
   },
   {
-    name: "£ÀªÀÄä ¥sÀ®ªÀvÀÛvÉ vÀdÕgÀÄ",
+    name: "Our Fertility Experts",
     href: "/locations/fertility-experts",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839012/Icons/About/Our_Fertility_Experts_bxsrrh.svg",
   },
@@ -190,12 +190,12 @@ const aboutUs = [
   //   icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643442839/Icons/About/Media_nyook4.svg",
   // },
   {
-    name: "¹.J¸ï.Dgï",
+    name: "CSR",
     href: "https://garbhagnan.org",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643442833/Icons/About/CSR_qjlfzx.svg",
   },
   {
-    name: "¥Àæ±À¹ÛUÀ¼ÀÄ ªÀÄvÀÄÛ ¥ÀÄgÀ¸ÁÌgÀUÀ¼ÀÄ",
+    name: "Awards & Accolades",
     href: "/about/awards-and-accolades",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642838895/Icons/About/Awards_Accorlads_z68rlr.svg",
   },
@@ -211,8 +211,9 @@ export function About() {
                 ${open ? "" : "text-opacity-90"}
                  `}
           >
-            <span className="font-kanContent text-xl">£ÀªÀÄä §UÉÎ</span>
-            <HiChevronDown className="inline-block font-bold" />
+            <span className="text-md">
+              ನಮ್ಮ ಬಗ್ಗೆ <HiChevronDown className="inline-block" />
+            </span>
           </Popover.Button>
           <Transition
             as={Fragment}
@@ -236,7 +237,7 @@ export function About() {
                         <img src={item.icon} alt={item.name} />
                       </div>
                       <div className="ml-4">
-                        <p className="text-2xl text-gray-900 font-kanContent">
+                        <p className="text-sm font-medium text-gray-900 font-content">
                           {item.name}
                         </p>
                       </div>
@@ -262,8 +263,10 @@ export function Treatment() {
                   ${open ? "" : "text-opacity-90"}
                    `}
           >
-            <span className="font-kanContent text-xl">UÀ¨sÀðUÀÄr KPÉ?</span>
-            <HiChevronDown className="inline-block" />
+            <span className="text-md">
+              ಗರ್ಭಗುಡಿ ಏಕೆ?
+              <HiChevronDown className="inline-block" />
+            </span>
           </Popover.Button>
           <Transition
             as={Fragment}
@@ -287,7 +290,7 @@ export function Treatment() {
                         <img src={item.icon} alt={item.name} />
                       </div>
                       <div className="ml-4">
-                        <p className="text-2xl font-kanContent text-gray-900">
+                        <p className="text-sm font-medium text-gray-900">
                           {item.name}
                         </p>
                       </div>
@@ -313,8 +316,9 @@ export function KnowledgeCenter() {
                   ${open ? "" : "text-opacity-90"}
                   `}
           >
-            <span className="font-kanContent text-xl">¸ÀA¥À£ÀÆä®</span>
-            <HiChevronDown className="inline-block" />
+            <span>
+              ಸಂಪನ್ಮೂಲಗಳು <HiChevronDown className="inline-block" />
+            </span>
           </Popover.Button>
           <Transition
             as={Fragment}
@@ -365,8 +369,9 @@ export function Contact() {
                   ${open ? "" : "text-opacity-90"}
                   `}
           >
-            <span className="font-kanContent text-xl">¸ÀA¥ÀQð¹</span>
-            <HiChevronDown className="inline-block" />
+            <span>
+              ಸಂಪರ್ಕಿಸಿ <HiChevronDown className="inline-block" />
+            </span>
           </Popover.Button>
           <Transition
             as={Fragment}
@@ -416,8 +421,9 @@ export function Locations() {
                 ${open ? "" : "text-opacity-90"}
                  `}
           >
-            <span className="font-kanContent text-xl">±ÁSÉUÀ¼ÀÄ</span>
-            <HiChevronDown className="inline-block" />
+            <span>
+              ಶಾಖೆಗಳು <HiChevronDown className="inline-block" />
+            </span>
           </Popover.Button>
           <Transition
             as={Fragment}
