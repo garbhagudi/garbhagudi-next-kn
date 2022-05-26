@@ -38,7 +38,7 @@ const Nav = () => {
                       className={
                         router.pathname == "/"
                           ? "bg-brandPink text-white px-3 pt-2 pb-[2px] rounded-2xl text-md font-content"
-                          : "text-gray-700 hover:bg-brandPink hover:text-white px-3 py-2 rounded-2xl text-xl font-conteent cursor-pointer"
+                          : "text-gray-700 hover:bg-brandPink hover:text-white px-3 py-2 rounded-2xl text-md font-content cursor-pointer"
                       }
                     >
                       ಮನೆ

@@ -108,7 +108,7 @@ const Home = ({ homeData }) => {
               <h2 className="text-3xl sm:text-4xl font-semibold text-brandPink font-heading">
                 ನಮ್ಮ ತಜ್ಞರನ್ನು ಭೇಟಿ ಮಾಡಿ
               </h2>
-              <p className="text-2xl text-brandDark font-content">
+              <p className="text-xl text-brandDark font-content">
                 ನಮ್ಮ ಫಲವತ್ತತೆ ತಜ್ಞರ ತಂಡವು ಅವರ ವ್ಯಾಪಕವಾದ ಕ್ಲಿನಿಕಲ್ ಅನುಭವ ಮತ್ತು
                 ಸಂಶೋಧನಾ ಕೊಡುಗೆಗಳು ಮತ್ತು ಅತ್ಯಂತ ಸವಾಲಿನ ಫಲವತ್ತತೆ ಪ್ರಕರಣಗಳಿಗೆ
                 ಚಿಕಿತ್ಸೆ ನೀಡುವಲ್ಲಿ ಅವರ ಯಶಸ್ಸಿಗೆ ಹೆಸರುವಾಸಿಯಾಗಿದೆ.
@@ -134,7 +134,7 @@ const Home = ({ homeData }) => {
                               <h3 className="text-brandDark font-content">
                                 {item?.name}
                               </h3>
-                              <p className="text-brandPurpleDark text-sm font-content">
+                              <p className="text-brandPurpleDark text-sm font-heading">
                                 {item?.qualification}
                               </p>
                               <p className="text-brandPink text-sm font-content pb-2">
