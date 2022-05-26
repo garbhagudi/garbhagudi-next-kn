@@ -47,7 +47,7 @@ export const getStaticPaths = async () => {
   );
   return {
     paths: causes.map(({ slug }) => ({ params: { slug } })),
-    fallback: true,
+    fallback: false,
   };
 };
 
@@ -162,20 +162,20 @@ const CausePage = ({ cause }) => {
           <div className="max-w-7xl mx-auto">
             <h1>
               <span className="mt-4 block text-2xl text-center leading-8 font-bold tracking-tight text-gray-900 sm:text-4xl font-heading">
-                {cause.title}
+                {cause?.title}
               </span>
             </h1>
             <figure>
               <img
                 className="w-full rounded-lg mt-10 mb-5"
-                src={cause.image.url}
-                alt={cause.title}
+                src={cause?.image?.url}
+                alt={cause?.title}
                 width={1310}
                 height={873}
               />
             </figure>
             <div>
-              <RichText content={cause.content.raw.children} />
+              <RichText content={cause?.content?.raw?.children} />
             </div>
             <Share pinmedia={cause?.image?.url} />
           </div>
