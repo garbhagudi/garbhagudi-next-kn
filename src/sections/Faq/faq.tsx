@@ -14,12 +14,8 @@ const Faq = () => {
   return (
     <div className="max-w-7xl mx-auto">
       <h1 className="text-center text-4xl font-heading pt-12 font-semibold">
-        Frequently Asked Questions
+        ಪದೇಪದೆ ಕೇಳುವ ಪ್ರಶ್ನೆಗಳು
       </h1>
-      <div className="text-lg font-contents mt-8 text-center">
-        Here are some of the most frequently asked questions about infertility
-        and its treatment options.
-      </div>
       <div className="w-full max-w-7xl px-2 py-16 sm:px-0">
         <Tab.Group vertical>
           <Tab.List
@@ -39,7 +35,7 @@ const Faq = () => {
               }
             >
               <div className="mx-auto text-center text-sm md:text-2xl font-heading font-semibold">
-                Male Infertility
+                ಪುರುಷ ಬಂಜೆತನ
               </div>
             </Tab>
             <Tab
@@ -54,7 +50,7 @@ const Faq = () => {
               }
             >
               <div className="mx-auto text-center text-sm md:text-2xl font-heading font-semibold">
-                Female Infertility
+                ಸ್ತ್ರೀ ಬಂಜೆತನ
               </div>
             </Tab>
             <Tab
@@ -69,7 +65,7 @@ const Faq = () => {
               }
             >
               <div className="mx-auto text-center text-sm md:text-2xl font-heading font-semibold">
-                Treatments
+                ಚಿಕಿತ್ಸೆಗಳು
               </div>
             </Tab>
           </Tab.List>

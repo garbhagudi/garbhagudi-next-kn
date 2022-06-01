@@ -73,42 +73,43 @@ const CoreVision = () => {
             />
           </svg>
           <div className="relative md:bg-white md:p-6">
-            <p className="mt-2 text-4xl leading-8 font-bold tracking-tight text-brandliteGray sm:text-5xl my-4 font-content">
-              Core Values
+            <p className="mt-2 text-4xl leading-8 font-bold tracking-tight text-brandliteGray sm:text-5xl my-4 font-heading">
+              ಮೂಲ ಮೌಲ್ಯಗಳು
             </p>
             <div className="lg:grid lg:grid-cols-2 lg:gap-6">
               <div className="prose prose-indigo prose-lg text-brandDark lg:max-w-none">
                 <ul className="list-disc space-y-2 font-content">
+                  <li>ರೋಗಿಗಳಿಗೆ ಸೇವಾ ನಿಷ್ಠೆ ಮತ್ತು ಸಂಸ್ಥೆಗೆ ಆರ್ಥಿಕ ನಿಷ್ಠೆ.</li>
                   <li>
-                    Service loyalty to the patients and financial loyalty to the
-                    organization.
+                    ಎಲ್ಲಾ ಸಮಯಗಳಲ್ಲಿ, ಎಲ್ಲಾ ಸಂದರ್ಭಗಳಲ್ಲಿ ಮೌಲ್ಯಗಳನ್ನು ಸಂಪೂರ್ಣವಾಗಿ
+                    ಪಾಲಿಸುವುದು
                   </li>
                   <li>
-                    Complete adherence to ethical practices, at all times, in
-                    all situations.
+                    ಸರ್ಕಾರದ ನಿಯಮಗಳು, ವೈದ್ಯಕೀಯ ಮಂಡಳಿಯ ನಿಯಮಗಳು ಮತ್ತು
+                    ಮಾರ್ಗಸೂಚಿಗಳಿಗೆ ಮತ್ತು ಮುಖ್ಯವಾಗಿ ಪ್ರಕೃತಿ ಮಾತೆಯ ನಿಯಮಗಳಿಗೆ
+                    ಬದ್ಧರಾಗಿರುವುದು.
+                  </li>
+                  <li>ರೋಗಿಗಳು, ಜನರು ಮತ್ತು ಪಾಲುದಾರರಿಗೆ ಆದ್ಯತೆ</li>
+                  <li>
+                    ಉತ್ತಮ ಜನರನ್ನು ನೇಮಿಸುವುದು, ಅವರಿಗೆ ತರಬೇತಿ ನೀಡಿ ಮತ್ತು ಅವರನ್ನು
+                    ಉಳಿಸಿಕೊಳ್ಳುವುದು
                   </li>
                   <li>
-                    Adhere to Government rules, Medical Council rules &
-                    guidelines and importantly to the rules of mother Nature.
-                  </li>
-                  <li>Priority to patients, people and partners</li>
-                  <li>Hire the best people, train them and retain them</li>
-                  <li>
-                    Commitment to social responsibility in terms of treatments
-                    and costs to those who cannot afford treatments.
+                    ಚಿಕಿತ್ಸೆಗಳು ಕೈಗೆಟುಕದವರಿಗೆ ಚಿಕಿತ್ಸೆಗಳು ಮತ್ತು ವೆಚ್ಚಗಳ
+                    ವಿಷಯದಲ್ಲಿ ಸಾಮಾಜಿಕ ಜವಾಬ್ದಾರಿಗೆ ಬದ್ಧತೆ.
                   </li>
                 </ul>
               </div>
 
               <div className="mt-6 text-gray-500 lg:mt-0">
-                <p className="text-4xl leading-8 font-bold tracking-tight text-brandliteGray sm:text-5xl my-4 font-content lg:-mt-[72px]">
-                  Vision
+                <p className="text-4xl leading-8 font-bold tracking-tight text-brandliteGray sm:text-5xl my-4 font-heading lg:-mt-[72px]">
+                  ದೃಷ್ಟಿಕೋನ
                 </p>
                 <p className="italic font-content text-brandDark">
-                  &quot;My GarbhaGudi shall be a globally renowned reproductive
-                  health university, having superlative success rates, due to
-                  strong scientific approach, ethical values and humane
-                  touch&quot;
+                  &quot;ಅತ್ಯುನ್ನತ ವೈಜ್ಞಾನಿಕ ಮಾರ್ಗವಿಧಾನ, ನೈತಿಕ ಮೌಲ್ಯಗಳು ಮತ್ತು
+                  ಮಾನವೀಯ ಸ್ಪರ್ಶದಿಂದಾಗಿ ಕೂಡಿ ಅತ್ಯುನ್ನತ ಯಶಸ್ಸಿನ ಪ್ರಮಾಣವನ್ನು
+                  ಹೊಂದಿರುವುದರಿAದ ನನ್ನ ಗರ್ಭಗುಡಿ ಜಾಗತಿಕವಾಗಿ ಪ್ರಸಿದ್ಧವಾದ
+                  ಸಂತಾನೋತ್ಪತ್ತಿ ಆರೋಗ್ಯ ವಿಶ್ವವಿದ್ಯಾಲಯವಾಗಲಿದೆ&quot;
                 </p>
               </div>
             </div>

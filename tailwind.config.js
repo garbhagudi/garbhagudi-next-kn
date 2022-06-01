@@ -407,6 +407,7 @@ module.exports = {
       benne: "Benne",
       heading: "Anek Kannada",
       bt: "'Baloo Tamma 2'",
+      qs: "'Noto sans Kannada'",
     },
     fontSize: {
       xs: ["0.75rem", { lineHeight: "1rem" }],
