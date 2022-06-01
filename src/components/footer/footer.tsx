@@ -4,29 +4,35 @@ import { SocialIcon } from "react-social-icons";
 
 const navigation = {
   about: [
-    { name: "Vision & Mission", href: "/about/vision-and-mission" },
-    { name: "Directors", href: "/about/overview" },
+    { name: "ಮಿಷನ್ ಮತ್ತು ದೃಷ್ಟಿ", href: "/about/vision-and-mission" },
+    { name: "ನಿರ್ದೇಶಕರು", href: "/about/overview" },
     {
-      name: "Awards & Accolades",
+      name: "ಪ್ರಶಸ್ತಿಗಳು ಮತ್ತು ಪುರಸ್ಕಾರಗಳು",
       href: "/about/awards-and-accolades",
     },
-    { name: "Dr Asha S Vijay", href: "https://drashasvijay.com" },
+    { name: "ಡಾ ಆಶಾ ಎಸ್ ವಿಜಯ್", href: "https://drashasvijay.com" },
   ],
   support: [
     { name: "GG CARE", href: "/gg-care" },
-    { name: "Diagnosis Options", href: "/resources/diagnosis" },
-    { name: "Treatment Options", href: "/resources/treatments" },
+    { name: "ರೋಗನಿರ್ಣಯದ ಆಯ್ಕೆಗಳು", href: "/resources/diagnosis" },
+    { name: "ಚಿಕಿತ್ಸೆಯ ಆಯ್ಕೆಗಳು", href: "/resources/treatments" },
   ],
   company: [
-    { name: "GarbhaGudi IVF", href: "/about/overview" },
+    { name: "ಗರ್ಭಗುಡಿ", href: "/about/overview" },
     { name: "GGIRHR", href: "https://ggirhr.com" },
-    { name: "GarbhaGnan Foundation", href: "https://garbhagnan.org" },
-    { name: "GarbhaGudi Pharma", href: "#" },
+    { name: "ಗರ್ಭಜ್ಞಾನ್ ಫೌಂಡೇಶನ್", href: "https://garbhagnan.org" },
+    { name: "ಗರ್ಭಗುಡಿ ಫಾರ್ಮಾ", href: "#" },
   ],
   legal: [
-    { name: "Privacy", href: "/legal/privacy-policy" },
-    { name: "Terms", href: "/legal/terms-and-conditions" },
-    { name: "Refund Policy", href: "/legal/refund-policy" },
+    { name: "ಗೌಪ್ಯತೆ", href: "https://garbhagudi.com/legal/privacy-policy" },
+    {
+      name: "ನಿಯಮಗಳು",
+      href: "https://garbhagudi.com/legal/terms-and-conditions",
+    },
+    {
+      name: "ಮರುಪಾವತಿ ನೀತಿ",
+      href: "https://garbhagudi.com/legal/refund-policy",
+    },
   ],
 };
 
@@ -46,7 +52,7 @@ export default function Footer() {
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold text-brandliteGray tracking-wider uppercase">
-                  About
+                  ನಮ್ಮ ಬಗ್ಗೆ
                 </h3>
                 <ul className="mt-4 space-y-2 text-sm">
                   {navigation.about.map((item) => (
@@ -62,7 +68,7 @@ export default function Footer() {
               </div>
               <div className="mt-12 md:mt-0">
                 <h3 className="text-sm font-semibold text-brandliteGray tracking-wider uppercase">
-                  Support
+                  ಸಪೋರ್ಟ್
                 </h3>
                 <ul className="mt-4 space-y-2 text-sm">
                   {navigation.support.map((item) => (
@@ -80,7 +86,7 @@ export default function Footer() {
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold text-brandliteGray tracking-wider uppercase">
-                  Organisation
+                  ಸಂಸ್ಥೆ
                 </h3>
                 <ul className="mt-4 space-y-2 text-sm">
                   {navigation.company.map((item) => (
@@ -96,7 +102,7 @@ export default function Footer() {
               </div>
               <div className="mt-12 md:mt-0">
                 <h3 className="text-sm font-semibold text-brandliteGray tracking-wider uppercase">
-                  Legal
+                  ಕಾನೂನು
                 </h3>
                 <ul className="mt-4 space-y-2 text-sm">
                   {navigation.legal.map((item) => (

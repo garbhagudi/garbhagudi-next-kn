@@ -11,12 +11,12 @@ const contact = [
   },
 
   {
-    name: "Careers",
-    href: "/careers",
+    name: "ವೃತ್ತಿಗಳು",
+    href: "https://garbhagudi.com/careers",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643264774/Icons/Contact/Careers_cgpaic.svg",
   },
   {
-    name: "Training Program",
+    name: "ತರಬೇತಿ ಕಾರ್ಯಕ್ರಮ",
     href: "https://ggirhr.com",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643264793/Icons/Contact/Training_Program_dh9imv.svg",
   },
@@ -26,35 +26,35 @@ const contact = [
   //   icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643264796/Icons/Contact/Up_coming_camps_pczhfy.svg",
   // },
   {
-    name: "Partnership",
-    href: "/contact/partnership",
+    name: "ಪಾಲುದಾರಿಕೆ",
+    href: "https://garbhagudi.com/contact/partnership",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643264809/Icons/Contact/Partnership_srnnr9.svg",
   },
 ];
 
 const Resources = [
+  // {
+  //   name: "Blogs",
+  //   description:
+  //     "Our Blogs and Articles regarding Infertility, treatment and parenthood",
+  //   href: "/blogs/page/1",
+  //   icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839773/Icons/Resources/Blogs_duatrt.svg",
+  // },
   {
-    name: "Blogs",
-    description:
-      "Our Blogs and Articles regarding Infertility, treatment and parenthood",
-    href: "/blogs/page/1",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839773/Icons/Resources/Blogs_duatrt.svg",
-  },
-  {
-    name: "Causes",
-    description: "The Major Causes for Infertility",
+    name: "ಕಾರಣಗಳು",
+    description: "ಬಂಜೆತನಕ್ಕೆ ಪ್ರಮುಖ ಕಾರಣಗಳು",
     href: "/resources/causes/",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839775/Icons/Resources/Causes_cfivce.svg",
   },
   {
-    name: "Diagnosis",
-    description: "Tests for Infertility Diagnosis",
+    name: "ರೋಗನಿರ್ಣಯ",
+    description: "ಬಂಜೆತನ ರೋಗನಿರ್ಣಯಕ್ಕೆ ಪರೀಕ್ಷೆಗಳು",
     href: "/resources/diagnosis",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839791/Icons/Resources/Diagnosis_psjq8s.svg",
   },
   {
-    name: "Treatments",
-    description: "Treatment Options",
+    name: "ಚಿಕಿತ್ಸೆಗಳು",
+    description: "ಚಿಕಿತ್ಸೆಯ ಆಯ್ಕೆಗಳು",
     href: "/resources/treatments",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839802/Icons/Resources/Treatments_kcqops.svg",
   },
@@ -66,7 +66,7 @@ const Resources = [
   // },
   {
     name: "FAQ",
-    description: "Frequently Asked Questions",
+    description: "ಪದೇ ಪದೇ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು",
     href: "/resources/faq",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643264858/Icons/Resources/FAQs_x8rsvf.svg",
   },
@@ -74,27 +74,27 @@ const Resources = [
 
 const Location = [
   {
-    name: "Hanumanthanagar",
+    name: "ಹನುಮಂತನಗರ",
     href: "/locations/hanumanthanagar",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643351546/Icons/Locations/Hanumanthanagar_ykripm.svg",
   },
   {
-    name: "Kalyan Nagar",
+    name: "ಕಲ್ಯಾಣ್ ನಗರ",
     href: "/locations/kalyan-nagar",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643351546/Icons/Locations/Kalyan_Nagar_ivtier.svg",
   },
   {
-    name: "South-End Circle",
+    name: "ಸೌತ್ ಎಂಡ್ ಸರ್ಕಲ್",
     href: "/locations/south-end-circle",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643351530/Icons/Locations/South_End_Circle_l3ffwj.svg",
   },
   {
-    name: "Electronic City",
+    name: "ಇಲೆಕ್ಟ್ರಾನಿಕ್ ಸಿಟಿ",
     href: "/locations/electronic-city",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643351530/Icons/Locations/Electronic_City_xntwob.svg",
   },
   {
-    name: "Marathahalli",
+    name: "ಮಾರತಹಳ್ಳಿ",
     href: "/locations/marathahalli",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643351530/Icons/Locations/Marathahalli_p99ljc.svg",
   },
@@ -102,57 +102,57 @@ const Location = [
 
 const valueAddedServices = [
   {
-    name: "High Success Rates",
+    name: "ಐವಿಎಫ್‍ನ ಯಶಸ್ಸಿನ ಮಟ್ಟಗಳು",
     href: "/features/success-rates-of-ivf",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841374/Icons/Why%20GarbhaGudi/Success_Rate_abmaf0.svg",
   },
   {
-    name: "World-Class Care",
+    name: "ವಿಶ್ವ ದರ್ಜೆಯ ಫರ್ಟಿಲಿಟಿ ಆರೈಕೆ",
     href: "/features/world-class-fertility-care",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840286/Icons/Features/World_Class_Fertility_Care_un83f6.svg",
   },
   {
-    name: "Top Fertility Specialists",
+    name: "ಉನ್ನತ ಫಲವತ್ತತೆ ತಜ್ಞರು",
     href: "/locations/fertility-experts",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840305/Icons/Features/Top_Fertility_Specialists_zkyl9x.svg",
   },
   {
-    name: "Afforbable Treatments",
+    name: "ಕೈಗೆಟುಕುವ ಚಿಕಿತ್ಸೆಗಳು",
     href: "/features/affordable-treatments",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840310/Icons/Features/Affordable_Treatment_lwaaku.svg",
   },
   {
-    name: "Holistic Approach",
+    name: "ಸಮಗ್ರ ಮಾರ್ಗ",
     href: "/features/holistic-approach",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841451/Icons/Why%20GarbhaGudi/Holistic_Approach_sxh54y.svg",
   },
   {
-    name: "Financing Options",
+    name: "ಹಣಕಾಸು ನೆರವು ಆಯ್ಕೆಗಳು",
     href: "/features/financing-options",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840329/Icons/Features/Financial_Options_rrv8hi.svg",
   },
   {
-    name: "Treatment Protocols",
+    name: "ಸಾಂಪ್ರದಾಯಿಕ ಶಿಷ್ಟಾಚಾರಗಳು",
     href: "/features/treatment-protocols",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840352/Icons/Features/Treatment_Protocols_hll4cu.svg",
   },
   {
-    name: "IVF from Home",
+    name: "ಮನೆಯಿಂದ ಐವಿಫ್ ",
     href: "/features/ivf-from-home",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841462/Icons/Why%20GarbhaGudi/IVF_from_Home_qriw7n.svg",
   },
   {
-    name: "Best in Class Facilities",
+    name: "ಅತ್ಯುತ್ತಮ ಸೌಲಭ್ಯಗಳು",
     href: "/features/best-in-class-facilities",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840357/Icons/Features/Best_in_Class_Facilities_fchmjr.svg",
   },
   {
-    name: "Paripoorna",
+    name: "ಪರಿಪೂರ್ಣ",
     href: "/features/paripoorna",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841468/Icons/Why%20GarbhaGudi/Paripoorna_nikziu.svg",
   },
   {
-    name: "GarbhaGriha",
+    name: "ಗರ್ಭಗೃಹ",
     href: "/features/garbhagriha",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841473/Icons/Why%20GarbhaGudi/GarbhaGriha_gyai6w.svg",
   },
@@ -160,27 +160,27 @@ const valueAddedServices = [
 
 const aboutUs = [
   {
-    name: "About Us",
+    name: "ನಮ್ಮ ಬಗ್ಗೆ",
     href: "/about/overview",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642838895/Icons/About/About_Us_01_yz3h95.svg",
   },
   {
-    name: "Mission & Vision",
+    name: "ಮಿಷನ್ ಮತ್ತು ವಿಷನ್",
     href: "/about/vision-and-mission",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839038/Icons/About/Vision_jaxu8d.svg",
   },
   {
-    name: "Dr Asha S Vijay",
+    name: "ಡಾ ಆಶಾ ಎಸ್ ವಿಜಯ್",
     href: "/doctors/dr-asha-s-vijay",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642838895/Icons/About/Asha_Vijay_zpq05s.svg",
   },
   {
-    name: "Founders & Directors",
+    name: "ಸಂಸ್ಥಾಪಕರು ಮತ್ತು ನಿರ್ದೇಶಕರು",
     href: "/about/overview",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839222/Icons/About/Directors_w3497h.svg",
   },
   {
-    name: "Our Fertility Experts",
+    name: "ನಮ್ಮ ಫಲವತ್ತತೆ ತಜ್ಞರು",
     href: "/locations/fertility-experts",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839012/Icons/About/Our_Fertility_Experts_bxsrrh.svg",
   },
@@ -190,12 +190,12 @@ const aboutUs = [
   //   icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643442839/Icons/About/Media_nyook4.svg",
   // },
   {
-    name: "CSR",
+    name: "ಸಿಎಸ್ಆರ್",
     href: "https://garbhagnan.org",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643442833/Icons/About/CSR_qjlfzx.svg",
   },
   {
-    name: "Awards & Accolades",
+    name: "ಪ್ರಶಸ್ತಿಗಳು ಮತ್ತು ಪುರಸ್ಕಾರಗಳು",
     href: "/about/awards-and-accolades",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642838895/Icons/About/Awards_Accorlads_z68rlr.svg",
   },
