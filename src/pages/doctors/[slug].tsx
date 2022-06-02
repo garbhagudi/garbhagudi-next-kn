@@ -80,12 +80,10 @@ const Doctor = ({ doctor }) => {
         {/* Primary Tags */}
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>
-          {doctor?.name} - Fertility Specialist | GarbhaGudi IVF Centre
-        </title>
+        <title>{doctor?.name} - ಫಲವತ್ತತೆ ತಜ್ಞರು | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ</title>
         <meta
           name="title"
-          content={`${doctor?.name} - Fertility Specialist | GarbhaGudi IVF Centre`}
+          content={`${doctor?.name} - ಫಲವತ್ತತೆ ತಜ್ಞರು | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
         />
         <meta name="description" content={doctor?.bio?.text.slice(0, 180)} />
 
@@ -93,7 +91,7 @@ const Doctor = ({ doctor }) => {
 
         <meta
           property="og:title"
-          content={`${doctor?.name} - Fertility Specialist | GarbhaGudi IVF Centre`}
+          content={`${doctor?.name} - ಫಲವತ್ತತೆ ತಜ್ಞರು | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
         />
         <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
         <meta property="og:url" content="https://garbhagudi.com" />
@@ -110,7 +108,7 @@ const Doctor = ({ doctor }) => {
         <meta name="twitter:site" content="@garbhagudiivf" />
         <meta
           name="twitter:title"
-          content={`${doctor?.name} - Fertility Specialist | GarbhaGudi IVF Centre`}
+          content={`${doctor?.name} - ಫಲವತ್ತತೆ ತಜ್ಞರು | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
         />
         <meta
           name="twitter:description"

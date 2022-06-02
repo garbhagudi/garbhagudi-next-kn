@@ -33,7 +33,8 @@ const Home = ({ homeData }) => {
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>
-          GarbhaGudi IVF Centre | Best IVF & Fertility Hospital in India
+          ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ | ಭಾರತದ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್ ಮತ್ತು ಫಲವತ್ತತೆ
+          ಆಸ್ಪತ್ರೆ
         </title>
         <meta
           name="title"
@@ -108,20 +109,24 @@ const Home = ({ homeData }) => {
               <h2 className="text-3xl sm:text-4xl font-semibold text-brandPink font-heading">
                 ನಮ್ಮ ತಜ್ಞರನ್ನು ಭೇಟಿ ಮಾಡಿ
               </h2>
-              <p className="text-xl text-brandDark font-content">
+              <p className="text-md sm:text-xl text-brandDark font-content">
                 ನಮ್ಮ ಫಲವತ್ತತೆ ತಜ್ಞರ ತಂಡವು ಅವರ ವ್ಯಾಪಕವಾದ ಕ್ಲಿನಿಕಲ್ ಅನುಭವ ಮತ್ತು
                 ಸಂಶೋಧನಾ ಕೊಡುಗೆಗಳು ಮತ್ತು ಅತ್ಯಂತ ಸವಾಲಿನ ಫಲವತ್ತತೆ ಪ್ರಕರಣಗಳಿಗೆ
                 ಚಿಕಿತ್ಸೆ ನೀಡುವಲ್ಲಿ ಅವರ ಯಶಸ್ಸಿಗೆ ಹೆಸರುವಾಸಿಯಾಗಿದೆ.
               </p>
             </div>
-            <ul className="mx-auto space-y-0 grid grid-cols-1 sm:gap-16 sm:space-y-0 md:grid-col-2 lg:grid-cols-4 lg:max-w-7xl">
+            <ul className="mx-auto space-y-0 grid grid-cols-2 sm:gap-16 sm:space-y-0 md:grid-col-2 lg:grid-cols-4 lg:max-w-7xl">
               {homeData?.doctors.map((item) => {
                 return (
                   <li
                     key={item?.id}
                     className="transition-all duration-500 hover:shadow-2xl rounded-xl mb-2 "
                   >
-                    <Link href={`/doctors/${item?.slug}`} passHref>
+                    <Link
+                      href={`/doctors/${item?.slug}`}
+                      passHref
+                      scroll={false}
+                    >
                       <a>
                         <div className="space-y-4">
                           <img
@@ -131,10 +136,10 @@ const Home = ({ homeData }) => {
                           />
                           <div className="space-y-4">
                             <div className="text-xl leading-6 font-medium space-y-1">
-                              <h3 className="text-brandDark font-content">
+                              <h3 className="text-brandDark font-heading">
                                 {item?.name}
                               </h3>
-                              <p className="text-brandPurpleDark text-sm font-heading">
+                              <p className="text-brandPurpleDark text-sm font-content">
                                 {item?.qualification}
                               </p>
                               <p className="text-brandPink text-sm font-content pb-2">

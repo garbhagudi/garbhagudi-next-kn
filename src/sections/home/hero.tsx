@@ -14,7 +14,7 @@ const Hero = () => {
                   ಸಂತೋಷವನ್ನು ಅನುಭವಿಸಿ
                 </span>
               </h1>
-              <p className="mt-3 text-brandDark sm:mt-5 text-xl font-content">
+              <p className="mt-3 text-brandDark sm:mt-5 text-md sm:text-xl font-content">
                 ಗರ್ಭಗುಡಿ ನೂತನ ಪೀಳಿಗೆಯ ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆ ಚಿಕಿತ್ಸಾ ಆಸ್ಪತ್ರೆಗಳ
                 ಸರಣಿಯಾಗಿದ್ದು, ಈ ನಿರಂತರವಾಗಿ ಹೆಚ್ಚುತ್ತಿರುವ ಸಂತಾನೋತ್ಪತ್ತಿ
                 ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸಲು ಅತ್ಯಾಧುನಿಕ ಮೂಲಸೌಕರ್ಯ ಮತ್ತು ಅತ್ಯಾಧುನಿಕ

@@ -58,8 +58,11 @@ const ExecutiveTeam = ({ director }) => (
       {/* Primary Tags */}
 
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title> {`${director.name} | GarbhaGudi IVF Centre`}</title>
-      <meta name="title" content={`${director.name} | GarbhaGudi IVF Centre`} />
+      <title> {`${director.name} | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}</title>
+      <meta
+        name="title"
+        content={`${director.name} | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
+      />
       <meta
         name="description"
         content={director?.bio?.raw.children.slice(0, 180)}
@@ -69,7 +72,7 @@ const ExecutiveTeam = ({ director }) => (
 
       <meta
         property="og:title"
-        content={`${director.name} | GarbhaGudi IVF Centre`}
+        content={`${director.name} | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
       />
       <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
       <meta property="og:url" content="https://garbhagudi.com" />
@@ -89,7 +92,7 @@ const ExecutiveTeam = ({ director }) => (
       <meta name="twitter:site" content="@garbhagudiivf" />
       <meta
         name="twitter:title"
-        content={`${director.name} | GarbhaGudi IVF Centre`}
+        content={`${director.name} | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
       />
       <meta
         name="twitter:description"

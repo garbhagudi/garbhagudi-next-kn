@@ -12,8 +12,8 @@ const IndexPage = ({ diagnoses }) => {
           {/* Primary Tags */}
 
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <title>Diagnosis | GarbhaGudi</title>
-          <meta name="title" content="Diagnosis | GarbhaGudi IVF Centre" />
+          <title>Diagnosis ಗರ್ಭಗುಡಿ</title>
+          <meta name="title" content="Diagnosis | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ" />
           <meta
             name="description"
             content="Treatment options, procedure details and advanced treatment options for male and female infertility treatment available at GarbhaGudi"
@@ -23,7 +23,7 @@ const IndexPage = ({ diagnoses }) => {
 
           <meta
             property="og:title"
-            content="Diagnosis | GarbhaGudi IVF Centre"
+            content="Diagnosis | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ"
           />
           <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
           <meta property="og:url" content="https://garbhagudi.com" />
@@ -43,7 +43,7 @@ const IndexPage = ({ diagnoses }) => {
           <meta name="twitter:site" content="@garbhagudiivf" />
           <meta
             name="twitter:title"
-            content="Diagnosis | GarbhaGudi IVF Centre"
+            content="Diagnosis | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ"
           />
           <meta
             name="twitter:description"

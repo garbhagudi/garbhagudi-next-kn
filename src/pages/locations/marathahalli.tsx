@@ -16,7 +16,7 @@ const Marathahalli = ({ doctors }) => {
           GarbhaGudi IVF Centre, Marathahalli | Best IVF & Fertility Hospital in
           India
         </title>
-        <meta name="title" content="Marathahalli | GarbhaGudi IVF Centre" />
+        <meta name="title" content="Marathahalli |ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ" />
         <meta
           name="description"
           content="GarbhaGudi is a place where dreams come alive, hopes never fade, and possibilities never end. We ceaselessly work to help you cherish the golden moment of holding your little bundles of joy."

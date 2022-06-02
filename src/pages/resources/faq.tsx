@@ -9,10 +9,10 @@ const faq = () => {
         {/* Primary Tags */}
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Frequently Asked Questions | GarbhaGudi</title>
+        <title>Frequently Asked Questions | ಗರ್ಭಗುಡಿ</title>
         <meta
           name="title"
-          content="Frequently Asked Questions | GarbhaGudi IVF Centre"
+          content="Frequently Asked Questions | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ"
         />
         <meta
           name="description"
@@ -23,7 +23,7 @@ const faq = () => {
 
         <meta
           property="og:title"
-          content="Frequently Asked Questions | GarbhaGudi IVF Centre"
+          content="Frequently Asked Questions | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ"
         />
         <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
         <meta property="og:url" content="https://garbhagudi.com" />
@@ -43,7 +43,7 @@ const faq = () => {
         <meta name="twitter:site" content="@garbhagudiivf" />
         <meta
           name="twitter:title"
-          content="Frequently Asked Questions | GarbhaGudi IVF Centre"
+          content="Frequently Asked Questions | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ"
         />
         <meta
           name="twitter:description"

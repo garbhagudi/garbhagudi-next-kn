@@ -25,7 +25,7 @@ const Video = () => {
             <div className="relative mx-auto w-full aspect-video shadow-lg rounded-3xl overflow-hidden">
               <LiteYouTubeEmbed
                 id="3l4gWsVlhE4"
-                title="Successful IVF Treatment Testimonial | GarbhaGudi IVF Centre | Dr Asha S Vijay"
+                title="Successful IVF Treatment Testimonial | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ | Dr Asha S Vijay"
                 poster="maxresdefault"
               />
             </div>

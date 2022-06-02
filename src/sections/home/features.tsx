@@ -83,7 +83,7 @@ const Features = () => {
         <p className="mt-2 text-3xl text-brandPink font-semibold sm:text-4xl font-heading">
           ನಮ್ಮ ಬಹುಕಾರ್ಯೋಪಯೋಗಿ ವಿಧಾನ
         </p>
-        <p className="mt-5 max-w-6xl mx-auto text-xl text-brandDark font-content">
+        <p className="mt-5 max-w-6xl mx-auto text-md sm:text-xl text-brandDark font-content">
           ಫರ್ಟಿಲಿಟಿಯ ಚಿಕಿತ್ಸೆಗಳು ಮಾನಸಿಕವಾಗಿ ಮತ್ತು ದೈಹಿಕವಾಗಿ ಒತ್ತಡವನ್ನು
           ಉಂಟುಮಾಡಬಹುದು ಎಂದು ಗರ್ಭಗುಡಿಯಲ್ಲಿ ನಾವು ಅರ್ಥಮಾಡಿಕೊಂಡಿದ್ದೇವೆ. ಬಹಳಷ್ಟು
           ಆಯ್ಕೆಗಳನ್ನು ಒದಗಿಸಲು ಮತ್ತು ಗರ್ಭಧಾರಣೆಗೆ ಪ್ರಯತ್ನಿಸುತ್ತಿರುವ ಅನೇಕರಿಗೆ
@@ -91,11 +91,11 @@ const Features = () => {
           ಈ ಕೆಳಗಿನದನ್ನು ನಿರೀಕ್ಷಿಸಬಹುದು:
         </p>
         <div className="mt-12">
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-2 sm:gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {features.map((feature) => (
               <Link href={feature.link} key={feature.id} passHref>
                 <div className=" pt-6 cursor-pointer ">
-                  <div className=" flow-root bg-gray-50 rounded-lg px-6 pb-8 hover:shadow-2xl">
+                  <div className=" flow-root bg-gray-50 rounded-lg px-6 pb-4 hover:shadow-2xl border">
                     <div className="-mt-6">
                       <div>
                         <span className="inline-flex items-center justify-center p-2 bg-brandPink rounded-full shadow-xl">
@@ -110,7 +110,7 @@ const Features = () => {
                       <h3 className="mt-8 text-2xl text-brandDark font-semibold font-heading">
                         {feature.name}
                       </h3>
-                      <p className="mt-5 text-brandDark text-md font-content min-h-[100px]">
+                      <p className="mt-3 text-brandDark text-md font-content min-h-[100px]">
                         {feature.content}
                       </p>
                     </div>

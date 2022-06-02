@@ -13,8 +13,8 @@ const Overview = ({ directors }) => {
         {/* Primary Tags */}
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>About | GarbhaGudi</title>
-        <meta name="title" content=" | GarbhaGudi IVF Centre" />
+        <title>About | ಗರ್ಭಗುಡಿ</title>
+        <meta name="title" content=" ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ" />
         <meta
           name="description"
           content="GarbhaGudi is a chain of new generation infertility treatment hospitals equipped with state-of-the-art infrastructure and cutting-edge technology to address this ever-increasing problem of infertility."
@@ -22,7 +22,7 @@ const Overview = ({ directors }) => {
 
         {/* Open Graph / Facebook */}
 
-        <meta property="og:title" content="About | GarbhaGudi IVF Centre" />
+        <meta property="og:title" content="About | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ" />
         <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
         <meta property="og:url" content="https://garbhagudi.com" />
         <meta
@@ -39,7 +39,7 @@ const Overview = ({ directors }) => {
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@garbhagudiivf" />
-        <meta name="twitter:title" content="About | GarbhaGudi IVF Centre" />
+        <meta name="twitter:title" content="About | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ" />
         <meta
           name="twitter:description"
           content="GarbhaGudi is a chain of new generation infertility treatment hospitals equipped with state-of-the-art infrastructure and cutting-edge technology to address this ever-increasing problem of infertility."

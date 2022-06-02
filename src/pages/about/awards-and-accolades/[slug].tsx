@@ -50,8 +50,8 @@ const AwardPage = ({ award }) => {
       <Head>
         {/* Primary Tags */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>{award?.title} | GarbhaGudi</title>
-        <meta name="title" content={`${award?.title} | GarbhaGudi`} />
+        <title>{award?.title} | ಗರ್ಭಗುಡಿ</title>
+        <meta name="title" content={`${award?.title} | ಗರ್ಭಗುಡಿ`} />
         <meta name="description" content={award?.content?.text.slice(0, 160)} />
         {/* Open Graph / Facebook */}
         <meta property="og:title" content={award?.title} />
@@ -66,7 +66,7 @@ const AwardPage = ({ award }) => {
         {/* Twitter*/}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@garbhagudiivf" />
-        <meta name="twitter:title" content={`${award?.title} | GarbhaGudi`} />
+        <meta name="twitter:title" content={`${award?.title} | ಗರ್ಭಗುಡಿ`} />
         <meta
           name="twitter:description"
           content={award?.content?.text.slice(0, 160)}

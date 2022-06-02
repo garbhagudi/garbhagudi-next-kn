@@ -63,7 +63,7 @@ const Video = () => {
               >
                 <LiteYouTubeEmbed
                   id={item.videoId}
-                  title="Successful IVF Treatment Testimonial | GarbhaGudi IVF Centre | Dr Asha S Vijay"
+                  title="Successful IVF Treatment Testimonial ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ | Dr Asha S Vijay"
                   poster="maxresdefault"
                 />
               </div>

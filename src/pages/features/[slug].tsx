@@ -59,10 +59,10 @@ const Vas = ({ valueAddedService }) => {
         {/* Primary Tags */}
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>{valueAddedService?.title} | GarbhaGudi</title>
+        <title>{valueAddedService?.title} | ಗರ್ಭಗುಡಿ</title>
         <meta
           name="title"
-          content={`${valueAddedService?.title} | GarbhaGudi IVF Centre`}
+          content={`${valueAddedService?.title} | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
         />
         <meta
           name="description"
@@ -73,7 +73,7 @@ const Vas = ({ valueAddedService }) => {
 
         <meta
           property="og:title"
-          content={`${valueAddedService?.title} | GarbhaGudi IVF Centre`}
+          content={`${valueAddedService?.title} | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
         />
         <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
         <meta property="og:url" content="https://garbhagudi.com" />
@@ -90,7 +90,7 @@ const Vas = ({ valueAddedService }) => {
         <meta name="twitter:site" content="@garbhagudiivf" />
         <meta
           name="twitter:title"
-          content={`${valueAddedService?.title} | GarbhaGudi IVF Centre`}
+          content={`${valueAddedService?.title} | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
         />
         <meta
           name="twitter:description"

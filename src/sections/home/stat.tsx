@@ -46,7 +46,7 @@ const Stat = () => {
           <p className="mt-3 text-4xl text-brandPink font-semibold font-heading">
             ನಮ್ಮ ಸದಾ ಬೆಳೆಯುತ್ತಿರುವ ಯಶಸ್ಸು
           </p>
-          <p className="mt-5 text-xl text-brandDark font-content">
+          <p className="mt-5 text-md sm:text-xl text-brandDark font-content">
             ಗರ್ಭಗುಡಿ ಎಂದರೆ ಕನಸುಗಳು ಜೀವಂತವಾಗಿರುವ ಸ್ಥಳ, ಇಲ್ಲಿ ಭರವಸೆಗಳು ಎಂದಿಗೂ
             ಮರೆಯಾಗುವುದಿಲ್ಲ ಮತ್ತು ಸಾಧ್ಯತೆಗಳು ಎಂದಿಗೂ ಕೊನೆಗೊಳ್ಳುವುದಿಲ್ಲ. ನಿಮ್ಮ
             ಆನಂದದ ಕಂದಮ್ಮಗಳನ್ನು ಕೈಯಲ್ಲಿ ಎತ್ತಿಹಿಡಿಯುವ ಸುವರ್ಣ ಕ್ಷಣವನ್ನು ಅನುಭವಿಸಲು
@@ -61,7 +61,7 @@ const Stat = () => {
                   {item.stat}
                 </span>
                 <span className="mt-1 block text-brandliteGray">
-                  <span className="text-xl text-brandDark font-content">
+                  <span className="text-md sm:text-xl text-brandDark font-content">
                     {item.emphasis}
                   </span>
                 </span>

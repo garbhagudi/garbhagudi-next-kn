@@ -65,10 +65,10 @@ const Treatment = ({ treatment }) => {
         {/* Primary Tags */}
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>{treatment?.title} | GarbhaGudi</title>
+        <title>{treatment?.title} | ಗರ್ಭಗುಡಿ</title>
         <meta
           name="title"
-          content={`${treatment?.title} | GarbhaGudi IVF Centre`}
+          content={`${treatment?.title} | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
         />
         <meta
           name="description"
@@ -79,7 +79,7 @@ const Treatment = ({ treatment }) => {
 
         <meta
           property="og:title"
-          content={`${treatment?.title} | GarbhaGudi IVF Centre`}
+          content={`${treatment?.title} | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
         />
         <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
         <meta property="og:url" content="https://garbhagudi.com" />
@@ -96,7 +96,7 @@ const Treatment = ({ treatment }) => {
         <meta name="twitter:site" content="@garbhagudiivf" />
         <meta
           name="twitter:title"
-          content={`${treatment?.title} | GarbhaGudi IVF Centre`}
+          content={`${treatment?.title} | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
         />
         <meta
           name="twitter:description"

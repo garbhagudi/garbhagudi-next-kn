@@ -16,10 +16,10 @@ const IndexPage = ({ doctors }) => {
         {/* Primary Tags */}
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Our Fertility Experts | GarbhaGudi IVF Center</title>
+        <title>ನಮ್ಮ ಫಲವತ್ತತೆ ತಜ್ಞರು | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ</title>
         <meta
           name="title"
-          content="Our Fertility Experts | GarbhaGudi IVF Centre"
+          content="ನಮ್ಮ ಫಲವತ್ತತೆ ತಜ್ಞರು | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ"
         />
         <meta
           name="description"
@@ -30,7 +30,7 @@ const IndexPage = ({ doctors }) => {
 
         <meta
           property="og:title"
-          content="Our Fertility Experts | GarbhaGudi IVF Centre"
+          content="ನಮ್ಮ ಫಲವತ್ತತೆ ತಜ್ಞರು | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರರ"
         />
         <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
         <meta property="og:url" content="https://garbhagudi.com" />
@@ -50,7 +50,7 @@ const IndexPage = ({ doctors }) => {
         <meta name="twitter:site" content="@garbhagudiivf" />
         <meta
           name="twitter:title"
-          content="Our Fertility Experts | GarbhaGudi IVF Centre"
+          content="ನಮ್ಮ ಫಲವತ್ತತೆ ತಜ್ಞರು | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ"
         />
         <meta
           name="twitter:description"

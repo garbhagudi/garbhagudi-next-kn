@@ -9,10 +9,10 @@ const VisionMission = () => {
         {/* Primary Tags */}
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Vision &amp; Mission | GarbhaGudi</title>
+        <title>Vision &amp; Mission | ಗರ್ಭಗುಡಿ</title>
         <meta
           name="title"
-          content="Vision &amp; Mission | GarbhaGudi IVF Centre"
+          content="Vision &amp; Mission | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ"
         />
         <meta
           name="description"
@@ -23,7 +23,7 @@ const VisionMission = () => {
 
         <meta
           property="og:title"
-          content="Vision and Mission | GarbhaGudi IVF Centre"
+          content="Vision and Mission | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ"
         />
         <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
         <meta property="og:url" content="https://garbhagudi.com" />
@@ -41,7 +41,10 @@ const VisionMission = () => {
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@garbhagudiivf" />
-        <meta name="twitter:title" content=" | GarbhaGudi IVF Centre" />
+        <meta
+          name="twitter:title"
+          content="Vision &amp; Mission | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ"
+        />
         <meta
           name="twitter:description"
           content="Spanning over a decade, GarbhaGudi has served as a beacon of hope to thousands of infertile couples. Our experienced and dedicated specialists, nurses, and embryologists work to cater for your needs and respond to them quickly, professionally and warmly. "

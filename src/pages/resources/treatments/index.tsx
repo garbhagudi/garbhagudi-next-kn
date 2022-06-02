@@ -16,8 +16,8 @@ const IndexPage = ({ treatments }) => {
         {/* Primary Tags */}
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Treatment | GarbhaGudi</title>
-        <meta name="title" content="Treatment | GarbhaGudi IVF Centre" />
+        <title>Treatment ಗರ್ಭಗುಡಿ</title>
+        <meta name="title" content="Treatment | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ" />
         <meta
           name="description"
           content="Treatment options, procedure details and advanced treatment options for male and female infertility treatment available at GarbhaGudi"
@@ -25,7 +25,7 @@ const IndexPage = ({ treatments }) => {
 
         {/* Open Graph / Facebook */}
 
-        <meta property="og:title" content="Treatment | GarbhaGudi IVF Centre" />
+        <meta property="og:title" content="Treatment | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ" />
         <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
         <meta property="og:url" content="https://garbhagudi.com" />
         <meta
@@ -42,10 +42,7 @@ const IndexPage = ({ treatments }) => {
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@garbhagudiivf" />
-        <meta
-          name="twitter:title"
-          content="Treatment | GarbhaGudi IVF Centre"
-        />
+        <meta name="twitter:title" content="Treatment | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ" />
         <meta
           name="twitter:description"
           content="Treatment options, procedure details and advanced treatment options for male and female infertility treatment available at GarbhaGudi"
