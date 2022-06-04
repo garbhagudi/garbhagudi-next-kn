@@ -13,27 +13,35 @@ const Marathahalli = ({ doctors }) => {
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>
-          GarbhaGudi IVF Centre, Marathahalli | Best IVF & Fertility Hospital in
-          India
+          ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಸೆಂಟರ್, ಮಾರತಹಳ್ಳಿ | ಭಾರತದ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್ ಮತ್ತು
+          ಫಲವತ್ತತೆ ಆಸ್ಪತ್ರೆ
         </title>
-        <meta name="title" content="Marathahalli |ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ" />
+        <meta
+          name="title"
+          content="ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಸೆಂಟರ್, ಮಾರತಹಳ್ಳಿ | ಭಾರತದ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್ ಮತ್ತು ಫಲವತ್ತತೆ ಆಸ್ಪತ್ರೆ"
+        />
         <meta
           name="description"
-          content="GarbhaGudi is a place where dreams come alive, hopes never fade, and possibilities never end. We ceaselessly work to help you cherish the golden moment of holding your little bundles of joy."
+          content=" ಭಾರತದ ಐವಿಎಫ್ ಉದ್ಯಮದಲ್ಲಿ ಗರ್ಭಗುಡಿ ಅಗ್ರ ಸಂಸ್ಥೆಯಾಗಿದೆ. ಈ ಕೇಂದ್ರವು
+          ದೇಸದ ಎಲ್ಲೆಡೆಯ ಮತ್ತು ಅದರಾಚೆಗೆ ಇರುವ ಸಂತಾನ ಬಯಸುವ ದಂಪತಿಗಳಿಗೆ ಎಲ್ಲ
+          ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಗಳಿಗಾಗಿ ಒಂದೇ ಸೂರಿನಡಿ ಪರಿಹಾರ ನೀಡುವ ತಾಣವಾಗಿ
+          ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ"
         />
 
         {/* Open Graph / Facebook */}
 
         <meta
           property="og:title"
-          content="GarbhaGudi IVF Centre, Marathahalli | Best IVF & Fertility Hospital in
-          India"
+          content="ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಸೆಂಟರ್, ಮಾರತಹಳ್ಳಿ | ಭಾರತದ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್ ಮತ್ತು ಫಲವತ್ತತೆ ಆಸ್ಪತ್ರೆ"
         />
         <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
         <meta property="og:url" content="https://garbhagudi.com" />
         <meta
           property="og:description"
-          content="GarbhaGudi is a place where dreams come alive, hopes never fade, and possibilities never end. We ceaselessly work to help you cherish the golden moment of holding your little bundles of joy."
+          content=" ಭಾರತದ ಐವಿಎಫ್ ಉದ್ಯಮದಲ್ಲಿ ಗರ್ಭಗುಡಿ ಅಗ್ರ ಸಂಸ್ಥೆಯಾಗಿದೆ. ಈ ಕೇಂದ್ರವು
+          ದೇಸದ ಎಲ್ಲೆಡೆಯ ಮತ್ತು ಅದರಾಚೆಗೆ ಇರುವ ಸಂತಾನ ಬಯಸುವ ದಂಪತಿಗಳಿಗೆ ಎಲ್ಲ
+          ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಗಳಿಗಾಗಿ ಒಂದೇ ಸೂರಿನಡಿ ಪರಿಹಾರ ನೀಡುವ ತಾಣವಾಗಿ
+          ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -72,7 +80,7 @@ const Marathahalli = ({ doctors }) => {
       <div className="mb-5">
         <section className="text-gray-600 body-font relative max-w-7xl mx-auto">
           <h1 className="text-center text-2xl md:text-4xl font-heading pt-8 font-bold">
-            Marathahalli
+            ಮಾರತಹಳ್ಳಿ
           </h1>
           <div>
             <img
@@ -81,28 +89,30 @@ const Marathahalli = ({ doctors }) => {
               className="rounded-xl mt-4"
             />
             <p className="my-10 text-md sm:text-lg font-content mx-auto px-6 sm:px-0">
-              GarbhaGudi is a top player in the IVF industry in India. The
-              center acts as a one-stop destination for infertile couples across
-              and beyond the nation. Also, GarbhaGudi IVF has established a firm
-              foothold in the infertility industry throughout its journey. We
-              are also continually emerging as the fastest growing and trusted
-              fertility chain in India, providing a wide range of infertility
-              treatments to help couples start their families. The center's
-              treatment quality, costs, and success rates proved to be the
-              reason to garner a vast base of patients, which continues to grow
-              by the day. We stick to a personalized and proven approach to
-              providing comprehensive and consistent planning toward diagnosing
-              and treating gynecologic and fertility issues. GarbhaGudi’s
-              progression and implementation of the latest medical technologies
-              and methods to overcome female and male infertility have been
-              helping couples from every corner of the world fulfill their
-              ardent desire to have a baby.
+              ಭಾರತದ ಐವಿಎಫ್ ಉದ್ಯಮದಲ್ಲಿ ಗರ್ಭಗುಡಿ ಅಗ್ರ ಸಂಸ್ಥೆಯಾಗಿದೆ. ಈ ಕೇಂದ್ರವು
+              ದೇಸದ ಎಲ್ಲೆಡೆಯ ಮತ್ತು ಅದರಾಚೆಗೆ ಇರುವ ಸಂತಾನ ಬಯಸುವ ದಂಪತಿಗಳಿಗೆ ಎಲ್ಲ
+              ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಗಳಿಗಾಗಿ ಒಂದೇ ಸೂರಿನಡಿ ಪರಿಹಾರ ನೀಡುವ ತಾಣವಾಗಿ
+              ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ. ಅಲ್ಲದೆ, ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ತನ್ನ ಪ್ರಯಾಣದ ಉದ್ದಕ್ಕೂ
+              ಸಂತಾನೋತ್ಪತ್ತಿ ಚಿಕಿತ್ಸೆ ಉದ್ಯಮದಲ್ಲಿ ದೃಢವಾದ ಹೆಜ್ಜೆ ಗುರುತನ್ನು
+              ಸ್ಥಾಪಿಸಿದೆ. ನಾವು ಭಾರತದಲ್ಲಿ ವೇಗವಾಗಿ ಬೆಳೆಯುತ್ತಿರುವ ಮತ್ತು ನಂಬಿಕಾರ್ಹ
+              ಫರ್ಟಿಲಿಟಿ ಸರಣಿಯಾಗಿ ನಿರಂತರವಾಗಿ ಹೊರಹೊಮ್ಮುತ್ತಿದ್ದೇವೆ. ದಂಪತಿಗಳು ತಮ್ಮ
+              ಕುಟುಂಬವನ್ನು ಪ್ರಾರಂಭಿಸಲು ಸಹಾಯ ಮಾಡಲು ಸಂತಾನೋತ್ಪತ್ತಿ ಚಿಕಿತ್ಸೆಗಳ
+              ವಿಸ್ತಾರವಾದ ಶ್ರೇಣಿ ಒದಗಿಸುತ್ತೇವೆ. ವಿಸ್ತಾರವಾದ ಸಂಖ್ಯೆಯ ರೋಗಿಗಳ ವಿಶ್ವಾಸ
+              ಗಳಿಸಲು ಕೇಂದ್ರದ ಚಿಕಿತ್ಸಾ ಗುಣಮಟ್ಟ, ವೆಚ್ಚಗಳು ಮತ್ತು ಯಶಸ್ಸಿನ ದರಗಳು
+              ಕಾರಣವೆಂದು ಸಾಬೀತಾಗಿರುವುದಲ್ಲದೇ, ಇದು ದಿನದಿಂದ ದಿನಕ್ಕೆ ಬೆಳೆಯುತ್ತಲೇ ಇದೆ.
+              ಸ್ತ್ರೀರೋಗ ಮತ್ತು ಫರ್ಟಿಲಿಟಿ ಸಮಸ್ಯೆಗಳ ರೋಗನಿರ್ಣಯ ಮತ್ತು ಚಿಕಿತ್ಸೆ ನೀಡುವ
+              ಕಡೆಗೆ ಸಮಗ್ರ ಮತ್ತು ಸತತ ಯೋಜನೆಯನ್ನು ಒದಗಿಸಲು ನಾವು ವೈಯಕ್ತಿಕ ಅಗತ್ಯಗಳಿಗೆ
+              ತಕ್ಕಂತಹ ಮತ್ತು ನಿರೂಪಿತ ಕ್ರಮಕ್ಕೆ ಅಂಟಿಕೊಳ್ಳುತ್ತೇವೆ. ಗರ್ಭಗುಡಿಯ ಪ್ರಗತಿ
+              ಮತ್ತು ಇತ್ತೀಚಿನ ವೈದ್ಯಕೀಯ ತಂತ್ರಜ್ಞಾನಗಳ ಮತ್ತು ಸ್ತ್ರೀ ಮತ್ತು ಪುರುಷ
+              ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆ ನಿವಾರಿಸುವ ವಿಧಾನಗಳ ಅನುಷ್ಠಾನವು ಪ್ರಪಂಚದ ಪ್ರತಿ
+              ಮೂಲೆಯ ದಂಪತಿಗಳಿಗೆ ಮಗುವನ್ನು ಹೊಂದುವ ಅವರ ಉತ್ಕಟ ಬಯಕೆಯನ್ನು ಪೂರೈಸಲು ಸಹಾಯ
+              ಮಾಡುತ್ತಿದೆ.
             </p>
           </div>
           <div className="py-6 flex flex-wrap lg:flex-nowrap inset-0 ">
             <div className="lg:w-1/2 md:w-full bg-white flex flex-col md:ml-auto w-full pb-8 md:mt-0 min-h-max">
               <p className="text-center font-qs text-2xl font-semibold mb-10 mt-7 lg:mt-0">
-                Fertility Specialists at Marathahalli
+                ಮಾರತ್ತಹಳ್ಳಿಯಲ್ಲಿರುವ ಫಲವತ್ತತೆ ತಜ್ಞರು
               </p>
               <div className="mx-auto space-y-0 grid grid-cols-2 sm:gap-y-10 sm:gap-x-32 sm:space-y-0 lg:grid-cols-2 lg:max-w-7xl col-span-full">
                 {doctors.map((item) => {
@@ -152,18 +162,18 @@ const Marathahalli = ({ doctors }) => {
               ></iframe>
               <div className="bg-white relative flex flex-wrap py-6 rounded-3xl shadow-3xl">
                 <div className="lg:w-1/2 px-6">
-                  <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                    ADDRESS
+                  <h2 className="title-font font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                    ವಿಳಾಸ
                   </h2>
                   <p className="mt-1 font-content">
-                    4TH floor, Chirag Towers, Born Babies Building, 24 & 64,
-                    Service Rd, next to कलामंदिर, Marathahalli, Bengaluru,
-                    Karnataka 560037
+                    ೪ನೇ ಮಹಡಿ, ಚಿರಾಗ್ ಟವರ್ಸ್, ಬಾರ್ನ್ ಬೇಬೀಸ್ ಬಿಲ್ಡಿಂಗ್, ೨೪ & ೬೪,
+                    ಸರ್ವೀಸ್ ರಸ್ತೆ, ಕಲಾಮಂದಿರದ ಪಕ್ಕ, ಮಾರತಹಳ್ಳಿ, ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ
+                    ೫೬೦೦೩೭
                   </p>
                 </div>
                 <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                  <h2 className="font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                    EMAIL
+                  <h2 className="font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                    ಇಮೇಲ್
                   </h2>
                   <a className="text-indigo-500 leading-relaxed">
                     <a
@@ -173,14 +183,14 @@ const Marathahalli = ({ doctors }) => {
                       dreams@garbhagudi.com
                     </a>
                   </a>
-                  <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                    PHONE
+                  <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                    ಕರೆ ಮಾಡಿ
                   </h2>
                   <p className="leading-relaxed font-qs">
                     <a href="tel:+918880000909">+91 888 000 0909</a>
                   </p>
-                  <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                    WhatsApp
+                  <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                    ವಾಟ್ಸ್ಯಾಪ್ಪ್
                   </h2>
                   <p className="leading-relaxed font-qs">
                     <a

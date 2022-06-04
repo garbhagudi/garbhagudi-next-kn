@@ -7,16 +7,16 @@ const Contact = () => {
         <div className="divide-y-2 divide-gray-200">
           <div className="lg:grid lg:grid-cols-3 lg:gap-8">
             <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl font-heading">
-              Get in touch
+              ಸಂಪರ್ಕದಲ್ಲಿರಲು
             </h2>
             <div className="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-2 font-content">
               <div>
                 <h3 className="text-lg leading-6 font-medium text-gray-900">
-                  Appointments & Queries
+                  ನೇಮಕಾತಿ ಮತ್ತು ವಿಚಾರಣೆಗಳು
                 </h3>
                 <dl className="mt-2 text-base text-gray-500">
                   <div>
-                    <dt className="sr-only">Email</dt>
+                    <dt className="sr-only">ಇಮೇಲ್</dt>
                     <dd>
                       <a
                         href="mailto:dreams@garbhagudi.com"
@@ -28,7 +28,7 @@ const Contact = () => {
                     </dd>
                   </div>
                   <div className="mt-1">
-                    <dt className="sr-only">Phone number</dt>
+                    <dt className="sr-only">ಫೋನ್ ಸಂಖ್ಯೆ </dt>
                     <dd>
                       <a
                         href="tel:+918880000909"
@@ -43,11 +43,11 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-lg leading-6 font-medium text-gray-900">
-                  Feedback & Complaints
+                  ಪ್ರತಿಕ್ರಿಯೆ ಮತ್ತು ದೂರುಗಳು
                 </h3>
                 <dl className="mt-2 text-base text-gray-500">
                   <div>
-                    <dt className="sr-only">Email</dt>
+                    <dt className="sr-only">ಇಮೇಲ್</dt>
                     <dd>
                       <a
                         href="mailto:grievance@garbhagudi.com"
@@ -59,7 +59,7 @@ const Contact = () => {
                     </dd>
                   </div>
                   <div className="mt-1">
-                    <dt className="sr-only">Phone number</dt>
+                    <dt className="sr-only">ಫೋನ್ ಸಂಖ್ಯೆ</dt>
                     <dd>
                       <a
                         href="tel:+918880000909"
@@ -74,11 +74,11 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-lg leading-6 font-medium text-gray-900">
-                  Human Resources
+                  ಮಾನವ ಸಂಪನ್ಮೂಲ
                 </h3>
                 <dl className="mt-2 text-base text-gray-500">
                   <div>
-                    <dt className="sr-only">Email</dt>
+                    <dt className="sr-only">ಇಮೇಲ್</dt>
                     <dd>
                       <a
                         href="mailto:hr@garbhagudi.com"
@@ -90,7 +90,7 @@ const Contact = () => {
                     </dd>
                   </div>
                   <div className="mt-1">
-                    <dt className="sr-only">Phone number</dt>
+                    <dt className="sr-only">ಫೋನ್ ಸಂಖ್ಯೆ</dt>
                     <dd>
                       <a
                         href="tel:+919606002999"
@@ -105,11 +105,11 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="text-lg leading-6 font-medium text-gray-900">
-                  Partnership
+                  ಪಾಲುದಾರಿಕೆ
                 </h3>
                 <dl className="mt-2 text-base text-gray-500">
                   <div>
-                    <dt className="sr-only">Email</dt>
+                    <dt className="sr-only">ಇಮೇಲ್</dt>
                     <dd>
                       <a
                         href="mailto:jayaram@garbhagudi.com"
@@ -121,7 +121,7 @@ const Contact = () => {
                     </dd>
                   </div>
                   <div className="mt-1">
-                    <dt className="sr-only">Phone number</dt>
+                    <dt className="sr-only">ಫೋನ್ ಸಂಖ್ಯೆ</dt>
                     <dd>
                       <a
                         href="tel:+919980997111"
@@ -138,12 +138,12 @@ const Contact = () => {
           </div>
           <div className="mt-16 pt-16 lg:grid lg:grid-cols-3 lg:gap-8">
             <h2 className="text-2xl font-extrabold text-gray-900 sm:text-3xl font-heading">
-              Locations
+              ಸ್ಥಳಗಳು
             </h2>
             <div className="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-2 font-content">
               <div>
                 <h3 className="text-lg leading-6 font-medium text-gray-900">
-                  Hanumanthanagar
+                  ಹನುಮಂತನಗರ
                 </h3>
                 <div className="mt-2 text-base text-gray-500">
                   <p className="mt-1">
@@ -156,23 +156,23 @@ const Contact = () => {
                     </a>
                   </p>
                   <p>
-                    Subhasri Complex, 210/A, Kumaraswamy Temple Rd, 2nd Block,
-                    Phase 1, Banashankari Stage I, Banashankari,
+                    ಸುಭಶ್ರೀ ಕಾಂಪ್ಲೆಕ್ಸ್, ೨೧೦/ಎ, ಕುಮಾರಸ್ವಾಮಿ ದೇವಸ್ಥಾನ ರಸ್ತೆ, ೨ನೇ
+                    ಬ್ಲಾಕ್, ೧ ನೇ ಘಟ್ಟ , ಬನಶಂಕರಿ ೧ನೇ ಹಂತ , ಬನಶಂಕರಿ,
                   </p>
-                  <p className="mt-1 mb-5">Bengaluru, Karnataka 560050</p>
+                  <p className="mt-1 mb-5">ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ ೫೬೦೦೫೦</p>
                   <a
                     href="https://g.page/GG1-HN?share"
-                    className="py-2 px-3 bg-brandPink text-white font-semibold rounded-3xl hover:bg-brandPink2"
+                    className="py-2 px-3 pt-4 bg-brandPink text-white font-semibold rounded-3xl hover:bg-brandPink2"
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    Directions
+                    ನಿರ್ದೇಶನಗಳು
                   </a>
                 </div>
               </div>
               <div>
                 <h3 className="text-lg leading-6 font-medium text-gray-900">
-                  Kalyan Nagar
+                  ಕಲ್ಯಾಣ್ ನಗರ
                 </h3>
                 <div className="mt-2 text-base text-gray-500">
                   <p className="mt-1">
@@ -185,23 +185,23 @@ const Contact = () => {
                     </a>
                   </p>
                   <p>
-                    Park Landing, 5AC-709, Outer Ring Rd, Balachandra Layout,
-                    HRBR Layout 2nd Block, Chelekare, Extension,
+                    ಪಾರ್ಕ್ ಲ್ಯಾಂಡಿAಗ್, ೫ಎಸಿ-೭೦೯, ಹೊರವರ್ತುಲ ರಸ್ತೆ, ಬಾಲಚಂದ್ರ
+                    ಲೇಔಟ್, ಎಚ್‌ಆರ್‌ಬಿಆರ್ ಲೇಔಟ್ ೨ನೇ ಬ್ಲಾಕ್, ಚೆಳೆಕರೆ, ಎಕ್‌ಟೆನ್ಷನ್,
                   </p>
-                  <p className="mt-1 mb-5">Bengaluru, Karnataka 560043</p>
+                  <p className="mt-1 mb-5">ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ ೫೬೦೦೪೩</p>
                   <a
                     href="https://g.page/GarbhaGudi-IVF-Bangalore?share"
-                    className="py-2 px-3 bg-brandPink text-white font-semibold rounded-3xl hover:bg-brandPink2"
+                    className="py-2 px-3 bg-brandPink pt-4 text-white font-semibold rounded-3xl hover:bg-brandPink2"
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    Directions
+                    ನಿರ್ದೇಶನಗಳು
                   </a>
                 </div>
               </div>
               <div>
                 <h3 className="text-lg leading-6 font-medium text-gray-900">
-                  South End Circle
+                  ಸೌತ್ ಎಂಡ್ ಸರ್ಕಲ್
                 </h3>
                 <div className="mt-2 text-base text-gray-500">
                   <p className="mt-1">
@@ -214,22 +214,22 @@ const Contact = () => {
                     </a>
                   </p>
                   <p>
-                    South End Circle, 26, Pattalamma Temple Rd, Basavanagudi,
+                    ಸೌತ್ ಎಂಡ್ ಸರ್ಕಲ್, ೨೬, ಪಟ್ಟಲಮ್ಮ ದೇವಸ್ಥಾನ ರಸ್ತೆ, ಬಸವನಗುಡಿ,
                   </p>
-                  <p className="mt-1 mb-5">Bengaluru, Karnataka 560004</p>
+                  <p className="mt-1 mb-5">ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ ೫೬೦೦೦೪</p>
                   <a
                     href="https://g.page/ggivf?share"
-                    className="py-2 px-3 bg-brandPink text-white font-semibold rounded-3xl hover:bg-brandPink2"
+                    className="py-2 px-3 pt-4 bg-brandPink text-white font-semibold rounded-3xl hover:bg-brandPink2"
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    Directions
+                    ನಿರ್ದೇಶನಗಳು
                   </a>
                 </div>
               </div>
               <div>
                 <h3 className="text-lg leading-6 font-medium text-gray-900">
-                  Electronic City
+                  ಇಲೆಕ್ಟ್ರಾನಿಕ್ ಸಿಟಿ
                 </h3>
                 <div className="mt-2 text-base text-gray-500">
                   <p className="mt-1">
@@ -242,23 +242,23 @@ const Contact = () => {
                     </a>
                   </p>
                   <p>
-                    Ganesh Towers,3rd Floor, 60/5 and 60/6, NH 44, Beside Andhra
-                    Bank, Konappana Agrahara, Electronic City,
+                    ಗಣೇಶ್ ಟವರ್ಸ್, ೩ ನೇ ಮಹಡಿ, ೬೦/೫ ಮತ್ತು ೬೦/೬, ಎನ್‌ಎಚ್ ೪೪, ಆಂಧ್ರ
+                    ಬ್ಯಾಂಕ್ ಪಕ್ಕದಲ್ಲಿ, ಕೋನಪ್ಪನ ಅಗ್ರಹಾರ, ಎಲೆಕ್ಟ್ರಾನಿಕ್ ಸಿಟಿ,
                   </p>
-                  <p className="mt-1 mb-5">Bengaluru, Karnataka 560100</p>
+                  <p className="mt-1 mb-5">ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ ೫೬೦೧೦೦</p>
                   <a
                     href="https://g.page/GG4-EC?share"
-                    className="py-2 px-3 bg-brandPink text-white font-semibold rounded-3xl hover:bg-brandPink2"
+                    className="py-2 px-3 pt-4 bg-brandPink text-white font-semibold rounded-3xl hover:bg-brandPink2"
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    Directions
+                    ನಿರ್ದೇಶನಗಳು
                   </a>
                 </div>
               </div>
               <div>
                 <h3 className="text-lg leading-6 font-medium text-gray-900">
-                  Marathahalli
+                  ಮಾರತಹಳ್ಳಿ
                 </h3>
                 <div className="mt-2 text-base text-gray-500">
                   <p className="mt-1">
@@ -271,17 +271,17 @@ const Contact = () => {
                     </a>
                   </p>
                   <p>
-                    4TH floor, Chirag Towers, Born Babies Building, 24 & 64,
-                    Service Rd, next to कलामंदिर, Marathahalli,
+                    ೪ನೇ ಮಹಡಿ, ಚಿರಾಗ್ ಟವರ್ಸ್, ಬಾರ್ನ್ ಬೇಬೀಸ್ ಬಿಲ್ಡಿಂಗ್, ೨೪ & ೬೪,
+                    ಸರ್ವೀಸ್ ರಸ್ತೆ, ಕಲಾಮಂದಿರದ ಪಕ್ಕ, ಮಾರತಹಳ್ಳಿ,
                   </p>
-                  <p className="mt-1 mb-5">Bengaluru, Karnataka 560037</p>
+                  <p className="mt-1 mb-5">ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ ೫೬೦೦೩೭</p>
                   <a
                     href="https://goo.gl/maps/kxhfM5SCZuq6EDnE9"
-                    className="py-2 px-3 bg-brandPink text-white font-semibold rounded-3xl hover:bg-brandPink2"
+                    className="py-2 px-3 pt-4 bg-brandPink text-white font-semibold rounded-3xl hover:bg-brandPink2"
                     target={"_blank"}
                     rel="noreferrer"
                   >
-                    Directions
+                    ನಿರ್ದೇಶನಗಳು
                   </a>
                 </div>
               </div>

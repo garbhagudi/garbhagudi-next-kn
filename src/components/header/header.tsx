@@ -41,7 +41,7 @@ const Nav = () => {
                           : "text-gray-700 hover:bg-brandPink hover:text-white px-3 py-2 rounded-2xl text-md font-content cursor-pointer"
                       }
                     >
-                      ಮನೆ
+                      ಮುಖಪುಟ
                     </span>
                   </Link>
 
@@ -146,7 +146,7 @@ const Nav = () => {
               <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                 <Link href="/">
                   <a className="text-brandDark hover:bg-brandPink hover:text-white block px-3 pt-2 pb-[2px] rounded-md text-md font-content">
-                    ಮನೆ
+                    ಮುಖಪುಟ
                   </a>
                 </Link>
                 <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 pt-2 pb-[2px] rounded-md text-md font-content">

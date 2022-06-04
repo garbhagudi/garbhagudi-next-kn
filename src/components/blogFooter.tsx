@@ -102,28 +102,28 @@ const BlogFooter = () => {
                 className="text-3xl font-extrabold text-gray-100 font-heading"
                 id="join-heading"
               >
-                About Us
+                ನಮ್ಮ ಬಗ್ಗೆ
               </h2>
               <p className="text-lg text-gray-100 font-qs">
-                GarbhaGudi is a chain of New-Generation Infertility Treatment
-                Hospitals equipped with state-of- art-infrastructure &amp;
-                cutting-edge IVF Technology to address infertility issues &amp;
-                their emotional &amp; mental effects on couples. We have a team
-                of qualified &amp; experienced doctors; their in-depth knowledge
-                &amp; expertise leaves no stone unturned to solve all your
-                infertility issues. The Supportive &amp; caring staff is always
-                by your side to motivate &amp; guide you throughout the journey.
-                GarbhaGudi IVF, the best fertility treatment hospital in
-                Bangalore, provides emotional support to couples facing
-                infertility issues and sexual problems
+                ಗರ್ಭಗುಡಿಯು ಬಂಜೆತನ ಸಮಸ್ಯೆಗಳು ಮತ್ತು ದಂಪತಿಗಳ ಮೇಲೆ ಅವರ ಭಾವನಾತ್ಮಕ
+                ಮತ್ತು ಮಾನಸಿಕ ಪರಿಣಾಮಗಳನ್ನು ಪರಿಹರಿಸಲು ಅತ್ಯಾಧುನಿಕ-ಮೂಲಸೌಕರ್ಯ ಮತ್ತು
+                ಅತ್ಯಾಧುನಿಕ ಐವಿಎಫ್ ತಂತ್ರಜ್ಞಾನವನ್ನು ಹೊಂದಿರುವ ಹೊಸ-ಪೀಳಿಗೆಯ ಬಂಜೆತನ
+                ಚಿಕಿತ್ಸಾ ಆಸ್ಪತ್ರೆಗಳ ಸರಪಳಿಯಾಗಿದೆ. ನಾವು ಅರ್ಹ ಮತ್ತು ಅನುಭವಿ ವೈದ್ಯರ
+                ತಂಡವನ್ನು ಹೊಂದಿದ್ದೇವೆ; ಅವರ ಆಳವಾದ ಜ್ಞಾನ ಮತ್ತು ಪರಿಣತಿಯು ನಿಮ್ಮ ಎಲ್ಲಾ
+                ಬಂಜೆತನ ಸಮಸ್ಯೆಗಳನ್ನು ಪರಿಹರಿಸಲು ಯಾವುದೇ ಕಲ್ಲನ್ನು ಬಿಡುವುದಿಲ್ಲ.
+                ಪ್ರಯಾಣದ ಉದ್ದಕ್ಕೂ ನಿಮ್ಮನ್ನು ಪ್ರೇರೇಪಿಸಲು ಮತ್ತು ಮಾರ್ಗದರ್ಶನ ಮಾಡಲು
+                ಬೆಂಬಲ ಮತ್ತು ಕಾಳಜಿಯುಳ್ಳ ಸಿಬ್ಬಂದಿ ಯಾವಾಗಲೂ ನಿಮ್ಮ ಪಕ್ಕದಲ್ಲಿರುತ್ತಾರೆ.
+                ಗರ್ಭಗುಡಿ ಐವಿಎಫ್, ಬೆಂಗಳೂರಿನ ಅತ್ಯುತ್ತಮ ಫಲವತ್ತತೆ ಚಿಕಿತ್ಸಾ ಆಸ್ಪತ್ರೆ,
+                ಬಂಜೆತನ ಸಮಸ್ಯೆಗಳು ಮತ್ತು ಲೈಂಗಿಕ ಸಮಸ್ಯೆಗಳನ್ನು ಎದುರಿಸುತ್ತಿರುವ
+                ದಂಪತಿಗಳಿಗೆ ಭಾವನಾತ್ಮಕ ಬೆಂಬಲವನ್ನು ನೀಡುತ್ತದೆ
               </p>
               <a
-                className="block w-full py-3 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-base font-medium text-brandDark hover:bg-brandDark hover:text-gray-100 sm:inline-block sm:w-auto"
+                className="block w-full py-3 pt-4 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-lg font-semibold font-content text-brandDark hover:bg-brandDark hover:text-gray-100 sm:inline-block sm:w-auto"
                 href="https://salesiq.zoho.com/signaturesupport.ls?widgetcode=93210c756ea31b2224df734860e5d813b081008ce54deb21426241464ccb8de2e6558490d76d66086d0b48b1ed4abff0"
                 target={"_blank"}
                 rel="noreferrer"
               >
-                Contact Us
+                ಸಂಪರ್ಕಿಸಿ
               </a>
             </div>
           </div>

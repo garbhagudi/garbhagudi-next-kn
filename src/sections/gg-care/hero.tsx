@@ -2,31 +2,31 @@ import { HiChatAlt, HiPhone, HiCalendar } from "react-icons/hi";
 
 const supportLinks = [
   {
-    name: "Chat Support",
+    name: "ಚಾಟ್ ಬೆಂಬಲ",
     href: "#",
     description:
-      "Chat online with our team now from anywhere. We provide you with a seamless and hassle-free online chat experience from the comfort of your home. Get the proper assistance now!",
+      "ಯಾವುದೇ ಸ್ಥಳದಿಂದ ಬೇಕಾದರೂ ನಮ್ಮ ತಂಡದೊAದಿಗೆ ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಚಾಟ್ ಮಾಡಿ. ನಿಮ್ಮ ಮನೆಯ ಅನುಕೂಲಕರ ಸೌಕರ್ಯದಿಂದ ನಾವು ನಿಮಗೆ ತಡೆಯಿಲ್ಲದ ಮತ್ತು ತೊಂದರೆಯಿಲ್ಲದ ಆನ್‌ಲೈನ್ ಚಾಟ್ ಅನುಭವವನ್ನು ಪೂರೈಸುತ್ತೇವೆ. ಈಗ ಸರಿಯಾದ ನೆರವು ಪಡೆಯಿರಿ!",
     icon: HiChatAlt,
-    ctaAction: "Chat Now",
+    ctaAction: "ಚ್ಯಾಟ್ ಮಾಡಿ ",
     ctaLink:
       "https://salesiq.zoho.com/signaturesupport.ls?widgetcode=93210c756ea31b2224df734860e5d813b081008ce54deb21426241464ccb8de2e6558490d76d66086d0b48b1ed4abff0",
   },
   {
-    name: "Call Support",
+    name: "ಕರೆ ಬೆಂಬಲ",
     href: "#",
     description:
-      "Reach out to us with your questions, concerns, or challenges. We’ll be happy to help you at any time, and we’re always trying to make things easier for you!",
+      "ನಿಮ್ಮ ಪ್ರಶ್ನೆಗಳು, ಕಾಳಜಿಗಳು ಅಥವಾ ಸವಾಲುಗಳೊಂದಿಗೆ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ. ಯಾವುದೇ ಸಮಯದಲ್ಲಿ ನಿಮಗೆ ಸಹಾಯ ಮಾಡಲು ನಾವು ಸಂತೋಷಿಸುತ್ತೇವೆ ಮತ್ತು ನಾವು ಯಾವಾಗಲೂ ನಿಮಗಾಗಿ ವಿಷಯಗಳನ್ನು ಸುಲಭವಾಗಿಸಲು ಪ್ರಯತ್ನಿಸುತ್ತೇವೆ!",
     icon: HiPhone,
-    ctaAction: "Call Now",
+    ctaAction: "ಕರೆ ಮಾಡಿ",
     ctaLink: "tel:+918880000909",
   },
   {
-    name: "Book an Appointment",
+    name: "ನೇಮಕಾತಿ ಕಾದಿರಿಸಿ ",
     href: "#",
     description:
-      "Now book an appointment with any of your nearest locations of GarbhaGudi IVF Centre, and get the best fertility treatments from our experts!",
+      "ಈಗ ನಿಮ್ಮ ಹತ್ತಿರದ ಯಾವುದೇ ಸ್ಥಳದಲ್ಲಿರುವ ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರದಲ್ಲಿ ನೇಮಕಾತಿ ಅನ್ನು ಬುಕ್ ಮಾಡಿ ಮತ್ತು ನಮ್ಮ ತಜ್ಞರಿಂದ ಅತ್ಯುತ್ತಮ ಫರ್ಟಿಲಿಟಿ ಚಿಕಿತ್ಸೆಯನ್ನು ಪಡೆಯಿರಿ!",
     icon: HiCalendar,
-    ctaAction: "Book an Appointment",
+    ctaAction: "ನೇಮಕಾತಿ ಕಾದಿರಿಸಿ ",
     ctaLink: "https://consult.bestdocapp.com/home/GARBHAGUDI",
   },
 ];

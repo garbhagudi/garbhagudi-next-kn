@@ -66,10 +66,10 @@ const Diagnosis = ({ diagnosis }) => {
         {/* Primary Tags */}
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>{diagnosis?.title} |ಗರ್ಭಗುಡಿ</title>
+        <title>{diagnosis?.title} | ಗರ್ಭಗುಡಿ</title>
         <meta
           name="title"
-          content={`${diagnosis?.title} |ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
+          content={`${diagnosis?.title} | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
         />
         <meta
           name="description"
@@ -80,7 +80,7 @@ const Diagnosis = ({ diagnosis }) => {
 
         <meta
           property="og:title"
-          content={`${diagnosis?.title} |ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
+          content={`${diagnosis?.title} | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
         />
         <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
         <meta property="og:url" content="https://garbhagudi.com" />
@@ -97,7 +97,7 @@ const Diagnosis = ({ diagnosis }) => {
         <meta name="twitter:site" content="@garbhagudiivf" />
         <meta
           name="twitter:title"
-          content={`${diagnosis?.title} |ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
+          content={`${diagnosis?.title} | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
         />
         <meta
           name="twitter:description"

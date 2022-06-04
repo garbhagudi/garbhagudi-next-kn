@@ -12,7 +12,7 @@ const IndexPage = ({ diagnoses }) => {
           {/* Primary Tags */}
 
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <title>Diagnosis ಗರ್ಭಗುಡಿ</title>
+          <title>ರೋಗನಿರ್ಣಯ | ಗರ್ಭಗುಡಿ</title>
           <meta name="title" content="Diagnosis | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ" />
           <meta
             name="description"

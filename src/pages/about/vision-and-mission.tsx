@@ -9,14 +9,14 @@ const VisionMission = () => {
         {/* Primary Tags */}
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Vision &amp; Mission | ಗರ್ಭಗುಡಿ</title>
+        <title>ದೃಷ್ಟಿ &amp; ಮಿಷನ್ | ಗರ್ಭಗುಡಿ</title>
         <meta
           name="title"
-          content="Vision &amp; Mission | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ"
+          content="ದೃಷ್ಟಿ &amp; ಮಿಷನ್ | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ"
         />
         <meta
           name="description"
-          content="Spanning over a decade, GarbhaGudi has served as a beacon of hope to thousands of infertile couples. Our experienced and dedicated specialists, nurses, and embryologists work to cater for your needs and respond to them quickly, professionally and warmly. "
+          content="ಒಂದು ದಶಕದಲ್ಲಿ ವ್ಯಾಪಿಸಿರುವ ಗರ್ಭಗುಡಿ ಸಾವಿರಾರು ಸಂತಾನಹೀನ ದಂಪತಿಗಳಿಗೆ ಆಶಾಕಿರಣವಾಗಿದೆ. ನಮ್ಮ ಅನುಭವಿ ಮತ್ತು ಸಮರ್ಪಿತ ತಜ್ಞರು, ದಾದಿಯರು ಮತ್ತು ಭ್ರೂಣಶಾಸ್ತ್ರಜ್ಞರು ನಿಮ್ಮ ಅಗತ್ಯಗಳನ್ನು ಪೂರೈಸಲು ಕೆಲಸ ಮಾಡುತ್ತಾರೆ ಮತ್ತು ತ್ವರಿತವಾಗಿ, ವೃತ್ತಿಪರವಾಗಿ ಮತ್ತು ಉತ್ಸಾಹದಿಂದ ಪ್ರತಿಕ್ರಿಯಿಸುತ್ತಾರೆ."
         />
 
         {/* Open Graph / Facebook */}

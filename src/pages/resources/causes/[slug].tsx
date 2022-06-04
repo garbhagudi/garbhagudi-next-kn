@@ -3,6 +3,7 @@ import graphcms from "lib/graphcms";
 import { RichText } from "@graphcms/rich-text-react-renderer";
 import { useRouter } from "next/router";
 import Share from "components/share";
+import Head from "next/head";
 import Loading from "components/Loading";
 
 export const getStaticProps = async ({ params }) => {
@@ -54,6 +55,46 @@ export const getStaticPaths = async () => {
 const CausePage = ({ cause }) => {
   return (
     <div>
+      <Head>
+        {/* Primary Tags */}
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{cause?.title} | ಗರ್ಭಗುಡಿ</title>
+        <meta
+          name="title"
+          content={`${cause?.title} | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
+        />
+        <meta name="description" content={cause?.content?.text.slice(0, 180)} />
+
+        {/* Open Graph / Facebook */}
+
+        <meta
+          property="og:title"
+          content={`${cause?.title} | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
+        />
+        <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
+        <meta property="og:url" content="https://garbhagudi.com" />
+        <meta
+          property="og:description"
+          content={cause?.content?.text.slice(0, 180)}
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={cause?.image.url} />
+
+        {/* Twitter*/}
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@garbhagudiivf" />
+        <meta
+          name="twitter:title"
+          content={`${cause?.title} | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
+        />
+        <meta
+          name="twitter:description"
+          content={cause?.content?.text.slice(0, 180)}
+        />
+        <meta name="twitter:image" content={cause?.image.url} />
+      </Head>
       <div className="relative py-16 bg-white overflow-hidden">
         <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
           <div

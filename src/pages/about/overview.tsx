@@ -13,11 +13,12 @@ const Overview = ({ directors }) => {
         {/* Primary Tags */}
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>About | ಗರ್ಭಗುಡಿ</title>
+        <title>ನಮ್ಮ ಬಗ್ಗೆ | ಗರ್ಭಗುಡಿ</title>
         <meta name="title" content=" ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ" />
         <meta
           name="description"
-          content="GarbhaGudi is a chain of new generation infertility treatment hospitals equipped with state-of-the-art infrastructure and cutting-edge technology to address this ever-increasing problem of infertility."
+          content="
+          ಗರ್ಭಗುಡಿ ಹೊಸ ಪೀಳಿಗೆಯ ಬಂಜೆತನ ಚಿಕಿತ್ಸಾ ಆಸ್ಪತ್ರೆಗಳ ಸರಣಿಯಾಗಿದ್ದು, ಅತ್ಯಾಧುನಿಕ ಮೂಲಸೌಕರ್ಯ ಮತ್ತು ಅತ್ಯಾಧುನಿಕ ತಂತ್ರಜ್ಞಾನವನ್ನು ಹೊಂದಿರುವ ಬಂಜೆತನದ ಈ ನಿರಂತರವಾಗಿ ಹೆಚ್ಚುತ್ತಿರುವ ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸಲು."
         />
 
         {/* Open Graph / Facebook */}

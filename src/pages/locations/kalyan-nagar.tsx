@@ -13,31 +13,35 @@ const KalyanNagar = ({ doctors }) => {
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>
-          GarbhaGudi IVF Centre, Kalyan Nagar | Best IVF & Fertility Hospital in
-          India
+          ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಸೆಂಟರ್ , ಕಲ್ಯಾಣ್ ನಗರ | ಭಾರತದ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್ ಮತ್ತು
+          ಫಲವತ್ತತೆ ಆಸ್ಪತ್ರೆ
         </title>
         <meta
           name="title"
-          content="GarbhaGudi IVF Centre, Kalyan Nagar | Best IVF & Fertility Hospital in
-          India"
+          content="ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಸೆಂಟರ್ , ಕಲ್ಯಾಣ್ ನಗರ | ಭಾರತದ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್ ಮತ್ತು ಫಲವತ್ತತೆ ಆಸ್ಪತ್ರೆ"
         />
         <meta
           name="description"
-          content="GarbhaGudi is a place where dreams come alive, hopes never fade, and possibilities never end. We ceaselessly work to help you cherish the golden moment of holding your little bundles of joy."
+          content="ಗರ್ಭಗುಡಿ ಒಂದು ಖ್ಯಾತ ಐವಿಎಫ್ ಕೇಂದ್ರವಾಗಿದ್ದು, ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಯ
+          ಎಲ್ಲಾ ಕಾರಣಗಳನ್ನು ಪರಿಹರಿಸಲು ಬಹುತೇಕ ಪ್ರತಿ ದಂಪತಿಗಳಿಗೆ ಚಿಕಿತ್ಸೆಯ
+          ಆಯ್ಕೆಯನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ನೆರವಿನ ಸಂತಾನೋತ್ಪತ್ತಿ ತಂತ್ರಗಳ ಸಂಪೂರ್ಣ
+          ಶ್ರೇಣಿಯನ್ನು ಸಾದರಪಡಿಸುತ್ತದೆ"
         />
 
         {/* Open Graph / Facebook */}
 
         <meta
           property="og:title"
-          content="GarbhaGudi IVF Centre, Kalyan Nagar | Best IVF & Fertility Hospital in
-          India"
+          content="ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಸೆಂಟರ್ , ಕಲ್ಯಾಣ್ ನಗರ | ಭಾರತದ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್ ಮತ್ತು ಫಲವತ್ತತೆ ಆಸ್ಪತ್ರೆ"
         />
         <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
         <meta property="og:url" content="https://garbhagudi.com" />
         <meta
           property="og:description"
-          content="GarbhaGudi is a place where dreams come alive, hopes never fade, and possibilities never end. We ceaselessly work to help you cherish the golden moment of holding your little bundles of joy."
+          content="ಗರ್ಭಗುಡಿ ಒಂದು ಖ್ಯಾತ ಐವಿಎಫ್ ಕೇಂದ್ರವಾಗಿದ್ದು, ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಯ
+          ಎಲ್ಲಾ ಕಾರಣಗಳನ್ನು ಪರಿಹರಿಸಲು ಬಹುತೇಕ ಪ್ರತಿ ದಂಪತಿಗಳಿಗೆ ಚಿಕಿತ್ಸೆಯ
+          ಆಯ್ಕೆಯನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ನೆರವಿನ ಸಂತಾನೋತ್ಪತ್ತಿ ತಂತ್ರಗಳ ಸಂಪೂರ್ಣ
+          ಶ್ರೇಣಿಯನ್ನು ಸಾದರಪಡಿಸುತ್ತದೆ"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -75,7 +79,7 @@ const KalyanNagar = ({ doctors }) => {
       />
       <section className="text-gray-600 body-font relative max-w-7xl mx-auto">
         <h1 className="text-center text-2xl md:text-4xl font-heading pt-8 font-bold">
-          Kalyan Nagar
+          ಕಲ್ಯಾಣ್ ನಗರ
         </h1>
         <div>
           <img
@@ -84,29 +88,31 @@ const KalyanNagar = ({ doctors }) => {
             className="rounded-xl mt-4"
           />
           <p className="my-10 text-md sm:text-lg font-content mx-auto px-6 sm:px-0">
-            GarbhaGudi is a well-known IVF center that offers the complete gamut
-            of assisted reproductive techniques to ensure a treatment option for
-            almost every couple to address all causes of infertility. Our
-            doctors are renowned Gynecologists with vast experience in IVF, and
-            we have an in-house team of trained and experienced Embryologists.
-            This helps us to provide advanced embryological services like ICSI
-            and more. We also follow the best practices in our embryology
-            laboratory. The technologies and personnel continuously monitor
-            laboratory parameters to ensure the best possible outcomes. The
-            center has achieved remarkable success rates due to its exceptional
-            quality of treatment, reasonable costs, and hospitality. We are
-            committed to providing unparalleled care for patients facing
-            infertility and other reproductive health issues. Our experts and
-            staff are dedicated to providing you with the greatest level of care
-            and compassion. GarbhaGudi offers the best access and excellent care
-            to every patient with multiple branches and plans to expand further
-            across the nation.
+            ಗರ್ಭಗುಡಿ ಒಂದು ಖ್ಯಾತ ಐವಿಎಫ್ ಕೇಂದ್ರವಾಗಿದ್ದು, ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಯ
+            ಎಲ್ಲಾ ಕಾರಣಗಳನ್ನು ಪರಿಹರಿಸಲು ಬಹುತೇಕ ಪ್ರತಿ ದಂಪತಿಗಳಿಗೆ ಚಿಕಿತ್ಸೆಯ
+            ಆಯ್ಕೆಯನ್ನು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಲು ನೆರವಿನ ಸಂತಾನೋತ್ಪತ್ತಿ ತಂತ್ರಗಳ ಸಂಪೂರ್ಣ
+            ಶ್ರೇಣಿಯನ್ನು ಸಾದರಪಡಿಸುತ್ತದೆ. ನಮ್ಮ ವೈದ್ಯರು ಐವಿಎಫ್‌ನಲ್ಲಿ ಅಪಾರ ಅನುಭವ
+            ಹೊಂದಿರುವ ಪ್ರಸಿದ್ಧ ಸ್ತ್ರೀರೋಗತಜ್ಞರು, ಮತ್ತು ನಾವು ತರಬೇತಿ ಪಡೆದ ಮತ್ತು
+            ಅನುಭವಿ ಭ್ರೂಣಶಾಸ್ತ್ರಜ್ಞರ ಆಂತರಿಕ ತಂಡವನ್ನು ಹೊಂದಿದ್ದೇವೆ. ಐಸಿಎಸ್‌ಐ ಮತ್ತು
+            ಹೆಚ್ಚಿನವುಗಳಂತಹ ಉನ್ನತೀಕರಿಸಿದ ಭ್ರೂಣಶಾಸ್ತ್ರದ ಸೇವೆಗಳನ್ನು ಒದಗಿಸಲು ಇದು
+            ನಮಗೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ. ನಮ್ಮ ಭ್ರೂಣಶಾಸ್ತ್ರ ಪ್ರಯೋಗಾಲಯದಲ್ಲಿ ನಾವು ಉತ್ತಮ
+            ಅಭ್ಯಾಸಗಳನ್ನು ಅನುಸರಿಸುತ್ತೇವೆ. ತಂತ್ರಜ್ಞಾನಗಳು ಮತ್ತು ಸಿಬ್ಬಂದಿಗಳು
+            ಅತ್ಯುತ್ತಮ ಫಲಿತಾಂಶಗಳ ಖಾತ್ರಿಮಾಡಿಕೊಳ್ಳಲು ಪ್ರಯೋಗಾಲಯದ ನಿಯತಾಂಕಗಳನ್ನು
+            ಸತತವಾಗಿ ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡುತ್ತಾರೆ. ಅದರ ಅಸಾಧಾರಣ ಗುಣಮಟ್ಟದ ಚಿಕಿತ್ಸೆ, ಸಮಂಜಸ
+            ವೆಚ್ಚಗಳು ಮತ್ತು ಆತಿಥ್ಯದಿಂದಾಗಿ ಕೇಂದ್ರವು ಗಮನಾರ್ಹ ಯಶಸ್ಸಿನ ಮಟ್ಟ ಸಾಧಿಸಿದೆ.
+            ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆ ಮತ್ತು ಇತರ ಸಂತಾನೋತ್ಪತ್ತಿ ಆರೋಗ್ಯ ಸಮಸ್ಯೆಗಳನ್ನು
+            ಎದುರಿಸುತ್ತಿರುವ ರೋಗಿಗಳಿಗೆ ಸಾಟಿಯಿಲ್ಲದ ಆರೈಕೆಯನ್ನು ಪೂರೈಸಲು ನಾವು
+            ಬದ್ಧರಾಗಿದ್ದೇವೆ. ನಮ್ಮ ತಜ್ಞರು ಮತ್ತು ಸಿಬ್ಬಂದಿ ನಿಮಗೆ ಹೆಚ್ಚಿನ ಮಟ್ಟದ ಕಾಳಜಿ
+            ಮತ್ತು ಸಹಾನುಭೂತಿಯನ್ನು ಪೂರೈಸುವುದಕ್ಕಾಗಿ ಸಮರ್ಪಿತ ಮನೋಭಾವ ಹೊಂದಿರುತ್ತಾರೆ.
+            ಗರ್ಭಗುಡಿ ಬಹು ಶಾಖೆಗಳೊಂದಿಗೆ ಪ್ರತಿ ರೋಗಿಗೆ ಅತ್ಯುತ್ತಮ ಸಂಪರ್ಕ ಮತ್ತು
+            ಉತ್ಕೃಷ್ಟ ಆರೈಕೆಯನ್ನು ಸಾದರಪಡಿಸಲು ಮತ್ತು ರಾಷ್ಟ್ರದ ಎಲ್ಲೆಡೆ ಮತ್ತಷ್ಟು
+            ವಿಸ್ತರಿಸಲು ಯೋಜಿಸಿದೆ.
           </p>
         </div>
         <div className="py-6 flex flex-wrap lg:flex-nowrap inset-0 ">
           <div className="lg:w-1/2 md:w-full bg-white flex flex-col md:ml-auto w-full pb-8 md:mt-0 min-h-max">
             <p className="text-center font-qs text-2xl font-semibold mb-10 mt-7 lg:mt-0">
-              Fertility Specialists at Kalyan Nagar
+              ಕಲ್ಯಾಣ್ ನಗರದಲ್ಲಿರುವ ಫಲವತ್ತತೆ ತಜ್ಞರು
             </p>
             <div className="mx-auto space-y-0 grid grid-cols-2 sm:gap-y-10 sm:gap-x-32 sm:space-y-0 lg:grid-cols-2 lg:max-w-7xl col-span-full">
               {doctors.map((item) => {
@@ -156,18 +162,18 @@ const KalyanNagar = ({ doctors }) => {
             ></iframe>
             <div className="bg-white relative flex flex-wrap py-6 rounded-3xl shadow-3xl">
               <div className="lg:w-1/2 px-6">
-                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                  ADDRESS
+                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                  ವಿಳಾಸ
                 </h2>
                 <p className="mt-1 font-content">
-                  Park Landing, 5AC-709, Outer Ring Rd, Balachandra Layout, HRBR
-                  Layout 2nd Block, Chelekare, Extension, Bengaluru, Karnataka
-                  560043
+                  ಪಾರ್ಕ್ ಲ್ಯಾಂಡಿAಗ್, ೫ಎಸಿ-೭೦೯, ಹೊರವರ್ತುಲ ರಸ್ತೆ, ಬಾಲಚಂದ್ರ ಲೇಔಟ್,
+                  ಎಚ್‌ಆರ್‌ಬಿಆರ್ ಲೇಔಟ್ ೨ನೇ ಬ್ಲಾಕ್, ಚೆಳೆಕರೆ, ಎಕ್‌ಟೆನ್ಷನ್,
+                  ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ ೫೬೦೦೪೩
                 </p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                <h2 className="font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                  EMAIL
+                <h2 className="font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                  ಇಮೇಲ್
                 </h2>
                 <a className="text-indigo-500 leading-relaxed">
                   <a
@@ -177,14 +183,14 @@ const KalyanNagar = ({ doctors }) => {
                     dreams@garbhagudi.com
                   </a>
                 </a>
-                <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                  PHONE
+                <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                  ಕರೆ ಮಾಡಿ
                 </h2>
                 <p className="leading-relaxed font-qs">
                   <a href="tel:+918880000909">+91 888 000 0909</a>
                 </p>
-                <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                  WhatsApp
+                <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                  ವಾಟ್ಸ್ಯಾಪ್ಪ್
                 </h2>
                 <p className="leading-relaxed font-qs">
                   <a

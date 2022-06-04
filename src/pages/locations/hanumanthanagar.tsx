@@ -13,31 +13,34 @@ const HanumanthaNagar = ({ doctors }) => {
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>
-          GarbhaGudi IVF Centre, Hanumanthanagar | Best IVF & Fertility Hospital
-          in India
+          ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಸೆಂಟರ್ , ಹನುಮಂತನಗರ | ಭಾರತದ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್ ಮತ್ತು
+          ಫಲವತ್ತತೆ ಆಸ್ಪತ್ರೆ
         </title>
         <meta
           name="title"
-          content="GarbhaGudi IVF Centre, Hanumanthanagar | Best IVF & Fertility Hospital
-          in India"
+          content="ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಸೆಂಟರ್ , ಹನುಮಂತನಗರ | ಭಾರತದ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್ ಮತ್ತು ಫಲವತ್ತತೆ ಆಸ್ಪತ್ರೆ"
         />
         <meta
           name="description"
-          content="GarbhaGudi is a place where dreams come alive, hopes never fade, and possibilities never end. We ceaselessly work to help you cherish the golden moment of holding your little bundles of joy."
+          content="ಅತ್ಯಂತ ಪ್ರತಿಷ್ಠಿತ ಐವಿಎಫ್ ಆಸ್ಪತ್ರೆಗಳಲ್ಲಿ ಒಂದೆಂಬ ಗೌರವವನ್ನು ಗರ್ಭಗುಡಿ
+          ಪಡೆದುಕೊಂಡಿದೆ. ಸಾಧ್ಯವಿರುವ ಪ್ರತಿಯೊಂದು ಸಂತಾನೋತ್ಪತ್ತಿ ಚಿಕಿತ್ಸೆ ಮತ್ತು
+          ವಿಶ್ವದರ್ಜೆಯ ಸೌಕರ್ಯಗಳನ್ನು ಜನರಿಗೆ ಪೂರೈಸುತ್ತದೆ"
         />
 
         {/* Open Graph / Facebook */}
 
         <meta
           property="og:title"
-          content="GarbhaGudi IVF Centre, Hanumanthanagar | Best IVF & Fertility Hospital
-          in India"
+          content="ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಸೆಂಟರ್ , ಹನುಮಂತನಗರ | ಭಾರತದ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್ ಮತ್ತು
+          ಫಲವತ್ತತೆ ಆಸ್ಪತ್ರೆ"
         />
         <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
         <meta property="og:url" content="https://garbhagudi.com" />
         <meta
           property="og:description"
-          content="GarbhaGudi is a place where dreams come alive, hopes never fade, and possibilities never end. We ceaselessly work to help you cherish the golden moment of holding your little bundles of joy."
+          content="ಅತ್ಯಂತ ಪ್ರತಿಷ್ಠಿತ ಐವಿಎಫ್ ಆಸ್ಪತ್ರೆಗಳಲ್ಲಿ ಒಂದೆಂಬ ಗೌರವವನ್ನು ಗರ್ಭಗುಡಿ
+          ಪಡೆದುಕೊಂಡಿದೆ. ಸಾಧ್ಯವಿರುವ ಪ್ರತಿಯೊಂದು ಸಂತಾನೋತ್ಪತ್ತಿ ಚಿಕಿತ್ಸೆ ಮತ್ತು
+          ವಿಶ್ವದರ್ಜೆಯ ಸೌಕರ್ಯಗಳನ್ನು ಜನರಿಗೆ ಪೂರೈಸುತ್ತದೆ"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -75,7 +78,7 @@ const HanumanthaNagar = ({ doctors }) => {
       />
       <section className="text-gray-600 body-font relative max-w-7xl mx-auto">
         <h1 className="text-center text-2xl md:text-4xl font-heading pt-8 font-bold">
-          Hanumanthanagar
+          ಹನುಮಂತನಗರ
         </h1>
         <div>
           <img
@@ -84,31 +87,34 @@ const HanumanthaNagar = ({ doctors }) => {
             className="rounded-xl mt-4"
           />
           <p className="my-10 text-md sm:text-lg font-content mx-auto px-6 sm:px-0">
-            GarbhaGudi is one of the most reputed IVF hospitals, providing
-            people access to every possible infertility treatment and
-            world-class amenities. We take pride in our reproductive healthcare
-            teams, including trained and experienced gynecologists,
-            andrologists, nurses, counselors, embryologists, and lab
-            technologists. Each member of the GarbhaGudi family excels in their
-            respective fields and provides healthcare treatments and solutions
-            with utmost care and precision. The center is recognized for its
-            integrated care network, assessment, diagnosis, success rates,
-            advanced scientific techniques, and counseling support. GarbhaGudi
-            deals with advanced technologies, such as oocyte/embryo culture,
-            blastocyst culture and transfer, ICSI, embryo cryopreservation, and
-            laser-assisted hatching. In addition to the core procedures such as
-            IUI, IVF, ICSI, and andrology services, the Centre offers several
-            state-of-the-art technologies to improve the chances of pregnancy
-            following IVF and ICSI, even in patients who have had multiple
-            failures previously. The center’s ultimate aim is to provide
-            advanced Assisted Reproductive Technology (ART) in India at par with
-            what is available globally.
+            ಅತ್ಯಂತ ಪ್ರತಿಷ್ಠಿತ ಐವಿಎಫ್ ಆಸ್ಪತ್ರೆಗಳಲ್ಲಿ ಒಂದೆಂಬ ಗೌರವವನ್ನು ಗರ್ಭಗುಡಿ
+            ಪಡೆದುಕೊಂಡಿದೆ. ಸಾಧ್ಯವಿರುವ ಪ್ರತಿಯೊಂದು ಸಂತಾನೋತ್ಪತ್ತಿ ಚಿಕಿತ್ಸೆ ಮತ್ತು
+            ವಿಶ್ವದರ್ಜೆಯ ಸೌಕರ್ಯಗಳನ್ನು ಜನರಿಗೆ ಪೂರೈಸುತ್ತದೆ. ತರಬೇತಿ ಪಡೆದ ಮತ್ತು
+            ಅನುಭವಿ ಸ್ತ್ರೀರೋಗತಜ್ಞರು, ಪುರುಷರೋಗಶಾಸ್ತ ತಜ್ಞರು, ದಾದಿಯರು, ಸಲಹೆಗಾರರು,
+            ಭ್ರೂಣಶಾಸ್ತ್ರಜ್ಞರು ಮತ್ತು ಲ್ಯಾಬ್ ತಂತ್ರಜ್ಞರು ಸೇರಿದಂತೆ ನಮ್ಮ
+            ಸಂತಾನೋತ್ಪತ್ತಿ ಆರೋಗ್ಯ ಶುಶ್ರೂಷೆ ತಂಡಗಳ ಬಗ್ಗೆ ನಾವು ಹೆಮ್ಮೆಪಡುತ್ತೇವೆ.
+            ಗರ್ಭಗುಡಿ ಕುಟುಂಬದ ಪ್ರತಿಯೊಬ್ಬ ಸದಸ್ಯರು ತಮ್ಮ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಉತ್ಕೃಷ್ಟ
+            ಸಾಧನೆ ಮಾಡುತ್ತಾರೆ ಮತ್ತು ಆರೋಗ್ಯಶುಶ್ರೂಷೆ ಚಿಕಿತ್ಸೆಗಳು ಮತ್ತು ಪರಿಹಾರಗಳನ್ನು
+            ಅತ್ಯಂತ ಹೆಚ್ಚಿನ ಕಾಳಜಿ ಮತ್ತು ನಿಖರತೆಯೊಂದಿಗೆ ಒದಗಿಸುತ್ತಾರೆ. ಕೇಂದ್ರವು ಅದರ
+            ಸಮಗ್ರ ಆರೈಕೆ ಜಾಲ, ಮೌಲ್ಯಮಾಪನ, ರೋಗನಿರ್ಣಯ, ಯಶಸ್ಸಿನ ದರಗಳು, ಉನ್ನತ
+            ವೈಜ್ಞಾನಿಕ ತಂತ್ರಗಳು ಮತ್ತು ಸಮಾಲೋಚನೆ ಬೆಂಬಲಕ್ಕಾಗಿ ಗುರುತಿಸಲ್ಪಟ್ಟಿದೆ.
+            ಗರ್ಭಗುಡಿಯು ಊಸೈಟ್/ಎಂಬ್ರಿಯೋ ಕಲ್ಚರ್, ಬ್ಲಾಸ್ಟೋಸಿಸ್ಟ್ ಕಲ್ಚರ್ ಮತ್ತು
+            ಟ್ರಾನ್ಸ್ಫರ್, ಐಸಿಎಸ್‌ಐ, ಎಂಬ್ರಿಯೋ ಕ್ರಯೋಪ್ರೆಸರ್ವೇಶನ್, ಮತ್ತು ಲೇಸರ್
+            ಅಸಿಸ್ಟೆಡ್ ಹಾಚಿಂಗ್ ನಂತಹ ಉನ್ನತ ತಂತ್ರಜ್ಞಾನಗಳೊಂದಿಗೆ ಕಾರ್ಯ
+            ನಿರ್ವಹಿಸುತ್ತದೆ. ಐಯುಐ, ಐವಿಎಫ್, ಐಸಿಎಸ್‌ಐ ಮತ್ತು ಪುರುಷ ರೋಗಶಾಸ್ತç
+            ಸೇವೆಗಳಂತಹ ಪ್ರಮುಖ ಕಾರ್ಯವಿಧಾನಗಳ ಜೊತೆಗೆೆ್ತçöಐವಿಎಫ್ ಮತ್ತು ಐಸಿಎಸ್‌ಐ ನಂತರ
+            ಗರ್ಭಾವಸ್ಥೆಯ ಸಾಧ್ಯತೆಗಳನ್ನು ಸುಧಾರಿಸಲು ಕೇಂದ್ರವು ಹಲವಾರು ಅತ್ಯಾಧುನಿಕ
+            ತಂತ್ರಜ್ಞಾನಗಳನ್ನು ಸಾದರಪಡಿಸುತ್ತದೆ. ಈ ಹಿಂದೆ ಅನೇಕ ವೈಫಲ್ಯಗಳನ್ನು ಹೊಂದಿರುವ
+            ರೋಗಿಗಳಲ್ಲಿಯೂ ಕೂಡ ಇದು ಗರ್ಭಾವಸ್ಥೆಯ ಸಾಧ್ಯತೆಗಳನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ.
+            ಜಾಗತಿಕವಾಗಿ ಲಭ್ಯವಿರುವುದಕ್ಕೆ ಸಮನಾಗಿ ಭಾರತದಲ್ಲಿ ಉನ್ನತೀಕರಿಸಿದ ಸಹಾಯಕ
+            ಸಂತಾನೋತ್ಪತ್ತಿ ತಂತ್ರಜ್ಞಾನವನ್ನು (ಎಆರ್‌ಟಿ) ಪೂರೈಸುವುದು ಕೇಂದ್ರದ ಅಂತಿಮ
+            ಗುರಿಯಾಗಿದೆ.
           </p>
         </div>
         <div className="py-6 flex flex-wrap lg:flex-nowrap inset-0 ">
           <div className="lg:w-1/2 md:w-full bg-white flex flex-col md:ml-auto w-full pb-8 md:mt-0 min-h-max">
             <p className="text-center font-qs text-2xl font-semibold mb-10 mt-7 lg:mt-0">
-              Fertility Specialists at HanumanthaNagar
+              ಹನುಮಂತನಗರದಲ್ಲಿರುವ ಫಲವತ್ತತೆ ತಜ್ಞರು
             </p>
             <div className="mx-auto space-y-0 grid grid-cols-2 sm:gap-y-10 sm:gap-x-32 sm:space-y-0 lg:grid-cols-2 lg:max-w-7xl col-span-full">
               {doctors.map((item) => {
@@ -158,18 +164,18 @@ const HanumanthaNagar = ({ doctors }) => {
             ></iframe>
             <div className="bg-white relative flex flex-wrap py-6 rounded-3xl shadow-3xl">
               <div className="lg:w-1/2 px-6">
-                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                  ADDRESS
+                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                  ವಿಳಾಸ
                 </h2>
                 <p className="mt-1 font-content">
-                  Subhasri Complex, 210/A, Kumaraswamy Temple Rd, 2nd Block,
-                  Phase 1, Banashankari Stage I, Banashankari, Bengaluru,
-                  Karnataka 560050
+                  ಸುಭಶ್ರೀ ಕಾಂಪ್ಲೆಕ್ಸ್, ೨೧೦/ಎ, ಕುಮಾರಸ್ವಾಮಿ ದೇವಸ್ಥಾನ ರಸ್ತೆ, ೨ನೇ
+                  ಬ್ಲಾಕ್, ೧ ನೇ ಘಟ್ಟ , ಬನಶಂಕರಿ ೧ನೇ ಹಂತ , ಬನಶಂಕರಿ, ಬೆಂಗಳೂರು,
+                  ಕರ್ನಾಟಕ ೫೬೦೦೫೦
                 </p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                <h2 className="font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                  EMAIL
+                <h2 className="font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                  ಇಮೇಲ್
                 </h2>
                 <a className="text-indigo-500 leading-relaxed">
                   <a
@@ -179,14 +185,14 @@ const HanumanthaNagar = ({ doctors }) => {
                     dreams@garbhagudi.com
                   </a>
                 </a>
-                <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                  PHONE
+                <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                  ಕರೆ ಮಾಡಿ
                 </h2>
                 <p className="leading-relaxed font-qs">
                   <a href="tel:+918880000909">+91 888 000 0909</a>
                 </p>
-                <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                  WhatsApp
+                <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                  ವಾಟ್ಸ್ಯಾಪ್ಪ್
                 </h2>
                 <p className="leading-relaxed font-qs">
                   <a

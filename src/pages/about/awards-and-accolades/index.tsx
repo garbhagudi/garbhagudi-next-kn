@@ -41,14 +41,15 @@ const Awards = ({ award }) => {
         {/* Primary Tags */}
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Awards &amp; Accolades GarbhaGudi IVF Centre</title>
+        <title>ಪ್ರಶಸ್ತಿಗಳು &amp; ಪುರಸ್ಕಾರಗಳು | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಸೆಂಟರ್</title>
         <meta
           name="title"
           content={`Awards & Accolades GarbhaGudi IVF Centre`}
         />
         <meta
           name="description"
-          content="GarbhaGudi Recognised as Best IVF & Fertility Hospital in India"
+          content="
+          ಗರ್ಭಗುಡಿ ಭಾರತದಲ್ಲಿ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್ ಮತ್ತು ಫಲವತ್ತತೆ ಆಸ್ಪತ್ರೆ ಎಂದು ಗುರುತಿಸಲ್ಪಟ್ಟಿದೆ"
         />
 
         {/* Open Graph / Facebook */}

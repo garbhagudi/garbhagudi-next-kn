@@ -13,29 +13,35 @@ const ElectronicCity = ({ doctors }) => {
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>
-          GarbhaGudi IVF Centre, Electronic City | Best IVF & Fertility Hospital
-          in India{" "}
+          ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಸೆಂಟರ್, ಇಲೆಕ್ಟ್ರಾನಿಕ್ ಸಿಟಿ | Bಭಾರತದ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್
+          ಮತ್ತು ಫಲವತ್ತತೆ ಆಸ್ಪತ್ರೆ
         </title>
         <meta
           name="title"
-          content="GarbhaGudi IVF Centre, Electronic City | Best IVF & Fertility Hospital in India "
+          content="ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಸೆಂಟರ್, ಇಲೆಕ್ಟ್ರಾನಿಕ್ ಸಿಟಿ | Bಭಾರತದ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್ ಮತ್ತು ಫಲವತ್ತತೆ ಆಸ್ಪತ್ರೆ"
         />
         <meta
           name="description"
-          content="GarbhaGudi is a place where dreams come alive, hopes never fade, and possibilities never end. We ceaselessly work to help you cherish the golden moment of holding your little bundles of joy."
+          content="ಸತತವಾಗಿ ಹೆಚ್ಚುತ್ತಿರುವ ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಯನ್ನು ಗಮನಿಸಿ ಪರಿಹಾರ
+          ನೀಡುವುದಕ್ಕಾಗಿ ಅತ್ಯಾಧುನಿಕ ಮೂಲಸೌಕರ್ಯ ಮತ್ತು ಇತ್ತೀಚಿನ ತಂತ್ರಜ್ಞಾನವನ್ನು
+          ಹೊಂದಿರುವ ಹೊಸ-ಪೀಳಿಗೆಯ ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆ ಚಿಕಿತ್ಸಾ ಆಸ್ಪತ್ರೆಗಳ ಸರಣಿ ಈ
+          ಗರ್ಭಗುಡಿ ಯಾಗಿದೆ."
         />
 
         {/* Open Graph / Facebook */}
 
         <meta
           property="og:title"
-          content="GarbhaGudi IVF Centre, Electronic City | Best IVF & Fertility Hospital in India "
+          content="ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಸೆಂಟರ್, ಇಲೆಕ್ಟ್ರಾನಿಕ್ ಸಿಟಿ | Bಭಾರತದ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್ ಮತ್ತು ಫಲವತ್ತತೆ ಆಸ್ಪತ್ರೆ"
         />
         <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
         <meta property="og:url" content="https://garbhagudi.com" />
         <meta
           property="og:description"
-          content="GarbhaGudi is a place where dreams come alive, hopes never fade, and possibilities never end. We ceaselessly work to help you cherish the golden moment of holding your little bundles of joy."
+          content="ಸತತವಾಗಿ ಹೆಚ್ಚುತ್ತಿರುವ ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಯನ್ನು ಗಮನಿಸಿ ಪರಿಹಾರ
+          ನೀಡುವುದಕ್ಕಾಗಿ ಅತ್ಯಾಧುನಿಕ ಮೂಲಸೌಕರ್ಯ ಮತ್ತು ಇತ್ತೀಚಿನ ತಂತ್ರಜ್ಞಾನವನ್ನು
+          ಹೊಂದಿರುವ ಹೊಸ-ಪೀಳಿಗೆಯ ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆ ಚಿಕಿತ್ಸಾ ಆಸ್ಪತ್ರೆಗಳ ಸರಣಿ ಈ
+          ಗರ್ಭಗುಡಿ ಯಾಗಿದೆ."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -72,7 +78,7 @@ const ElectronicCity = ({ doctors }) => {
       />
       <section className="text-gray-600 body-font relative max-w-7xl mx-auto">
         <h1 className="text-center text-2xl md:text-4xl font-heading pt-8 font-bold">
-          Electronic City
+          ಇಲೆಕ್ಟ್ರಾನಿಕ್ ಸಿಟಿ
         </h1>
         <div>
           <img
@@ -81,27 +87,29 @@ const ElectronicCity = ({ doctors }) => {
             className="rounded-xl mt-4"
           />
           <p className="my-10 text-md sm:text-lg font-content mx-auto px-6 sm:px-0">
-            GarbhaGudi is a chain of new-generation infertility treatment
-            hospitals equipped with state-of-the-art infrastructure and
-            cutting-edge technology to address the ever-increasing problem of
-            infertility. It was founded by a team of committed entrepreneurs and
-            healthcare specialists and is known for its top-class treatments and
-            unparalleled services, with the commitment to offer standardized and
-            ethical infertility treatment and address the urgent need for an
-            organized set-up for fertility treatment. At GarbhaGudi, we want you
-            to cherish one of life’s greatest joys, and having been in the
-            industry for men’s and women’s health for so long, we always
-            prioritize a stable and sustainable pregnancy, and we will leave no
-            stone unturned when it comes to giving you the best results.
-            GarbhaGudi’s expertise in handling infertility, phenomenal success
-            rates, and patient care has made the organization to become one of
-            the fastest-growing chains of fertility hospitals in India.
+            ಸತತವಾಗಿ ಹೆಚ್ಚುತ್ತಿರುವ ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಯನ್ನು ಗಮನಿಸಿ ಪರಿಹಾರ
+            ನೀಡುವುದಕ್ಕಾಗಿ ಅತ್ಯಾಧುನಿಕ ಮೂಲಸೌಕರ್ಯ ಮತ್ತು ಇತ್ತೀಚಿನ ತಂತ್ರಜ್ಞಾನವನ್ನು
+            ಹೊಂದಿರುವ ಹೊಸ-ಪೀಳಿಗೆಯ ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆ ಚಿಕಿತ್ಸಾ ಆಸ್ಪತ್ರೆಗಳ ಸರಣಿ ಈ
+            ಗರ್ಭಗುಡಿ ಯಾಗಿದೆ. ಈ ಸಂಸ್ಥೆ ಬದ್ಧತೆಯ ಉದ್ಯಮಿಗಳು ಮತ್ತು ಆರೋಗ್ಯಸೇವಾ ವಿಶೇಷ
+            ತಜ್ಞರ ತಂಡದಿAದ ಸ್ಥಾಪಿತವಾಗಿದೆ. ಜೊತೆಗೆ ಅದರ ಉನ್ನತ-ದರ್ಜೆಯ ಚಿಕಿತ್ಸೆಗಳು
+            ಮತ್ತು ಸಾಟಿಯಿಲ್ಲದ ಸೇವೆಗಳಿಗೆ ಖ್ಯಾತಿ ಗಳಿಸಿದೆ. ಫರ್ಟಿಲಿಟಿ ಚಿಕಿತ್ಸೆಗೆ
+            ಅಗತ್ಯವಿರುವ ಸಂಘಟಿತ ಸೌಲಭ್ಯದ ತುರ್ತು ಅಗತ್ಯವನ್ನು ಪೂರೈಸಲು ಮತ್ತು
+            ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಗೆ ನೀತಿಯುತ ಮತ್ತು ಪ್ರಾಮಾಣೀಕೃತ ಚಿಕಿತ್ಸೆ ಸಾದರಪಡಿಸುವ
+            ಬದ್ಧತೆಯನ್ನು ಸಂಸ್ಥೆ ಹೊಂದಿದೆ. ನೀವು ಜೀವನದ ಅತ್ಯಂತ ದೊಡ್ಡ ಸಂತೋಷವನ್ನು
+            ಗರ್ಭಗುಡಿಯಲ್ಲಿ, ಆನಂದಿಸಬೇಕೆಂದು ನಾವು ಬಯಸುತ್ತೇವೆ. ಪುರುಷ ಮತ್ತು ಮಹಿಳೆಯರ
+            ಆರೋಗ್ಯಕ್ಕಾಗಿ ದೀರ್ಘಕಾಲದಿಂದ ಉದ್ಯಮದಲ್ಲಿರುವ ನಾವು ಯಾವಾಗಲೂ ಸ್ಥಿರ ಮತ್ತು
+            ಸುಸ್ಥಿರ ಗರ್ಭಧಾರಣೆಗೆ ಆದ್ಯತೆ ನೀಡುತ್ತೇವೆ. ನಿಮಗೆ ಅತ್ಯುತ್ತಮ
+            ಫಲಿತಾಂಶÀಗಳನ್ನು ನೀಡುವಲ್ಲಿ ಎಲ್ಲ ಸಾಧ್ಯವಾಗುವ ಪ್ರಯತ್ನಗಳನ್ನು ನಾವು
+            ಮಾಡುತ್ತೇವೆ. ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆ ನಿಭಾಯಿಸುವಲ್ಲಿ ಗರ್ಭಗುಡಿಯ ಪರಿಣತಿ, ಅದರ
+            ಅಸಾಧಾರಣ ಯಶಸ್ಸಿನ ಮಟ್ಟಗಳು ಮತ್ತು ರೋಗಿಗಳ ಆರೈಕೆ ನಿಭಾಯಿಸುವಲ್ಲಿ ಗರ್ಭಗುಡಿಯ
+            ಪರಿಣತಿಗಳಿಂದಾಗಿ ಸಂಸ್ಥೆಯು ಭಾರತದ ಫರ್ಟಿಲಿಟಿ ಆಸ್ಪತ್ರೆಗಳ ಪೈಕಿ ವೇಗವಾಗಿ
+            ಬೆಳೆಯುತ್ತಿರುವ ಸರಣಿಗಳಲ್ಲಿ ಒಂದಾಗುವAತೆ ಮಾಡಿದೆ.
           </p>
         </div>
         <div className="py-6 flex flex-wrap lg:flex-nowrap inset-0 ">
           <div className="lg:w-1/2 md:w-full bg-white flex flex-col md:ml-auto w-full pb-8 md:mt-0 min-h-max">
             <p className="text-center font-qs text-2xl font-semibold mb-10 mt-7 lg:mt-0">
-              Fertility Specialists at Electronic City
+              ಇಲೆಕ್ಟ್ರಾನಿಕ್ ಸಿಟಿಯಲ್ಲಿರುವ ಫಲವತ್ತತೆ ತಜ್ಞರು
             </p>
             <div className="mx-auto space-y-0 grid grid-cols-2 sm:gap-y-10 sm:gap-x-32 sm:space-y-0 lg:grid-cols-2 lg:max-w-7xl col-span-full">
               {doctors.map((item) => {
@@ -150,18 +158,18 @@ const ElectronicCity = ({ doctors }) => {
             ></iframe>
             <div className="bg-white relative flex flex-wrap py-6 rounded-3xl shadow-3xl">
               <div className="lg:w-1/2 px-6">
-                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                  ADDRESS
+                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                  ವಿಳಾಸ
                 </h2>
                 <p className="mt-1 font-content">
-                  Ganesh Towers,3rd Floor, 60/5 and 60/6, NH 44, Beside Andhra
-                  Bank, Konappana Agrahara, Electronic City, Bengaluru,
-                  Karnataka 560100
+                  ಗಣೇಶ್ ಟವರ್ಸ್, ೩ ನೇ ಮಹಡಿ, ೬೦/೫ ಮತ್ತು ೬೦/೬, ಎನ್‌ಎಚ್ ೪೪, ಆಂಧ್ರ
+                  ಬ್ಯಾಂಕ್ ಪಕ್ಕದಲ್ಲಿ, ಕೋನಪ್ಪನ ಅಗ್ರಹಾರ, ಎಲೆಕ್ಟ್ರಾನಿಕ್ ಸಿಟಿ,
+                  ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ ೫೬೦೧೦೦
                 </p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                <h2 className="font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                  EMAIL
+                <h2 className="font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                  ಇಮೇಲ್
                 </h2>
                 <a className="text-indigo-500 leading-relaxed">
                   <a
@@ -171,14 +179,14 @@ const ElectronicCity = ({ doctors }) => {
                     dreams@garbhagudi.com
                   </a>
                 </a>
-                <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                  PHONE
+                <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                  ಕರೆ ಮಾಡಿ
                 </h2>
                 <p className="leading-relaxed font-qs">
                   <a href="tel:+918880000909">+91 888 000 0909</a>
                 </p>
-                <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                  WhatsApp
+                <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                  ವಾಟ್ಸ್ಯಾಪ್ಪ್
                 </h2>
                 <p className="leading-relaxed font-qs">
                   <a

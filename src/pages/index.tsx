@@ -33,16 +33,18 @@ const Home = ({ homeData }) => {
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>
-          ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ | ಭಾರತದ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್ ಮತ್ತು ಫಲವತ್ತತೆ
+          ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಸೆಂಟರ್ | ಭಾರತದ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್ ಮತ್ತು ಫಲವತ್ತತೆ
           ಆಸ್ಪತ್ರೆ
         </title>
         <meta
           name="title"
-          content="GarbhaGudi IVF Centre | Best IVF & Fertility Hospital in India"
+          content="ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಸೆಂಟರ್ | ಭಾರತದ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್ ಮತ್ತು ಫಲವತ್ತತೆ
+          ಆಸ್ಪತ್ರೆ"
         />
         <meta
           name="description"
-          content="GarbhaGudi is a chain of new generation infertility treatment hospitals equipped with state-of-the-art infrastructure and cutting-edge technology to address this ever-increasing infertility problem."
+          content="
+          ಗರ್ಭಗುಡಿ ಹೊಸ ಪೀಳಿಗೆಯ ಬಂಜೆತನ ಚಿಕಿತ್ಸಾ ಆಸ್ಪತ್ರೆಗಳ ಸರಣಿಯಾಗಿದ್ದು, ಈ ನಿರಂತರವಾಗಿ ಹೆಚ್ಚುತ್ತಿರುವ ಬಂಜೆತನ ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸಲು ಅತ್ಯಾಧುನಿಕ ಮೂಲಸೌಕರ್ಯ ಮತ್ತು ಅತ್ಯಾಧುನಿಕ ತಂತ್ರಜ್ಞಾನವನ್ನು ಹೊಂದಿದೆ."
         />
 
         {/* Open Graph / Facebook */}

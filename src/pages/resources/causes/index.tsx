@@ -1,10 +1,54 @@
 import React from "react";
 import graphcms from "lib/graphcms";
 import Link from "next/link";
+import Head from "next/head";
 
 const IndexPage = ({ causes }) => {
   return (
     <div>
+      <Head>
+        {/* Primary Tags */}
+
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಗೆ ಕಾರಣಗಳು | ಗರ್ಭಗುಡಿ</title>
+        <meta name="title" content="Treatment | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ" />
+        <meta
+          name="description"
+          content="ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಗೆ ಕಾರಣಗಳು | ಗರ್ಭಗುಡಿ"
+        />
+
+        {/* Open Graph / Facebook */}
+
+        <meta
+          property="og:title"
+          content="Treatment | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ"
+        />
+        <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
+        <meta property="og:url" content="https://garbhagudi.com" />
+        <meta
+          property="og:description"
+          content="Treatment options, procedure details and advanced treatment options for male and female infertility treatment available at GarbhaGudi"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643802154/SEO/OG_images_Cau_Diag_Treat_d0t3vx.jpg"
+        />
+
+        {/* Twitter*/}
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@garbhagudiivf" />
+        <meta name="twitter:title" content="Causes | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ" />
+        <meta
+          name="twitter:description"
+          content="causes, procedure details and advanced treatment options for male and female infertility treatment available at GarbhaGudi"
+        />
+        <meta
+          name="twitter:image"
+          content="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643802154/SEO/OG_images_Cau_Diag_Treat_d0t3vx.jpg"
+        />
+      </Head>
       <div className="max-w-7xl mx-auto text-center text-4xl font-heading pt-12 font-semibold">
         ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಗೆ ಕಾರಣಗಳು
       </div>

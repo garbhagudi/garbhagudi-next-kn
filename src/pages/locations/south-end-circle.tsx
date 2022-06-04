@@ -13,31 +13,37 @@ const Jayanagar = ({ doctors }) => {
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>
-          GarbhaGudi IVF Centre, South End Circle | Best IVF & Fertility
-          Hospital in India
+          ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಸೆಂಟರ್, ಸೌತ್ ಎಂಡ್ ಸರ್ಕಲ್ | ಭಾರತದ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್
+          ಮತ್ತು ಫಲವತ್ತತೆ ಆಸ್ಪತ್ರೆ
         </title>
         <meta
           name="title"
-          content="GarbhaGudi IVF Centre, South End Circle | Best IVF & Fertility
-          Hospital in India"
+          content="ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಸೆಂಟರ್, ಸೌತ್ ಎಂಡ್ ಸರ್ಕಲ್ | ಭಾರತದ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್ ಮತ್ತು ಫಲವತ್ತತೆ ಆಸ್ಪತ್ರೆ"
         />
         <meta
           name="description"
-          content="GarbhaGudi is a place where dreams come alive, hopes never fade, and possibilities never end. We ceaselessly work to help you cherish the golden moment of holding your little bundles of joy."
+          content="ದೇಶದ ಎಲ್ಲೆಡೆಯ ದಂಪತಿಗಳಿಗೆ ಗರ್ಭಗುಡಿ ಜನಪ್ರಿಯ ಐವಿಎಫ್ ತಾಣವಾಗಿದೆ. ಒಂದೇ
+          ಸೂರಿನಡಿ ಸರಳವಾದ ವೈದ್ಯಕೀಯ ನಿರ್ವಹಣೆಯಿಂದ ಶಸ್ತ್ರಚಿಕಿತ್ಸಾ ಚಿಕಿತ್ಸೆಗಳು
+          ಮತ್ತು ಎಆರ್‌ಟಿ ವಿಧಾನಗಳವರೆಗೆ, ವೈಯಕ್ತೀಕರಿಸಿದ ಮತ್ತು ಸ್ನೇಹಪರ ವಾತಾವರಣದಲ್ಲಿ
+          ಫರ್ಟಿಲಿಟಿ ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿ ಆರೈಕೆ ಸೇವೆಗಳ ಶ್ರೇಣಿಯನ್ನು ಪೂರೈಸುವುದಕ್ಕೆ
+          ಕೇಂದ್ರ ಬದ್ಧತೆ ಹೊಂದಿದೆ."
         />
 
         {/* Open Graph / Facebook */}
 
         <meta
           property="og:title"
-          content="GarbhaGudi IVF Centre, South End Circle | Best IVF & Fertility
-          Hospital in India"
+          content="ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಸೆಂಟರ್, ಸೌತ್ ಎಂಡ್ ಸರ್ಕಲ್ | ಭಾರತದ ಅತ್ಯುತ್ತಮ ಐವಿಎಫ್ ಮತ್ತು ಫಲವತ್ತತೆ ಆಸ್ಪತ್ರೆ"
         />
         <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
         <meta property="og:url" content="https://garbhagudi.com" />
         <meta
           property="og:description"
-          content="GarbhaGudi is a place where dreams come alive, hopes never fade, and possibilities never end. We ceaselessly work to help you cherish the golden moment of holding your little bundles of joy."
+          content="ದೇಶದ ಎಲ್ಲೆಡೆಯ ದಂಪತಿಗಳಿಗೆ ಗರ್ಭಗುಡಿ ಜನಪ್ರಿಯ ಐವಿಎಫ್ ತಾಣವಾಗಿದೆ. ಒಂದೇ
+          ಸೂರಿನಡಿ ಸರಳವಾದ ವೈದ್ಯಕೀಯ ನಿರ್ವಹಣೆಯಿಂದ ಶಸ್ತ್ರಚಿಕಿತ್ಸಾ ಚಿಕಿತ್ಸೆಗಳು
+          ಮತ್ತು ಎಆರ್‌ಟಿ ವಿಧಾನಗಳವರೆಗೆ, ವೈಯಕ್ತೀಕರಿಸಿದ ಮತ್ತು ಸ್ನೇಹಪರ ವಾತಾವರಣದಲ್ಲಿ
+          ಫರ್ಟಿಲಿಟಿ ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿ ಆರೈಕೆ ಸೇವೆಗಳ ಶ್ರೇಣಿಯನ್ನು ಪೂರೈಸುವುದಕ್ಕೆ
+          ಕೇಂದ್ರ ಬದ್ಧತೆ ಹೊಂದಿದೆ."
         />
         <meta property="og:type" content="website" />
         <meta
@@ -75,7 +81,7 @@ const Jayanagar = ({ doctors }) => {
       />
       <section className="text-gray-600 body-font relative max-w-7xl mx-auto">
         <h1 className="text-center text-2xl md:text-4xl font-heading pt-8 font-bold">
-          South End Circle
+          ಸೌತ್ ಎಂಡ್ ಸರ್ಕಲ್
         </h1>
         <div>
           <img
@@ -84,28 +90,30 @@ const Jayanagar = ({ doctors }) => {
             className="rounded-xl mt-4"
           />
           <p className="my-10 text-md sm:text-lg font-content mx-auto px-6 sm:px-0">
-            GarbhaGudi is a popular IVF destination for couples across the
-            nation. The center is dedicated to providing a range of fertility
-            and reproductive care services in a personalized and friendly
-            ambiance, from simple medical management to surgical treatments and
-            ART procedures under one roof. Backed with 10+ years of fruitful
-            experience in treating a wide range of infertility issues,
-            GarbhaGudi stands for its track record of several thousand
-            successful IVF pregnancies, achieved through a unique combination of
-            cutting edge science and humane touch. Our high-quality, reliable
-            fertility treatment helps you achieve your dream of having a
-            biological child. We provide the best possible care. Our dedicated
-            team of skilled doctors works in partnership with you to provide a
-            personalized treatment plan that increases your chances of
-            conception and helps you fulfill your ardent desire. The center also
-            provides a comfortable atmosphere and holistic approach to ensure
-            unsurpassed satisfaction of every couple.
+            ದೇಶದ ಎಲ್ಲೆಡೆಯ ದಂಪತಿಗಳಿಗೆ ಗರ್ಭಗುಡಿ ಜನಪ್ರಿಯ ಐವಿಎಫ್ ತಾಣವಾಗಿದೆ. ಒಂದೇ
+            ಸೂರಿನಡಿ ಸರಳವಾದ ವೈದ್ಯಕೀಯ ನಿರ್ವಹಣೆಯಿಂದ ಶಸ್ತ್ರಚಿಕಿತ್ಸಾ ಚಿಕಿತ್ಸೆಗಳು
+            ಮತ್ತು ಎಆರ್‌ಟಿ ವಿಧಾನಗಳವರೆಗೆ, ವೈಯಕ್ತೀಕರಿಸಿದ ಮತ್ತು ಸ್ನೇಹಪರ ವಾತಾವರಣದಲ್ಲಿ
+            ಫರ್ಟಿಲಿಟಿ ಮತ್ತು ಸಂತಾನೋತ್ಪತ್ತಿ ಆರೈಕೆ ಸೇವೆಗಳ ಶ್ರೇಣಿಯನ್ನು ಪೂರೈಸುವುದಕ್ಕೆ
+            ಕೇಂದ್ರ ಬದ್ಧತೆ ಹೊಂದಿದೆ. ಹಲವಾರು ಸಾವಿರ ಯಶಸ್ವಿ ಐವಿಎಫ್ ಗರ್ಭಧಾರಣೆಯ
+            ಕಾರ್ಯದಾಖಲೆಯ ಸಾಧನೆಗೆ ಗರ್ಭಗುಡಿ ಸಾಕ್ಷಿಯಾಗಿ ನಿಂತಿರುವುದಲ್ಲದೇ ವ್ಯಾಪಕ
+            ಶ್ರೇಣಿಯ ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಗಳಿಗೆ ಅತ್ಯಾಧುನಿಕ ವಿಜ್ಞಾನ ಮತ್ತು ಮಾನವೀಯ
+            ಸ್ಪರ್ಶದ ವಿಶಿಷ್ಟ ಸಂಯೋಜನೆಯ ಮೂಲಕ ಚಿಕಿತ್ಸೆ ನೀಡುವಲ್ಲಿ ೧೦ಕ್ಕೂ ಹೆಚ್ಚಿನ
+            ವರ್ಷಗಳ ಫಲಪ್ರದ ಅನುಭವವನ್ನು ಹೊಂದಿದೆ. ನಿಮ್ಮದೇ ಆದ ಜೈವಿಕ ಮಗುವನ್ನು ಹೊಂದುವ
+            ನಿಮ್ಮ ಕನಸನ್ನು ಸಾಧಿಸುವುದಕ್ಕೆ ನಮ್ಮ ಉನ್ನತ ಗುಣಮಟ್ಟದ, ವಿಶ್ವಾಸಾರ್ಹ
+            ಫರ್ಟಿಲಿಟಿ ಚಿಕಿತ್ಸೆಯು ಸಹಾಯ ಮಾಡುತ್ತದೆ. ನಾವು ಸಾಧ್ಯವಾದಷ್ಟು ಉತ್ತಮವಾದ
+            ಶುಶ್ರೂಷೆ ಪೂರೈಸುತ್ತೇವೆ. ನಿಮ್ಮ ಗರ್ಭಧಾರಣೆಯ ಸಾಧ್ಯತೆಗಳನ್ನು
+            ಹೆಚ್ಚಿಸುವುದಕ್ಕಾಗಿ ವೈಯಕ್ತಿಕವಾದ ಚಿಕಿತ್ಸಾಯೋಜನೆಯನ್ನು ಪೂರೈಸುವುದಕ್ಕೆ
+            ಕೌಶಲ್ಯಪೂರ್ಣ ವೈದ್ಯರ ನಮ್ಮ ಸಮರ್ಪಿತ ತಂಡವು ನಿಮ್ಮೊಂದಿಗೆ ಸಹಭಾಗಿತ್ವದಲ್ಲಿ
+            ಕೆಲಸ ಮಾಡುವುದಲ್ಲದೇ, ನಿಮ್ಮ ಭಾವೋದ್ವೇಗಪೂರ್ಣ ಬಯಕೆಯನ್ನು ಪೂರೈಸಲು ನೆರವು
+            ನೀಡುತ್ತದೆ. ಪ್ರತಿ ದಂಪತಿಗಳ ಸಾಟಿಯಿಲ್ಲದ ತೃಪ್ತಿಯ ಖಾತ್ರಿ ಮಾಡಿಕೊಳ್ಳಲು
+            ಕೇಂದ್ರವು ಆರಾಮದಾಯಕ ವಾತಾವರಣ ಮತ್ತು ಸಮಗ್ರ ಮಾರ್ಗ ಮತ್ತು ವಿಧಾನವನ್ನು
+            ಒದಗಿಸುತ್ತದೆ.
           </p>
         </div>
         <div className="py-6 flex flex-wrap lg:flex-nowrap inset-0 ">
           <div className="lg:w-1/2 md:w-full bg-white flex flex-col md:ml-auto w-full pb-8 md:mt-0 min-h-max">
             <p className="text-center font-qs text-2xl font-semibold mb-10 mt-7 lg:mt-0">
-              Fertility Specialists at South End Circle
+              ಸೌತ್ ಎಂಡ್ ಸರ್ಕಲ್ನಲ್ಲಿರುವ ಫಲವತ್ತತೆ ತಜ್ಞರು
             </p>
             <div className="mx-auto space-y-0 grid grid-cols-2 sm:gap-y-10 sm:gap-x-32 sm:space-y-0 lg:grid-cols-2 lg:max-w-7xl col-span-full">
               {doctors.map((item) => {
@@ -155,17 +163,17 @@ const Jayanagar = ({ doctors }) => {
             ></iframe>
             <div className="bg-white relative flex flex-wrap py-6 rounded-3xl shadow-3xl">
               <div className="lg:w-1/2 px-6">
-                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                  ADDRESS
+                <h2 className="title-font font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                  ವಿಳಾಸ
                 </h2>
                 <p className="mt-1 font-content">
-                  South End Circle, 26, Pattalamma Temple Rd, Basavanagudi,
-                  Bengaluru, Karnataka 560004
+                  ಸೌತ್ ಎಂಡ್ ಸರ್ಕಲ್, ೨೬, ಪಟ್ಟಲಮ್ಮ ದೇವಸ್ಥಾನ ರಸ್ತೆ, ಬಸವನಗುಡಿ,
+                  ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ ೫೬೦೦೦೪
                 </p>
               </div>
               <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                <h2 className="font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                  EMAIL
+                <h2 className="font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                  ಇಮೇಲ್
                 </h2>
                 <a className="text-indigo-500 leading-relaxed">
                   <a
@@ -175,14 +183,14 @@ const Jayanagar = ({ doctors }) => {
                     dreams@garbhagudi.com
                   </a>
                 </a>
-                <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                  PHONE
+                <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                  ಕರೆ ಮಾಡಿ
                 </h2>
                 <p className="leading-relaxed font-qs">
                   <a href="tel:+918880000909">+91 888 000 0909</a>
                 </p>
-                <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                  WhatsApp
+                <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                  ವಾಟ್ಸ್ಯಾಪ್ಪ್
                 </h2>
                 <p className="leading-relaxed font-qs">
                   <a

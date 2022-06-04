@@ -31,12 +31,12 @@ export const maleInfertility = [
     title: "ಸಾಮಾನ್ಯ ವೀರ್ಯ ನಿಯತಾಂಕಗಳು ಯಾವುವು?",
     contents: (
       <div>
-        ವಿಶ್ವ ಆರೋಗ್ಯ ಸಂಸ್ಥೆ (ಡಬ್ಲೂö್ಯಎಚ್‌ಒ) ವಿಶಿಷ್ಟ ವೀರ್ಯ ನಿಯತಾಂಕಗಳಿಗೆ ಈ ಕೆಳಗಿನ
-        ಮಾರ್ಗಸೂಚಿಗಳನ್ನು ಶಿಫಾರಸು ಮಾಡಿದೆ.
+        ವಿಶ್ವ ಆರೋಗ್ಯ ಸಂಸ್ಥೆ (ಡಬ್ಲ್ಯೂ ಹೆಚ್ ಓ ) ವಿಶಿಷ್ಟ ವೀರ್ಯ ನಿಯತಾಂಕಗಳಿಗೆ ಈ
+        ಕೆಳಗಿನ ಮಾರ್ಗಸೂಚಿಗಳನ್ನು ಶಿಫಾರಸು ಮಾಡಿದೆ.
         <table className="table-auto mt-6">
           <tr className="text-left">
             <th className="w-48">ಪ್ಯಾರಾಮೀಟರ್</th>
-            <th className="w-48">ಡಬ್ಲೂö್ಯಎಚ್‌ಒ 2010</th>
+            <th className="w-48">ಡಬ್ಲ್ಯೂ ಹೆಚ್ ಓ 2010</th>
           </tr>
           <tr className="text-sm md:text-lg">
             <td>ಸಂಪುಟ</td>

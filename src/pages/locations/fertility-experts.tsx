@@ -144,7 +144,7 @@ const IndexPage = ({ doctors }) => {
                 }
               >
                 <div className="max-w-7xl mx-auto text-center text-sm md:text-2xl font-heading font-semibold">
-                  ಸೌತ್ ಎಂಡ್ ಸರ್ಕಲ್
+                  ಇಲೆಕ್ಟ್ರಾನಿಕ್ ಸಿಟಿ
                 </div>
               </Tab>
               <Tab
@@ -180,18 +180,18 @@ const IndexPage = ({ doctors }) => {
                       ></iframe>
                       <div className="bg-white relative flex flex-wrap py-6 rounded-3xl shadow-3xl">
                         <div className="lg:w-1/2 px-6">
-                          <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                            ADDRESS
+                          <h2 className="title-font font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                            ವಿಳಾಸ
                           </h2>
                           <p className="mt-1 font-content">
-                            Subhasri Complex, 210/A, Kumaraswamy Temple Rd, 2nd
-                            Block, Phase 1, Banashankari Stage I, Banashankari,
-                            Bengaluru, Karnataka 560050
+                            ಸುಭಶ್ರೀ ಕಾಂಪ್ಲೆಕ್ಸ್, ೨೧೦/ಎ, ಕುಮಾರಸ್ವಾಮಿ ದೇವಸ್ಥಾನ
+                            ರಸ್ತೆ, ೨ನೇ ಬ್ಲಾಕ್, ೧ ನೇ ಘಟ್ಟ , ಬನಶಂಕರಿ ೧ನೇ ಹಂತ ,
+                            ಬನಶಂಕರಿ, ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ ೫೬೦೦೫೦
                           </p>
                         </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                          <h2 className="font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                            EMAIL
+                          <h2 className="font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                            ಇಮೇಲ್
                           </h2>
                           <a className="text-indigo-500 leading-relaxed">
                             <a
@@ -201,14 +201,14 @@ const IndexPage = ({ doctors }) => {
                               dreams@garbhagudi.com
                             </a>
                           </a>
-                          <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                            PHONE
+                          <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                            ಕರೆ ಮಾಡಿ
                           </h2>
                           <p className="leading-relaxed font-qs">
                             <a href="tel:+918880000909">+91 888 000 0909</a>
                           </p>
-                          <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                            WhatsApp
+                          <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                            ವಾಟ್ಸ್ಯಾಪ್ಪ್
                           </h2>
                           <p className="leading-relaxed font-qs">
                             <a
@@ -280,18 +280,18 @@ const IndexPage = ({ doctors }) => {
                       ></iframe>
                       <div className="bg-white relative flex flex-wrap py-6 rounded-3xl shadow-3xl">
                         <div className="lg:w-1/2 px-6">
-                          <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                            ADDRESS
+                          <h2 className="title-font font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                            ವಿಳಾಸ
                           </h2>
                           <p className="mt-1 font-content">
-                            Park Landing, 5AC-709, Outer Ring Rd, Balachandra
-                            Layout, HRBR Layout 2nd Block, Chelekare, Extension,
-                            Bengaluru, Karnataka 560043
+                            ಪಾರ್ಕ್ ಲ್ಯಾಂಡಿAಗ್, ೫ಎಸಿ-೭೦೯, ಹೊರವರ್ತುಲ ರಸ್ತೆ,
+                            ಬಾಲಚಂದ್ರ ಲೇಔಟ್, ಎಚ್‌ಆರ್‌ಬಿಆರ್ ಲೇಔಟ್ ೨ನೇ ಬ್ಲಾಕ್,
+                            ಚೆಳೆಕರೆ, ಎಕ್‌ಟೆನ್ಷನ್, ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ ೫೬೦೦೪೩
                           </p>
                         </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                          <h2 className="font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                            EMAIL
+                          <h2 className="font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                            ಇಮೇಲ್
                           </h2>
                           <a className="text-indigo-500 leading-relaxed">
                             <a
@@ -301,14 +301,14 @@ const IndexPage = ({ doctors }) => {
                               dreams@garbhagudi.com
                             </a>
                           </a>
-                          <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                            PHONE
+                          <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                            ಕರೆ ಮಾಡಿ
                           </h2>
                           <p className="leading-relaxed font-qs">
                             <a href="tel:+918880000909">+91 888 000 0909</a>
                           </p>
-                          <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                            WhatsApp
+                          <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                            ವಾಟ್ಸ್ಯಾಪ್ಪ್
                           </h2>
                           <p className="leading-relaxed font-qs">
                             <a
@@ -380,17 +380,17 @@ const IndexPage = ({ doctors }) => {
                       ></iframe>
                       <div className="bg-white relative flex flex-wrap py-6 rounded-3xl shadow-3xl">
                         <div className="lg:w-1/2 px-6">
-                          <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                            ADDRESS
+                          <h2 className="title-font font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                            ವಿಳಾಸ
                           </h2>
                           <p className="mt-1 font-content">
-                            South End Circle, 26, Pattalamma Temple Rd,
-                            Basavanagudi, Bengaluru, Karnataka 560004
+                            ಸೌತ್ ಎಂಡ್ ಸರ್ಕಲ್, ೨೬, ಪಟ್ಟಲಮ್ಮ ದೇವಸ್ಥಾನ ರಸ್ತೆ,
+                            ಬಸವನಗುಡಿ, ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ ೫೬೦೦೦೪
                           </p>
                         </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                          <h2 className="font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                            EMAIL
+                          <h2 className="font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                            ಇಮೇಲ್
                           </h2>
                           <a className="text-indigo-500 leading-relaxed">
                             <a
@@ -400,14 +400,14 @@ const IndexPage = ({ doctors }) => {
                               dreams@garbhagudi.com
                             </a>
                           </a>
-                          <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                            PHONE
+                          <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                            ಕರೆ ಮಾಡಿ
                           </h2>
                           <p className="leading-relaxed font-qs">
                             <a href="tel:+918880000909">+91 888 000 0909</a>
                           </p>
-                          <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                            WhatsApp
+                          <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                            ವಾಟ್ಸ್ಯಾಪ್ಪ್
                           </h2>
                           <p className="leading-relaxed font-qs">
                             <a
@@ -472,25 +472,24 @@ const IndexPage = ({ doctors }) => {
                         height="100%"
                         className="absolute inset-0"
                         frameBorder="0"
-                        loading="lazy"
                         title="map"
                         scrolling="no"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124455.97184736053!2d77.5509549079939!3d12.891696289434682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c972baa2581%3A0x38dd3f8049f5f606!2sGarbhaGudi%20IVF%20Centre%2C%20Electronic%20City.!5e0!3m2!1sen!2sin!4v1641809188374!5m2!1sen!2sin"
                       ></iframe>
                       <div className="bg-white relative flex flex-wrap py-6 rounded-3xl shadow-3xl">
                         <div className="lg:w-1/2 px-6">
-                          <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                            ADDRESS
+                          <h2 className="title-font font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                            ವಿಳಾಸ
                           </h2>
                           <p className="mt-1 font-content">
-                            Ganesh Towers,3rd Floor, 60/5 and 60/6, NH 44,
-                            Beside Andhra Bank, Konappana Agrahara, Electronic
-                            City, Bengaluru, Karnataka 560100
+                            ಗಣೇಶ್ ಟವರ್ಸ್, ೩ ನೇ ಮಹಡಿ, ೬೦/೫ ಮತ್ತು ೬೦/೬, ಎನ್‌ಎಚ್
+                            ೪೪, ಆಂಧ್ರ ಬ್ಯಾಂಕ್ ಪಕ್ಕದಲ್ಲಿ, ಕೋನಪ್ಪನ ಅಗ್ರಹಾರ,
+                            ಎಲೆಕ್ಟ್ರಾನಿಕ್ ಸಿಟಿ, ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ ೫೬೦೧೦೦
                           </p>
                         </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                          <h2 className="font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                            EMAIL
+                          <h2 className="font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                            ಇಮೇಲ್
                           </h2>
                           <a className="text-indigo-500 leading-relaxed">
                             <a
@@ -500,14 +499,14 @@ const IndexPage = ({ doctors }) => {
                               dreams@garbhagudi.com
                             </a>
                           </a>
-                          <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                            PHONE
+                          <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                            ಕರೆ ಮಾಡಿ
                           </h2>
                           <p className="leading-relaxed font-qs">
                             <a href="tel:+918880000909">+91 888 000 0909</a>
                           </p>
-                          <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                            WhatsApp
+                          <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                            ವಾಟ್ಸ್ಯಾಪ್ಪ್
                           </h2>
                           <p className="leading-relaxed font-qs">
                             <a
@@ -579,18 +578,18 @@ const IndexPage = ({ doctors }) => {
                       ></iframe>
                       <div className="bg-white relative flex flex-wrap py-6 rounded-3xl shadow-3xl">
                         <div className="lg:w-1/2 px-6">
-                          <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                            ADDRESS
+                          <h2 className="title-font font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                            ವಿಳಾಸ
                           </h2>
                           <p className="mt-1 font-content">
-                            4TH floor, Chirag Towers, Born Babies Building, 24 &
-                            64, Service Rd, next to कलामंदिर, Marathahalli,
-                            Bengaluru, Karnataka 560037
+                            ೪ನೇ ಮಹಡಿ, ಚಿರಾಗ್ ಟವರ್ಸ್, ಬಾರ್ನ್ ಬೇಬೀಸ್ ಬಿಲ್ಡಿಂಗ್, ೨೪
+                            & ೬೪, ಸರ್ವೀಸ್ ರಸ್ತೆ, ಕಲಾಮಂದಿರದ ಪಕ್ಕ, ಮಾರತಹಳ್ಳಿ,
+                            ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ ೫೬೦೦೩೭
                           </p>
                         </div>
                         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
-                          <h2 className="font-semibold text-gray-900 tracking-widest text-xs font-qs">
-                            EMAIL
+                          <h2 className="font-semibold text-gray-900 tracking-widest text-sm font-qs">
+                            ಇಮೇಲ್
                           </h2>
                           <a className="text-indigo-500 leading-relaxed">
                             <a
@@ -600,14 +599,14 @@ const IndexPage = ({ doctors }) => {
                               dreams@garbhagudi.com
                             </a>
                           </a>
-                          <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                            PHONE
+                          <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                            ಕರೆ ಮಾಡಿ
                           </h2>
                           <p className="leading-relaxed font-qs">
                             <a href="tel:+918880000909">+91 888 000 0909</a>
                           </p>
-                          <h2 className="font-semibold text-gray-900 tracking-widest text-xs mt-4 font-qs">
-                            WhatsApp
+                          <h2 className="font-semibold text-gray-900 tracking-widest text-sm mt-4 font-qs">
+                            ವಾಟ್ಸ್ಯಾಪ್ಪ್
                           </h2>
                           <p className="leading-relaxed font-qs">
                             <a
