@@ -8,7 +8,9 @@ import {
   KnowledgeCenter,
   Contact,
   Locations,
+  Language,
 } from "components/header/popover";
+import LanguageSelect from "components/languageSelect";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,15 +22,29 @@ const Nav = () => {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center justify-between align-middle cursor-pointer">
               <div className="flex-shrink-0 pt-4 ">
-                <Link href="/" passHref>
-                  <a>
-                    <img
-                      className="h-full w-48 xl:w-64 "
-                      src="https://res.cloudinary.com/garbhagudi/image/upload/v1633780956/garbhagudi-ivf/SVGs/logo_tyy9tg.svg"
-                      alt="logo"
-                    />
-                  </a>
-                </Link>
+                <div className="hidden sm:block">
+                  <Link href="/" passHref>
+                    <a>
+                      <img
+                        className="h-full w-48 xl:w-64 "
+                        src="https://res.cloudinary.com/garbhagudi/image/upload/v1633780956/garbhagudi-ivf/SVGs/logo_tyy9tg.svg"
+                        alt="logo"
+                      />
+                    </a>
+                  </Link>
+                </div>
+
+                <div className="block sm:hidden">
+                  <Link href="/" passHref>
+                    <a>
+                      <img
+                        className="w-20 "
+                        src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1655369150/logos/picture_hkbokg.png"
+                        alt="logo"
+                      />
+                    </a>
+                  </Link>
+                </div>
               </div>
 
               <div className="hidden xl:block">
@@ -37,30 +53,33 @@ const Nav = () => {
                     <span
                       className={
                         router.pathname == "/"
-                          ? "bg-brandPink text-white px-3 pt-2 pb-[2px] rounded-2xl text-md font-content"
-                          : "text-gray-700 hover:bg-brandPink hover:text-white px-3 py-2 rounded-2xl text-md font-content cursor-pointer"
+                          ? "bg-brandPink text-white px-2 pt-2 pb-[2px] rounded-2xl text-md font-content"
+                          : "text-gray-700 hover:bg-brandPink hover:text-white px-1 py-2 rounded-2xl text-md font-content cursor-pointer"
                       }
                     >
                       ಮುಖಪುಟ
                     </span>
                   </Link>
 
-                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 pt-2 pb-[2px] text-md font-content">
+                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-1 pt-2 pb-[2px] text-md font-content">
                     <About />
                   </span>
 
-                  <span className=" text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 pt-2 pb-[2px] text-md font-content">
+                  <span className=" text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-1 pt-2 pb-[2px] text-md font-content">
                     <Treatment />
                   </span>
 
-                  <span className=" text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 pt-2 pb-[2px] text-md font-content">
+                  <span className=" text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-1 pt-2 pb-[2px] text-md font-content">
                     <KnowledgeCenter />
                   </span>
-                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 pt-2 pb-[2px] text-md font-content">
+                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-1 pt-2 pb-[2px] text-md font-content">
                     <Contact />
                   </span>
-                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-3 pt-2 pb-[2px] text-md font-content">
+                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-1 pt-2 pb-[2px] text-md font-content">
                     <Locations />
+                  </span>
+                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-1 pt-2 pb-[2px] text-md font-content">
+                    <Language />
                   </span>
 
                   <a
@@ -75,7 +94,7 @@ const Nav = () => {
                 </div>
               </div>
             </div>
-            <div className="-mr-2 flex xl:hidden">
+            <div className="-mr-2 flex items-center justify-center xl:hidden">
               <button className="mt-4 mr-4">
                 <a
                   href="https://consult.bestdocapp.com/home/GARBHAGUDI"
@@ -86,6 +105,9 @@ const Nav = () => {
                   ಬುಕ್ ಮಾಡಿ
                 </a>
               </button>
+              <span className="mt-4 mr-4 z-10">
+                <LanguageSelect />
+              </span>
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
@@ -164,6 +186,9 @@ const Nav = () => {
                 </span>
                 <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 pt-2 pb-[2px] rounded-md text-md font-content">
                   <Locations />
+                </span>
+                <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-1 py-2 text-sm font-content">
+                  <Language />
                 </span>
                 <a
                   href="https://consult.bestdocapp.com/home/GARBHAGUDI"
