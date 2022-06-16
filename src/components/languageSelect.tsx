@@ -3,8 +3,8 @@ import { Listbox, Transition } from "@headlessui/react";
 import { HiSelector } from "react-icons/hi";
 
 const people = [
-  { name: "English", link: "https://www.garbhagudi.com" },
   { name: "ಕನ್ನಡ", link: "/" },
+  { name: "English", link: "https://www.garbhagudi.com" },
 ];
 
 export default function LanguageSelect() {
