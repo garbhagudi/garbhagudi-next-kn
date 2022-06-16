@@ -187,9 +187,6 @@ const Nav = () => {
                 <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 pt-2 pb-[2px] rounded-md text-md font-content">
                   <Locations />
                 </span>
-                <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-1 py-2 text-sm font-content">
-                  <Language />
-                </span>
                 <a
                   href="https://consult.bestdocapp.com/home/GARBHAGUDI"
                   target={"_blank"}
