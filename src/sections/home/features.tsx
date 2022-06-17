@@ -15,7 +15,7 @@ const features = [
     name: "ವಿಶ್ವ ದರ್ಜೆಯ ಫರ್ಟಿಲಿಟಿ ಆರೈಕೆ",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840286/Icons/Features/World_Class_Fertility_Care_un83f6.svg",
     content:
-      "2010 ರಿಂದ 7,000 ಕ್ಕೂ ಹೆಚ್ಚು ಶಿಶುಗಳನ್ನು ಜಗತ್ತಿಗೆ ತರುವಲ್ಲಿ ಪ್ರಮುಖ ಪಾತ್ರ ವಹಿಸಿದ ಹೆಮ್ಮೆ.",
+      "2011 ರಿಂದ 7,000 ಕ್ಕೂ ಹೆಚ್ಚು ಶಿಶುಗಳನ್ನು ಜಗತ್ತಿಗೆ ತರುವಲ್ಲಿ ಪ್ರಮುಖ ಪಾತ್ರ ವಹಿಸಿದ ಹೆಮ್ಮೆ.",
     link: "/features/world-class-fertility-care",
   },
   {
