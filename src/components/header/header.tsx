@@ -24,25 +24,25 @@ const Nav = () => {
               <div className="flex-shrink-0 pt-4 ">
                 <div className="hidden sm:block">
                   <Link href="/" passHref>
-                    <a>
+                    <div>
                       <img
                         className="h-full w-48 xl:w-64 "
                         src="https://res.cloudinary.com/garbhagudi/image/upload/v1633780956/garbhagudi-ivf/SVGs/logo_tyy9tg.svg"
                         alt="logo"
                       />
-                    </a>
+                    </div>
                   </Link>
                 </div>
 
                 <div className="block sm:hidden">
                   <Link href="/" passHref>
-                    <a>
+                    <div>
                       <img
                         className="w-20 "
                         src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1655369150/logos/picture_hkbokg.png"
                         alt="logo"
                       />
-                    </a>
+                    </div>
                   </Link>
                 </div>
               </div>

@@ -345,7 +345,7 @@ export function KnowledgeCenter() {
                 <div className="relative grid gap-8 bg-white p-5 lg:grid-cols-1">
                   {Resources.map((item) => (
                     <Link key={item.name} href={item.href} passHref>
-                      <a className="flex items-center p-2 -m-3 transition duration-150 ease-in-out rounded-lg hover:bg-pink-100 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50">
+                      <div className="flex items-center p-2 -m-3 transition duration-150 ease-in-out rounded-lg hover:bg-pink-100 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50">
                         <div className="flex items-center justify-center flex-shrink-0 w-10 h-10 text-white sm:h-12 sm:w-12">
                           <img src={item.icon} alt={item.name} />
                         </div>
@@ -357,7 +357,7 @@ export function KnowledgeCenter() {
                             {item.description}
                           </p>
                         </div>
-                      </a>
+                      </div>
                     </Link>
                   ))}
                 </div>

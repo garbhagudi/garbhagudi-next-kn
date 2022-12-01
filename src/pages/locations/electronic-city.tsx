@@ -117,7 +117,7 @@ const ElectronicCity = ({ doctors }) => {
                   return (
                     <div className="text-center" key={item?.id}>
                       <Link href={`/doctors/${item?.slug}`} passHref>
-                        <a>
+                        <div>
                           <div className="space-y-4">
                             <img
                               className="mx-auto h-40 w-40 my-auto rounded-full mt-4"
@@ -138,7 +138,7 @@ const ElectronicCity = ({ doctors }) => {
                               </div>
                             </div>
                           </div>
-                        </a>
+                        </div>
                       </Link>
                     </div>
                   );

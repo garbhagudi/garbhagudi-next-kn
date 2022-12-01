@@ -5,6 +5,7 @@ import Link from "next/link";
 import { gql, GraphQLClient } from "graphql-request";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import Image from "next/image";
 
 const responsive = {
   superLargeDesktop: {
@@ -92,6 +93,7 @@ const Home = ({ homeData }) => {
       </Head>
       <Carousel
         responsive={responsive}
+        removeArrowOnDeviceType={["tablet", "mobile"]}
         ssr={true}
         infinite={true}
         autoPlay={true}
@@ -100,7 +102,13 @@ const Home = ({ homeData }) => {
         {homeData.banners.map((items) => (
           <div className="" key={items?.id}>
             <a href={items?.url} target="_blank" rel="noreferrer">
-              <img src={items?.image?.url} alt={items?.title} />
+              <Image
+                src={items?.image?.url}
+                alt={items?.title}
+                width={1920}
+                height={630}
+                className="w-full h-full"
+              />
             </a>
           </div>
         ))}
@@ -119,40 +127,42 @@ const Home = ({ homeData }) => {
                 ಚಿಕಿತ್ಸೆ ನೀಡುವಲ್ಲಿ ಅವರ ಯಶಸ್ಸಿಗೆ ಹೆಸರುವಾಸಿಯಾಗಿದೆ.
               </p>
             </div>
-            <ul className="mx-auto space-y-0 grid grid-cols-2 sm:gap-16 sm:space-y-0 md:grid-col-2 lg:grid-cols-4 lg:max-w-7xl">
+            <ul className="grid grid-cols-2 mx-auto space-y-0 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-7xl">
               {homeData?.doctors.map((item) => {
                 return (
                   <li
                     key={item?.id}
-                    className="transition-all duration-500 hover:shadow-2xl rounded-xl mb-2 "
+                    className="mb-2 transition-all duration-500 hover:shadow-2xl rounded-xl "
                   >
                     <Link
-                      href={`/doctors/${item?.slug}`}
+                      legacyBehavior
+                      href={`/fertility-experts/${item?.slug}`}
                       passHref
-                      scroll={false}
                     >
-                      <a>
+                      <div>
                         <div className="space-y-4">
-                          <img
-                            className="mx-auto h-32 w-32 my-auto rounded-full xl:w-44 xl:h-44 mt-4"
+                          <Image
+                            className="w-32 h-32 mx-auto my-auto mt-4 transition-all duration-500 rounded-full xl:w-44 xl:h-44 hover:scale-110"
                             src={item?.image?.url}
                             alt={item?.name}
+                            width={500}
+                            height={500}
                           />
                           <div className="space-y-4">
-                            <div className="text-xl leading-6 font-medium space-y-1">
-                              <h3 className="text-brandDark font-heading">
+                            <div className="space-y-1 text-lg font-medium leading-6">
+                              <h3 className="text-brandDark font-content">
                                 {item?.name}
                               </h3>
-                              <p className="text-brandPurpleDark text-sm font-content">
+                              <p className="text-sm text-brandPurpleDark font-content">
                                 {item?.qualification}
                               </p>
-                              <p className="text-brandPink text-sm font-content pb-2">
+                              <p className="pb-2 text-sm text-brandPink font-content">
                                 {item?.designation}
                               </p>
                             </div>
                           </div>
                         </div>
-                      </a>
+                      </div>
                     </Link>
                   </li>
                 );
@@ -167,7 +177,7 @@ const Home = ({ homeData }) => {
 
 export default Home;
 
-export const getServerSideProps = async () => {
+export const getStaticProps = async () => {
   const url = process.env.ENDPOINT;
   const graphQLClient = new GraphQLClient(url, {
     headers: {
@@ -176,7 +186,7 @@ export const getServerSideProps = async () => {
   });
   const query = gql`
     query {
-      doctors(locales: [kn, en]) {
+      doctors {
         name
         qualification
         slug
@@ -206,5 +216,6 @@ export const getServerSideProps = async () => {
     props: {
       homeData,
     },
+    revalidate: 10,
   };
 };
