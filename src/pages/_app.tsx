@@ -4,7 +4,6 @@ import Footer from "components/footer/footer";
 import Nav from "components/header/header";
 import FloatPhone from "components/FloatPhone";
 import SalesIQ from "components/SalesIQ";
-import Script from "next/script";
 import TagManager from "react-gtm-module";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
@@ -16,7 +15,7 @@ function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = React.useState(false);
 
   useEffect(() => {
-    TagManager.initialize({ gtmId: "GTM-5T77DVZ" });
+    TagManager.initialize({ gtmId: "GTM-MJRF25D" });
   }, []);
 
   useEffect(() => {
@@ -37,7 +36,7 @@ function MyApp({ Component, pageProps }) {
   }, [router.events]);
 
   return (
-        <>
+    <>
       <Head>
         <link
           rel="alternative"

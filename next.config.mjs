@@ -2,6 +2,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
+    dangerouslyAllowSVG: true,
+    unoptimized: true,
     domains: [
       "res.cloudinary.com",
       "media.graphassets.com",
@@ -44,8 +46,13 @@ const nextConfig = {
         destination: "/features/paripoorna-2022",
         permanent: true,
       },
+      {
+        source: "/doctors/[slug]",
+        destination: "/fertility-experts/[slug]",
+        permanent: true,
+      },
     ];
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;

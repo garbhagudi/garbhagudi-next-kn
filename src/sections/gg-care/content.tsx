@@ -285,6 +285,64 @@ const Contact = () => {
                   </a>
                 </div>
               </div>
+              <div>
+                <h3 className="text-lg leading-6 font-medium text-gray-900">
+                  ನ್ಯೂ ಬೆಲ್ ರೋಡ್
+                </h3>
+                <div className="mt-2 text-base text-gray-500">
+                  <p className="mt-1">
+                    <a
+                      href="tel: +919108910825"
+                      className="text-brandPink2 hover:underline"
+                    >
+                      <MdPhone className="inline-block w-5 h-5" /> +91 9108 9108
+                      25
+                    </a>
+                  </p>
+                  <p>
+                    #3, 1ನೇ ಮಹಡಿ, ಹೊಸ BEL ರಸ್ತೆ, ಎದುರು. ರಾಮಯ್ಯ ಆಸ್ಪತ್ರೆಗೆ, RMV 2
+                    ನೇ ಹಂತ, ಅಶ್ವಥ್ ನಗರ, ದೇವಸಂದ್ರ ಲೇಔಟ್, ಸದಾಶಿವನಗರ
+                  </p>
+                  <p className="mt-1 mb-5">ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ 560094</p>
+                  <a
+                    href="https://goo.gl/maps/Fmiwn4ZCsSTxehnq9"
+                    className="py-2 px-3 pt-4 bg-brandPink text-white font-semibold rounded-3xl hover:bg-brandPink2"
+                    target={"_blank"}
+                    rel="noreferrer"
+                  >
+                    ನಿರ್ದೇಶನಗಳು
+                  </a>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-lg leading-6 font-medium text-gray-900">
+                  ನಾಗರಭಾವಿ
+                </h3>
+                <div className="mt-2 text-base text-gray-500">
+                  <p className="mt-1">
+                    <a
+                      href="tel:+919886988665"
+                      className="text-brandPink2 hover:underline"
+                    >
+                      <MdPhone className="inline-block w-5 h-5" /> +91 9886 9886
+                      65
+                    </a>
+                  </p>
+                  <p>
+                    1 ನೇ ಮಹಡಿ, 80 ಅಡಿ ಮುಖ್ಯ ರಸ್ತೆ, NGCF ಲೇಔಟ್, 2 ನೇ ಹಂತ, BDA
+                    ರಸ್ತೆ, ನಾಗರಭಾವಿ,
+                  </p>
+                  <p className="mt-1 mb-5">ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ 560072</p>
+                  <a
+                    href="https://goo.gl/maps/6ZCKzTrmE3UzgFuS7"
+                    className="py-2 px-3 pt-4 bg-brandPink text-white font-semibold rounded-3xl hover:bg-brandPink2"
+                    target={"_blank"}
+                    rel="noreferrer"
+                  >
+                    ನಿರ್ದೇಶನಗಳು
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

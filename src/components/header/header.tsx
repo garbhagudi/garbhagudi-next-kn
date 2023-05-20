@@ -1,159 +1,117 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import Link from "next/link";
-import { useRouter } from "next/router";
+import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
 import {
   About,
-  Treatment,
+  WhyGarbhaGudi,
+  TreatmentOptions,
   KnowledgeCenter,
-  Contact,
+  ContactUs,
   Locations,
-  Language,
+  Languages,
 } from "components/header/popover";
 import LanguageSelect from "components/languageSelect";
+import Logo from "components/assets/logo";
+
+const menu = [
+  {
+    id: 1,
+    option: <TreatmentOptions />,
+  },
+  {
+    id: 2,
+    option: <About />,
+  },
+  {
+    id: 3,
+    option: <WhyGarbhaGudi />,
+  },
+  {
+    id: 4,
+    option: <KnowledgeCenter />,
+  },
+  {
+    id: 5,
+    option: <ContactUs />,
+  },
+  {
+    id: 6,
+    option: <Locations />,
+  },
+  {
+    id: 7,
+    option: <Languages />,
+  },
+];
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const router = useRouter();
   return (
-    <div className="sticky top-0 z-50">
-      <nav className="border-b pb-4 bg-white shadow-xl">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <div className="flex items-center justify-between align-middle cursor-pointer">
-              <div className="flex-shrink-0 pt-4 ">
-                <div className="hidden sm:block">
-                  <Link href="/" passHref>
-                    <div>
-                      <img
-                        className="h-full w-48 xl:w-64 "
-                        src="https://res.cloudinary.com/garbhagudi/image/upload/v1633780956/garbhagudi-ivf/SVGs/logo_tyy9tg.svg"
-                        alt="logo"
-                      />
-                    </div>
-                  </Link>
+    <div className="sticky top-0 z-50 bg-white shadow-xl">
+      <nav className="shadow-2xl">
+        <nav className="px-2 lg:px-6 lg:py-2">
+          <div className="flex justify-between items-center mx-auto max-w-screen-xl">
+            <Link href="/" className="hidden xl:flex items-center">
+              <Logo />
+            </Link>
+            <Link href="/" className="flex items-center xl:hidden">
+              <img
+                className="w-16 h-full "
+                src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1659164257/logos/GG_Vertical_Logo_nrcl5h.svg"
+                alt="logo"
+              />
+            </Link>
+            <div className="flex items-center lg:order-2">
+              <Link
+                href="https://consult.bestdocapp.com/home/GARBHAGUDI"
+                target={"_blank"}
+                rel="noreferrer"
+                className="px-3 pt-3 pb-2 text-xs xl:text-base font-semibold text-white cursor-pointer bg-brandPink rounded-lg font-content hover:bg-brandPink3"
+              >
+                ಬುಕ್ ಮಾಡಿ
+              </Link>
+              <div className="flex items-center justify-center ml-2 -mr-2 xl:hidden">
+                <div className="z-10 mr-4">
+                  <LanguageSelect />
                 </div>
-
-                <div className="block sm:hidden">
-                  <Link href="/" passHref>
-                    <div>
-                      <img
-                        className="w-20 "
-                        src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1655369150/logos/picture_hkbokg.png"
-                        alt="logo"
-                      />
-                    </div>
-                  </Link>
-                </div>
-              </div>
-
-              <div className="hidden xl:block">
-                <div className=" ml-16 flex items-baseline space-x-4 pt-4 ">
-                  <Link href="/" passHref>
-                    <span
-                      className={
-                        router.pathname == "/"
-                          ? "bg-brandPink text-white px-2 pt-2 pb-[2px] rounded-2xl text-md font-content"
-                          : "text-gray-700 hover:bg-brandPink hover:text-white px-1 py-2 rounded-2xl text-md font-content cursor-pointer"
-                      }
-                    >
-                      ಮುಖಪುಟ
-                    </span>
-                  </Link>
-
-                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-1 pt-2 pb-[2px] text-md font-content">
-                    <About />
-                  </span>
-
-                  <span className=" text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-1 pt-2 pb-[2px] text-md font-content">
-                    <Treatment />
-                  </span>
-
-                  <span className=" text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-1 pt-2 pb-[2px] text-md font-content">
-                    <KnowledgeCenter />
-                  </span>
-                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-1 pt-2 pb-[2px] text-md font-content">
-                    <Contact />
-                  </span>
-                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-1 pt-2 pb-[2px] text-md font-content">
-                    <Locations />
-                  </span>
-                  <span className="text-gray-700 hover:bg-brandPink hover:text-white rounded-2xl px-1 pt-2 pb-[2px] text-md font-content">
-                    <Language />
-                  </span>
-
-                  <a
-                    href="https://consult.bestdocapp.com/home/GARBHAGUDI"
-                    target={"_blank"}
-                    rel="noreferrer"
-                  >
-                    <span className="text-white bg-brandPink font-semibold px-3 pt-2 pb-[2px] rounded-2xl text-md font-content cursor-pointer hover:bg-brandPink3">
-                      ಬುಕ್ ಮಾಡಿ
-                    </span>
-                  </a>
-                </div>
+                <button
+                  onClick={() => setIsOpen(!isOpen)}
+                  type="button"
+                  className="inline-flex mr-1 items-center justify-center p-2 text-gray-200 bg-gray-900 rounded-full hover:text-white hover:bg-gray-800 focus:outline-none"
+                  aria-controls="mobile-menu"
+                  aria-expanded="false"
+                >
+                  <div className="sr-only">Open main menu</div>
+                  {!isOpen ? (
+                    <HiOutlineMenuAlt3 className="block w-6 h-6" />
+                  ) : (
+                    <HiX className="block w-6 h-6" />
+                  )}
+                </button>
               </div>
             </div>
-            <div className="-mr-2 flex items-center justify-center xl:hidden">
-              <button className="mt-4 mr-4">
-                <a
-                  href="https://consult.bestdocapp.com/home/GARBHAGUDI"
-                  className="bg-brandPink hover:bg-gray-800 text-white px-3 pt-2 pb-[2px] rounded-2xl text-md font-bold font-content"
-                  target={"_blank"}
-                  rel="noreferrer"
-                >
-                  ಬುಕ್ ಮಾಡಿ
-                </a>
-              </button>
-              <span className="mt-4 mr-4 z-10">
-                <LanguageSelect />
-              </span>
-              <button
-                onClick={() => setIsOpen(!isOpen)}
-                type="button"
-                className="bg-gray-900 inline-flex items-center justify-center p-2 mt-4 rounded-full text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
-                aria-controls="mobile-menu"
-                aria-expanded="false"
-              >
-                <span className="sr-only">Open main menu</span>
-                {!isOpen ? (
-                  <svg
-                    className="block h-6 w-6"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M4 6h16M4 12h16M4 18h16"
-                    />
-                  </svg>
-                ) : (
-                  <svg
-                    className="block h-6 w-6"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    aria-hidden="true"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M6 18L18 6M6 6l12 12"
-                    />
-                  </svg>
-                )}
-              </button>
+            <div
+              className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
+              id="desktop-Menu"
+            >
+              <div className="py-2 flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+                <div className="hidden xl:block">
+                  <div className="flex items-baseline space-x-4">
+                    {menu.map((items) => (
+                      <div
+                        key={items.id}
+                        className="text-base font-bold text-gray-800 hover:bg-brandPink hover:text-white rounded-lg font-content transition-all ease-in duration-200"
+                      >
+                        {items.option}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-
+        </nav>
         <Transition
           show={isOpen}
           enter="transition ease-out duration-100 transform"
@@ -163,42 +121,27 @@ const Nav = () => {
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
         >
-          {(ref) => (
-            <div className="xl:hidden" id="mobile-menu">
-              <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <Link href="/">
-                  <a className="text-brandDark hover:bg-brandPink hover:text-white block px-3 pt-2 pb-[2px] rounded-md text-md font-content">
-                    ಮುಖಪುಟ
-                  </a>
-                </Link>
-                <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 pt-2 pb-[2px] rounded-md text-md font-content">
-                  <About />
-                </span>
-
-                <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 pt-2 pb-[2px] rounded-md text-md font-content">
-                  <Treatment />
-                </span>
-                <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 pt-2 pb-[2px] rounded-md text-md font-content">
-                  <KnowledgeCenter />
-                </span>
-                <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 pt-2 pb-[2px] rounded-md text-md font-content">
-                  <Contact />
-                </span>
-                <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 pt-2 pb-[2px] rounded-md text-md font-content">
-                  <Locations />
-                </span>
-                <a
-                  href="https://consult.bestdocapp.com/home/GARBHAGUDI"
-                  target={"_blank"}
-                  rel="noreferrer"
+          <div className="mt-2 xl:hidden pb-2 bg-white" id="mobile-menu">
+            <div className="px-2">
+              {menu.map((items) => (
+                <div
+                  key={items.id}
+                  className="text-sm rounded-md font-semibold text-brandDark hover:bg-brandPink hover:text-white font-content"
                 >
-                  <span className="text-brandDark hover:bg-brandPink hover:text-white block px-3 py-2 rounded-md text-md font-content cursor-pointer">
-                    ಬುಕ್ ಮಾಡಿ
-                  </span>
-                </a>
-              </div>
+                  <div>{items.option}</div>
+                </div>
+              ))}
+              <Link
+                href="https://consult.bestdocapp.com/home/GARBHAGUDI"
+                target={"_blank"}
+                rel="noreferrer"
+                onClick={() => setIsOpen(!isOpen)}
+                className="block px-2 py-2 text-opacity-90 text-sm rounded-md font-semibold cursor-pointer text-brandDark hover:bg-brandPink hover:text-white font-content"
+              >
+                ಬುಕ್ ಮಾಡಿ
+              </Link>
             </div>
-          )}
+          </div>
         </Transition>
       </nav>
     </div>

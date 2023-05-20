@@ -6,6 +6,7 @@ import { gql, GraphQLClient } from "graphql-request";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Image from "next/image";
+import Faq from "sections/home/faq";
 
 const responsive = {
   superLargeDesktop: {
@@ -15,6 +16,25 @@ const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
     items: 1,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 1,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
+
+const responsive2 = {
+  superLargeDesktop: {
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 4,
   },
   tablet: {
     breakpoint: { max: 1024, min: 464 },
@@ -114,39 +134,76 @@ const Home = ({ homeData }) => {
         ))}
       </Carousel>
       <HomeComponent />
-      <div className="bg-white" id="ourTeam">
-        <div className="max-w-7xl mx-auto py-16 px-4 text-center sm:px-6 lg:px-8 lg:py-12">
+      <div className="bg-neutral-50" id="ourTeam">
+        <div className="px-4 py-16 mx-auto text-center max-w-[1366px] sm:px-6 lg:px-8 lg:py-12">
           <div className="space-y-12">
             <div className="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-              <h2 className="text-3xl sm:text-4xl font-semibold text-brandPink font-heading">
+              <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl text-brandDark font-heading">
                 ನಮ್ಮ ತಜ್ಞರನ್ನು ಭೇಟಿ ಮಾಡಿ
               </h2>
-              <p className="text-md sm:text-xl text-brandDark font-content">
+              <p className="text-base text-brandDark font-content">
                 ನಮ್ಮ ಫಲವತ್ತತೆ ತಜ್ಞರ ತಂಡವು ಅವರ ವ್ಯಾಪಕವಾದ ಕ್ಲಿನಿಕಲ್ ಅನುಭವ ಮತ್ತು
                 ಸಂಶೋಧನಾ ಕೊಡುಗೆಗಳು ಮತ್ತು ಅತ್ಯಂತ ಸವಾಲಿನ ಫಲವತ್ತತೆ ಪ್ರಕರಣಗಳಿಗೆ
                 ಚಿಕಿತ್ಸೆ ನೀಡುವಲ್ಲಿ ಅವರ ಯಶಸ್ಸಿಗೆ ಹೆಸರುವಾಸಿಯಾಗಿದೆ.
               </p>
             </div>
-            <ul className="grid grid-cols-2 mx-auto space-y-0 sm:gap-16 sm:space-y-0 lg:grid-cols-4 lg:max-w-7xl">
-              {homeData?.doctors.map((item) => {
+            <div className="hidden lg:grid grid-cols-2 mx-auto space-y-0 sm:gap-8 sm:space-y-0 lg:grid-cols-6">
+              {homeData?.doctors.map((item: any) => {
                 return (
-                  <li
+                  <div
                     key={item?.id}
-                    className="mb-2 transition-all duration-500 hover:shadow-2xl rounded-xl "
+                    className="transition-all duration-500 hover:scale-125"
                   >
-                    <Link
-                      legacyBehavior
-                      href={`/doctors/${item?.slug}`}
-                      passHref
+                    <Link href={`/fertility-experts/${item?.slug}`} passHref>
+                      <div className="space-y-4">
+                        <Image
+                          className="mx-auto my-auto mt-4 shadow-3xl transition-all duration-300 rounded-full xl:w-40 xl:h-40 drop-shadow-2xl"
+                          src={item?.image?.url}
+                          alt={item?.imageAlt || item?.name}
+                          width={500}
+                          height={500}
+                          loading="lazy"
+                        />
+                        <div className="space-y-0.5">
+                          <h3 className="text-brandDark text-lg font-heading font-bold">
+                            {item?.name}
+                          </h3>
+                          <p className="text-xs text-brandPurpleDark font-semibold font-content">
+                            {item?.qualification}
+                          </p>
+                          <div className="pb-2 text-sm text-brandPink font-content drop-shadow-2xl shadow-black">
+                            {item?.designation}
+                          </div>
+                        </div>
+                      </div>
+                    </Link>
+                  </div>
+                );
+              })}
+            </div>
+            <div className="lg:hidden">
+              <Carousel
+                responsive={responsive2}
+                ssr={true}
+                infinite={true}
+                autoPlay={true}
+                autoPlaySpeed={5000}
+              >
+                {homeData?.doctors.map((item: any) => {
+                  return (
+                    <div
+                      key={item?.id}
+                      className="mb-2 transition-all duration-500 rounded-xl "
                     >
-                      <div>
+                      <Link href={`/fertility-experts/${item?.slug}`} passHref>
                         <div className="space-y-4">
                           <Image
-                            className="w-32 h-32 mx-auto my-auto mt-4 transition-all duration-500 rounded-full xl:w-44 xl:h-44 hover:scale-110"
+                            className="w-56 h-56 mx-auto my-auto mt-4 transition-all duration-500 rounded-full xl:w-44 xl:h-44 hover:scale-110"
                             src={item?.image?.url}
-                            alt={item?.name}
+                            alt={item?.name || item?.imageAlt}
                             width={500}
                             height={500}
+                            loading="lazy"
                           />
                           <div className="space-y-4">
                             <div className="space-y-1 text-lg font-medium leading-6">
@@ -162,15 +219,16 @@ const Home = ({ homeData }) => {
                             </div>
                           </div>
                         </div>
-                      </div>
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
+                      </Link>
+                    </div>
+                  );
+                })}
+              </Carousel>
+            </div>
           </div>
         </div>
       </div>
+      <Faq />
     </div>
   );
 };
