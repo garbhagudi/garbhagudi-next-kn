@@ -12,7 +12,7 @@
   "dependencies": {
     "@apollo/client": "^3.7.14",
     "@graphcms/rich-text-react-renderer": "^0.6.1",
-    "@headlessui/react": "^1.7.14",
+    "@headlessui/react": "^1.7.15",
     "@headlessui/tailwindcss": "^0.1.2",
     "graphql": "^16.6.0",
     "graphql-request": "5.0.0",
