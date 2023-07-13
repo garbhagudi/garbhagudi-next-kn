@@ -1800,10 +1800,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-share@^0.19.0:
-  version "0.19.0"
-  resolved "https://registry.yarnpkg.com/next-share/-/next-share-0.19.0.tgz#780d81317561be99e976e41f53fdb02ba80dfdd9"
-  integrity sha512-egqNtBkyoP/takhLK7yxcuXIOMnj55hQfBCdpq5iBkruqJM4JXcdtvQ7HvxYvLKrbWQ99ayKEcsv9dXwSdTd8g==
+next-share@^0.23.0:
+  version "0.23.0"
+  resolved "https://registry.yarnpkg.com/next-share/-/next-share-0.23.0.tgz#2903b237c4f3c3608486b413c1f5254376131eb1"
+  integrity sha512-SV80bqVZpAI1Weyzz7z3tqcT/6GPouP/E1BkjDxPbOGuyYynTx1yv0CCSaqH4CrBGT5i+MWukt0CCiYilRlnVA==
   dependencies:
     jsonp "^0.2.1"
 
