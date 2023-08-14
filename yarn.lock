@@ -1803,10 +1803,10 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-share@^0.23.0:
-  version "0.23.0"
-  resolved "https://registry.yarnpkg.com/next-share/-/next-share-0.23.0.tgz#2903b237c4f3c3608486b413c1f5254376131eb1"
-  integrity sha512-SV80bqVZpAI1Weyzz7z3tqcT/6GPouP/E1BkjDxPbOGuyYynTx1yv0CCSaqH4CrBGT5i+MWukt0CCiYilRlnVA==
+next-share@^0.25.0:
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/next-share/-/next-share-0.25.0.tgz#98e12af7034b74c0cc19776c7fe2d183b4988466"
+  integrity sha512-uWL5od4jb1D70CsJbZLtjJnmtuUvAvA85qw1nY1OUL2z2F1pl2Y+h/WsGDLzSIUWAdrOSIfhgTE+AqqsOtwdmQ==
   dependencies:
     jsonp "^0.2.1"
 
@@ -2710,11 +2710,6 @@ which@^2.0.1:
   integrity sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
   dependencies:
     isexe "^2.0.0"
-
-word-wrap@^1.2.3:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.4.tgz#cb4b50ec9aca570abd1f52f33cd45b6c61739a9f"
-  integrity sha512-2V81OA4ugVo5pRo46hAoD2ivUJx8jXmWXfUkY4KFNw0hEptvN0QfH3K4nHiwzGeKl5rFKedV48QVoqYavy4YpA==
 
 wrappy@1:
   version "1.0.2"
