@@ -6,7 +6,6 @@ import Head from 'next/head';
 import BreadCrumbs from 'components/breadcrumbs';
 import { useRouter } from 'next/router';
 import Loading from 'components/Loading';
-// import SearchComponent from 'components/search/searchComponent';
 import Pagination from 'components/pagination';
 
 const limit = 6;
@@ -95,7 +94,7 @@ function BlogPage({
                   key={item?.node?.id}
                   className='flex flex-col rounded-lg shadow-2xl overflow-hidden hover:translate-x-1 hover:translate-y-1 transition duration-200 hover:shadow-lg'
                 >
-                  <Link href={`/blogs/${item.node.slug}`} passHref>
+                  <Link href={`/blogs/${item?.node?.slug}`} passHref>
                     <div className='flex-shrink-0'>
                       <img
                         className='h-38 w-full object-contain rounded-t-lg cursor-pointer'
