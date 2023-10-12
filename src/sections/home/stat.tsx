@@ -3,7 +3,7 @@ import React from 'react';
 const metrics = [
   {
     id: 1,
-    stat: '8500+',
+    stat: '10000+',
     emphasis: 'ಸಂತೋಷ ತುಂಬಿದ ಕುಟುಂಬಗಳು',
   },
   {
