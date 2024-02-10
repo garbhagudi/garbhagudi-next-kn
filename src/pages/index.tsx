@@ -247,7 +247,7 @@ export const getStaticProps = async () => {
   });
   const query = gql`
     query {
-      doctors {
+      doctors(orderBy: order_ASC) {
         name
         qualification
         slug
