@@ -83,7 +83,7 @@ const Doctor = ({ doctor }) => {
 
   if (router.isFallback) {
     return (
-      <div className='h-screen text-brandPink flex items-center justify-center text-content animate-ping'>
+      <div className='flex h-screen justify-center text-brandPink text-content animate-ping items-center'>
         Loading...
       </div>
     );
@@ -132,9 +132,9 @@ const Doctor = ({ doctor }) => {
         text4={''}
       />
       <main className='profile-page'>
-        <section className='relative block' style={{ height: '500px' }}>
+        <section className='block relative' style={{ height: '500px' }}>
           <div
-            className='absolute top-0 w-full h-full bg-center bg-cover'
+            className='bg-center bg-cover h-full w-full absolute top-0'
             style={{
               backgroundImage:
                 "url('https://res.cloudinary.com/garbhagudiivf/image/upload/v1643286880/Banner/Behind_Doctors_fssazq.jpg')",
@@ -142,11 +142,11 @@ const Doctor = ({ doctor }) => {
           >
             <span
               id='blackOverlay'
-              className='w-full h-full absolute opacity-30 bg-black'
+              className='bg-black h-full w-full absolute opacity-30'
             ></span>
           </div>
           <div
-            className='top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden'
+            className='w-full absolute bottom-0 left-0 overflow-hidden pointer-events-none right-0 top-auto'
             style={{ height: '70px' }}
           >
             <svg
@@ -165,46 +165,46 @@ const Doctor = ({ doctor }) => {
             </svg>
           </div>
         </section>
-        <section className='relative py-16 bg-gray-300'>
-          <div className='container mx-auto md:px-4'>
-            <div className='relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-3xl -mt-64'>
-              <div className='px-2 md:px-6' key={doctor.id}>
+        <section className='bg-gray-300 py-16 relative'>
+          <div className='container md:px-4 mx-auto'>
+            <div className='flex flex-col bg-white rounded-3xl shadow-xl w-full -mt-64 break-words mb-6 min-w-0 relative'>
+              <div className='md:px-6 px-2' key={doctor.id}>
                 <div className='flex flex-wrap justify-center'>
-                  <div className='w-full lg:w-3/12 px-4 lg:order-2 flex justify-center'>
+                  <div className='flex justify-center w-full lg:order-2 lg:w-3/12 px-4'>
                     <div className='relative'>
                       <img
                         alt={doctor.name}
                         src={doctor.image.url}
-                        className='shadow-xl rounded-full max-w-xs h-auto align-middle border-none -m-16 -mt-44 -ml-20 mb-4 lg:-ml-16 '
+                        className='align-middle border-none h-auto rounded-full shadow-xl -m-16 -ml-20 -mt-44 lg:-ml-16 max-w-xs mb-4'
                       />
                     </div>
                   </div>
                 </div>
-                <div className='text-center mt-12 font-heading'>
-                  <h1 className='text-4xl font-semibold leading-normal mb-2 text-gray-800'>
+                <div className='text-center font-heading mt-12'>
+                  <h1 className='text-4xl text-gray-800 font-semibold leading-normal mb-2'>
                     {doctor.name}
                   </h1>
-                  <div className='leading-normal mt-0 mb-2 font-content text-brandPink2 font-semibold text-xl'>
+                  <div className='text-brandPink2 text-xl font-content font-semibold leading-normal mb-2 mt-0'>
                     {doctor.qualification}
                   </div>
-                  <div className='mb-2 text-gray-700 font-content text-lg'>
+                  <div className='text-gray-700 text-lg font-content mb-2'>
                     {doctor.designation}
                   </div>
-                  <div className='mb-2 text-gray-700 font-content text-lg'>
+                  <div className='text-gray-700 text-lg font-content mb-2'>
                     ವೈದ್ಯಕೀಯ ನೋಂದಣಿ ಸಂಖ್ಯೆ (ಕೆಎಂಸಿ) :{' '}
                     <span className='font-bold underline'>
                       {doctor?.medicalRegNo}
                     </span>
                   </div>
-                  <div className='mb-2 text-gray-700 font-content text-lg'>
+                  <div className='text-gray-700 text-lg font-content mb-2'>
                     ತಿಳಿದಿರುವ ಭಾಷೆಗಳು:{' '}
                     <span className='font-bold underline'>
                       {doctor?.languages}
                     </span>
                   </div>
                   <div>
-                    <button className='px-4 py-2 pt-3 bg-brandPink hover:bg-brandPink3 text-white font-semibold font-content rounded-md mt-6'>
-                      <a href='tel:+918880000909' hrefLang='en-us'>
+                    <button className='bg-brandPink rounded-md text-white font-content font-semibold hover:bg-brandPink3 mt-6 pt-3 px-4 py-2'>
+                      <a href='tel:+919108910832' hrefLang='en-us'>
                         ನಮಗೆ ಕರೆ ಮಾಡಿ
                       </a>
                     </button>
@@ -216,44 +216,44 @@ const Doctor = ({ doctor }) => {
                     doctor?.marathahalliPhysical ||
                     doctor?.newBelRoadPhysical ||
                     doctor?.nagarbhaviPhysical) && (
-                    <section className='antialiased text-gray-600 mt-8 font-content overflow-hidden'>
-                      <div className='flex flex-col justify-center h-full'>
-                        <div className='w-full max-w-3xl mx-auto bg-white shadow-xl rounded-2xl border border-pink-200'>
+                    <section className='text-gray-600 antialiased font-content mt-8 overflow-hidden'>
+                      <div className='flex flex-col h-full justify-center'>
+                        <div className='bg-white border border-pink-200 rounded-2xl shadow-xl w-full max-w-3xl mx-auto'>
                           <header className='px-5 py-2'>
-                            <h2 className='font-semibold text-gray-800'>
+                            <h2 className='text-gray-800 font-semibold'>
                               ನಿಮ್ಮ ನೇಮಕಾತಿಯನ್ನು ಕಾಯ್ದಿರಿಸಿ
                             </h2>
                           </header>
                           <div className=''>
                             <div className='overflow-x-auto'>
                               <table className='table-auto w-full'>
-                                <thead className='text-sm font-bold uppercase text-brandDark bg-brandPink'>
+                                <thead className='bg-brandPink text-brandDark text-sm font-bold uppercase'>
                                   <tr>
-                                    <th className='p-2 whitespace-nowrap '>
-                                      <div className='font-bold text-left ml-1'>
+                                    <th className='p-2 whitespace-nowrap'>
+                                      <div className='text-left font-bold ml-1'>
                                         ಶಾಖೆ
                                       </div>
                                     </th>
                                     <th className='p-2 whitespace-nowrap'>
-                                      <div className='font-bold text-left'>
+                                      <div className='text-left font-bold'>
                                         ಆವರಣದಲ್ಲಿ
                                       </div>
                                     </th>
                                     <th className='p-2 whitespace-nowrap'>
-                                      <div className='font-bold text-left'>
+                                      <div className='text-left font-bold'>
                                         ಆನ್ಲೈನ್
                                       </div>
                                     </th>
                                   </tr>
                                 </thead>
-                                <tbody className='text-sm divide-y divide-pink-100'>
+                                <tbody className='text-sm divide-pink-100 divide-y'>
                                   {doctor.hanumanthaNagarOnline &&
                                     doctor.hanumanthaNagarPhysical && (
                                       <tr>
                                         <td className='p-2 whitespace-nowrap'>
                                           <div className='flex items-center'>
-                                            <div className='font-medium text-gray-800 flex items-center justify-center'>
-                                              <div className='w-10 h-10 flex-shrink-0 mr-2'>
+                                            <div className='flex justify-center text-gray-800 font-medium items-center'>
+                                              <div className='flex-shrink-0 h-10 w-10 mr-2'>
                                                 <img
                                                   className='rounded-sm'
                                                   src='https://res.cloudinary.com/garbhagudiivf/image/upload/v1643351546/Icons/Locations/Hanumanthanagar_ykripm.svg'
@@ -275,13 +275,13 @@ const Doctor = ({ doctor }) => {
                                         </td>
 
                                         <td className='p-2 whitespace-nowrap'>
-                                          <div className='text-left font-medium text-brandPink2'>
+                                          <div className='text-brandPink2 text-left font-medium'>
                                             <button>
                                               <a
                                                 href={
                                                   doctor.hanumanthaNagarPhysical
                                                 }
-                                                className='font-semibold text-brandPink hover:underline'
+                                                className='text-brandPink font-semibold hover:underline'
                                                 hrefLang='en-us'
                                                 target='_blank'
                                                 rel='noreferrer'
@@ -298,7 +298,7 @@ const Doctor = ({ doctor }) => {
                                                 href={
                                                   doctor.hanumanthaNagarOnline
                                                 }
-                                                className='font-semibold text-brandPink hover:underline'
+                                                className='text-brandPink font-semibold hover:underline'
                                                 target='_blank'
                                                 hrefLang='en-us'
                                                 rel='noreferrer'
@@ -315,9 +315,9 @@ const Doctor = ({ doctor }) => {
                                       <tr>
                                         <td className='p-2 whitespace-nowrap'>
                                           <div className='flex items-center'>
-                                            <div className='font-medium text-gray-800'>
-                                              <div className='font-medium text-gray-800 flex items-center justify-center'>
-                                                <div className='w-10 h-10 flex-shrink-0 mr-2 sm:mr-3'>
+                                            <div className='text-gray-800 font-medium'>
+                                              <div className='flex justify-center text-gray-800 font-medium items-center'>
+                                                <div className='flex-shrink-0 h-10 w-10 mr-2 sm:mr-3'>
                                                   <img
                                                     className='rounded-sm'
                                                     src='https://res.cloudinary.com/garbhagudiivf/image/upload/v1643351546/Icons/Locations/Kalyan_Nagar_ivtier.svg'
@@ -346,7 +346,7 @@ const Doctor = ({ doctor }) => {
                                                 href={
                                                   doctor.kalyanNagarPhysical
                                                 }
-                                                className='font-semibold text-brandPink hover:underline'
+                                                className='text-brandPink font-semibold hover:underline'
                                                 target='_blank'
                                                 hrefLang='en-us'
                                                 rel='noreferrer'
@@ -357,14 +357,14 @@ const Doctor = ({ doctor }) => {
                                           </div>
                                         </td>
                                         <td className='p-2 whitespace-nowrap'>
-                                          <div className='text-black font-semibold text-left'>
+                                          <div className='text-black text-left font-semibold'>
                                             <button>
                                               <a
                                                 href={doctor.kalyanNagarOnline}
                                                 target='_blank'
                                                 hrefLang='en-us'
                                                 rel='noreferrer'
-                                                className='font-semibold text-brandPink hover:underline'
+                                                className='text-brandPink font-semibold hover:underline'
                                               >
                                                 ಬುಕ್ ಮಾಡಿ
                                               </a>
@@ -378,9 +378,9 @@ const Doctor = ({ doctor }) => {
                                       <tr>
                                         <td className='p-2 whitespace-nowrap'>
                                           <div className='flex items-center'>
-                                            <div className='font-medium text-gray-800'>
-                                              <div className='font-medium text-gray-800 flex items-center justify-center'>
-                                                <div className='w-10 h-10 flex-shrink-0 mr-2 sm:mr-3 '>
+                                            <div className='text-gray-800 font-medium'>
+                                              <div className='flex justify-center text-gray-800 font-medium items-center'>
+                                                <div className='flex-shrink-0 h-10 w-10 mr-2 sm:mr-3'>
                                                   <img
                                                     className='rounded-sm'
                                                     src='https://res.cloudinary.com/garbhagudiivf/image/upload/v1643351530/Icons/Locations/South_End_Circle_l3ffwj.svg'
@@ -403,11 +403,11 @@ const Doctor = ({ doctor }) => {
                                         </td>
 
                                         <td className='p-2 whitespace-nowrap'>
-                                          <div className='text-left font-medium text-brandPink2'>
+                                          <div className='text-brandPink2 text-left font-medium'>
                                             <button>
                                               <a
                                                 href={doctor.jayanagarPhysical}
-                                                className='font-semibold text-brandPink hover:underline'
+                                                className='text-brandPink font-semibold hover:underline'
                                                 target='_blank'
                                                 hrefLang='en-us'
                                                 rel='noreferrer'
@@ -422,7 +422,7 @@ const Doctor = ({ doctor }) => {
                                             <button>
                                               <a
                                                 href={doctor.jayanagarOnline}
-                                                className='font-semibold text-brandPink hover:underline'
+                                                className='text-brandPink font-semibold hover:underline'
                                                 target='_blank'
                                                 hrefLang='en-us'
                                                 rel='noreferrer'
@@ -439,9 +439,9 @@ const Doctor = ({ doctor }) => {
                                       <tr>
                                         <td className='p-2 whitespace-nowrap'>
                                           <div className='flex items-center'>
-                                            <div className='font-medium text-gray-800'>
-                                              <div className='font-medium text-gray-800 flex items-center justify-center'>
-                                                <div className='w-10 h-10 flex-shrink-0 mr-2 sm:mr-3 '>
+                                            <div className='text-gray-800 font-medium'>
+                                              <div className='flex justify-center text-gray-800 font-medium items-center'>
+                                                <div className='flex-shrink-0 h-10 w-10 mr-2 sm:mr-3'>
                                                   <img
                                                     className='rounded-sm'
                                                     src='https://res.cloudinary.com/garbhagudiivf/image/upload/v1643351530/Icons/Locations/Electronic_City_xntwob.svg'
@@ -464,7 +464,7 @@ const Doctor = ({ doctor }) => {
                                         </td>
 
                                         <td className='p-2 whitespace-nowrap'>
-                                          <div className='text-left font-medium text-brandPink2'>
+                                          <div className='text-brandPink2 text-left font-medium'>
                                             <button>
                                               <a
                                                 href={
@@ -473,7 +473,7 @@ const Doctor = ({ doctor }) => {
                                                 target='_blank'
                                                 rel='noreferrer'
                                                 hrefLang='en-us'
-                                                className='font-semibold text-brandPink hover:underline'
+                                                className='text-brandPink font-semibold hover:underline'
                                               >
                                                 ಬುಕ್ ಮಾಡಿ
                                               </a>
@@ -487,7 +487,7 @@ const Doctor = ({ doctor }) => {
                                                 href={
                                                   doctor.electronicCityOnline
                                                 }
-                                                className='font-semibold text-brandPink hover:underline'
+                                                className='text-brandPink font-semibold hover:underline'
                                                 target='_blank'
                                                 hrefLang='en-us'
                                                 rel='noreferrer'
@@ -504,8 +504,8 @@ const Doctor = ({ doctor }) => {
                                       <tr>
                                         <td className='p-2 whitespace-nowrap'>
                                           <div className='flex items-center'>
-                                            <div className='font-medium text-gray-800 flex items-center justify-center'>
-                                              <div className='w-10 h-10 flex-shrink-0 mr-2 sm:mr-3 '>
+                                            <div className='flex justify-center text-gray-800 font-medium items-center'>
+                                              <div className='flex-shrink-0 h-10 w-10 mr-2 sm:mr-3'>
                                                 <img
                                                   className='rounded-sm'
                                                   src='https://res.cloudinary.com/garbhagudiivf/image/upload/v1643351530/Icons/Locations/Marathahalli_p99ljc.svg'
@@ -527,7 +527,7 @@ const Doctor = ({ doctor }) => {
                                         </td>
 
                                         <td className='p-2 whitespace-nowrap'>
-                                          <div className='text-left font-medium text-brandPink2'>
+                                          <div className='text-brandPink2 text-left font-medium'>
                                             <button>
                                               <a
                                                 href={
@@ -536,7 +536,7 @@ const Doctor = ({ doctor }) => {
                                                 target='_blank'
                                                 rel='noreferrer'
                                                 hrefLang='en-us'
-                                                className='text-left font-medium text-brandPink2 hover:underline'
+                                                className='text-brandPink2 text-left font-medium hover:underline'
                                               >
                                                 ಬುಕ್ ಮಾಡಿ
                                               </a>
@@ -548,7 +548,7 @@ const Doctor = ({ doctor }) => {
                                             <button>
                                               <a
                                                 href={doctor.marathahalliOnline}
-                                                className='text-left font-medium text-brandPink2 hover:underline'
+                                                className='text-brandPink2 text-left font-medium hover:underline'
                                                 target='_blank'
                                                 hrefLang='en-us'
                                                 rel='noreferrer'
@@ -565,8 +565,8 @@ const Doctor = ({ doctor }) => {
                                     <tr>
                                       <td className='p-2 whitespace-nowrap'>
                                         <div className='flex items-center'>
-                                          <div className='font-medium text-gray-800 flex items-center justify-center'>
-                                            <div className='w-10 h-10 bg-brandPink flex items-center justify-center mr-2 sm:mr-3 text-white rounded-lg'>
+                                          <div className='flex justify-center text-gray-800 font-medium items-center'>
+                                            <div className='flex bg-brandPink h-10 justify-center rounded-lg text-white w-10 items-center mr-2 sm:mr-3'>
                                               <SiGooglemaps className='text-2xl' />
                                             </div>
                                             <Link
@@ -583,14 +583,14 @@ const Doctor = ({ doctor }) => {
 
                                       {doctor?.newBelRoadPhysical && (
                                         <td className='p-2 whitespace-nowrap'>
-                                          <div className='text-left font-medium text-brandPink2'>
+                                          <div className='text-brandPink2 text-left font-medium'>
                                             <button>
                                               <a
                                                 href={doctor.newBelRoadPhysical}
                                                 target='_blank'
                                                 rel='noreferrer'
                                                 hrefLang='en-us'
-                                                className='text-left font-medium text-brandPink2 hover:underline'
+                                                className='text-brandPink2 text-left font-medium hover:underline'
                                               >
                                                 ಬುಕ್ ಮಾಡಿ
                                               </a>
@@ -604,7 +604,7 @@ const Doctor = ({ doctor }) => {
                                             <button>
                                               <a
                                                 href={doctor.newBelRoadOnline}
-                                                className='text-left font-medium text-brandPink2 hover:underline'
+                                                className='text-brandPink2 text-left font-medium hover:underline'
                                                 target='_blank'
                                                 hrefLang='en-us'
                                                 rel='noreferrer'
@@ -622,8 +622,8 @@ const Doctor = ({ doctor }) => {
                                     <tr>
                                       <td className='p-2 whitespace-nowrap'>
                                         <div className='flex items-center'>
-                                          <div className='font-medium text-gray-800 flex items-center justify-center'>
-                                            <div className='w-10 h-10 bg-brandPink flex items-center justify-center mr-2 sm:mr-3 text-white rounded-lg'>
+                                          <div className='flex justify-center text-gray-800 font-medium items-center'>
+                                            <div className='flex bg-brandPink h-10 justify-center rounded-lg text-white w-10 items-center mr-2 sm:mr-3'>
                                               <SiGooglemaps className='text-2xl' />
                                             </div>
                                             <Link
@@ -640,14 +640,14 @@ const Doctor = ({ doctor }) => {
 
                                       {doctor?.nagarbhaviPhysical && (
                                         <td className='p-2 whitespace-nowrap'>
-                                          <div className='text-left font-medium text-brandPink2'>
+                                          <div className='text-brandPink2 text-left font-medium'>
                                             <button>
                                               <a
                                                 href={doctor.nagarbhaviPhysical}
                                                 target='_blank'
                                                 rel='noreferrer'
                                                 hrefLang='en-us'
-                                                className='text-left font-medium text-brandPink2 hover:underline'
+                                                className='text-brandPink2 text-left font-medium hover:underline'
                                               >
                                                 ಬುಕ್ ಮಾಡಿ
                                               </a>
@@ -661,7 +661,7 @@ const Doctor = ({ doctor }) => {
                                             <button>
                                               <a
                                                 href={doctor.nagarbhaviOnline}
-                                                className='text-left font-medium text-brandPink2 hover:underline'
+                                                className='text-brandPink2 text-left font-medium hover:underline'
                                                 target='_blank'
                                                 hrefLang='en-us'
                                                 rel='noreferrer'
@@ -688,10 +688,10 @@ const Doctor = ({ doctor }) => {
                     </section>
                   )}
                 </div>
-                <div className='mt-10 py-10 border-t border-gray-300'>
+                <div className='border-gray-300 border-t mt-10 py-10'>
                   <div className='flex justify-center'>
                     <div className='w-full lg:w-9/12 px-4'>
-                      <div className='mb-4 text-gray-800 prose'>
+                      <div className='text-gray-800 mb-4 prose'>
                         <RichText content={doctor?.bio?.raw?.children} />
                       </div>
                     </div>
