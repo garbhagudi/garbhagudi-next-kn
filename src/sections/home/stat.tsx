@@ -3,7 +3,7 @@ import React from 'react';
 const metrics = [
   {
     id: 1,
-    stat: '10000+',
+    stat: '10500+',
     emphasis: 'ಸಂತೋಷ ತುಂಬಿದ ಕುಟುಂಬಗಳು',
   },
   {
@@ -13,13 +13,8 @@ const metrics = [
   },
   {
     id: 3,
-    stat: '65-73%',
-    emphasis: 'ಐವಿಎಫ್ ಯಶಸ್ಸಿನ ಮಟ್ಟ ',
-  },
-  {
-    id: 4,
     stat: '7',
-    emphasis: 'ಬೆಂಗಳೂರಿನ ವಿವಿಧೆಡೆ 5 ಕೇಂದ್ರಗಳು',
+    emphasis: 'ಬೆಂಗಳೂರಿನ ವಿವಿಧೆಡೆ 7 ಕೇಂದ್ರಗಳು',
   },
 ];
 
