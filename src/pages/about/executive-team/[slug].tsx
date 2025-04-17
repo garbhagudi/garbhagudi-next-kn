@@ -14,6 +14,7 @@ export const getStaticProps = async ({ params }) => {
         name
         details
         link
+        slug
         image {
           url
         }
@@ -103,6 +104,7 @@ const ExecutiveTeam = ({ director }) => (
         content='https://res.cloudinary.com/garbhagudiivf/image/upload/v1643802154/SEO/OG_images_Directors_jbvcep.jpg'
       />
     </Head>
+
     <BreadCrumbs
       text1='About'
       link1='/about/overview'
@@ -139,9 +141,7 @@ const ExecutiveTeam = ({ director }) => (
                 <div className='w-12 h-1 bg-brandPink rounded mt-2 mb-4 '></div>
                 <p className='text-base font-content'>{director?.details}</p>
                 <button className='px-4 py-2 pt-3 mt-6 bg-brandPink2 text-white font-semibold font-content rounded-md'>
-                  <a href={director?.link} target='_blank' rel='noreferrer'>
-                    ಸಂಪರ್ಕಿಸಿ
-                  </a>
+                  <a href={`/fertility-experts/${director?.slug}`}>ಸಂಪರ್ಕಿಸಿ</a>
                 </button>
               </div>
             </div>

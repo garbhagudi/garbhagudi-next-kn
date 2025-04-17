@@ -395,7 +395,7 @@ export function TreatmentOptions() {
                           'focus:outline-none',
                           selected
                             ? 'bg-gray-100 ring-2 ring-brandPink2 shadow'
-                            : 'text-gray-100 hover:bg-brandPink3 hover:text-white',
+                            : 'text-gray-100 hover:bg-brandPink3 hover:text-white'
                         )
                       }
                     >
@@ -408,7 +408,7 @@ export function TreatmentOptions() {
                           'focus:outline-none',
                           selected
                             ? 'bg-gray-100 ring-2 ring-brandPink2 shadow'
-                            : 'text-gray-100 hover:bg-brandPink3 hover:text-white',
+                            : 'text-gray-100 hover:bg-brandPink3 hover:text-white'
                         )
                       }
                     >
@@ -421,7 +421,7 @@ export function TreatmentOptions() {
                           'focus:outline-none',
                           selected
                             ? 'bg-gray-100 ring-2 ring-brandPink2 shadow'
-                            : 'text-gray-100 hover:bg-brandPink3 hover:text-white',
+                            : 'text-gray-100 hover:bg-brandPink3 hover:text-white'
                         )
                       }
                     >
@@ -431,60 +431,54 @@ export function TreatmentOptions() {
                   <Tab.Panels className='px-2 my-2 text-black transition-all ease-out duration-500'>
                     <Tab.Panel>
                       <div className='grid grid-cols-3 text-center'>
-                        {Treatments.map((items) => (
+                        {Treatments.female.map((items) => (
                           <Link href={items.slug} key={items.id}>
-                            {items.category.includes('Female') && (
-                              <div className='flex flex-col items-center justify-center hover:bg-pink-100 py-2 rounded-xl'>
-                                <img
-                                  src={items.icon.url}
-                                  alt={items.title}
-                                  className='w-10 h-10 mx-auto'
-                                />
-                                <div className='font-content text-sm font-medium pt-2'>
-                                  {items.title}
-                                </div>
+                            <div className='flex flex-col items-center justify-center hover:bg-pink-100 py-2 rounded-xl'>
+                              <img
+                                src={items.icon.url}
+                                alt={items.title}
+                                className='w-10 h-10 mx-auto'
+                              />
+                              <div className='font-content text-sm font-medium pt-2'>
+                                {items.title}
                               </div>
-                            )}
+                            </div>
                           </Link>
                         ))}
                       </div>
                     </Tab.Panel>
                     <Tab.Panel>
                       <div className='grid grid-cols-3 text-center'>
-                        {Treatments.map((items) => (
+                        {Treatments.male.map((items) => (
                           <Link href={items.slug} key={items.id}>
-                            {items.category.includes('Male') && (
-                              <div className='flex flex-col items-center justify-center hover:bg-pink-100 py-2 rounded-xl'>
-                                <img
-                                  src={items.icon.url}
-                                  alt={items.title}
-                                  className='w-10 h-10 mx-auto'
-                                />
-                                <div className='font-content text-sm font-medium pt-2'>
-                                  {items.title}
-                                </div>
+                            <div className='flex flex-col items-center justify-center hover:bg-pink-100 py-2 rounded-xl'>
+                              <img
+                                src={items.icon.url}
+                                alt={items.title}
+                                className='w-10 h-10 mx-auto'
+                              />
+                              <div className='font-content text-sm font-medium pt-2'>
+                                {items.title}
                               </div>
-                            )}
+                            </div>
                           </Link>
                         ))}
                       </div>
                     </Tab.Panel>
                     <Tab.Panel>
                       <div className='grid grid-cols-3 text-center'>
-                        {Treatments.map((items) => (
+                        {Treatments.advanced.map((items) => (
                           <Link href={items.slug} key={items.id}>
-                            {items.category.includes('Advanced') && (
-                              <div className='flex flex-col items-center justify-center hover:bg-pink-100 py-2 rounded-xl'>
-                                <img
-                                  src={items.icon.url}
-                                  alt={items.title}
-                                  className='w-10 h-10 mx-auto'
-                                />
-                                <div className='font-content text-sm font-medium pt-2'>
-                                  {items.title}
-                                </div>
+                            <div className='flex flex-col items-center justify-center hover:bg-pink-100 py-2 rounded-xl'>
+                              <img
+                                src={items.icon.url}
+                                alt={items.title}
+                                className='w-10 h-10 mx-auto'
+                              />
+                              <div className='font-content text-sm font-medium pt-2'>
+                                {items.title}
                               </div>
-                            )}
+                            </div>
                           </Link>
                         ))}
                       </div>

@@ -62,9 +62,7 @@ const Steps = () => {
               ವೈದ್ಯರ ಸಲಹೆ ಪಡೆಯಿರಿ ಮತ್ತು ಶಾಖೆಯಲ್ಲಿ ಅಧಿಕಾರಿಗಳು ಒದಗಿಸಿದ ಅರ್ಜಿ ಭರ್ತಿ
               ಮಾಡಿ, ಆನ್‌ಲೈನ್‌ನಲ್ಲಿ ಅಪಾಯಿಂಟ್‌ಮೆಂಟ್ ಬುಕ್ ಮಾಡಲು ದಯವಿಟ್ಟು{" "}
               <Link
-                href={
-                  "https://consult.bestdocapp.com/home/GARBHAGUDI?version=new"
-                }
+                href={"/contact/enquiry"}
                 className="text-brandPink underline"
               >
                 ಇಲ್ಲಿಗೆ ಭೇಟಿ ನೀಡಿ.

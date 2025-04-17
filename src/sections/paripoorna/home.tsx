@@ -15,30 +15,41 @@ const Home = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="flex items-start justify-center flex-col px-3 lg:px-0">
             <div className="font-heading text-2xl py-8 text-brandPink font-bold">
-              &quot;ನಿಮ್ಮ ಐವಿಎಫ್ ಚಿಕಿತ್ಸೆಗಳಲ್ಲಿ 30,000/- ರೂ. ಗಳವರೆಗೆ ರಿಯಾಯಿತಿ ಪಡೆಯಿರಿ&quot;
+              &quot;ನಿಮ್ಮ ಐವಿಎಫ್ ಚಿಕಿತ್ಸೆಗಳಲ್ಲಿ 30,000/- ರೂ. ಗಳವರೆಗೆ ರಿಯಾಯಿತಿ
+              ಪಡೆಯಿರಿ&quot;
               <span className="block text-right text-black text-xs">
                 *ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳು ಅನ್ವಯಿಸುತ್ತದೆ
               </span>
             </div>
 
             <div className="font-content text-lg">
-              ಪಾಲಕರಾಗುವ ಸಂತೋಷದ ಅನುಭವವನ್ನು ಕಳೆದುಕೊಳ್ಳುತ್ತಿರುವ ದಂಪತಿಗಳಲ್ಲಿ ಗರಿಷ್ಠ ಸಂಖ್ಯೆಯ ಜೋಡಿಗಳಿಗೆ ಸೇವೆ ಸಲ್ಲಿಸುವುದು ನಮ್ಮ ಉದ್ದೇಶವಾಗಿದೆ, ಅನೇಕ ದಂಪತಿಗಳಿಗೆ ಐವಿಎಫ್ ಆರ್ಥಿಕವಾಗಿ ಕೈಗೆಟುಕುವುದಿಲ್ಲ ಎಂದು ನಮಗೆ ತಿಳಿದಿದೆ. ಇದನ್ನು ಗಮನದಲ್ಲಿಟ್ಟುಕೊಂಡು, ಗರ್ಭ ಜ್ಞಾನ್ ಫೌಂಡೇಶನ್ ಸಹಯೋಗದೊಂದಿಗೆ ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರವು {" "}
-              <span className="font-bold underline">ಪರಿಪೂರ್ಣ-2022 </span> ಎಂಬ ಕಾರ್ಯಕ್ರಮ ಆರಂಭಿಸಿದೆ.
+              ಪಾಲಕರಾಗುವ ಸಂತೋಷದ ಅನುಭವವನ್ನು ಕಳೆದುಕೊಳ್ಳುತ್ತಿರುವ ದಂಪತಿಗಳಲ್ಲಿ ಗರಿಷ್ಠ
+              ಸಂಖ್ಯೆಯ ಜೋಡಿಗಳಿಗೆ ಸೇವೆ ಸಲ್ಲಿಸುವುದು ನಮ್ಮ ಉದ್ದೇಶವಾಗಿದೆ, ಅನೇಕ
+              ದಂಪತಿಗಳಿಗೆ ಐವಿಎಫ್ ಆರ್ಥಿಕವಾಗಿ ಕೈಗೆಟುಕುವುದಿಲ್ಲ ಎಂದು ನಮಗೆ ತಿಳಿದಿದೆ.
+              ಇದನ್ನು ಗಮನದಲ್ಲಿಟ್ಟುಕೊಂಡು, ಗರ್ಭ ಜ್ಞಾನ್ ಫೌಂಡೇಶನ್ ಸಹಯೋಗದೊಂದಿಗೆ
+              ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರವು{" "}
+              <span className="font-bold underline">ಪರಿಪೂರ್ಣ-2022 </span> ಎಂಬ
+              ಕಾರ್ಯಕ್ರಮ ಆರಂಭಿಸಿದೆ.
               <br />
-              <br />
-              ಈ ಡಿಸೆಂಬರ್‌ನಲ್ಲಿ, ಪಾಲಕರಾಗುವ ಋತುವನ್ನು ಪರಿಪೂರ್ಣದೊಂದಿಗೆ ಸಂಭ್ರಮಿಸಿ, ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರವು ನಿಮ್ಮ ಐವಿಎಫ್ ಆವರ್ತನದ ವೆಚ್ಚದಲ್ಲಿ {" "}
-              <span className="font-bold underline">₹30,000/-</span> ಗಳವರೆಗೆ ರಿಯಾಯಿತಿ ನೀಡುತ್ತಿದೆ. ಈ ಕೊಡುಗೆ ಪಡೆಯಲು ಮತ್ತು ಸಂಪೂರ್ಣತೆಯ ಕಡೆಗೆ ನಿಮ್ಮ ಪ್ರಯಾಣದ ಮೊದಲ ಹೆಜ್ಜೆಗಳನ್ನು ಹಾಕಲು ನಿಮ್ಮ ಹತ್ತಿರದಲ್ಲಿರುವ ಗರ್ಭಗುಡಿ ಶಾಖೆಗೆ ಭೇಟಿ ನೀಡಿ.
+              <br />ಈ ಡಿಸೆಂಬರ್‌ನಲ್ಲಿ, ಪಾಲಕರಾಗುವ ಋತುವನ್ನು ಪರಿಪೂರ್ಣದೊಂದಿಗೆ
+              ಸಂಭ್ರಮಿಸಿ, ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರವು ನಿಮ್ಮ ಐವಿಎಫ್ ಆವರ್ತನದ
+              ವೆಚ್ಚದಲ್ಲಿ <span className="font-bold underline">
+                ₹30,000/-
+              </span>{" "}
+              ಗಳವರೆಗೆ ರಿಯಾಯಿತಿ ನೀಡುತ್ತಿದೆ. ಈ ಕೊಡುಗೆ ಪಡೆಯಲು ಮತ್ತು ಸಂಪೂರ್ಣತೆಯ
+              ಕಡೆಗೆ ನಿಮ್ಮ ಪ್ರಯಾಣದ ಮೊದಲ ಹೆಜ್ಜೆಗಳನ್ನು ಹಾಕಲು ನಿಮ್ಮ ಹತ್ತಿರದಲ್ಲಿರುವ
+              ಗರ್ಭಗುಡಿ ಶಾಖೆಗೆ ಭೇಟಿ ನೀಡಿ.
               <div className="mt-10 flex items-start md:items-center justify-between flex-col lg:flex-row space-y-3 lg:space-y-0">
                 <div className="font-content px-3 py-2 pt-4 bg-brandPink text-white font-bold rounded-xl">
                   <WatchVideo />
                 </div>
                 <div className="font-content px-3 py-2 pt-4 bg-brandPurpleDark text-white font-bold rounded-xl">
-                  <Link href="/contact.html">
+                  <Link href="/contact/enquiry">
                     <span>ಅಪಾಯಿಂಟ್‌ಮೆಂಟ್ ಬುಕ್‌ ಮಾಡಿ</span>
                   </Link>
                 </div>
                 <div className="font-content px-3 py-2 pt-4 bg-brandYellow text-white font-bold rounded-xl">
-                  <Link href="/features/paripoorna-2022/#how-to">
+                  <Link href="/features/paripoorna-2022/">
                     <span>ಮತ್ತಷ್ಟು ಅರಿತುಕೊಳ್ಳಿ</span>
                   </Link>
                 </div>

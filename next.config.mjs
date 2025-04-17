@@ -51,6 +51,11 @@ const nextConfig = {
         destination: "/fertility-experts/[slug]",
         permanent: true,
       },
+      {
+        source: "/fertility-experts/undefined",
+        destination: "/fertility-experts",
+        permanent: true,
+      },
     ];
   },
 };

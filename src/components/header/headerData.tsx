@@ -44,7 +44,7 @@ export const Resources = [
   {
     name: 'ಕಾರಣಗಳು',
     description: 'ಬಂಜೆತನಕ್ಕೆ ಪ್ರಮುಖ ಕಾರಣಗಳು',
-    href: '/resources/causes/',
+    href: '/resources/causes',
     icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839775/Icons/Resources/Causes_cfivce.svg',
   },
   {
@@ -119,7 +119,7 @@ export const ValueAddedServices = [
   },
   {
     name: 'ಉನ್ನತ ಫಲವತ್ತತೆ ತಜ್ಞರು',
-    href: '/locations/fertility-experts',
+    href: '/fertility-experts',
     icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840305/Icons/Features/Top_Fertility_Specialists_zkyl9x.svg',
   },
   {
@@ -177,7 +177,7 @@ export const AboutUs = [
   },
   {
     name: 'ಡಾ ಆಶಾ ಎಸ್ ವಿಜಯ್',
-    href: '/doctors/dr-asha-s-vijay',
+    href: '/fertility-experts/dr-asha-s-vijay',
     icon: 'https://res.cloudinary.com/garbhagudiivf/image/upload/v1642838895/Icons/About/Asha_Vijay_zpq05s.svg',
   },
   {
@@ -202,176 +202,250 @@ export const AboutUs = [
   },
 ];
 
-export const Treatments = [
-  {
-    icon: {
-      url: 'https://media.graphassets.com/DuxA8fsiSRuyw8Me9Qq8',
+export const Treatments = {
+  female: [
+    {
+      icon: {
+        url: 'https://media.graphassets.com/DuxA8fsiSRuyw8Me9Qq8',
+      },
+      title: 'ನೈಸರ್ಗಿಕ ಗರ್ಭಧಾರಣೆ',
+      slug: '/resources/treatments/natural-pregnancy',
+      id: 'cl3shcg6u7b0f0fpe7vec89m1',
     },
-    category: 'Female',
-    title: 'ನೈಸರ್ಗಿಕ ಗರ್ಭಧಾರಣೆ',
-    slug: '/resources/treatments/natural-pregnancy',
-    id: 'cl3shcg6u7b0f0fpe7vec89m1',
-  },
-  {
-    icon: {
-      url: 'https://media.graphassets.com/TV7GzpGpQNyWh1rggmVV',
+    {
+      icon: {
+        url: 'https://media.graphassets.com/TV7GzpGpQNyWh1rggmVV',
+      },
+      title: 'ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆ ',
+      slug: '/resources/treatments/infertility',
+      id: 'cl3sjfluh7gv60co5w129yv3a',
     },
-    category: 'Female',
-    title: 'ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆ ',
-    slug: '/resources/treatments/infertility',
-    id: 'cl3sjfluh7gv60co5w129yv3a',
-  },
-  {
-    icon: {
-      url: 'https://media.graphassets.com/ZokPwSuCoEwcWqloIZQC',
+    {
+      icon: {
+        url: 'https://media.graphassets.com/ZokPwSuCoEwcWqloIZQC',
+      },
+      title: 'ಐ.ವಿ.ಎಫ್',
+      slug: '/resources/treatments/in-vitro-fertilization-ivf',
+      id: 'cl3tsbvr38ojf0co5paddrr25',
     },
-    category: 'Female',
-    title: 'ಐ.ವಿ.ಎಫ್',
-    slug: '/resources/treatments/in-vitro-fertilization-ivf',
-    id: 'cl3tsbvr38ojf0co5paddrr25',
-  },
-  {
-    icon: {
-      url: 'https://media.graphassets.com/6l1Cfaa1T2awUi6KDxRx',
+    {
+      icon: {
+        url: 'https://media.graphassets.com/6l1Cfaa1T2awUi6KDxRx',
+      },
+      title: 'ಐ.ಯು.ಐ',
+      slug: '/resources/treatments/intra-uterine-insemination-iui',
+      id: 'cl3tsshjh8ovw0co5r1j30osi',
     },
-    category: 'Female',
-    title: 'ಐ.ಯು.ಐ',
-    slug: '/resources/treatments/intra-uterine-insemination-iui',
-    id: 'cl3tsshjh8ovw0co5r1j30osi',
-  },
-  {
-    icon: {
-      url: 'https://media.graphassets.com/R3jL6p0ZR5ONNnPpDtnM',
+    {
+      icon: {
+        url: 'https://media.graphassets.com/R3jL6p0ZR5ONNnPpDtnM',
+      },
+      title: 'ಐ.ಸಿ.ಎಸ್‍.ಐ',
+      slug: '/resources/treatments/intracytoplasmic-sperm-injection-icsi',
+      id: 'cl3txt0k68tqa0co5yhsc795d',
     },
-    category: 'Female',
-    title: 'ಐ.ಸಿ.ಎಸ್‍.ಐ',
-    slug: '/resources/treatments/intracytoplasmic-sperm-injection-icsi',
-    id: 'cl3txt0k68tqa0co5yhsc795d',
-  },
-  {
-    icon: {
-      url: 'https://media.graphassets.com/GrwJZJogSGSyV9BvfsFx',
+    {
+      icon: {
+        url: 'https://media.graphassets.com/GrwJZJogSGSyV9BvfsFx',
+      },
+      title: 'ಲ್ಯಾಪರೊಸ್ಕೋಪಿ',
+      slug: '/resources/treatments/laparoscopy',
+      id: 'cl3tywm958tb50fpecdoco5yi',
     },
-    category: 'Female',
-    title: 'ಲ್ಯಾಪರೊಸ್ಕೋಪಿ',
-    slug: '/resources/treatments/laparoscopy',
-    id: 'cl3tywm958tb50fpecdoco5yi',
-  },
-  {
-    icon: {
-      url: 'https://media.graphassets.com/UOgOzwnVTeCa9X0BSdIO',
+    {
+      icon: {
+        url: 'https://media.graphassets.com/UOgOzwnVTeCa9X0BSdIO',
+      },
+      title: 'ಹಿಸ್ಟರೊಸ್ಕೋಪಿ',
+      slug: '/resources/treatments/hysteroscopy',
+      id: 'cl3tzdz918tnu0fpe1h597ypp',
     },
-    category: 'Female',
-    title: 'ಹಿಸ್ಟರೊಸ್ಕೋಪಿ',
-    slug: '/resources/treatments/hysteroscopy',
-    id: 'cl3tzdz918tnu0fpe1h597ypp',
-  },
-  {
-    icon: {
-      url: 'https://media.graphassets.com/dc5Vf12ARiOyQCVmUJOe',
+    {
+      icon: {
+        url: 'https://media.graphassets.com/dc5Vf12ARiOyQCVmUJOe',
+      },
+      title: 'ಘನೀಕೃತ ಭ್ರೂಣ ವರ್ಗಾವಣೆ',
+      slug: '/resources/treatments/frozen-embryo-transfer',
+      id: 'cl3tzze9c8vt20co5eow9gt7g',
     },
-    category: 'Female',
-    title: 'ಘನೀಕೃತ ಭ್ರೂಣ ವರ್ಗಾವಣೆ',
-    slug: '/resources/treatments/frozen-embryo-transfer',
-    id: 'cl3tzze9c8vt20co5eow9gt7g',
-  },
-  {
-    icon: {
-      url: 'https://media.graphassets.com/vFKiT4etSVqz3NaILdwT',
+  ],
+  male: [
+    {
+      icon: {
+        url: 'https://media.graphassets.com/sw0yoTkTzWyfUgxatUO3',
+      },
+      title: 'ಪೆಸಾ ಮತ್ತು ಟೆಸಾ',
+      slug: '/resources/treatments/pesa-and-tesa',
+      id: 'cl3u53o3f8z1k0fpewwk1hlmb',
     },
-    category: 'Female',
-    title: 'ಭ್ರೂಣ ದಾನ',
-    slug: '/resources/treatments/embryo-donation',
-    id: 'cl3u2cjdy8xhd0co5rr03psaf',
-  },
-  {
-    icon: {
-      url: 'https://media.graphassets.com/wFAmIdnROW194dDBtjFL',
+    {
+      icon: {
+        url: 'https://media.graphassets.com/hICowqQbS5qqPF4fidrh',
+      },
+      title: 'ವೀರ್ಯ ಘನೀಕರಣ',
+      slug: '/resources/treatments/semen-freezing',
+      id: 'cl3u5cdhd8zti0fpeneologxn',
     },
-    category: 'Female',
-    title: 'ಅಂಡಾಣು ದಾನ',
-    slug: '/resources/treatments/egg-donation',
-    id: 'cl3u4rk368y6o0fpe4s3y7gpq',
-  },
-  {
-    icon: {
-      url: 'https://media.graphassets.com/sw0yoTkTzWyfUgxatUO3',
+    {
+      icon: {
+        url: 'https://media.graphassets.com/ZCRLurXWTRQOwjJXCNUj',
+      },
+      title: 'ವೆರಿಕೋಸಿಲೆ',
+      slug: '/resources/treatments/varicocele',
+      id: 'cl3u5hdki92a30co5wuhz1nkz',
     },
-    category: 'Male',
-    title: 'ಪೆಸಾ ಮತ್ತು ಟೆಸಾ',
-    slug: '/resources/treatments/pesa-and-tesa',
-    id: 'cl3u53o3f8z1k0fpewwk1hlmb',
-  },
-  {
-    icon: {
-      url: 'https://media.graphassets.com/XgFpZmAYSjKuhr2vEhBh',
+    {
+      icon: {
+        url: 'https://media.graphassets.com/9gjNjMIaSaKAMlYMivl2',
+      },
+      title: 'ಇತರ ಪುರುಷ ಕಾರ್ಯವಿಧಾನಗಳು',
+      slug: '/resources/treatments/other-male-procedures',
+      id: 'cl3u5j2kq90fy0fpefg9g03q7',
     },
-    category: 'Male',
-    title: 'ವೀರ್ಯಾಣು ದಾನ',
-    slug: '/resources/treatments/sperm-donation',
-    id: 'cl3u5a8qi8zj90fpepmq3cnye',
-  },
-  {
-    icon: {
-      url: 'https://media.graphassets.com/hICowqQbS5qqPF4fidrh',
+  ],
+  advanced: [
+    {
+      icon: {
+        url: 'https://media.graphassets.com/3ojT3VERnutmEI7bWNOA',
+      },
+      title: 'ಎಗ್ ಫ್ರೀಜಿಂಗ್',
+      slug: '/resources/treatments/egg-freezing',
+      id: 'cl3u5souj91500fpeos2lgxhb',
     },
-    category: 'Male',
-    title: 'ವೀರ್ಯ ಘನೀಕರಣ',
-    slug: '/resources/treatments/semen-freezing',
-    id: 'cl3u5cdhd8zti0fpeneologxn',
-  },
-  {
-    icon: {
-      url: 'https://media.graphassets.com/ZCRLurXWTRQOwjJXCNUj',
+    {
+      icon: {
+        url: 'https://media.graphassets.com/9POm44brTdW93b5G9swf',
+      },
+      title: 'ಎಂಡೊಮೆಟ್ರಿಯಲ್ ಪುನರುಜ್ಜೀವನಗೊಳಿಸುವಿಕೆ',
+      slug: '/resources/treatments/endometrial-rejuvenation',
+      id: 'cl3u5vvxj91fd0fpevyrgzyzg',
     },
-    category: 'Male',
-    title: 'ವೆರಿಕೋಸಿಲೆ',
-    slug: '/resources/treatments/varicocele',
-    id: 'cl3u5hdki92a30co5wuhz1nkz',
-  },
-  {
-    icon: {
-      url: 'https://media.graphassets.com/9gjNjMIaSaKAMlYMivl2',
+    {
+      icon: {
+        url: 'https://media.graphassets.com/JouDDeqcSPOMPjJWciom',
+      },
+      title: 'ಅನುಕ್ರಮ ವರ್ಗಾವಣೆ',
+      slug: '/resources/treatments/sequential-transfer',
+      id: 'cl3u5xsan93ll0co5gg8rsw5j',
     },
-    category: 'Male',
-    title: 'ಇತರ ಪುರುಷ ಕಾರ್ಯವಿಧಾನಗಳು',
-    slug: '/resources/treatments/other-male-procedures',
-    id: 'cl3u5j2kq90fy0fpefg9g03q7',
-  },
-  {
-    icon: {
-      url: 'https://media.graphassets.com/3ojT3VERnutmEI7bWNOA',
+    {
+      icon: {
+        url: 'https://media.graphassets.com/BmfRh23TJek42dH9xzw6',
+      },
+      title: 'ಮ್ಯಾಕ್ಸ್',
+      slug: '/resources/treatments/macs',
+      id: 'cl3u5z74291qh0fpensbr29w3',
     },
-    category: 'Advanced',
-    title: 'ಎಗ್ ಫ್ರೀಜಿಂಗ್',
-    slug: '/resources/treatments/egg-freezing',
-    id: 'cl3u5souj91500fpeos2lgxhb',
-  },
-  {
-    icon: {
-      url: 'https://media.graphassets.com/9POm44brTdW93b5G9swf',
+  ],
+};
+
+export const TreatmentHeader = {
+  female: [
+    {
+      id: '1',
+      name: 'Natural Pregnancy',
+      icon: 'https://media.graphassets.com/supeMyA2Q3KcYwbmmvv9',
+      link: '/treatments/natural-pregnancy',
     },
-    category: 'Advanced',
-    title: 'ಎಂಡೊಮೆಟ್ರಿಯಲ್ ಪುನರುಜ್ಜೀವನಗೊಳಿಸುವಿಕೆ',
-    slug: '/resources/treatments/endometrial-rejuvenation',
-    id: 'cl3u5vvxj91fd0fpevyrgzyzg',
-  },
-  {
-    icon: {
-      url: 'https://media.graphassets.com/JouDDeqcSPOMPjJWciom',
+    {
+      id: '2',
+      name: 'Infertility',
+      icon: 'https://media.graphassets.com/qrGQ316SD6PY8aDxO8wN',
+      link: '/treatments/infertility-treatment-in-bangalore',
     },
-    category: 'Advanced',
-    title: 'ಅನುಕ್ರಮ ವರ್ಗಾವಣೆ',
-    slug: '/resources/treatments/sequential-transfer',
-    id: 'cl3u5xsan93ll0co5gg8rsw5j',
-  },
-  {
-    icon: {
-      url: 'https://media.graphassets.com/BmfRh23TJek42dH9xzw6',
+    {
+      id: '3',
+      name: 'IVF',
+      icon: 'https://media.graphassets.com/EwdJCRdtRiKDXeWF4toB',
+      link: '/treatments/ivf-treatment-in-bangalore',
     },
-    category: 'Advanced',
-    title: 'ಮ್ಯಾಕ್ಸ್',
-    slug: '/resources/treatments/macs',
-    id: 'cl3u5z74291qh0fpensbr29w3',
-  },
-];
+    {
+      id: '4',
+      name: 'IUI',
+      icon: 'https://media.graphassets.com/CpcAosCyRImJVMN1xA9O',
+      link: '/treatments/iui-treatment-in-bangalore',
+    },
+    {
+      id: '5',
+      name: 'ICSI',
+      icon: 'https://media.graphassets.com/87X23tcZQ6emwyxwBx26',
+      link: '/treatments/icsi-treatment-in-bangalore',
+    },
+    {
+      id: '6',
+      name: 'Laparoscopy',
+      icon: 'https://media.graphassets.com/ytSFCMaPSZiRCkATMEfO',
+      link: '/treatments/laparoscopy-treatment-in-bangalore',
+    },
+    {
+      id: '7',
+      name: 'Hysteroscopy',
+      icon: 'https://media.graphassets.com/srotfmaaQo6SbHxaJuVV',
+      link: '/treatments/hysteroscopy-treatment-in-bangalore',
+    },
+    {
+      id: '8',
+      name: 'FET',
+      icon: 'https://media.graphassets.com/nds958fQUeXbSjkCuUBY',
+      link: '/treatments/frozen-embryo-transfer',
+    },
+    {
+      id: '9',
+      name: 'Egg Freezing',
+      icon: 'https://media.graphassets.com/supeMyA2Q3KcYwbmmvv9',
+      link: '/treatments/ivf-treatment-egg-freezing',
+    },
+  ],
+  male: [
+    {
+      id: '1',
+      name: 'PESA & TESA',
+      icon: 'https://media.graphassets.com/jaf7RcbHQ5u6VHFrt4Ca',
+      link: '/treatments/pesa-and-tesa',
+    },
+    {
+      id: '3',
+      name: 'Semen Freezing',
+      icon: 'https://media.graphassets.com/HEhwcyp3SlmPtlN4qKV0',
+      link: '/treatments/semen-freezing',
+    },
+    {
+      id: '4',
+      name: 'Varicocele',
+      icon: 'https://media.graphassets.com/XBO7nZdiRRq7osOTX3gJ',
+      link: '/treatments/varicocele',
+    },
+    {
+      id: '5',
+      name: 'Other Male Procedures',
+      icon: 'https://media.graphassets.com/DGJeI6HRQIac0FbEOE2A',
+      link: '/treatments/other-male-procedures',
+    },
+  ],
+  advanced: [
+    {
+      id: '1',
+      name: 'Egg Freezing',
+      icon: 'https://media.graphassets.com/E7txYxhvRT6IpoqIHG5b',
+      link: '/treatments/egg-freezing',
+    },
+    {
+      id: '2',
+      name: 'Endometrial Rejuvenation',
+      icon: 'https://media.graphassets.com/B5hTa1wQTOkDWCTRtdxy',
+      link: '/treatments/endometrial-rejuvenation',
+    },
+    {
+      id: '3',
+      name: 'Sequential Transfer',
+      icon: 'https://media.graphassets.com/vR5WqP3oTwGTCa5qbudm',
+      link: '/treatments/sequential-transfer',
+    },
+    {
+      id: '4',
+      name: 'MACS',
+      icon: 'https://media.graphassets.com/ywKFdAMXRNmcEtDVhuDo',
+      link: '/treatments/macs',
+    },
+  ],
+};
