@@ -51,7 +51,7 @@ const Data = [
     id: 1,
     treatent: "IVF ಚಿಕಿತ್ಸೆ",
     desc: "ಗರ್ಭಗುಡಿಯ ಸುಧಾರಿತ ಐವಿಎಫ್ ಚಿಕಿತ್ಸಾ ಆಯ್ಕೆಗಳೊಂದಿಗೆ ಪಿತೃತ್ವದ ಬಾಗಿಲುಗಳನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಿ ಮತ್ತು ಕುಟುಂಬವನ್ನು ಪ್ರಾರಂಭಿಸುವ ನಿಮ್ಮ ಕನಸುಗಳಿಗೆ ಹೊಸ ಜೀವನವನ್ನು ನೀಡಿ.",
-    link: "/treatments/in-vitro-fertilization-ivf",
+    link: "/resources/treatments/in-vitro-fertilization-ivf",
     image:
       "https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/ivf_jwjqwf.webp",
   },
@@ -59,7 +59,7 @@ const Data = [
     id: 2,
     treatent: "ICSI",
     desc: "ಗರ್ಭಗುಡಿಯ IUI ಚಿಕಿತ್ಸೆಯೊಂದಿಗೆ ಪಿತೃತ್ವದ ಸಂತೋಷವನ್ನು ಅನುಭವಿಸಿ, ನೈಸರ್ಗಿಕ ರೀತಿಯಲ್ಲಿ ನಿಮ್ಮ ಗರ್ಭಧಾರಣೆಯ ಸಾಧ್ಯತೆಗಳನ್ನು ಹೆಚ್ಚಿಸಲು ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ.",
-    link: "/treatments/intracytoplasmic-sperm-injection-icsi",
+    link: "/resources/treatments/intracytoplasmic-sperm-injection-icsi",
     image:
       "https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/fertilization_o5hpkk.webp",
   },
@@ -67,7 +67,7 @@ const Data = [
     id: 3,
     treatent: "IUI",
     desc: "ಗರ್ಭಗುಡಿಯ ಅತ್ಯಾಧುನಿಕ ICSI ಚಿಕಿತ್ಸೆಯೊಂದಿಗೆ ಪಿತೃತ್ವದ ಕಡೆಗೆ ಮೊದಲ ಹೆಜ್ಜೆ ಇರಿಸಿ, ಇದು ಬಂಜೆತನದಿಂದ ಹೋರಾಡುತ್ತಿರುವ ದಂಪತಿಗಳಿಗೆ ಹೆಚ್ಚಿನ ಯಶಸ್ಸಿನ ಪ್ರಮಾಣವನ್ನು ನೀಡುತ್ತದೆ.",
-    link: "/treatments/intra-uterine-insemination-iui",
+    link: "/resources/treatments/intra-uterine-insemination-iui",
     image:
       "https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/in-vitro_mujzkz.webp",
   },
@@ -75,7 +75,7 @@ const Data = [
     id: 4,
     treatent: "TESA/PESA",
     desc: "ಗರ್ಭಗುಡಿಯ TESA/PESA ಚಿಕಿತ್ಸೆಯೊಂದಿಗೆ ಮಗುವಿಗೆ ತಂದೆಯಾಗುವ ಅವಕಾಶವನ್ನು ಪಡೆಯಿರಿ, ಕಡಿಮೆ ವೀರ್ಯಾಣು ಎಣಿಕೆ ಅಥವಾ ಕಳಪೆ ಗುಣಮಟ್ಟದ ಪುರುಷರಿಗೆ ಕ್ರಾಂತಿಕಾರಿ ಆಯ್ಕೆಯಾಗಿದೆ.",
-    link: "/treatments/pesa-and-tesa",
+    link: "/resources/treatments/pesa-and-tesa",
     image:
       "https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/research_j8mdnk.webp",
   },
@@ -83,7 +83,7 @@ const Data = [
     id: 5,
     treatent: "ಬ್ಲಾಸ್ಟೊಸಿಸ್ಟ್ ಸಂಸ್ಕೃತಿ",
     desc: "ಬ್ಲಾಸ್ಟೊಸಿಸ್ಟ್ ಕಲ್ಚರ್ ಚಿಕಿತ್ಸೆಯೊಂದಿಗೆ ನಿಮ್ಮ ಅವಕಾಶಗಳನ್ನು ಹೆಚ್ಚಿಸಿಕೊಳ್ಳಿ, ಇದು ವರ್ಗಾವಣೆಯ ಮೊದಲು ಭ್ರೂಣಗಳು ದೀರ್ಘಕಾಲದವರೆಗೆ ಬೆಳೆಯಲು ಅನುವು ಮಾಡಿಕೊಡುತ್ತದೆ, ಇಂಪ್ಲಾಂಟೇಶನ್ ಸಾಧ್ಯತೆಗಳನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ.",
-    link: "/treatments/in-vitro-fertilization-ivf",
+    link: "/resources/treatments/in-vitro-fertilization-ivf",
     image:
       "https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/sperm_utf0oe.webp",
   },
@@ -99,7 +99,7 @@ const Data = [
     id: 7,
     treatent: "ನೈಸರ್ಗಿಕ ಗರ್ಭಧಾರಣೆ",
     desc: "ಗರ್ಭಗುಡಿಯ ನೈಸರ್ಗಿಕ ಗರ್ಭಧಾರಣೆಯ ಕಾರ್ಯಕ್ರಮದೊಂದಿಗೆ ನಿಮ್ಮ ಪಿತೃತ್ವದ ಪ್ರಯಾಣವನ್ನು ಪ್ರಾರಂಭಿಸಿ, ಇದು ಅವರ ಫಲವತ್ತತೆಯನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ಮತ್ತು ಅವರ ಗರ್ಭಧರಿಸುವ ಸಾಧ್ಯತೆಗಳನ್ನು ಹೆಚ್ಚಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
-    link: "/treatments/natural-pregnancy",
+    link: "/resources/treatments/natural-pregnancy",
     image:
       "https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/maternity_cee8v2.webp",
   },

@@ -25,7 +25,7 @@ const Banner = ({ branchTitle }) => {
               </div>
               <div className="lg:text-left lg:px-3 text-center">
                 <button className="px-4 mt-4 font-content font-semibold text-white pb-2 pt-3 bg-brandPink hover:bg-brandPink4 rounded-lg">
-                  <Link href={"/gg-care"}>ಸಂಪರ್ಕಿಸಿ</Link>
+                  <Link href={"/contact/enquiry"}>ಸಂಪರ್ಕಿಸಿ</Link>
                 </button>
               </div>
             </div>
