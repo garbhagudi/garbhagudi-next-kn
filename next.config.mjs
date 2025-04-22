@@ -42,6 +42,7 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: '/features/paripoorna',
         destination: '/features/paripoorna-2022',
         permanent: true,
       },
