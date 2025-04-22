@@ -42,13 +42,22 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/features/paripoorna',
         destination: '/features/paripoorna-2022',
         permanent: true,
       },
       {
         source: '/doctors/[slug]',
         destination: '/fertility-experts/[slug]',
+        permanent: true,
+      },
+      {
+        source: '/about/executive-team/[slug]',
+        destination: '/about/overview',
+        permanent: true,
+      },
+      {
+        source: '/doctors/dr-asha-s-vijay',
+        destination: '/fertility-experts/dr-asha-s-vijay',
         permanent: true,
       },
       {
@@ -63,7 +72,7 @@ const nextConfig = {
       },
       {
         source: '/features/[slug]',
-        destination: '/features',
+        destination: '/',
         permanent: true,
       },
       {
@@ -93,22 +102,23 @@ const nextConfig = {
       },
       {
         source: '/treatments/intracytoplasmic-sperm-injection-icsi',
-        destination: '/treatments/icsi-treatment-in-bangalore',
+        destination:
+          '/resources/treatments/intracytoplasmic-sperm-injection-icsi',
         permanent: true,
       },
       {
         source: '/treatments/intra-uterine-insemination-iui',
-        destination: '/treatments/iui-treatment-in-bangalore',
+        destination: '/resources/treatments/intra-uterine-insemination-iui',
         permanent: true,
       },
       {
         source: '/treatments/in-vitro-fertilization-ivf',
-        destination: '/treatments/ivf-treatment-in-bangalore',
+        destination: '/resources/treatments/in-vitro-fertilization-ivf',
         permanent: true,
       },
       {
         source: '/treatments/pesa-and-tesa',
-        destination: '/treatments/pesa-and-tesa',
+        destination: '/resources/treatments/pesa-and-tesa',
         permanent: true,
       },
     ];
