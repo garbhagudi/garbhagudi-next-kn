@@ -122,6 +122,41 @@ const nextConfig = {
         destination: '/resources/treatments/pesa-and-tesa',
         permanent: true,
       },
+      {
+        source: '/features/ಹಣಕಾಸು ನೆರವು ಆಯ್ಕೆಗಳು',
+        destination: '/features/financing-options',
+        permanent: true,
+      },
+      {
+        source: '/features/ವಿಶ್ವ ದರ್ಜೆಯ ಫರ್ಟಿಲಿಟಿ ಆರೈಕೆ',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/doctors/undefined',
+        destination: '/fertility-experts',
+        permanent: true,
+      },
+      {
+        source: '/doctors/dr-priyanka-rani',
+        destination: '/fertility-experts/dr-priyanka-rani',
+        permanent: true,
+      },
+      {
+        source: '/doctors/dr-nikitha-murthy-bs',
+        destination: '/fertility-experts/dr-nikitha-murthy-bs',
+        permanent: true,
+      },
+      {
+        source: '/doctors/dr-aparna-n',
+        destination: '/fertility-experts/dr-aparna-n',
+        permanent: true,
+      },
+      {
+        source: '/doctors/dr-anitha-a-manoj',
+        destination: '/fertility-experts/dr-anitha-a-manoj',
+        permanent: true,
+      },
     ];
   },
 };
