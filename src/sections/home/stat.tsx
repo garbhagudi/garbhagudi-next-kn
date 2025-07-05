@@ -3,16 +3,16 @@ import React from 'react';
 const metrics = [
   {
     id: 1,
-    stat: '10500+',
+    stat: '11000+',
     emphasis: 'ಸಂತೋಷ ತುಂಬಿದ ಕುಟುಂಬಗಳು',
   },
   {
     id: 2,
-    stat: '111+',
+    stat: '360+',
     emphasis: 'ಉಚಿತ ಫರ್ಟಿಲಿಟಿ ಜಾಗೃತಿ ಶಿಬಿರಗಳು',
   },
   {
-    id: 3,
+    id: 8,
     stat: '7',
     emphasis: 'ಬೆಂಗಳೂರಿನ ವಿವಿಧೆಡೆ 7 ಕೇಂದ್ರಗಳು',
   },
