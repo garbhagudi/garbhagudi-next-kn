@@ -70,9 +70,9 @@ const Data = [
     title: "Best IVF Centre in Yelahanka",
     link: "/locations/yelahanka",
   },
-  // {
-  //   id: 10,
-  //   title: "Best IVF Centre in Davanagere",
-  //   link: "/locations/davanagere",
-  // },
+  {
+    id: 10,
+    title: "Best IVF Centre in Davanagere",
+    link: "/locations/davanagere",
+  },
 ];
