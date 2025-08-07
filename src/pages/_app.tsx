@@ -9,6 +9,7 @@ import { useEffect } from "react";
 import { useRouter } from "next/router";
 import Loading from "components/Loading";
 import Head from "next/head";
+import FloatRequestCallBack from "components/FloatRequestCallBack";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -59,6 +60,7 @@ function MyApp({ Component, pageProps }) {
           </main>
           <SalesIQ />
           <FloatPhone />
+          <FloatRequestCallBack />
           <Footer />
         </div>
       )}
