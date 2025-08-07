@@ -64,7 +64,7 @@ const MapSection = ({ maplink, address, description, doctors, title }) => {
             <div
               className={`relative w-full transition-all duration-500 ease-in-out ${
                 showFullText ? "max-h-full" : "max-h-[580px] overflow-hidden"
-              }`}
+              } break-words whitespace-normal overflow-x-hidden`}
             >
               <RichText content={description} />
               {!showFullText && (
@@ -76,7 +76,7 @@ const MapSection = ({ maplink, address, description, doctors, title }) => {
               onClick={() => setShowFullText(!showFullText)}
               className="mt-4 text-sm font-semibold text-brandPink transition hover:underline"
             >
-              {showFullText ? "Show Less" : "Read More"}
+              {showFullText ? "Show Less" : "ಇನ್ನಷ್ಟು ಓದಿ"}
             </button>
           </div>
         </div>
