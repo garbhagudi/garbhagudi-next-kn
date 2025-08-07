@@ -55,4 +55,24 @@ const Data = [
     title: "Best IVF Centre in Marathahalli",
     link: "/locations/marathahalli",
   },
+  {
+    id: 7,
+    title: "Best IVF Centre in New Bel Road",
+    link: "/locations/new-bel-road",
+  },
+  {
+    id: 8,
+    title: "Best IVF Centre in Nagarabhavi",
+    link: "/locations/nagarabhavi",
+  },
+  {
+    id: 9,
+    title: "Best IVF Centre in Yelahanka",
+    link: "/locations/yelahanka",
+  },
+  // {
+  //   id: 10,
+  //   title: "Best IVF Centre in Davanagere",
+  //   link: "/locations/davanagere",
+  // },
 ];

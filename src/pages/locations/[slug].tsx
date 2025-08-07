@@ -1,4 +1,3 @@
-import React from "react";
 import Banner from "sections/location/banner";
 import TreatmentOptions from "sections/location/treatments";
 import Cta from "sections/gg-care/cta";

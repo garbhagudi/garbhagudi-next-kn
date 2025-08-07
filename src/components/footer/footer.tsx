@@ -1,5 +1,7 @@
+import Form from "components/search/Form";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { SocialIcon } from "react-social-icons";
 
 const navigation = {
@@ -37,6 +39,8 @@ const navigation = {
 };
 
 export default function Footer() {
+  const router = useRouter();
+  const isYogaPage = router.pathname === "/yoga";
   return (
     <footer
       className="bg-neutral-50 font-content"
@@ -46,10 +50,10 @@ export default function Footer() {
       <h2 id="footerHeading" className="sr-only">
         Footer
       </h2>
-      <div className="max-w-7xl mx-auto pb-12 px-4 sm:px-6 lg:py-8 lg:px-8 border-t">
-        <div className="xl:grid xl:grid-cols-3 xl:gap-8">
-          <div className="mt-12 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-full text-center antialiased">
-            <div className="md:grid md:grid-cols-2 md:gap-8">
+      <div className="mx-auto flex max-w-7xl flex-col justify-between border-t px-1 pb-12  sm:px-6 lg:flex-row lg:py-8">
+        <div className="xl:grid xl:grid-cols-2 xl:gap-8">
+          <div className="mt-12 grid grid-cols-1 gap-8 text-center antialiased xl:col-span-full xl:mt-0 xl:grid-cols-1">
+            <div className="grid grid-cols-4 gap-5">
               <div>
                 <h3 className="text-sm font-semibold text-brandliteGray tracking-wider uppercase">
                   ನಮ್ಮ ಬಗ್ಗೆ
@@ -66,7 +70,7 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
-              <div className="mt-12 md:mt-0">
+              <div>
                 <h3 className="text-sm font-semibold text-brandliteGray tracking-wider uppercase">
                   ಸಪೋರ್ಟ್
                 </h3>
@@ -82,8 +86,6 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
-            </div>
-            <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold text-brandliteGray tracking-wider uppercase">
                   ಸಂಸ್ಥೆ
@@ -100,7 +102,7 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
-              <div className="mt-12 md:mt-0">
+              <div>
                 <h3 className="text-sm font-semibold text-brandliteGray tracking-wider uppercase">
                   ಕಾನೂನು
                 </h3>
@@ -119,6 +121,11 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        {!isYogaPage && (
+          <div className="mt-5 w-fit self-center rounded-md bg-gray-800 md:mt-0">
+            <Form />
+          </div>
+        )}
       </div>
       <div className="max-w-7xl mx-auto border-t border-gray-200 ">
         <div className="mt-8 space-x-2 flex items-ceter justify-center">
