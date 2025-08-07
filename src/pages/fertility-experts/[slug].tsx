@@ -726,6 +726,61 @@ const Doctor = ({ doctor }) => {
                                       </td>
                                     </tr>
                                   )}
+                                  {(doctor.davanagereOnline ||
+                                    doctor.davanagerePhysical) && (
+                                    <tr>
+                                      <td className="p-2 whitespace-nowrap">
+                                        <div className="flex items-center">
+                                          <div className="flex justify-center text-gray-800 font-medium items-center">
+                                            <div className="flex bg-brandPink h-10 justify-center rounded-lg text-white w-10 items-center mr-2 sm:mr-3">
+                                              <SiGooglemaps className="text-2xl" />
+                                            </div>
+                                            <Link
+                                              href="/locations/davanagere"
+                                              passHref
+                                            >
+                                              <span className="cursor-pointer">
+                                                ದಾವಣಗೆರೆ
+                                              </span>
+                                            </Link>
+                                          </div>
+                                        </div>
+                                      </td>
+
+                                      <td className="p-2 whitespace-nowrap">
+                                        <div className="text-brandPink2 text-left font-medium">
+                                          {doctor?.davanagerePhysical && (
+                                            <button>
+                                              <a
+                                                href={"/contact/enquiry"}
+                                                rel="noreferrer"
+                                                hrefLang="en-us"
+                                                className="text-brandPink2 text-left font-medium hover:underline"
+                                              >
+                                                ಬುಕ್ ಮಾಡಿ
+                                              </a>
+                                            </button>
+                                          )}
+                                        </div>
+                                      </td>
+                                      <td className="p-2 whitespace-nowrap">
+                                        <div className="text-left">
+                                          {doctor?.davanagereOnline && (
+                                            <button>
+                                              <a
+                                                href={"/contact/enquiry"}
+                                                className="text-brandPink2 text-left font-medium hover:underline"
+                                                hrefLang="en-us"
+                                                rel="noreferrer"
+                                              >
+                                                ಬುಕ್ ಮಾಡಿ
+                                              </a>
+                                            </button>
+                                          )}
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  )}
                                 </tbody>
                               </table>
                             </div>
