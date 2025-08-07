@@ -372,6 +372,34 @@ const Contact = () => {
                   </a>
                 </div>
               </div>
+              <div>
+                <h3 className="text-gray-900 text-lg font-medium leading-6">
+                  ದಾವಣಗೆರೆ
+                </h3>
+                <div className="text-base text-gray-500 mt-2">
+                  <p className="mt-1">
+                    <a
+                      href="tel:+919108910832"
+                      className="text-brandPink2 hover:underline"
+                    >
+                      <MdPhone className="h-5 w-5 inline-block" /> +91 9108 9108
+                      32
+                    </a>
+                  </p>
+                  <p>2659/1, ಮೊದಲು ಮತ್ತು ಎರಡನೇ ಮಹಡಿ, MCC B ಬ್ಲಾಕ್ ,</p>
+                  <p className="mb-5 mt-1">
+                    ಡೆಂಟಲ್ ಕಾಲೇಜು ರಸ್ತೆ, ದಾವಣಗೆರೆ 577004
+                  </p>
+                  <a
+                    href="https://maps.app.goo.gl/r1HNjzH5TWn76sSUA"
+                    className="bg-brandPink rounded-3xl text-white font-semibold hover:bg-brandPink2 pt-4 px-3 py-2"
+                    target={"_blank"}
+                    rel="noreferrer"
+                  >
+                    ನಿರ್ದೇಶನಗಳು
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
