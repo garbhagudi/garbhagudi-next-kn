@@ -7,7 +7,7 @@ const MapSection = ({ maplink, address, description, doctors, title }) => {
   return (
     <div className="px-3">
       <div className="text-gray-600 body-font max-w-7xl mx-auto relative">
-        <div className="flex flex-wrap inset-0 lg:flex-nowrap py-6">
+        <div className="flex flex-wrap lg:flex-nowrap py-6">
           <div className="flex bg-gray-300 h-[42rem] justify-start p-2 rounded-3xl w-full items-end lg:p-10 lg:w-1/2 md:ml-auto overflow-hidden relative">
             <iframe
               width="100%"

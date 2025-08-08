@@ -24,7 +24,7 @@ const Cta = () => {
           </div>
           <div className="ml-3 inline-flex rounded-md shadow">
             <a
-              href="https://wa.me/918884183338?text=Hi."
+              href="https://wa.me/919108910832?text=Hi."
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center justify-center px-5 py-3  pt-4 border border-transparent font-content text-base font-medium rounded-md text-brandPink bg-white hover:bg-pink-50"

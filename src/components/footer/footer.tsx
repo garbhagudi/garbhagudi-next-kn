@@ -1,5 +1,4 @@
 import Form from "components/search/Form";
-import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { SocialIcon } from "react-social-icons";
@@ -145,7 +144,7 @@ export default function Footer() {
             target="_blank"
           />
           <SocialIcon
-            url="https://api.whatsapp.com/send/?phone=918884183338&text=Hi."
+            url="https://api.whatsapp.com/send/?phone=919108910832&text=Hi."
             style={{ width: "40px", height: "40px" }}
             target="_blank"
           />

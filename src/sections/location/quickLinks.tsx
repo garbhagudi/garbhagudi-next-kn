@@ -32,47 +32,47 @@ export default QuickLinks;
 const Data = [
   {
     id: 2,
-    title: "Best IVF Centre in Hanumanthanagar",
+    title: "Hanumanthanagar",
     link: "/locations/hanumanthanagar",
   },
   {
     id: 3,
-    title: "Best IVF Centre in Kalyan Nagar",
+    title: "Kalyan Nagar",
     link: "/locations/kalyan-nagar",
   },
   {
     id: 4,
-    title: "Best IVF Centre in Jayanagar",
+    title: "Jayanagar",
     link: "/locations/jayanagar",
   },
   {
     id: 5,
-    title: "Best IVF Centre in Electronic City",
+    title: "Electronic City",
     link: "/locations/electronic-city",
   },
   {
     id: 6,
-    title: "Best IVF Centre in Marathahalli",
+    title: "Marathahalli",
     link: "/locations/marathahalli",
   },
   {
     id: 7,
-    title: "Best IVF Centre in New Bel Road",
+    title: "New Bel Road",
     link: "/locations/new-bel-road",
   },
   {
     id: 8,
-    title: "Best IVF Centre in Nagarabhavi",
+    title: "Nagarabhavi",
     link: "/locations/nagarabhavi",
   },
   {
     id: 9,
-    title: "Best IVF Centre in Yelahanka",
+    title: "Yelahanka",
     link: "/locations/yelahanka",
   },
   {
     id: 10,
-    title: "Best IVF Centre in Davanagere",
+    title: "Davanagere",
     link: "/locations/davanagere",
   },
 ];
