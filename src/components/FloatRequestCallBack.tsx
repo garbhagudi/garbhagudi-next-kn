@@ -46,7 +46,7 @@ const FloatRequestCallBack = () => {
                 />
                 <button
                   onClick={close}
-                  className="absolute right-2 top-1 h-fit w-fit rounded-2xl bg-white text-gg-500"
+                  className="absolute right-2 top-1 h-fit w-fit rounded-2xl bg-white text-brandPink"
                 >
                   <IoIosCloseCircleOutline fontSize={24} />
                 </button>
@@ -54,7 +54,7 @@ const FloatRequestCallBack = () => {
               <div className="px-0">
                 <div className="flex justify-center">
                   <div className="mx-5 mt-5 w-fit self-center rounded-md bg-brandPink px-4 py-1 text-center text-[13px] font-semibold text-white shadow-sm">
-                    ಭೇಟಿ ಕಾಯ್ದಿರಿಸಿ
+                    ನಿಮ್ಮ ಕನ್ಸಲ್ಟೇಷನ್‌ ಕಾಯ್ದಿರಿಸಿ
                   </div>
                 </div>
                 <Form />

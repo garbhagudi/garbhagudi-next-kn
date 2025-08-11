@@ -8,7 +8,7 @@ const MapSection = ({ maplink, address, description, doctors, title }) => {
     <div className="px-3">
       <div className="text-gray-600 body-font max-w-7xl mx-auto relative">
         <div className="flex flex-wrap lg:flex-nowrap py-6">
-          <div className="flex bg-gray-300 h-[42rem] justify-start p-2 rounded-3xl w-full items-end lg:p-10 lg:w-1/2 md:ml-auto overflow-hidden relative">
+          <div className="flex bg-gray-300 h-[32rem] justify-start p-2 rounded-3xl w-full items-end lg:p-10 lg:w-1/2 md:ml-auto overflow-hidden relative">
             <iframe
               width="100%"
               height="100%"
@@ -63,7 +63,7 @@ const MapSection = ({ maplink, address, description, doctors, title }) => {
             </h2>
             <div
               className={`relative w-full transition-all duration-500 ease-in-out ${
-                showFullText ? "max-h-full" : "max-h-[580px] overflow-hidden"
+                showFullText ? "max-h-full" : "max-h-[480px] overflow-hidden"
               } break-words whitespace-normal overflow-x-hidden`}
             >
               <RichText content={description} />
@@ -76,7 +76,7 @@ const MapSection = ({ maplink, address, description, doctors, title }) => {
               onClick={() => setShowFullText(!showFullText)}
               className="mt-4 text-sm font-semibold text-brandPink transition hover:underline"
             >
-              {showFullText ? "Show Less" : "ಇನ್ನಷ್ಟು ಓದಿ"}
+              {showFullText ? "ಸಂಕ್ಷೇಪಿಸಿ" : "ಇನ್ನಷ್ಟು ಓದಿ"}
             </button>
           </div>
         </div>

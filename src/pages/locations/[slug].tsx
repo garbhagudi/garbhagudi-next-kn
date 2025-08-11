@@ -1,7 +1,6 @@
 import Banner from "sections/location/banner";
 import TreatmentOptions from "sections/location/treatments";
 import Cta from "sections/gg-care/cta";
-import QuickLinks from "sections/location/quickLinks";
 import VirtualTour from "sections/location/virtualTour";
 import MapSection from "sections/location/mapSection";
 import Head from "next/head";
@@ -58,7 +57,6 @@ const Branch = ({ branch }) => {
         link2={branch?.virtualTourLink2}
         link3={branch?.virtualTourLink3}
       />
-      <QuickLinks />
     </div>
   );
 };

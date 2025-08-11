@@ -114,7 +114,7 @@ export const Location = [
     name: "ದಾವಣಗೆರೆ",
     href: "/locations/davanagere",
     icon: <SiGooglemaps />,
-    short: "DVG",
+    short: "DG",
   },
 ];
 
