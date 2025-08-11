@@ -372,7 +372,7 @@ const Contact = () => {
                   </a>
                 </div>
               </div>
-              {/* <div>
+              <div>
                 <h3 className="text-gray-900 text-lg font-medium leading-6">
                   ದಾವಣಗೆರೆ
                 </h3>
@@ -399,7 +399,7 @@ const Contact = () => {
                     ನಿರ್ದೇಶನಗಳು
                   </a>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

@@ -151,11 +151,11 @@ const IndexPage = ({ branches }) => {
                             </h2>
                             <div className="leading-relaxed font-qs text-brandPink underline hover:text-lg transition-all duration-100">
                               <Link
-                                href="https://wa.me/918884183338?text=Hi."
+                                href="https://wa.me/919108910832?text=Hi."
                                 target="_blank"
                                 rel="noreferrer"
                               >
-                                +91 888 418 3338
+                                +91 9108 9108 32
                               </Link>
                             </div>
                           </div>

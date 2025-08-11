@@ -1,11 +1,16 @@
 import { Dialog } from "@headlessui/react";
 import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { HiPhone } from "react-icons/hi";
 import { IoIosCloseCircleOutline } from "react-icons/io";
-import Form from "components/search/Form";
+import { MdCalendarMonth } from "react-icons/md";
+import Form from "./search/Form";
 
-const FloatRequestCallBack = () => {
+const FloatPhoneFooter = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const path = usePathname();
   function open() {
     setIsOpen(true);
   }
@@ -15,12 +20,29 @@ const FloatRequestCallBack = () => {
   }
   return (
     <>
-      <div
-        className="fixed -left-16 top-2/3 z-10 rotate-90 cursor-pointer rounded-md bg-brandPink p-1.5 px-5 text-white shadow-md"
-        onClick={open}
-      >
-        <p className="text-base font-bold">ಕರೆಗಾಗಿ ವಿನಂತಿಸಿ</p>
+      <div className="fixed bottom-0 z-10 grid w-full animate-shake cursor-pointer grid-cols-2 items-center justify-center bg-brandPink px-2 font-content font-bold text-white transition-opacity ease-in hover:opacity-100 md:hidden">
+        {/* Book Appointment Button */}
+        <button
+          className="flex h-full flex-col items-center justify-center gap-y-1 border-r p-2.5"
+          onClick={open}
+        >
+          <MdCalendarMonth className="h-6 w-6" />
+          <div className="text-sm">ಭೇಟಿ ಕಾಯ್ದಿರಿಸಿ</div>
+        </button>
+        {/* Phone Call Button */}
+        <Link
+          href="tel:+919108910832"
+          className="flex flex-col items-center gap-y-1 border-l p-2.5"
+        >
+          <HiPhone className="h-5 w-5" />
+          <div className="text-sm" suppressHydrationWarning>
+            {path === "/treatments/iui-treatment-in-bangalore"
+              ? "+91 9480 9480 05"
+              : "+91 9108 9108 32"}
+          </div>
+        </Link>
       </div>
+
       <Dialog
         open={isOpen}
         as="div"
@@ -54,7 +76,7 @@ const FloatRequestCallBack = () => {
               <div className="px-0">
                 <div className="flex justify-center">
                   <div className="mx-5 mt-5 w-fit self-center rounded-md bg-brandPink px-4 py-1 text-center text-[13px] font-semibold text-white shadow-sm">
-                    ನಿಮ್ಮ ಕನ್ಸಲ್ಟೇಷನ್‌ ಕಾಯ್ದಿರಿಸಿ
+                    ಭೇಟಿ ಕಾಯ್ದಿರಿಸಿ
                   </div>
                 </div>
                 <Form />
@@ -67,4 +89,4 @@ const FloatRequestCallBack = () => {
   );
 };
 
-export default FloatRequestCallBack;
+export default FloatPhoneFooter;

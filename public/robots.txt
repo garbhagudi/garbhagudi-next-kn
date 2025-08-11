@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /?*
+
+# Host
+Host: https://kannada.garbhagudi.com
+
+# Sitemaps
+Sitemap: https://kannada.garbhagudi.com/sitemap.xml

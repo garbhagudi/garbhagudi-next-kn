@@ -10,6 +10,7 @@ import { useRouter } from "next/router";
 import Loading from "components/Loading";
 import Head from "next/head";
 import FloatRequestCallBack from "components/FloatRequestCallBack";
+import FloatPhoneFooter from "components/FloatPhoneFooter";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -61,6 +62,7 @@ function MyApp({ Component, pageProps }) {
           <SalesIQ />
           <FloatPhone />
           <FloatRequestCallBack />
+          <FloatPhoneFooter />
           <Footer />
         </div>
       )}
