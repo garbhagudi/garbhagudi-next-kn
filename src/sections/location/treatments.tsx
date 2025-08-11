@@ -105,8 +105,8 @@ const Data = [
   },
   {
     id: 8,
-    treatent: "Semen Analysis / CASA",
-    desc: "Get a detailed analysis of your semen and understand your fertility status with GarbhaGudi's advanced Semen Analysis/CASA service.",
+    treatent: "ವೀರ್ಯ ವಿಶ್ಲೇಷಣೆ / CASA",
+    desc: "ಗರ್ಭಗುಡಿಯ ಅತ್ಯಾಧುನಿಕ ವೀರ್ಯ ವಿಶ್ಲೇಷಣೆ / CASA ಸೇವೆಗಳೊಂದಿಗೆ ನಿಮ್ಮ ವೀರ್ಯದ ಸಂಪೂರ್ಣ ವಿವರವನ್ನು ತಿಳಿದುಕೊಂಡು, ನಿಮ್ಮ ಸಂತಾನೋತ್ಪತ್ತಿ ಸಾಮರ್ಥ್ಯದ ಬಗ್ಗೆ ಸ್ಪಷ್ಟತೆ ಪಡೆಯಿರಿ.",
     link: "/resources/diagnosis/semen-analysis",
     image:
       "https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890580/Misc/ivf%20icons/semen_nqxd6s.webp",
