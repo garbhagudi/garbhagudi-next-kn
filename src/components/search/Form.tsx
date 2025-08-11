@@ -73,9 +73,9 @@ const Form = () => {
             )}
           </div>
 
-          <div className="max-w-sm mx-auto">
+          <div className="max-w-sm mx-auto w-full">
             <label htmlFor="Phone" className="flex justify-start items-center">
-              <span className="bg-gray-200 rounded-es-full rounded-ss-full text-left  px-4 py-1">
+              <span className="bg-gray-200 rounded-es-full rounded-ss-full text-left w-fit  px-4 py-1">
                 ದೂರವಾಣಿ ಸಂಖ್ಯೆ
               </span>
               <input
@@ -89,7 +89,7 @@ const Form = () => {
                   //   message: 'Invalid phone number',
                   // },
                 })}
-                className="rounded-ee-full rounded-se-full text-base active:outline-none focus:outline-none px-2 py-1"
+                className="rounded-ee-full rounded-se-full text-base active:outline-none focus:outline-none px-2 py-1 flex-1"
               />
             </label>
             {errors.Phone && (
@@ -99,9 +99,9 @@ const Form = () => {
             )}
           </div>
 
-          <div className="max-w-sm mx-auto">
+          <div className="max-w-sm mx-auto w-full">
             <label htmlFor="Email" className="flex justify-start items-center">
-              <span className="bg-gray-200 rounded-es-full rounded-ss-full text-left w-[9em] px-4 py-1">
+              <span className="bg-gray-200 rounded-es-full rounded-ss-full text-left w-fit px-4 py-1">
                 ಇಮೇಲ್
               </span>
               <input
@@ -115,7 +115,7 @@ const Form = () => {
                     message: "Invalid email format",
                   },
                 })}
-                className="rounded-ee-full rounded-se-full text-base active:outline-none focus:outline-none px-2 py-1"
+                className="rounded-ee-full rounded-se-full text-base active:outline-none focus:outline-none px-2 py-1 flex-1"
               />
             </label>
             {errors.Email && (
