@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { RichText } from "@graphcms/rich-text-react-renderer";
+import Image from "next/image";
 
 const MapSection = ({ maplink, address, description, doctors, title }) => {
   const [showFullText, setShowFullText] = useState(false);
@@ -84,40 +85,41 @@ const MapSection = ({ maplink, address, description, doctors, title }) => {
           <h2 className="text-2xl text-center font-heading font-semibold lg:mt-0 py-10">
             {title} ನಲ್ಲಿ ಫಲವತ್ತತೆ ತಜ್ಞರು
           </h2>
-          <div className="col-span-full grid grid-cols-2 lg:grid-cols-4 lg:max-w-7xl mx-auto sm:gap-x-32 sm:gap-y-10 sm:space-y-0 space-y-0">
-            {doctors?.map((item: any) => {
-              return (
-                <div
-                  className="rounded-xl text-center duration-500 hover:shadow-2xl mb-2 transition-all"
-                  key={item?.id}
-                >
-                  <Link href={`/fertility-experts/${item?.slug}`} passHref>
-                    <div>
-                      <div className="space-y-4">
-                        <img
-                          className="h-40 rounded-full w-40 mt-4 mx-auto my-auto"
-                          src={item?.image?.url}
-                          alt={item?.imageAlt}
-                        />
-                        <div className="space-y-4">
-                          <div className="text-lg font-medium leading-6 space-y-1">
-                            <h3 className="text-brandDark font-content">
-                              {item?.name}
-                            </h3>
-                            <p className="text-brandPurple text-sm font-content">
-                              {item?.qualification}
-                            </p>
-                            <p className="text-brandPink text-sm font-content">
-                              {item?.designation}
-                            </p>
-                          </div>
-                        </div>
+          <div className="mx-auto grid grid-cols-2 gap-3 space-y-0 sm:gap-8 sm:space-y-0 lg:grid-cols-6">
+            {doctors?.map((item) => (
+              <div
+                className="mx-auto mb-2 flex transform flex-col items-center justify-start text-center transition-all duration-500 ease-in-out hover:scale-105"
+                key={item?.id}
+              >
+                <Link href={`/fertility-experts/${item?.slug}`} passHref>
+                  <div className="space-y-4">
+                    <div className="relative mx-auto h-40 w-40">
+                      <div className="bg-[length: 400%] absolute h-full w-full animate-rotate rounded-full bg-gradient-to-br from-brandPink3/80 to-purple-500/40"></div>
+                      <Image
+                        className="rounded-full bg-transparent shadow-2xl drop-shadow-2xl"
+                        src={item?.image?.url}
+                        alt={item?.name}
+                        width={500}
+                        height={500}
+                      />
+                    </div>
+                    <div className="space-y-4">
+                      <div className="space-y-1 text-lg font-medium leading-6">
+                        <h3 className="text-brandDark font-content ">
+                          {item?.name}
+                        </h3>
+                        <p className="text-brandPurple text-sm font-content">
+                          {item?.qualification}
+                        </p>
+                        <p className="font-content text-sm text-brandPink">
+                          {item?.designation}
+                        </p>
                       </div>
                     </div>
-                  </Link>
-                </div>
-              );
-            })}
+                  </div>
+                </Link>
+              </div>
+            ))}
           </div>
         </div>
       </div>
