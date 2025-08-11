@@ -13,7 +13,7 @@ import {
 } from "components/header/popover";
 import LanguageSelect from "components/languageSelect";
 import Logo from "components/assets/logo";
-import TranslateWidget from "components/TranslatorWidget";
+// import TranslateWidget from "components/TranslatorWidget";
 
 const menu = [
   {
