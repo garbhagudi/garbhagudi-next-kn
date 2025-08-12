@@ -183,11 +183,6 @@ export const AboutUs = [
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642838895/Icons/About/About_Us_01_yz3h95.svg",
   },
   {
-    name: "ಮಿಷನ್ ಮತ್ತು ವಿಷನ್",
-    href: "/about/vision-and-mission",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839038/Icons/About/Vision_jaxu8d.svg",
-  },
-  {
     name: "ಡಾ ಆಶಾ ಎಸ್ ವಿಜಯ್",
     href: "/fertility-experts/dr-asha-s-vijay",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642838895/Icons/About/Asha_Vijay_zpq05s.svg",
@@ -201,11 +196,6 @@ export const AboutUs = [
     name: "ನಮ್ಮ ಫಲವತ್ತತೆ ತಜ್ಞರು",
     href: "/fertility-experts",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839012/Icons/About/Our_Fertility_Experts_bxsrrh.svg",
-  },
-  {
-    name: "ಸಿಎಸ್ಆರ್",
-    href: "https://garbhagnan.org",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643442833/Icons/About/CSR_qjlfzx.svg",
   },
   {
     name: "ಪ್ರಶಸ್ತಿಗಳು ಮತ್ತು ಪುರಸ್ಕಾರಗಳು",

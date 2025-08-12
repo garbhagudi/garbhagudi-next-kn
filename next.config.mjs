@@ -157,6 +157,11 @@ const nextConfig = {
         destination: "/fertility-experts/dr-anitha-a-manoj",
         permanent: true,
       },
+      {
+        source: "/about/vision-and-mission",
+        destination: "/about/overview",
+        permanent: true,
+      },
     ];
   },
 };
