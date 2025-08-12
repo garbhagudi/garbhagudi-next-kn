@@ -110,12 +110,12 @@ export const Location = [
     icon: <SiGooglemaps />,
     short: "YLA",
   },
-  // {
-  //   name: "ದಾವಣಗೆರೆ",
-  //   href: "/locations/davanagere",
-  //   icon: <SiGooglemaps />,
-  //   short: "DG",
-  // },
+  {
+    name: "ದಾವಣಗೆರೆ",
+    href: "/locations/davanagere",
+    icon: <SiGooglemaps />,
+    short: "DG",
+  },
 ];
 
 export const ValueAddedServices = [

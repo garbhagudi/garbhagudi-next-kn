@@ -7,6 +7,7 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import Loading from "components/Loading";
 import graphcms from "lib/graphcms";
+import Faq from "sections/location/FAQs";
 
 const Branch = ({ branch }) => {
   const router = useRouter();
@@ -14,6 +15,8 @@ const Branch = ({ branch }) => {
     return <Loading />;
   }
   const title = `${branch.title} | ಗರ್ಭಗುಡಿ IVF ಕೇಂದ್ರ`;
+  console.log(branch);
+
   return (
     <div>
       <Head>
@@ -51,7 +54,7 @@ const Branch = ({ branch }) => {
         title={branch?.title}
       />
       <Cta />
-      {/* <Faq branch={branch?.title} /> */}
+      {branch?.slug === "davanagere" && <Faq />}
       <VirtualTour
         link1={branch?.virtualTourLink1}
         link2={branch?.virtualTourLink2}
