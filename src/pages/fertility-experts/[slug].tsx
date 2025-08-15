@@ -383,14 +383,14 @@ const Doctor = ({ doctor }) => {
                                               <div className="flex-shrink-0 h-10 w-10 mr-2 sm:mr-3">
                                                 <img
                                                   className="rounded-sm"
-                                                  src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643351530/Icons/Locations/South_End_Circle_l3ffwj.svg"
+                                                  src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1665574596/Icons/Locations/JN_Icon_ysrrvv.svg"
                                                   width="40"
                                                   height="40"
                                                   alt="Alex Shatov"
                                                 />
                                               </div>
                                               <Link
-                                                href="/locations/south-end-circle"
+                                                href="/locations/jayanagar"
                                                 passHref
                                               >
                                                 <span className="cursor-pointer">
@@ -453,7 +453,7 @@ const Doctor = ({ doctor }) => {
                                                 />
                                               </div>
                                               <Link
-                                                href="/locations/south-end-circle"
+                                                href="/locations/electronic-city"
                                                 passHref
                                               >
                                                 <span className="cursor-pointer">
@@ -515,7 +515,7 @@ const Doctor = ({ doctor }) => {
                                               />
                                             </div>
                                             <Link
-                                              href="/locations/south-end-circle"
+                                              href="/locations/marathahalli"
                                               passHref
                                             >
                                               <span className="cursor-pointer">
@@ -566,8 +566,14 @@ const Doctor = ({ doctor }) => {
                                       <td className="p-2 whitespace-nowrap">
                                         <div className="flex items-center">
                                           <div className="flex justify-center text-gray-800 font-medium items-center">
-                                            <div className="flex bg-brandPink h-10 justify-center rounded-lg text-white w-10 items-center mr-2 sm:mr-3">
-                                              <SiGooglemaps className="text-2xl" />
+                                            <div className="flex-shrink-0 h-10 w-10 mr-2 sm:mr-3">
+                                              <img
+                                                className="rounded-sm"
+                                                src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1678881601/Icons/Locations/NBR_Icon_rlkyhf.svg"
+                                                width="40"
+                                                height="40"
+                                                alt="Alex Shatov"
+                                              />
                                             </div>
                                             <Link
                                               href="/locations/new-bel-road"
@@ -583,7 +589,7 @@ const Doctor = ({ doctor }) => {
 
                                       <td className="p-2 whitespace-nowrap">
                                         <div className="text-brandPink2 text-left font-medium">
-                                          {doctor?.newBelRoadPhysical || (
+                                          {doctor?.newBelRoadPhysical && (
                                             <button>
                                               <a
                                                 href={"/contact/enquiry"}
@@ -600,7 +606,7 @@ const Doctor = ({ doctor }) => {
 
                                       <td className="p-2 whitespace-nowrap">
                                         <div className="text-left">
-                                          {doctor?.newBelRoadOnline || (
+                                          {doctor?.newBelRoadOnline && (
                                             <button>
                                               <a
                                                 href={"/contact/enquiry"}
