@@ -386,10 +386,12 @@ const Contact = () => {
                       32
                     </a>
                   </p>
-                  <p>2659/1, ಮೊದಲು ಮತ್ತು ಎರಡನೇ ಮಹಡಿ, MCC B ಬ್ಲಾಕ್ ,</p>
-                  <p className="mb-5 mt-1">
-                    ಡೆಂಟಲ್ ಕಾಲೇಜು ರಸ್ತೆ, ದಾವಣಗೆರೆ 577004
+
+                  <p>
+                    ಶ್ರೀಸದಾ, ಮೊದಲು ಮತ್ತು ಎರಡನೇ ಮಹಡಿ, 2659/1, ಡೆಂಟಲ್ ಕಾಲೇಜು
+                    ರಸ್ತೆ, MCC B ಬ್ಲಾಕ್, MCC,{" "}
                   </p>
+                  <p className="mb-5 mt-1">ದಾವಣಗೆರೆ, ಕರ್ನಾಟಕ 577004</p>
                   <a
                     href="https://maps.app.goo.gl/r1HNjzH5TWn76sSUA"
                     className="bg-brandPink rounded-3xl text-white font-semibold hover:bg-brandPink2 pt-4 px-3 py-2"
