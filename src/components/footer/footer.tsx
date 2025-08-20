@@ -22,7 +22,6 @@ const navigation = {
     { name: "ಗರ್ಭಗುಡಿ", href: "/about/overview" },
     { name: "GGIRHR", href: "https://ggirhr.com" },
     { name: "ಗರ್ಭಜ್ಞಾನ್ ಫೌಂಡೇಶನ್", href: "https://garbhagnan.org" },
-    { name: "ಗರ್ಭಗುಡಿ ಫಾರ್ಮಾ", href: "#" },
   ],
   legal: [
     { name: "ಗೌಪ್ಯತೆ", href: "https://garbhagudi.com/legal/privacy-policy" },

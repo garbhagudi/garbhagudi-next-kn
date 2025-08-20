@@ -155,11 +155,6 @@ export const ValueAddedServices = [
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840352/Icons/Features/Treatment_Protocols_hll4cu.svg",
   },
   {
-    name: "ಮನೆಯಿಂದ ಐವಿಫ್ ",
-    href: "/features/ivf-from-home",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841462/Icons/Why%20GarbhaGudi/IVF_from_Home_qriw7n.svg",
-  },
-  {
     name: "ಅತ್ಯುತ್ತಮ ಸೌಲಭ್ಯಗಳು",
     href: "/features/best-in-class-facilities",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840357/Icons/Features/Best_in_Class_Facilities_fchmjr.svg",
@@ -168,11 +163,6 @@ export const ValueAddedServices = [
     name: "ಪರಿಪೂರ್ಣ",
     href: "/features/paripoorna",
     icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841468/Icons/Why%20GarbhaGudi/Paripoorna_nikziu.svg",
-  },
-  {
-    name: "ಗರ್ಭಗೃಹ",
-    href: "/features/garbhagriha",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841473/Icons/Why%20GarbhaGudi/GarbhaGriha_gyai6w.svg",
   },
 ];
 
