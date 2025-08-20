@@ -10,17 +10,18 @@ const Banner = ({ branchTitle }) => {
             <div className="absolute z-10">
               <div className="text-center md:text-left w-full md:max-w-lg text-base px-3 mx-auto">
                 <span className="text-3xl lg:text-4xl font-heading font-bold leading-tight">
-                  ಗರ್ಭಗುಡಿ ಐವಿಫ್ ಸೆಂಟರ್{" "}
+                  ಗರ್ಭಗುಡಿ IVF ಸೆಂಟರ್
                   {branchTitle && (
                     <span className="text-brandPink"> {branchTitle}</span>
                   )}{" "}
-                  ಗೆ ಸ್ವಾಗತ
+                  ಶಾಖೆಗೆ ಸ್ವಾಗತ
                 </span>
                 <h3 className="mt-4 font-semibold font-content leading-7">
-                  ಕರ್ನಾಟಕದ 9 ಸ್ಥಳಗಳಲ್ಲಿ ಬಂಜೆತನದ ಚಿಕಿತ್ಸೆಯನ್ನು ನೀಡಲು ನಾವು
-                  ಹೆಮ್ಮೆಪಡುತ್ತೇವೆ. <br />
-                  ನಮ್ಮ ಸೇವೆಗಳ ಕುರಿತು ಇನ್ನಷ್ಟು ತಿಳಿದುಕೊಳ್ಳಲು ಇಂದು ನಮ್ಮನ್ನು
-                  ಸಂಪರ್ಕಿಸಿ ಮತ್ತು ನಿಮ್ಮ ಹತ್ತಿರದ ಶಾಖೆಯನ್ನು ಹುಡುಕಿ.
+                  ಬೆಂಗಳೂರಿನಾದ್ಯಂತ ಎಂಟು ಅತ್ಯಾಧುನಿಕ ಶಾಖೆಗಳನ್ನು ಹೊಂದಿರುವ ನಾವು
+                  ದಾವಣಗೆರೆಯ ನೂತನ ಶಾಖೆಯಲ್ಲಿ ಎಲ್ಲಾ ರೀತಿಯ ಇನ್‌ಫರ್ಟಿಲಿಟಿ ಸಮಸ್ಯೆಗಳಿಗೆ
+                  ಚಿಕಿತ್ಸೆ ನೀಡಲು ಹೆಮ್ಮೆಪಡುತ್ತೇವೆ. <br />
+                  ನಮ್ಮ ಸೇವೆಗಳ ಕುರಿತು ಇನ್ನಷ್ಟು ತಿಳಿದುಕೊಳ್ಳಲು ಮತ್ತು ನಿಮಗೆ
+                  ಹತ್ತಿರವಾದ ಸ್ಥಳವನ್ನು ಹುಡುಕಲು ಇಂದೇ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ.
                 </h3>
               </div>
               <div className="lg:text-left lg:px-3 text-center">
