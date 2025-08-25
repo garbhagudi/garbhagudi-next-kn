@@ -25,12 +25,12 @@ export const Contact = [
 
 export const Language = [
   {
-    name: "ಕನ್ನಡ ",
-    href: "/",
-  },
-  {
     name: "English",
     href: "https://garbhagudi.com",
+  },
+  {
+    name: "தமிழ்",
+    href: "https://tamil.garbhagudi.com",
   },
 ];
 
