@@ -82,6 +82,8 @@ const Home = ({ homeData }) => {
           content=" ಗರ್ಭಗುಡಿ ಹೊಸ ಪೀಳಿಗೆಯ ಬಂಜೆತನ ಚಿಕಿತ್ಸಾ ಆಸ್ಪತ್ರೆಗಳ ಸರಣಿಯಾಗಿದ್ದು, ಈ ನಿರಂತರವಾಗಿ ಹೆಚ್ಚುತ್ತಿರುವ ಬಂಜೆತನ ಸಮಸ್ಯೆಯನ್ನು ಪರಿಹರಿಸಲು ಅತ್ಯಾಧುನಿಕ ಮೂಲಸೌಕರ್ಯ ಮತ್ತು ಅತ್ಯಾಧುನಿಕ ತಂತ್ರಜ್ಞಾನವನ್ನು ಹೊಂದಿದೆ."
         />
         <meta property="og:type" content="website" />
+
+        {/* Google */}
         <meta
           name="google-site-verification"
           content="tKpr-jxpo3IifynpRX_Zj_Pga1UX_b2FZgsioh17ARI"
@@ -107,12 +109,6 @@ const Home = ({ homeData }) => {
         <meta
           name="twitter:image"
           content="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643802154/SEO/OG_images_Home_pct8yc.jpg"
-        />
-
-        {/* Google */}
-        <meta
-          name="google-site-verification"
-          content="mzhcIRsJx6D4QkbJJp3Tepas8Lyv6sJLWmGb0DvKOrw"
         />
       </Head>
       <Carousel
