@@ -162,6 +162,11 @@ const nextConfig = {
         destination: "/about/overview",
         permanent: true,
       },
+      {
+        source: "/locations/davangere",
+        destination: "/locations/davanagere",
+        permanent: true,
+      },
     ];
   },
 };
