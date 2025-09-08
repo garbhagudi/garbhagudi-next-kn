@@ -15,8 +15,6 @@ const Branch = ({ branch }) => {
     return <Loading />;
   }
   const title = `${branch.title} | ಗರ್ಭಗುಡಿ IVF ಕೇಂದ್ರ`;
-  console.log(branch);
-
   return (
     <div>
       <Head>
