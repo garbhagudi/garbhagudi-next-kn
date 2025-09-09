@@ -75,4 +75,9 @@ const Data = [
     title: "Davanagere",
     link: "/locations/davanagere",
   },
+  {
+    id: 10,
+    title: "Hosur",
+    link: "/locations/hosur",
+  },
 ];
