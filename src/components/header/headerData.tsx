@@ -116,6 +116,12 @@ export const Location = [
     icon: <SiGooglemaps />,
     short: "DG",
   },
+  {
+    name: "ದಾವಣಗೆರೆ",
+    href: "/locations/hosur",
+    icon: <SiGooglemaps />,
+    short: "HOS",
+  },
 ];
 
 export const ValueAddedServices = [
