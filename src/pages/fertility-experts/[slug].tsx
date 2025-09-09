@@ -20,6 +20,11 @@ export const getStaticProps = async ({ params }) => {
             raw
             text
           }
+          location {
+            title
+            slug
+          }
+          bookAnAppointment
           slug
           languages
           image {
@@ -28,22 +33,6 @@ export const getStaticProps = async ({ params }) => {
           qualification
           designation
           medicalRegNo
-          hanumanthaNagarOnline
-          hanumanthaNagarPhysical
-          kalyanNagarOnline
-          kalyanNagarPhysical
-          jayanagarOnline
-          jayanagarPhysical
-          electronicCityOnline
-          electronicCityPhysical
-          marathahalliOnline
-          marathahalliPhysical
-          newBelRoadOnline
-          newBelRoadPhysical
-          nagarbhaviOnline
-          nagarbhaviPhysical
-          yelahankaOnline
-          yelahankaPhysical
         }
       }
     `,
@@ -211,13 +200,7 @@ const Doctor = ({ doctor }) => {
                       </a>
                     </button>
                   </div>
-                  {(doctor?.hanumanthaNagarPhysical ||
-                    doctor?.kalyanNagarPhysical ||
-                    doctor?.jayanagarPhysical ||
-                    doctor?.electronicCityPhysical ||
-                    doctor?.marathahalliPhysical ||
-                    doctor?.newBelRoadPhysical ||
-                    doctor?.nagarbhaviPhysical) && (
+                  {doctor?.location?.length > 0 && (
                     <section className="text-gray-600 antialiased font-content mt-8 overflow-hidden">
                       <div className="flex flex-col h-full justify-center">
                         <div className="bg-white border border-pink-200 rounded-2xl shadow-xl w-full max-w-3xl mx-auto">
@@ -249,543 +232,68 @@ const Doctor = ({ doctor }) => {
                                   </tr>
                                 </thead>
                                 <tbody className="text-sm divide-pink-100 divide-y">
-                                  {(doctor.hanumanthaNagarOnline ||
-                                    doctor.hanumanthaNagarPhysical) && (
-                                    <tr>
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="flex items-center">
-                                          <div className="flex justify-center text-gray-800 font-medium items-center">
-                                            <div className="flex-shrink-0 h-10 w-10 mr-2">
-                                              <img
-                                                className="rounded-sm"
-                                                src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643351546/Icons/Locations/Hanumanthanagar_ykripm.svg"
-                                                width="40"
-                                                height="40"
-                                                alt="Alex Shatov"
-                                              />
-                                            </div>
-                                            <Link
-                                              href="/locations/hanumanthanagar"
-                                              passHref
-                                            >
-                                              <span className="cursor-pointer">
-                                                ಹನುಮಂತನಗರ
-                                              </span>
-                                            </Link>
-                                          </div>
-                                        </div>
-                                      </td>
-
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="text-brandPink2 text-left font-medium">
-                                          {doctor.hanumanthaNagarPhysical && (
-                                            <button>
-                                              <a
-                                                href={"/contact/enquiry"}
-                                                className="text-brandPink font-semibold hover:underline"
-                                                hrefLang="en-us"
-                                                rel="noreferrer"
-                                              >
-                                                ಬುಕ್ ಮಾಡಿ
-                                              </a>
-                                            </button>
-                                          )}
-                                        </div>
-                                      </td>
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="text-left">
-                                          {doctor.hanumanthaNagarOnline && (
-                                            <button>
-                                              <a
-                                                href={"/contact/enquiry"}
-                                                className="text-brandPink font-semibold hover:underline"
-                                                hrefLang="en-us"
-                                                rel="noreferrer"
-                                              >
-                                                ಬುಕ್ ಮಾಡಿ
-                                              </a>
-                                            </button>
-                                          )}
-                                        </div>
-                                      </td>
-                                    </tr>
-                                  )}
-                                  {(doctor.kalyanNagarOnline ||
-                                    doctor.kalyanNagarPhysical) && (
-                                    <tr>
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="flex items-center">
-                                          <div className="text-gray-800 font-medium">
-                                            <div className="flex justify-center text-gray-800 font-medium items-center">
-                                              <div className="flex-shrink-0 h-10 w-10 mr-2 sm:mr-3">
-                                                <img
-                                                  className="rounded-sm"
-                                                  src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643351546/Icons/Locations/Kalyan_Nagar_ivtier.svg"
-                                                  width="40"
-                                                  height="40"
-                                                  alt="Alex Shatov"
-                                                />
+                                  {doctor?.location?.map(
+                                    (
+                                      loc: { title: string; slug: string },
+                                      index: number
+                                    ) => {
+                                      return (
+                                        <tr key={index}>
+                                          <td className="p-2 whitespace-nowrap">
+                                            <div className="flex items-center">
+                                              <div className="flex justify-center text-gray-800 font-medium items-center">
+                                                <div className="flex-shrink-0 h-10 w-10 mr-2">
+                                                  <SiGooglemaps className="text-2xl" />
+                                                </div>
+                                                <Link
+                                                  href={`/locations/${loc?.slug}`}
+                                                  passHref
+                                                >
+                                                  <span className="cursor-pointer">
+                                                    {loc?.title}
+                                                  </span>
+                                                </Link>
                                               </div>
-                                              <Link
-                                                href="/locations/kalyan-nagar"
-                                                passHref
-                                              >
-                                                <span className="cursor-pointer">
-                                                  ಕಲ್ಯಾಣ್ ನಗರ
-                                                </span>
-                                              </Link>
                                             </div>
-                                          </div>
-                                        </div>
-                                      </td>
+                                          </td>
 
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="text-left">
-                                          {doctor.kalyanNagarPhysical && (
-                                            <button>
-                                              <a
-                                                href={"/contact/enquiry"}
-                                                className="text-brandPink font-semibold hover:underline"
-                                                hrefLang="en-us"
-                                                rel="noreferrer"
-                                              >
-                                                ಬುಕ್ ಮಾಡಿ
-                                              </a>
-                                            </button>
-                                          )}
-                                        </div>
-                                      </td>
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="text-black text-left font-semibold">
-                                          {doctor.kalyanNagarOnline && (
-                                            <button>
-                                              <a
-                                                href={"/contact/enquiry"}
-                                                hrefLang="en-us"
-                                                rel="noreferrer"
-                                                className="text-brandPink font-semibold hover:underline"
-                                              >
-                                                ಬುಕ್ ಮಾಡಿ
-                                              </a>
-                                            </button>
-                                          )}
-                                        </div>
-                                      </td>
-                                    </tr>
-                                  )}
-                                  {(doctor.jayanagarOnline ||
-                                    doctor.jayanagarPhysical) && (
-                                    <tr>
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="flex items-center">
-                                          <div className="text-gray-800 font-medium">
-                                            <div className="flex justify-center text-gray-800 font-medium items-center">
-                                              <div className="flex-shrink-0 h-10 w-10 mr-2 sm:mr-3">
-                                                <img
-                                                  className="rounded-sm"
-                                                  src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1665574596/Icons/Locations/JN_Icon_ysrrvv.svg"
-                                                  width="40"
-                                                  height="40"
-                                                  alt="Alex Shatov"
-                                                />
-                                              </div>
-                                              <Link
-                                                href="/locations/jayanagar"
-                                                passHref
-                                              >
-                                                <span className="cursor-pointer">
-                                                  ಜಯನಗರ
-                                                </span>
-                                              </Link>
+                                          <td className="p-2 whitespace-nowrap">
+                                            <div className="text-brandPink2 text-left font-medium">
+                                              <button>
+                                                <a
+                                                  href={
+                                                    doctor?.bookAnAppointment ||
+                                                    `/contact/enquiry?pageVisit=/fertility-experts/${loc?.slug}`
+                                                  }
+                                                  className="text-brandPink font-semibold hover:underline"
+                                                  hrefLang="en-us"
+                                                  rel="noreferrer"
+                                                >
+                                                  ಬುಕ್ ಮಾಡಿ
+                                                </a>
+                                              </button>
                                             </div>
-                                          </div>
-                                        </div>
-                                      </td>
-
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="text-brandPink2 text-left font-medium">
-                                          {doctor.jayanagarPhysical && (
-                                            <button>
-                                              <a
-                                                href={"/contact/enquiry"}
-                                                className="text-brandPink font-semibold hover:underline"
-                                                hrefLang="en-us"
-                                                rel="noreferrer"
-                                              >
-                                                ಬುಕ್ ಮಾಡಿ
-                                              </a>
-                                            </button>
-                                          )}
-                                        </div>
-                                      </td>
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="text-left">
-                                          {doctor.jayanagarOnline && (
-                                            <button>
-                                              <a
-                                                href={"/contact/enquiry"}
-                                                className="text-brandPink font-semibold hover:underline"
-                                                hrefLang="en-us"
-                                                rel="noreferrer"
-                                              >
-                                                ಬುಕ್ ಮಾಡಿ
-                                              </a>
-                                            </button>
-                                          )}
-                                        </div>
-                                      </td>
-                                    </tr>
-                                  )}
-                                  {(doctor.electronicCityOnline ||
-                                    doctor.electronicCityPhysical) && (
-                                    <tr>
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="flex items-center">
-                                          <div className="text-gray-800 font-medium">
-                                            <div className="flex justify-center text-gray-800 font-medium items-center">
-                                              <div className="flex-shrink-0 h-10 w-10 mr-2 sm:mr-3">
-                                                <img
-                                                  className="rounded-sm"
-                                                  src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643351530/Icons/Locations/Electronic_City_xntwob.svg"
-                                                  width="40"
-                                                  height="40"
-                                                  alt="Electronic City"
-                                                />
-                                              </div>
-                                              <Link
-                                                href="/locations/electronic-city"
-                                                passHref
-                                              >
-                                                <span className="cursor-pointer">
-                                                  ಇಲೆಕ್ಟ್ರಾನಿಕ್ ಸಿಟಿ
-                                                </span>
-                                              </Link>
+                                          </td>
+                                          <td className="p-2 whitespace-nowrap">
+                                            <div className="text-left">
+                                              <button>
+                                                <a
+                                                  href={
+                                                    doctor?.bookAnAppointment ||
+                                                    `/contact/enquiry?pageVisit=/fertility-experts/${loc?.slug}`
+                                                  }
+                                                  className="text-brandPink font-semibold hover:underline"
+                                                  hrefLang="en-us"
+                                                  rel="noreferrer"
+                                                >
+                                                  ಬುಕ್ ಮಾಡಿ
+                                                </a>
+                                              </button>
                                             </div>
-                                          </div>
-                                        </div>
-                                      </td>
-
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="text-brandPink2 text-left font-medium">
-                                          {doctor.electronicCityPhysical && (
-                                            <button>
-                                              <a
-                                                href={"/contact/enquiry"}
-                                                rel="noreferrer"
-                                                hrefLang="en-us"
-                                                className="text-brandPink font-semibold hover:underline"
-                                              >
-                                                ಬುಕ್ ಮಾಡಿ
-                                              </a>
-                                            </button>
-                                          )}
-                                        </div>
-                                      </td>
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="text-left">
-                                          {doctor.electronicCityOnline && (
-                                            <button>
-                                              <a
-                                                href={"/contact/enquiry"}
-                                                className="text-brandPink font-semibold hover:underline"
-                                                hrefLang="en-us"
-                                                rel="noreferrer"
-                                              >
-                                                ಬುಕ್ ಮಾಡಿ
-                                              </a>
-                                            </button>
-                                          )}
-                                        </div>
-                                      </td>
-                                    </tr>
-                                  )}
-                                  {(doctor.marathahalliOnline ||
-                                    doctor.marathahalliPhysical) && (
-                                    <tr>
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="flex items-center">
-                                          <div className="flex justify-center text-gray-800 font-medium items-center">
-                                            <div className="flex-shrink-0 h-10 w-10 mr-2 sm:mr-3">
-                                              <img
-                                                className="rounded-sm"
-                                                src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643351530/Icons/Locations/Marathahalli_p99ljc.svg"
-                                                width="40"
-                                                height="40"
-                                                alt="Alex Shatov"
-                                              />
-                                            </div>
-                                            <Link
-                                              href="/locations/marathahalli"
-                                              passHref
-                                            >
-                                              <span className="cursor-pointer">
-                                                ಮಾರತಹಳ್ಳಿ
-                                              </span>
-                                            </Link>
-                                          </div>
-                                        </div>
-                                      </td>
-
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="text-brandPink2 text-left font-medium">
-                                          {doctor.marathahalliPhysical && (
-                                            <button>
-                                              <a
-                                                href={"/contact/enquiry"}
-                                                rel="noreferrer"
-                                                hrefLang="en-us"
-                                                className="text-brandPink2 text-left font-medium hover:underline"
-                                              >
-                                                ಬುಕ್ ಮಾಡಿ
-                                              </a>
-                                            </button>
-                                          )}
-                                        </div>
-                                      </td>
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="text-left">
-                                          {doctor.marathahalliOnline && (
-                                            <button>
-                                              <a
-                                                href={"/contact/enquiry"}
-                                                className="text-brandPink2 text-left font-medium hover:underline"
-                                                hrefLang="en-us"
-                                                rel="noreferrer"
-                                              >
-                                                ಬುಕ್ ಮಾಡಿ
-                                              </a>
-                                            </button>
-                                          )}
-                                        </div>
-                                      </td>
-                                    </tr>
-                                  )}
-                                  {(doctor.newBelRoadOnline ||
-                                    doctor.newBelRoadPhysical) && (
-                                    <tr>
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="flex items-center">
-                                          <div className="flex justify-center text-gray-800 font-medium items-center">
-                                            <div className="flex-shrink-0 h-10 w-10 mr-2 sm:mr-3">
-                                              <img
-                                                className="rounded-sm"
-                                                src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1678881601/Icons/Locations/NBR_Icon_rlkyhf.svg"
-                                                width="40"
-                                                height="40"
-                                                alt="Alex Shatov"
-                                              />
-                                            </div>
-                                            <Link
-                                              href="/locations/new-bel-road"
-                                              passHref
-                                            >
-                                              <span className="cursor-pointer">
-                                                ನ್ಯೂ ಬೆಲ್ ರೋಡ್
-                                              </span>
-                                            </Link>
-                                          </div>
-                                        </div>
-                                      </td>
-
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="text-brandPink2 text-left font-medium">
-                                          {doctor?.newBelRoadPhysical && (
-                                            <button>
-                                              <a
-                                                href={"/contact/enquiry"}
-                                                rel="noreferrer"
-                                                hrefLang="en-us"
-                                                className="text-brandPink2 text-left font-medium hover:underline"
-                                              >
-                                                ಬುಕ್ ಮಾಡಿ
-                                              </a>
-                                            </button>
-                                          )}
-                                        </div>
-                                      </td>
-
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="text-left">
-                                          {doctor?.newBelRoadOnline && (
-                                            <button>
-                                              <a
-                                                href={"/contact/enquiry"}
-                                                className="text-brandPink2 text-left font-medium hover:underline"
-                                                hrefLang="en-us"
-                                                rel="noreferrer"
-                                              >
-                                                ಬುಕ್ ಮಾಡಿ
-                                              </a>
-                                            </button>
-                                          )}
-                                        </div>
-                                      </td>
-                                    </tr>
-                                  )}
-                                  {(doctor.nagarbhaviOnline ||
-                                    doctor.nagarbhaviPhysical) && (
-                                    <tr>
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="flex items-center">
-                                          <div className="flex justify-center text-gray-800 font-medium items-center">
-                                            <div className="flex bg-brandPink h-10 justify-center rounded-lg text-white w-10 items-center mr-2 sm:mr-3">
-                                              <SiGooglemaps className="text-2xl" />
-                                            </div>
-                                            <Link
-                                              href="/locations/nagarabhavi"
-                                              passHref
-                                            >
-                                              <span className="cursor-pointer">
-                                                ನಾಗರಭಾವಿ
-                                              </span>
-                                            </Link>
-                                          </div>
-                                        </div>
-                                      </td>
-
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="text-brandPink2 text-left font-medium">
-                                          {doctor?.nagarbhaviPhysical && (
-                                            <button>
-                                              <a
-                                                href={"/contact/enquiry"}
-                                                rel="noreferrer"
-                                                hrefLang="en-us"
-                                                className="text-brandPink2 text-left font-medium hover:underline"
-                                              >
-                                                ಬುಕ್ ಮಾಡಿ
-                                              </a>
-                                            </button>
-                                          )}
-                                        </div>
-                                      </td>
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="text-left">
-                                          {doctor?.nagarbhaviOnline && (
-                                            <button>
-                                              <a
-                                                href={"/contact/enquiry"}
-                                                className="text-brandPink2 text-left font-medium hover:underline"
-                                                hrefLang="en-us"
-                                                rel="noreferrer"
-                                              >
-                                                ಬುಕ್ ಮಾಡಿ
-                                              </a>
-                                            </button>
-                                          )}
-                                        </div>
-                                      </td>
-                                    </tr>
-                                  )}
-                                  {(doctor.yelahankaOnline ||
-                                    doctor.yelahankaPhysical) && (
-                                    <tr>
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="flex items-center">
-                                          <div className="flex justify-center text-gray-800 font-medium items-center">
-                                            <div className="flex bg-brandPink h-10 justify-center rounded-lg text-white w-10 items-center mr-2 sm:mr-3">
-                                              <SiGooglemaps className="text-2xl" />
-                                            </div>
-                                            <Link
-                                              href="/locations/yelahanka"
-                                              passHref
-                                            >
-                                              <span className="cursor-pointer">
-                                                ಯಲಹಂಕ
-                                              </span>
-                                            </Link>
-                                          </div>
-                                        </div>
-                                      </td>
-
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="text-brandPink2 text-left font-medium">
-                                          {doctor?.yelahankaPhysical && (
-                                            <button>
-                                              <a
-                                                href={"/contact/enquiry"}
-                                                rel="noreferrer"
-                                                hrefLang="en-us"
-                                                className="text-brandPink2 text-left font-medium hover:underline"
-                                              >
-                                                ಬುಕ್ ಮಾಡಿ
-                                              </a>
-                                            </button>
-                                          )}
-                                        </div>
-                                      </td>
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="text-left">
-                                          {doctor?.yelahankaOnline && (
-                                            <button>
-                                              <a
-                                                href={"/contact/enquiry"}
-                                                className="text-brandPink2 text-left font-medium hover:underline"
-                                                hrefLang="en-us"
-                                                rel="noreferrer"
-                                              >
-                                                ಬುಕ್ ಮಾಡಿ
-                                              </a>
-                                            </button>
-                                          )}
-                                        </div>
-                                      </td>
-                                    </tr>
-                                  )}
-                                  {(doctor.davanagereOnline ||
-                                    doctor.davanagerePhysical) && (
-                                    <tr>
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="flex items-center">
-                                          <div className="flex justify-center text-gray-800 font-medium items-center">
-                                            <div className="flex bg-brandPink h-10 justify-center rounded-lg text-white w-10 items-center mr-2 sm:mr-3">
-                                              <SiGooglemaps className="text-2xl" />
-                                            </div>
-                                            <Link
-                                              href="/locations/davanagere"
-                                              passHref
-                                            >
-                                              <span className="cursor-pointer">
-                                                ದಾವಣಗೆರೆ
-                                              </span>
-                                            </Link>
-                                          </div>
-                                        </div>
-                                      </td>
-
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="text-brandPink2 text-left font-medium">
-                                          {doctor?.davanagerePhysical && (
-                                            <button>
-                                              <a
-                                                href={"/contact/enquiry"}
-                                                rel="noreferrer"
-                                                hrefLang="en-us"
-                                                className="text-brandPink2 text-left font-medium hover:underline"
-                                              >
-                                                ಬುಕ್ ಮಾಡಿ
-                                              </a>
-                                            </button>
-                                          )}
-                                        </div>
-                                      </td>
-                                      <td className="p-2 whitespace-nowrap">
-                                        <div className="text-left">
-                                          {doctor?.davanagereOnline && (
-                                            <button>
-                                              <a
-                                                href={"/contact/enquiry"}
-                                                className="text-brandPink2 text-left font-medium hover:underline"
-                                                hrefLang="en-us"
-                                                rel="noreferrer"
-                                              >
-                                                ಬುಕ್ ಮಾಡಿ
-                                              </a>
-                                            </button>
-                                          )}
-                                        </div>
-                                      </td>
-                                    </tr>
+                                          </td>
+                                        </tr>
+                                      );
+                                    }
                                   )}
                                 </tbody>
                               </table>
