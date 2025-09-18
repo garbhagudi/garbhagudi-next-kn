@@ -200,113 +200,129 @@ const Doctor = ({ doctor }) => {
                       </a>
                     </button>
                   </div>
-                  {doctor?.location?.length > 0 && (
-                    <section className="text-gray-600 antialiased font-content mt-8 overflow-hidden">
-                      <div className="flex flex-col h-full justify-center">
-                        <div className="bg-white border border-pink-200 rounded-2xl shadow-xl w-full max-w-3xl mx-auto">
-                          <header className="px-5 py-2">
-                            <h2 className="text-gray-800 font-semibold">
-                              ನಿಮ್ಮ ನೇಮಕಾತಿಯನ್ನು ಕಾಯ್ದಿರಿಸಿ
-                            </h2>
-                          </header>
-                          <div className="">
-                            <div className="overflow-x-auto">
-                              <table className="table-auto w-full">
-                                <thead className="bg-brandPink text-brandDark text-sm font-bold uppercase">
-                                  <tr>
-                                    <th className="p-2 whitespace-nowrap">
-                                      <div className="text-left font-bold ml-1">
-                                        ಶಾಖೆ
-                                      </div>
-                                    </th>
-                                    <th className="p-2 whitespace-nowrap">
-                                      <div className="text-left font-bold">
-                                        ಆವರಣದಲ್ಲಿ
-                                      </div>
-                                    </th>
-                                    <th className="p-2 whitespace-nowrap">
-                                      <div className="text-left font-bold">
-                                        ಆನ್ಲೈನ್
-                                      </div>
-                                    </th>
-                                  </tr>
-                                </thead>
-                                <tbody className="text-sm divide-pink-100 divide-y">
-                                  {doctor?.location?.map(
-                                    (
-                                      loc: { title: string; slug: string },
-                                      index: number
-                                    ) => {
-                                      return (
-                                        <tr key={index}>
-                                          <td className="p-2 whitespace-nowrap">
-                                            <div className="flex items-center">
-                                              <div className="flex justify-center text-gray-800 font-medium items-center">
-                                                <div className="flex-shrink-0 h-10 w-10 mr-2">
-                                                  <SiGooglemaps className="text-2xl" />
+                  {doctor?.slug === "dr-asha-s-vijay" ? (
+                    <div>
+                      <button className="mt-6 rounded-md bg-brandPink px-4 py-2 font-content font-bold text-white hover:bg-brandPink3">
+                        <a
+                          href={
+                            doctor?.bookAnAppointment ||
+                            `/contact/enquiry?pageVisit=/fertility-experts/${doctor?.slug}`
+                          }
+                          hrefLang="en-us"
+                        >
+                          ನೇಮಕಾತಿಯನ್ನು ಕಾಯ್ದಿರಿಸಿ
+                        </a>
+                      </button>
+                    </div>
+                  ) : (
+                    doctor?.location?.length > 0 && (
+                      <section className="text-gray-600 antialiased font-content mt-8 overflow-hidden">
+                        <div className="flex flex-col h-full justify-center">
+                          <div className="bg-white border border-pink-200 rounded-2xl shadow-xl w-full max-w-3xl mx-auto">
+                            <header className="px-5 py-2">
+                              <h2 className="text-gray-800 font-semibold">
+                                ನಿಮ್ಮ ನೇಮಕಾತಿಯನ್ನು ಕಾಯ್ದಿರಿಸಿ
+                              </h2>
+                            </header>
+                            <div className="">
+                              <div className="overflow-x-auto">
+                                <table className="table-auto w-full">
+                                  <thead className="bg-brandPink text-brandDark text-sm font-bold uppercase">
+                                    <tr>
+                                      <th className="p-2 whitespace-nowrap">
+                                        <div className="text-left font-bold ml-1">
+                                          ಶಾಖೆ
+                                        </div>
+                                      </th>
+                                      <th className="p-2 whitespace-nowrap">
+                                        <div className="text-left font-bold">
+                                          ಆವರಣದಲ್ಲಿ
+                                        </div>
+                                      </th>
+                                      <th className="p-2 whitespace-nowrap">
+                                        <div className="text-left font-bold">
+                                          ಆನ್ಲೈನ್
+                                        </div>
+                                      </th>
+                                    </tr>
+                                  </thead>
+                                  <tbody className="text-sm divide-pink-100 divide-y">
+                                    {doctor?.location?.map(
+                                      (
+                                        loc: { title: string; slug: string },
+                                        index: number
+                                      ) => {
+                                        return (
+                                          <tr key={index}>
+                                            <td className="p-2 whitespace-nowrap">
+                                              <div className="flex items-center">
+                                                <div className="flex justify-center text-gray-800 font-medium items-center">
+                                                  <div className="flex-shrink-0 h-10 w-10 mr-2">
+                                                    <SiGooglemaps className="text-2xl" />
+                                                  </div>
+                                                  <Link
+                                                    href={`/locations/${loc?.slug}`}
+                                                    passHref
+                                                  >
+                                                    <span className="cursor-pointer">
+                                                      {loc?.title}
+                                                    </span>
+                                                  </Link>
                                                 </div>
-                                                <Link
-                                                  href={`/locations/${loc?.slug}`}
-                                                  passHref
-                                                >
-                                                  <span className="cursor-pointer">
-                                                    {loc?.title}
-                                                  </span>
-                                                </Link>
                                               </div>
-                                            </div>
-                                          </td>
+                                            </td>
 
-                                          <td className="p-2 whitespace-nowrap">
-                                            <div className="text-brandPink2 text-left font-medium">
-                                              <button>
-                                                <a
-                                                  href={
-                                                    doctor?.bookAnAppointment ||
-                                                    `/contact/enquiry?pageVisit=/fertility-experts/${loc?.slug}`
-                                                  }
-                                                  className="text-brandPink font-semibold hover:underline"
-                                                  hrefLang="en-us"
-                                                  rel="noreferrer"
-                                                >
-                                                  ಬುಕ್ ಮಾಡಿ
-                                                </a>
-                                              </button>
-                                            </div>
-                                          </td>
-                                          <td className="p-2 whitespace-nowrap">
-                                            <div className="text-left">
-                                              <button>
-                                                <a
-                                                  href={
-                                                    doctor?.bookAnAppointment ||
-                                                    `/contact/enquiry?pageVisit=/fertility-experts/${loc?.slug}`
-                                                  }
-                                                  className="text-brandPink font-semibold hover:underline"
-                                                  hrefLang="en-us"
-                                                  rel="noreferrer"
-                                                >
-                                                  ಬುಕ್ ಮಾಡಿ
-                                                </a>
-                                              </button>
-                                            </div>
-                                          </td>
-                                        </tr>
-                                      );
-                                    }
-                                  )}
-                                </tbody>
-                              </table>
+                                            <td className="p-2 whitespace-nowrap">
+                                              <div className="text-brandPink2 text-left font-medium">
+                                                <button>
+                                                  <a
+                                                    href={
+                                                      doctor?.bookAnAppointment ||
+                                                      `/contact/enquiry?pageVisit=/fertility-experts/${doctor?.slug}`
+                                                    }
+                                                    className="text-brandPink font-semibold hover:underline"
+                                                    hrefLang="en-us"
+                                                    rel="noreferrer"
+                                                  >
+                                                    ಬುಕ್ ಮಾಡಿ
+                                                  </a>
+                                                </button>
+                                              </div>
+                                            </td>
+                                            <td className="p-2 whitespace-nowrap">
+                                              <div className="text-left">
+                                                <button>
+                                                  <a
+                                                    href={
+                                                      doctor?.bookAnAppointment ||
+                                                      `/contact/enquiry?pageVisit=/fertility-experts/${doctor?.slug}`
+                                                    }
+                                                    className="text-brandPink font-semibold hover:underline"
+                                                    hrefLang="en-us"
+                                                    rel="noreferrer"
+                                                  >
+                                                    ಬುಕ್ ಮಾಡಿ
+                                                  </a>
+                                                </button>
+                                              </div>
+                                            </td>
+                                          </tr>
+                                        );
+                                      }
+                                    )}
+                                  </tbody>
+                                </table>
+                              </div>
                             </div>
                           </div>
                         </div>
-                      </div>
-                      <p className="text-xs mt-5">
-                        * ನೇಮಕಾತಿಗಳು ವೈದ್ಯರ ಲಭ್ಯತೆಗೆ ಒಳಪಟ್ಟಿರುತ್ತವೆ. ದಯವಿಟ್ಟು,
-                        ನೀವು ಈಗಾಗಲೇ ಗರ್ಭಗುಡಿಗೆ ಭೇಟಿ ನೀಡಿದ್ದರೆ ನಿಮ್ಮ ನೋಂದಾಯಿತ
-                        ಸಂಖ್ಯೆಯನ್ನು ನೀವು ನೀಡಿದ್ದೀರಿ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
-                      </p>
-                    </section>
+                        <p className="text-xs mt-5">
+                          * ನೇಮಕಾತಿಗಳು ವೈದ್ಯರ ಲಭ್ಯತೆಗೆ ಒಳಪಟ್ಟಿರುತ್ತವೆ. ದಯವಿಟ್ಟು,
+                          ನೀವು ಈಗಾಗಲೇ ಗರ್ಭಗುಡಿಗೆ ಭೇಟಿ ನೀಡಿದ್ದರೆ ನಿಮ್ಮ ನೋಂದಾಯಿತ
+                          ಸಂಖ್ಯೆಯನ್ನು ನೀವು ನೀಡಿದ್ದೀರಿ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ.
+                        </p>
+                      </section>
+                    )
                   )}
                 </div>
                 <div className="border-gray-300 border-t mt-10 py-10">
