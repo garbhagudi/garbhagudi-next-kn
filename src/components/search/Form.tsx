@@ -1,12 +1,16 @@
+import { usePathname } from "next/navigation";
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useForm } from "react-hook-form";
 const Form = () => {
   const router = useRouter();
+  const path = usePathname();
+  const pageVisit = router.query?.pageVisit || path;
+  const utmCampaign = router.query?.utm_campaign || "";
   const {
     register,
     handleSubmit,
-    reset,
+    setValue,
     formState: { errors },
   } = useForm({
     defaultValues: {
@@ -15,10 +19,17 @@ const Form = () => {
       Email: "",
       Lead_Source: "Online",
       Lead_Sub_Source: "Garbhagudi_KN_Organic",
-      UTM_Campaign: "",
+      UTM_Campaign: utmCampaign,
+      Page_Visited: pageVisit,
     },
   });
   const [load, setLoad] = useState(false);
+  useEffect(() => {
+    setValue("Page_Visited", `${window.location?.origin}${pageVisit}`);
+  }, [pageVisit, setValue]);
+  useEffect(() => {
+    setValue("UTM_Campaign", utmCampaign);
+  }, [utmCampaign, setValue]);
 
   const onSubmit = async (data) => {
     setLoad(true);
