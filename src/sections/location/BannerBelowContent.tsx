@@ -8,7 +8,9 @@ const BannerBelowContent = ({ branchTitle }) => {
     <div>
       <div className="h-full w-full">
         <Image
-          src={bannerImage[branchTitle]}
+          src={
+            "https://ap-south-1.graphassets.com/A7M5IxnSTWGtcRy2NVnmfz/cme6vu6fb00ff07pim0rjhnym"
+          }
           alt="GarbhaGudi IVF Centre - Bangalore"
           className="mx-auto h-full w-full"
           width={1920}
@@ -34,7 +36,7 @@ const BannerBelowContent = ({ branchTitle }) => {
           </h3>
         </div>
         <div className="text-center lg:px-3 lg:text-left">
-          <button className="mt-4 rounded-lg bg-gg-500 px-4 py-2 font-content font-semibold text-white hover:bg-gg-400 dark:bg-gray-500 dark:hover:bg-gg-400">
+          <button className="mt-4 rounded-lg bg-brandPink px-4 py-2 font-content font-semibold text-white hover:bg-brandPink2 dark:bg-gray-500 dark:hover:bg-brandPink2">
             <Link href={`/contact/enquiry?pageVisit=${path}`}>ಸಂಪರ್ಕಿಸಿ</Link>
           </button>
         </div>
@@ -44,9 +46,3 @@ const BannerBelowContent = ({ branchTitle }) => {
 };
 
 export default BannerBelowContent;
-const bannerImage = {
-  Davanagere:
-    "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cme8hljjb14v107pi7joizuya",
-  Hosur:
-    "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cmes3oxn80ooz07oaof8li5ik",
-};
