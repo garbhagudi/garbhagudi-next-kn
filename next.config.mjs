@@ -167,6 +167,11 @@ const nextConfig = {
         destination: "/locations/davanagere",
         permanent: true,
       },
+      {
+        source: "/contact.html",
+        destination: "/gg-care",
+        permanent: true,
+      },
     ];
   },
 };
