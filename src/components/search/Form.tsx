@@ -18,7 +18,7 @@ const Form = () => {
       Phone: "",
       Email: "",
       Lead_Source: "Online",
-      Lead_Sub_Source: "Garbhagudi_KN_Organic",
+      Lead_Sub_Source: "Garbhagudi_KAN_Organic",
       UTM_Campaign: utmCampaign,
       Page_Visited: pageVisit,
     },
