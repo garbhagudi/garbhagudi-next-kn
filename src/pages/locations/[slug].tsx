@@ -8,7 +8,6 @@ import { useRouter } from "next/router";
 import Loading from "components/Loading";
 import graphcms from "lib/graphcms";
 import Faq from "sections/location/FAQs";
-import BannerBelowContent from "sections/location/BannerBelowContent";
 
 const Branch = ({ branch }) => {
   const router = useRouter();
@@ -16,7 +15,6 @@ const Branch = ({ branch }) => {
     return <Loading />;
   }
   const title = `${branch.title} | ಗರ್ಭಗುಡಿ IVF ಕೇಂದ್ರ`;
-  const isNewBranch = branch?.slug === "davanagere";
   return (
     <div>
       <Head>
@@ -44,11 +42,7 @@ const Branch = ({ branch }) => {
         <meta name="twitter:description" content={branch?.metaDescription} />
         <meta name="twitter:image" content={branch?.branchPicture.url} />
       </Head>
-      {isNewBranch ? (
-        <BannerBelowContent branchTitle={branch?.title} />
-      ) : (
-        <Banner branchTitle={branch?.title} />
-      )}
+      <Banner branchTitle={branch?.title} />
       <TreatmentOptions branch={branch?.title} />
       <MapSection
         maplink={branch?.mapLink}
