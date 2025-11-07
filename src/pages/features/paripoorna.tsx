@@ -1,4 +1,3 @@
-import React from "react";
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 import Cta from "sections/gg-care/cta";
 import FAQ from "sections/paripoorna/faq";
@@ -14,27 +13,29 @@ const Paripoorna = () => {
         {/* Primary Tags */}
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Paripoorna | Get upto ₹30,000 off on IVF Treatments</title>
+        <title>
+          ಪರಿಪೂರ್ಣ | ನಿಮ್ಮ IVF ಚಿಕಿತ್ಸೆ ಮೇಲೆ ₹1,11,111 ರಿಯಾಯಿತಿ ಪಡೆಯಿರಿ
+        </title>
         <meta
           name="title"
-          content="Paripoorna | Get upto ₹30,000 off on IVF Treatments"
+          content="ಪರಿಪೂರ್ಣ | ನಿಮ್ಮ IVF ಚಿಕಿತ್ಸೆ ಮೇಲೆ ₹1,11,111 ರಿಯಾಯಿತಿ ಪಡೆಯಿರಿ"
         />
         <meta
           name="description"
-          content="GarbhaGudi is where dreams come alive, hopes never fade and possibilities never end. We work to help you cherish the golden moment of holding your bundle of joy"
+          content="ಗರ್ಭಗುಡಿ ನಿಮ್ಮ ಕನಸುಗಳು ನಿಜವಾಗುವ ಸ್ಥಳ, ನಿಮ್ಮ ತಾಯ್ತನದ ಕನಸನ್ನು ನನಸು ಮಾಡಲು ಬಂದಿದೆ ಪರಿಪೂರ್ಣ IVF ಮೇಲೆ ಭಾರಿ ರಿಯಾಯ್ತಿ. ನಿಮ್ಮ ತಾಯ್ತನದ ಕನಸು ಈಗ ಸುಲಭ"
         />
 
         {/* Open Graph / Facebook */}
 
         <meta
           property="og:title"
-          content="Paripoorna | Get upto ₹30,000 off on IVF Treatments"
+          content="ಪರಿಪೂರ್ಣ | ನಿಮ್ಮ IVF ಚಿಕಿತ್ಸೆ ಮೇಲೆ ₹1,11,111 ರಿಯಾಯಿತಿ ಪಡೆಯಿರಿ"
         />
         <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
         <meta property="og:url" content="https://garbhagudi.com" />
         <meta
           property="og:description"
-          content="GarbhaGudi is where dreams come alive, hopes never fade and possibilities never end. We work to help you cherish the golden moment of holding your bundle of joy"
+          content="ಗರ್ಭಗುಡಿ ನಿಮ್ಮ ಕನಸುಗಳು ನಿಜವಾಗುವ ಸ್ಥಳ, ನಿಮ್ಮ ತಾಯ್ತನದ ಕನಸನ್ನು ನನಸು ಮಾಡಲು ಬಂದಿದೆ ಪರಿಪೂರ್ಣ IVF ಮೇಲೆ ಭಾರಿ ರಿಯಾಯ್ತಿ. ನಿಮ್ಮ ತಾಯ್ತನದ ಕನಸು ಈಗ ಸುಲಭ"
         />
         <meta property="og:type" content="website" />
         <meta
@@ -48,11 +49,11 @@ const Paripoorna = () => {
         <meta name="twitter:site" content="@garbhagudiivf" />
         <meta
           name="twitter:title"
-          content="Paripoorna | Get upto ₹30,000 off on IVF Treatments"
+          content="ಪರಿಪೂರ್ಣ | ನಿಮ್ಮ IVF ಚಿಕಿತ್ಸೆ ಮೇಲೆ ₹1,11,111 ರಿಯಾಯಿತಿ ಪಡೆಯಿರಿ"
         />
         <meta
           name="twitter:description"
-          content="GarbhaGudi is where dreams come alive, hopes never fade and possibilities never end. We work to help you cherish the golden moment of holding your bundle of joy"
+          content="ಗರ್ಭಗುಡಿ ನಿಮ್ಮ ಕನಸುಗಳು ನಿಜವಾಗುವ ಸ್ಥಳ, ನಿಮ್ಮ ತಾಯ್ತನದ ಕನಸನ್ನು ನನಸು ಮಾಡಲು ಬಂದಿದೆ ಪರಿಪೂರ್ಣ IVF ಮೇಲೆ ಭಾರಿ ರಿಯಾಯ್ತಿ. ನಿಮ್ಮ ತಾಯ್ತನದ ಕನಸು ಈಗ ಸುಲಭ"
         />
         <meta
           name="twitter:image"
