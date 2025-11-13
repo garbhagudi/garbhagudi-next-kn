@@ -32,7 +32,7 @@ const PriceSlash: React.FC<PriceSlashProps> = ({
           IVF ಪ್ಯಾಕೇಜ್‌
         </div>
       </div>
-      <div className="mt-5 flex items-center font-lexend text-3xl text-gg-500 dark:text-gg-400">
+      <div className="mt-5 flex items-center font-lexend text-3xl text-brandPink3 dark:text-brandPink4">
         ಈಗ ಕೇವಲ &nbsp;
         <span className="font-lexend font-bold">
           ₹{formatNumberWithCommas(slashedPrice)}
@@ -120,7 +120,7 @@ const Home = () => {
                     <div>ಬುಕ್ ಮಾಡಿ</div>
                   </Link>
                 </div>
-                <div className="min-w-fit cursor-pointer rounded-xl border border-gg-500 px-3 py-2 font-lexend text-gg-500 hover:border-gg-600 hover:bg-gg-500 hover:text-white dark:hover:bg-gg-600">
+                <div className="min-w-fit cursor-pointer rounded-xl border border-brandPink3 px-3 py-2 font-lexend text-brandPink3 hover:border-brandPink4 hover:bg-brandPink3 hover:text-white dark:hover:bg-brandPink4">
                   <Link
                     href="tel:+919108910832"
                     className="flex items-center gap-2"
