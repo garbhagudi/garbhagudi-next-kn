@@ -98,7 +98,7 @@ const Home = () => {
               ಪಡೆಯಿರಿ &quot;
             </div>
 
-            <div className="font-lexend text-lg text-gray-800 dark:text-gray-200">
+            <div className="hidden md:block font-lexend text-lg text-gray-800 dark:text-gray-200">
               ತಾಯ್ತನದ ಅಮೂಲ್ಯ ಸಂತೋಷವನ್ನು ಕಳೆದುಕೊಂಡಿರುವಂಥ ಅನೇಕ ದಂಪತಿಗಳಿದ್ದಾರೆ.
               ಅಂಥವರಿಗೆ ಸಹಾಯವಾಗಲಿ, ಆದಷ್ಟು ಬೇಗ ಚಿಕಿತ್ಸೆ ತೆಗೆದುಕೊಂಡು ಮಕ್ಕಳು
               ಪಡೆದುಕೊಳ್ಳಲಿ ಅನ್ನುವುದು ನಮ್ಮ ಉದ್ದೇಶ. ನಮಗೆ ಗೊತ್ತಿದೆ, ಬಹುತೇಕ
@@ -131,8 +131,49 @@ const Home = () => {
                 </div>
               </div>
             </div>
+            <div className="block md:hidden font-lexend text-lg text-gray-800 dark:text-gray-200">
+              ತಾಯ್ತನದ ಅಮೂಲ್ಯ ಸಂತೋಷವನ್ನು ಕಳೆದುಕೊಂಡಿರುವಂಥ ಅನೇಕ ದಂಪತಿಗಳಿದ್ದಾರೆ.
+              ಅಂಥವರಿಗೆ ಸಹಾಯವಾಗಲಿ, ಆದಷ್ಟು ಬೇಗ ಚಿಕಿತ್ಸೆ ತೆಗೆದುಕೊಂಡು ಮಕ್ಕಳು
+              ಪಡೆದುಕೊಳ್ಳಲಿ ಅನ್ನುವುದು ನಮ್ಮ ಉದ್ದೇಶ. ನಮಗೆ ಗೊತ್ತಿದೆ, ಬಹುತೇಕ
+              ದಂಪತಿಗಳಿಗೆ ಐವಿಎಫ್‌ ಚಿಕಿತ್ಸೆ ಭರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ. ಇದನ್ನು
+              ಗಮನದಲ್ಲಿಟ್ಟುಕೊಂಡು ಗರ್ಭಗಡಿ ಐವಿಎಫ್‌ ಸೆಂಟರ್‌ ಗರ್ಭಜ್ಞಾನ್‌ ಫೌಂಡೇಷನ್‌
+              ಸಹಯೋಗದೊಂದಿಗೆ ಅತ್ಯಂತ ಮಹತ್ವಾಕಾಂಕ್ಷೆಯ ಪರಿಪೂರ್ಣ ಕಾರ್ಯಕ್ರಮವನ್ನು
+              ಜಾರಿಗೊಳಿಸಿದೆ.
+              <Image
+                src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1731247437/paripoorna/Paripoorna_English_tfrujt.webp"
+                alt="pp logo"
+                width={500}
+                height={500}
+                className="mx-auto aspect-square scale-90 lg:scale-105"
+                priority={true}
+              />
+              <PriceSlash originalPrice={291111} slashedPrice={180000} />ಈ
+              ನವೆಂಬರ್ ಮತ್ತು ಡಿಸೆಂಬರ್ 2025 ರಲ್ಲಿ, ಪರಿಪೂರ್ಣ ಕೊಡುಗೆಯೊಂದಿಗೆ ನಿಮ್ಮ
+              ತಾಯ್ತನದ ಆನಂದವನ್ನು ಸಂಭ್ರಮಿಸಿ. ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರವು ನಿಮ್ಮ ಐವಿಎಫ್
+              ವೆಚ್ಚದಲ್ಲಿ{" "}
+              <span className="font-bold underline">₹1,11,111/-</span>{" "}
+              ರಿಯಾಯಿತಿಯನ್ನು ನೀಡುತ್ತಿದೆ. ಈ ಅವಕಾಶವನ್ನು ಪಡೆಯಲು ಮತ್ತು ನಿಮ್ಮ ತಾಯ್ತನದ
+              ಪಯಣದಲ್ಲಿ ಮೊದಲ ಹೆಜ್ಜೆ ಇಡಲು ಹತ್ತಿರದ ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರಕ್ಕೆ ಭೇಟಿ
+              ನೀಡಿ.
+              <div className="mt-10 flex flex-col items-start space-x-0 space-y-3 md:items-center lg:flex-row lg:space-x-5 lg:space-y-0">
+                <div className="min-w-fit rounded-xl bg-purple-700 px-3 py-2 font-lexend text-white dark:bg-purple-800">
+                  <Link href="/contact/enquiry?pageVisit=/features/paripoorna">
+                    <div>ಬುಕ್ ಮಾಡಿ</div>
+                  </Link>
+                </div>
+                <div className="min-w-fit cursor-pointer rounded-xl border border-brandPink3 px-3 py-2 font-lexend text-brandPink3 hover:border-brandPink4 hover:bg-brandPink3 hover:text-white dark:hover:bg-brandPink4">
+                  <Link
+                    href="tel:+919108910832"
+                    className="flex items-center gap-2"
+                  >
+                    <span>ಕರೆಮಾಡಿ: </span>
+                    <span>9108 9108 32</span>
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="flex flex-col items-center justify-center gap-5 lg:ml-10">
+          <div className="hidden md:flex flex-col items-center justify-center gap-5 lg:ml-10">
             <Image
               src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1731247437/paripoorna/Paripoorna_English_tfrujt.webp"
               alt="pp logo"
@@ -141,6 +182,17 @@ const Home = () => {
               className="mx-auto aspect-square scale-90 lg:scale-105"
               priority={true}
             />
+            <div className="relative aspect-[9/16] w-full max-w-[400px] overflow-hidden rounded-lg">
+              <LiteYouTubeEmbed
+                id="TH68dBLfq2I"
+                title="YouTube Shorts | Paripoorna | GarbhaGudi IVF Centre"
+                poster="maxresdefault"
+                webp={true}
+                wrapperClass="lty-playbtn yt-lite"
+              />
+            </div>
+          </div>
+          <div className="flex md:hidden flex-col items-center justify-center gap-5 lg:ml-10 mt-5">
             <div className="relative aspect-[9/16] w-full max-w-[400px] overflow-hidden rounded-lg">
               <LiteYouTubeEmbed
                 id="TH68dBLfq2I"
