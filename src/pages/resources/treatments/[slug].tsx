@@ -28,6 +28,14 @@ export const getStaticProps = async ({ params }) => {
       slug: params.slug,
     }
   );
+  if (!treatment || treatment?.error) {
+    return {
+      redirect: {
+        destination: "/resources/treatments",
+        permanent: true,
+      },
+    };
+  }
   return {
     props: {
       treatment,

@@ -40,7 +40,14 @@ export const getStaticProps = async ({ params }) => {
       slug: params.slug,
     },
   });
-
+  if (data?.error || !data.doctor) {
+    return {
+      redirect: {
+        destination: "/fertility-experts",
+        permanent: true,
+      },
+    };
+  }
   return {
     props: {
       doctor: data.doctor,
