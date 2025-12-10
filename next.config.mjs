@@ -172,6 +172,11 @@ const nextConfig = {
         destination: "/gg-care",
         permanent: true,
       },
+      {
+        source: "/",
+        destination: "/gg-care",
+        permanent: true,
+      },
     ];
   },
 };

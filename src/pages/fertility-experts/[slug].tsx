@@ -42,10 +42,7 @@ export const getStaticProps = async ({ params }) => {
   });
   if (data?.error || !data.doctor) {
     return {
-      redirect: {
-        destination: "/fertility-experts",
-        permanent: true,
-      },
+      notFound: true,
     };
   }
   return {
