@@ -173,8 +173,18 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: "/",
-        destination: "/gg-care",
+        source: "/resources/treatments/sperm-donation",
+        destination: "/resources/treatments",
+        permanent: true,
+      },
+      {
+        source: "/fertility-experts/dr-ranjitha-k-a",
+        destination: "/fertility-experts",
+        permanent: true,
+      },
+      {
+        source: "/fertility-experts/dr-pavithra",
+        destination: "/fertility-experts",
         permanent: true,
       },
     ];
