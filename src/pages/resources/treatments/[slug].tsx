@@ -30,10 +30,7 @@ export const getStaticProps = async ({ params }) => {
   );
   if (!treatment || treatment?.error) {
     return {
-      redirect: {
-        destination: "/resources/treatments",
-        permanent: true,
-      },
+      notFound: true,
     };
   }
   return {
