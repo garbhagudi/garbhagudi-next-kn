@@ -187,6 +187,11 @@ const nextConfig = {
         destination: "/fertility-experts",
         permanent: true,
       },
+      {
+        source: "/fertility-experts/vijay-kumar-sheshadri",
+        destination: "/about/executive-team/vijay-kumar-sheshadri",
+        permanent: true,
+      },
     ];
   },
 };
