@@ -8,18 +8,25 @@ import BreadCrumbs from "components/breadcrumbs";
 import Share from "components/share";
 
 export const getServerSideProps = async (pageContext) => {
+  const pageSlug = pageContext.query.slug;
+  if (!pageSlug || pageSlug === "undefined" || pageSlug === "[slug]") {
+    return {
+      notFound: true,
+    };
+  }
+
   const url = process.env.ENDPOINT;
   const graphQLClient = new GraphQLClient(url, {
     headers: {
       Authorization: `Bearer ${process.env.GRAPH_CMS_TOKEN}`,
     },
   });
-  const pageSlug = pageContext.query.slug;
 
   const query = gql`
     query ($pageSlug: String!) {
       award(where: { slug: $pageSlug }) {
         id
+        slug
         image {
           url
         }
@@ -31,15 +38,17 @@ export const getServerSideProps = async (pageContext) => {
       }
     }
   `;
-  const variables = {
-    pageSlug,
-  };
 
-  const data = await graphQLClient.request(query, variables);
-  const award = data.award;
+  const data = await graphQLClient.request(query, { pageSlug });
+  if (!data?.award) {
+    return {
+      notFound: true,
+    };
+  }
+
   return {
     props: {
-      award,
+      award: data.award,
     },
   };
 };
@@ -49,6 +58,11 @@ const AwardPage = ({ award }) => {
     <div>
       <Head>
         {/* Primary Tags */}
+        <link
+          rel="canonical"
+          href={`https://kannada.garbhagudi.com/about/awards-and-accolades/${award?.slug}`}
+        />
+
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{award?.title} | ಗರ್ಭಗುಡಿ</title>
         <meta name="title" content={`${award?.title} | ಗರ್ಭಗುಡಿ`} />

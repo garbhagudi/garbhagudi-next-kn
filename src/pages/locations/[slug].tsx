@@ -18,8 +18,11 @@ const Branch = ({ branch }) => {
   return (
     <div>
       <Head>
+        <link
+          rel="canonical"
+          href={`https://garbhagudi.com/locations/${branch.slug}`}
+        />
         {/* Primary Tags */}
-
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{title}</title>
         <meta name="title" content={title} />
@@ -101,7 +104,11 @@ export const getStaticProps = async ({ params }) => {
       slug: params.slug,
     }
   );
-
+  if (!branch) {
+    return {
+      notFound: true,
+    };
+  }
   return {
     props: {
       branch,
@@ -114,12 +121,11 @@ export async function getStaticPaths() {
   const { branches } = await graphcms.request(`{
     branches {
       slug
-      title
     }
   }`);
 
   return {
     paths: branches.map(({ slug }) => ({ params: { slug } })),
-    fallback: true,
+    fallback: "blocking",
   };
 }
