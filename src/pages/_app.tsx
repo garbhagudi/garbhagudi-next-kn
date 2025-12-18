@@ -46,10 +46,12 @@ function MyApp({ Component, pageProps }) {
           hrefLang="en-us"
         />
         <meta httpEquiv="content-language" content="en-gb"></meta>
-        <link
-          rel="canonical"
-          href={`https://kannada.garbhagudi.com${router.pathname}`}
-        />
+        {!router?.pathname?.includes("[slug]") && (
+          <link
+            rel="canonical"
+            href={`https://kannada.garbhagudi.com${router.pathname}`}
+          />
+        )}
       </Head>
       {loading ? (
         <Loading />
