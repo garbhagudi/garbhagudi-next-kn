@@ -1,7 +1,34 @@
-# *
 User-agent: *
-Allow: /
-Disallow: /?*
+
+# Allow full site crawling
+Disallow:
+
+# Block query parameters that create duplicate URLs (Tracking params)
+Disallow: /*?fbclid=
+Disallow: /*?campaignid=
+Disallow: /*?keyword=
+Disallow: /*?device=
+Disallow: /*?matchtype=
+Disallow: /*?adtype=
+Disallow: /*?productchannel=
+Disallow: /*?id=
+Disallow: /*?utm_
+Disallow: /*?source=
+Disallow: /*?gad_source=
+
+# Block pageVisit tracking duplicates
+Disallow: /*?pageVisit=
+Disallow: /*?author=
+
+
+# Block Chrome translation tracking URLs
+Disallow: /*?_x_tr_
+
+# Block any chain of parameters after these
+Disallow: /*&fbclid=
+Disallow: /*&pageVisit=
+Disallow: /*&_x_tr_
+Disallow: /*&gclid
 
 # Host
 Host: https://kannada.garbhagudi.com

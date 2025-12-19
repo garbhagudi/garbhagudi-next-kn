@@ -16,22 +16,7 @@ const IndexPage = () => {
           name="description"
           content="GarbhaGudi is a chain of new generation infertility treatment hospitals equipped with state-of-the-art cutting-edge technology to address infertility."
         />
-        <link
-          rel="alternate"
-          hrefLang="kn"
-          href="https://kannada.garbhagudi.com/contact/enquiry"
-        />
-        <link
-          rel="alternate"
-          hrefLang="x-default"
-          href="https://kannada.garbhagudi.com/contact/enquiry"
-        />
-        <link
-          rel="canonical"
-          href="https://kannada.garbhagudi.com/contact/enquiry"
-        />
         {/* Open Graph / Facebook */}
-
         <meta property="og:title" content="Enquiry Form" />
         <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
         <meta property="og:url" content="https://garbhagudi.com" />
