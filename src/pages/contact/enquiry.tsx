@@ -24,7 +24,7 @@ const IndexPage = () => {
         <link
           rel="alternate"
           hrefLang="x-default"
-          href="https://www.garbhagudi.com/contact/enquiry"
+          href="https://kannada.garbhagudi.com/contact/enquiry"
         />
         <link
           rel="canonical"

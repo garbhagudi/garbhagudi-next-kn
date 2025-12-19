@@ -60,11 +60,6 @@ export const getStaticPaths = async () => {
 const ExecutiveTeam = ({ director }) => (
   <div>
     <Head>
-      <link
-        rel="canonical"
-        href={`https://kannada.garbhagudi.com/about/executive-team/${director?.slug}`}
-      />
-
       {/* Primary Tags */}
 
       <meta name="viewport" content="width=device-width, initial-scale=1" />

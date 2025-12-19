@@ -37,21 +37,18 @@ function MyApp({ Component, pageProps }) {
     };
   }, [router.events]);
 
+  const path = router.asPath.endsWith("/index") ? "" : router.asPath;
+
   return (
     <>
       <Head>
         <link
-          rel="alternative"
-          href={`https://kannada.garbhagudi.com${router.pathname}`}
+          rel="alternate"
+          href={`https://kannada.garbhagudi.com${path}`}
           hrefLang="en-us"
         />
+        <link rel="canonical" href={`https://kannada.garbhagudi.com${path}`} />
         <meta httpEquiv="content-language" content="en-gb"></meta>
-        {!router?.pathname?.includes("[slug]") && (
-          <link
-            rel="canonical"
-            href={`https://kannada.garbhagudi.com${router.pathname}`}
-          />
-        )}
       </Head>
       {loading ? (
         <Loading />

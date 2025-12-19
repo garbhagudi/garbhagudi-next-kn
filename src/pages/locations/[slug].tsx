@@ -18,10 +18,6 @@ const Branch = ({ branch }) => {
   return (
     <div>
       <Head>
-        <link
-          rel="canonical"
-          href={`https://garbhagudi.com/locations/${branch.slug}`}
-        />
         {/* Primary Tags */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{title}</title>

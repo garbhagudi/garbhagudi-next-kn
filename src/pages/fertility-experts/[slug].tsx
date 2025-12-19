@@ -87,10 +87,6 @@ const Doctor = ({ doctor }) => {
     <div>
       <Head>
         {/* Primary Tags */}
-        <link
-          rel="canonical"
-          href={`https://kannada.garbhagudi.com/fertility-experts/${doctor?.slug}`}
-        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{title}</title>
         <meta name="title" content={title} />
