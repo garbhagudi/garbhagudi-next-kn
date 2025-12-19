@@ -58,11 +58,6 @@ const AwardPage = ({ award }) => {
     <div>
       <Head>
         {/* Primary Tags */}
-        <link
-          rel="canonical"
-          href={`https://kannada.garbhagudi.com/about/awards-and-accolades/${award?.slug}`}
-        />
-
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{award?.title} | ಗರ್ಭಗುಡಿ</title>
         <meta name="title" content={`${award?.title} | ಗರ್ಭಗುಡಿ`} />
