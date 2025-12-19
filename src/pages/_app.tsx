@@ -45,7 +45,7 @@ function MyApp({ Component, pageProps }) {
         <link
           rel="alternate"
           href={`https://kannada.garbhagudi.com${path}`}
-          hrefLang="en-us"
+          hrefLang="kn"
         />
         <link rel="canonical" href={`https://kannada.garbhagudi.com${path}`} />
         <meta httpEquiv="content-language" content="en-gb"></meta>
