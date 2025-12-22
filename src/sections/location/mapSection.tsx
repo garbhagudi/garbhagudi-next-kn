@@ -48,11 +48,11 @@ const MapSection = ({ maplink, address, description, doctors, title }) => {
                 </div>
                 <p className="text-sm font-qs leading-relaxed">
                   <Link
-                    href="https://wa.me/919108910832?text=Hi."
+                    href="https://wa.me/918951813344?text=Hi."
                     target="_blank"
                     rel="noreferrer"
                   >
-                    +91 9108 9108 32
+                    +91 89518 13344
                   </Link>
                 </p>
               </div>
