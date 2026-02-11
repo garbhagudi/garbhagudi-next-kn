@@ -4,7 +4,7 @@ import Link from "next/link";
 const Banner = ({ branchTitle }) => {
   return (
     <div>
-      <div className="bg-[url(https://res.cloudinary.com/garbhagudiivf/image/upload/v1672381537/Misc/happy-pregnant-woman-late-pregnancy-stage-sitting-grass-lawn-min_11zon_xkeac0.webp)] bg-cover bg-right sm:bg-center bg-no-repeat shadow-2xl">
+      <div className="bg-[url(https://res.cloudinary.com/garbhagudiivf/image/upload/v1770374577/Pregnant_Lady.jpg_zvlxr3.jpg)] bg-cover bg-right sm:bg-center bg-no-repeat shadow-2xl">
         <div className="w-full h-full bg-gradient-to-r from-white to-transparent py-6">
           <div className="h-[50vh] mx-auto max-w-5xl flex items-center">
             <div className="absolute z-10">
