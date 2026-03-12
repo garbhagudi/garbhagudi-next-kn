@@ -54,21 +54,62 @@ export const getStaticProps = async ({ params }) => {
 };
 
 export async function getStaticPaths() {
-  const { data } = await apolloClient.query({
-    query: gql`
-      {
-        doctors {
-          slug
-          name
+  try {
+    const { data } = await apolloClient.query({
+      query: gql`
+        {
+          doctors {
+            slug
+            name
+          }
         }
-      }
-    `,
-  });
+      `,
+    });
 
-  return {
-    paths: data.doctors.map(({ slug }) => ({ params: { slug } })),
-    fallback: true,
-  };
+    // Validation: Check if data exists and has doctors array
+    if (!data || !data.doctors) {
+      console.error("❌ Error: No doctors data returned from GraphQL query");
+      return {
+        paths: [],
+        fallback: "blocking",
+      };
+    }
+
+    // Validation: Check if doctors is an array
+    if (!Array.isArray(data.doctors)) {
+      console.error("❌ Error: doctors is not an array. Received:", typeof data.doctors, data.doctors);
+      return {
+        paths: [],
+        fallback: "blocking",
+      };
+    }
+
+    // Map doctors to paths with validation
+    const paths = data.doctors
+      .map(({ slug }) => {
+        // Ensure slug is a STRING, not an object
+        if (typeof slug !== "string" || !slug.trim()) {
+          console.warn("⚠️ Warning: Invalid slug detected:", slug);
+          return null;
+        }
+        return { params: { slug } };
+      })
+      .filter(Boolean); // Remove null values
+
+    console.log(`✅ Successfully generated ${paths.length} paths for doctors`);
+
+    return {
+      paths,
+      fallback: "blocking", // Changed from true to blocking for better error handling
+    };
+  } catch (error) {
+    console.error("❌ Error in getStaticPaths:", error);
+    // Return empty paths on error but don't fail the build
+    return {
+      paths: [],
+      fallback: "blocking",
+    };
+  }
 }
 
 const Doctor = ({ doctor }) => {
