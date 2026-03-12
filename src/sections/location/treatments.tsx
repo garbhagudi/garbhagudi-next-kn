@@ -6,7 +6,7 @@ const TreatmentOptions = ({ branch }) => {
   return (
     <div className="container mx-auto">
       <h2 className="py-16 lg:py-20 text-xl lg:text-2xl font-heading text-center font-bold px-2">
-        {branch} ಶಾಖೆಯಲ್ಲಿ ದೊರೆಯುವ ಬಂಜೆತನ ಚಿಕಿತ್ಸೆಗಳು
+        {branch} ದೊರೆಯುವ ಬಂಜೆತನ ಚಿಕಿತ್ಸೆಗಳು
       </h2>
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-y-16 gap-x-3 lg:gap-16 pb-10 lg:pb-16 px-2">
         {Data.map((items) => (
