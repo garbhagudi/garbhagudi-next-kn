@@ -117,7 +117,7 @@ export const Location = [
     short: "DG",
   },
   {
-    name: "ಹೊಸೂರು",
+    name: "ಹೊಸೂರಿನಲ್ಲಿ",
     href: "/locations/hosur",
     icon: <SiGooglemaps />,
     short: "HOS",
