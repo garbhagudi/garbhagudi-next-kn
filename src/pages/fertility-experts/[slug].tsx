@@ -66,7 +66,9 @@ export async function getStaticPaths() {
   });
 
   return {
-    paths: data.doctors.map(({ slug }) => ({ params: { slug } })),
+    paths: data.doctors
+      .filter((doctor) => doctor.slug && typeof doctor.slug === "string")
+      .map(({ slug }) => ({ params: { slug } })),
     fallback: true,
   };
 }

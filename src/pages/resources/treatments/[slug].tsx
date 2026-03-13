@@ -8,8 +8,9 @@ import Share from "components/share";
 import Loading from "components/Loading";
 
 export const getStaticProps = async ({ params }) => {
-  const { treatment } = await graphcms.request(
-    `
+  try {
+    const { treatment } = await graphcms.request(
+      `
     query ($slug: String!) {
       treatment(where: { slug: $slug }) {
         id
@@ -24,26 +25,43 @@ export const getStaticProps = async ({ params }) => {
       }
     }
   `,
-    {
-      slug: params.slug,
+      {
+        slug: params.slug,
+      }
+    );
+    if (!treatment || treatment?.error) {
+      return {
+        notFound: true,
+      };
     }
-  );
-  if (!treatment || treatment?.error) {
+    return {
+      props: {
+        treatment,
+      },
+      revalidate: 180,
+    };
+  } catch (error) {
+    // Handle rate limit errors (429) and other GraphQL errors
+    if (error?.response?.status === 429 || error?.message?.includes("429")) {
+      // Return notFound for rate limit errors so build can continue
+      // The page will be generated on-demand with fallback: true
+      console.warn(`Rate limit hit for treatment: ${params.slug}`);
+      return {
+        notFound: true,
+      };
+    }
+    // For other errors, also return notFound
+    console.error(`Error fetching treatment ${params.slug}:`, error);
     return {
       notFound: true,
     };
   }
-  return {
-    props: {
-      treatment,
-    },
-    revalidate: 180,
-  };
 };
 
 export const getStaticPaths = async () => {
-  const { treatments } = await graphcms.request(
-    `
+  try {
+    const { treatments } = await graphcms.request(
+      `
       query{
         treatments {
           title
@@ -51,11 +69,22 @@ export const getStaticPaths = async () => {
         }
       }
     `
-  );
-  return {
-    paths: treatments.map(({ slug }) => ({ params: { slug } })),
-    fallback: true,
-  };
+    );
+    return {
+      paths: treatments
+        .filter((treatment) => treatment.slug && typeof treatment.slug === "string")
+        .map(({ slug }) => ({ params: { slug } })),
+      fallback: "blocking",
+    };
+  } catch (error) {
+    // If we can't fetch all paths due to rate limit, return empty paths
+    // Pages will be generated on-demand with fallback: "blocking"
+    console.warn("Error fetching treatment paths, using blocking fallback:", error);
+    return {
+      paths: [],
+      fallback: "blocking",
+    };
+  }
 };
 
 const Treatment = ({ treatment }) => {
