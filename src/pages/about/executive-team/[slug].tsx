@@ -5,59 +5,108 @@ import Head from "next/head";
 import BreadCrumbs from "components/breadcrumbs";
 import Share from "components/share";
 
-export const getStaticProps = async ({ params }) => {
-  const { director } = await graphcms.request(
-    `
-    query ($slug: String!) {
-      director(where: { slug: $slug }) {
-        id
-        name
-        details
-        link
-        slug
-        image {
-          url
-        }
-        bio {
-          raw
-        }
+// Helper function to retry requests with exponential backoff
+const retryRequest = async (requestFn, maxRetries = 3, delay = 1000) => {
+  for (let i = 0; i < maxRetries; i++) {
+    try {
+      return await requestFn();
+    } catch (error) {
+      const isRateLimit = error?.response?.status === 429 || 
+                         error?.message?.includes('429') ||
+                         error?.message?.includes('Too Many Requests');
+      
+      if (isRateLimit && i < maxRetries - 1) {
+        const waitTime = delay * Math.pow(2, i); // Exponential backoff
+        console.warn(`Rate limit hit, retrying in ${waitTime}ms... (attempt ${i + 1}/${maxRetries})`);
+        await new Promise(resolve => setTimeout(resolve, waitTime));
+        continue;
       }
+      throw error;
     }
-  `,
-    {
-      slug: params.slug,
+  }
+};
+
+export const getStaticProps = async ({ params }) => {
+  try {
+    const { director } = await retryRequest(async () => {
+      return await graphcms.request(
+        `
+        query ($slug: String!) {
+          director(where: { slug: $slug }) {
+            id
+            name
+            details
+            link
+            slug
+            image {
+              url
+            }
+            bio {
+              raw
+            }
+          }
+        }
+      `,
+        {
+          slug: params.slug,
+        }
+      );
+    });
+    
+    if (!director) {
+      return {
+        notFound: true,
+      };
     }
-  );
-  if (!director) {
+    
+    return {
+      props: {
+        director,
+      },
+      revalidate: 3600, // Revalidate every hour (ISR)
+    };
+  } catch (error) {
+    console.error(`Error fetching director ${params.slug}:`, error);
     return {
       notFound: true,
     };
   }
-  return {
-    props: {
-      director,
-    },
-  };
 };
 
 export const getStaticPaths = async () => {
-  const { directors } = await graphcms.request(
-    `
-      query{
-        directors {
-          name
-          slug
-        }
-      }
-    `
-  );
-  return {
-    paths: directors.map(({ slug }) => ({ params: { slug } })),
-    fallback: false,
-  };
+  try {
+    const { directors } = await retryRequest(async () => {
+      return await graphcms.request(
+        `
+          query{
+            directors {
+              name
+              slug
+            }
+          }
+        `
+      );
+    });
+    
+    return {
+      paths: directors.map(({ slug }) => ({ params: { slug } })),
+      fallback: "blocking", // Generate pages on-demand to avoid rate limits
+    };
+  } catch (error) {
+    console.warn("Error fetching director paths, using blocking fallback:", error);
+    return {
+      paths: [],
+      fallback: "blocking", // Fallback to on-demand generation if initial fetch fails
+    };
+  }
 };
 
-const ExecutiveTeam = ({ director }) => (
+const ExecutiveTeam = ({ director }) => {
+  if (!director) {
+    return null;
+  }
+  
+  return (
   <div>
     <Head>
       {/* Primary Tags */}
@@ -160,6 +209,7 @@ const ExecutiveTeam = ({ director }) => (
       </div>
     </section>
   </div>
-);
+  );
+};
 
 export default ExecutiveTeam;
