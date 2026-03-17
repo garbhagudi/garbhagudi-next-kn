@@ -300,10 +300,8 @@ const Contact = () => {
                     </a>
                   </p>
                   <p>
-                    #3, 1ನೇ ಮಹಡಿ, ಹೊಸ BEL ರಸ್ತೆ, ಎದುರು. ರಾಮಯ್ಯ ಆಸ್ಪತ್ರೆಗೆ, RMV 2
-                    ನೇ ಹಂತ, ಅಶ್ವಥ್ ನಗರ, ದೇವಸಂದ್ರ ಲೇಔಟ್, ಸದಾಶಿವನಗರ
+                    ಗರ್ಭಗುಡಿ IVF ಕೇಂದ್ರ, ನಂ. 3, 1 ನೇ ಮಹಡಿ, ನ್ಯೂ BEL ರೋಡ್, ರಾಮಯ್ಯ ಆಸ್ಪತ್ರೆ ಎದುರು, RMV 2ನೇ ಹಂತ, ಅಶ್ವಥ್ ನಗರ, ದೇವಸಂದ್ರ ಲೇಔಟ್, ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ 560094
                   </p>
-                  <p className="mb-5 mt-1">ಬೆಂಗಳೂರು, ಕರ್ನಾಟಕ 560094</p>
                   <a
                     href="https://goo.gl/maps/Fmiwn4ZCsSTxehnq9"
                     className="bg-brandPink rounded-3xl text-white font-semibold hover:bg-brandPink2 pt-4 px-3 py-2"
