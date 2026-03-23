@@ -83,7 +83,7 @@ const MapSection = ({ maplink, address, description, doctors, title }) => {
         </div>
         <div className="flex flex-col bg-white w-full md:mt-0 pb-8">
           <h2 className="text-2xl text-center font-heading font-semibold lg:mt-0 py-10">
-            {title} ನಲ್ಲಿ ಫಲವತ್ತತೆ ತಜ್ಞರು
+            {title} ಶಾಖೆಯಲ್ಲಿನ ಫಲವತ್ತತೆ ತಜ್ಞರು
           </h2>
           <div className="mx-auto grid grid-cols-2 gap-3 space-y-0 sm:gap-8 sm:space-y-0 lg:grid-cols-6">
             {doctors?.map((item) => (
