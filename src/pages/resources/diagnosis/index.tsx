@@ -34,7 +34,7 @@ const IndexPage = ({ diagnoses }) => {
           <meta property="og:type" content="website" />
           <meta
             property="og:image"
-            content="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643802154/SEO/OG_images_Cau_Diag_Treat_d0t3vx.jpg"
+            content="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vedk058ur07plss16dp50"
           />
 
           {/* Twitter*/}
@@ -51,7 +51,7 @@ const IndexPage = ({ diagnoses }) => {
           />
           <meta
             name="twitter:image"
-            content="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643802154/SEO/OG_images_Cau_Diag_Treat_d0t3vx.jpg"
+            content="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vedk058ur07plss16dp50"
           />
         </Head>
         <BreadCrumbs

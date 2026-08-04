@@ -132,7 +132,7 @@ const Doctor = ({ doctor }) => {
             className="bg-center bg-cover h-full w-full absolute top-0"
             style={{
               backgroundImage:
-                "url('https://res.cloudinary.com/garbhagudiivf/image/upload/v1643286880/Banner/Behind_Doctors_fssazq.jpg')",
+                "url('https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vb8od585p07plknvgx4ja')",
             }}
           >
             <span

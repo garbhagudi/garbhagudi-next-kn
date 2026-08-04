@@ -137,7 +137,7 @@ const ExecutiveTeam = ({ director }) => {
       <meta property="og:type" content="website" />
       <meta
         property="og:image"
-        content="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643802154/SEO/OG_images_Directors_jbvcep.jpg"
+        content="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8v87rf57ny07plvgs5r62x"
       />
 
       {/* Twitter*/}
@@ -154,7 +154,7 @@ const ExecutiveTeam = ({ director }) => {
       />
       <meta
         name="twitter:image"
-        content="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643802154/SEO/OG_images_Directors_jbvcep.jpg"
+        content="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8v87rf57ny07plvgs5r62x"
       />
     </Head>
 
@@ -175,7 +175,7 @@ const ExecutiveTeam = ({ director }) => {
             <img
               alt="content"
               className="object-cover h-full w-full"
-              src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643287945/Banner/1200x500_4Directors_nqn9eg.jpg"
+              src="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8in1co3plm07pltvxsmg5z"
             />
           </div>
           <div className="flex flex-col sm:flex-row mt-10">

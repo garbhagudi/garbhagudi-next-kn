@@ -52,7 +52,7 @@ const Locations = ({ branches }) => {
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643277077/Locations/1280x500_HN_wql2mm.jpg"
+          content="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/OcUgBsZ5SLu7zAASMeqt"
         />
       </Head>
       <div className="">

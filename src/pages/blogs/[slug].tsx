@@ -99,7 +99,7 @@ const Blog = ({ blog }) => {
           "name": "GarbhaGudi IVF Centre",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://res.cloudinary.com/garbhagudi/image/upload/v1633780956/garbhagudi-ivf/SVGs/logo_tyy9tg.svg",
+            "url": "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8v87q557nq07pls65nzuhg",
             "width": "256",
             "height": "54"
           }
