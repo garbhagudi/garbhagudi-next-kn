@@ -106,7 +106,7 @@ const Treatment = ({ treatment }) => {
         />
         <meta
           name="description"
-          content={treatment?.content?.text.slice(0, 180)}
+          content={treatment?.content?.text?.slice(0, 180)}
         />
 
         {/* Open Graph / Facebook */}
@@ -119,10 +119,10 @@ const Treatment = ({ treatment }) => {
         <meta property="og:url" content="https://garbhagudi.com" />
         <meta
           property="og:description"
-          content={treatment?.content?.text.slice(0, 180)}
+          content={treatment?.content?.text?.slice(0, 180)}
         />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content={treatment?.image.url} />
+        <meta property="og:image" content={treatment?.image?.url} />
 
         {/* Twitter*/}
 
@@ -134,9 +134,9 @@ const Treatment = ({ treatment }) => {
         />
         <meta
           name="twitter:description"
-          content={treatment?.content?.text.slice(0, 180)}
+          content={treatment?.content?.text?.slice(0, 180)}
         />
-        <meta name="twitter:image" content={treatment?.image.url} />
+        <meta name="twitter:image" content={treatment?.image?.url} />
       </Head>
       <BreadCrumbs
         link1="/resources/treatments"
@@ -262,7 +262,7 @@ const Treatment = ({ treatment }) => {
             <figure>
               <img
                 className="w-full rounded-lg mt-10 mb-5"
-                src={treatment?.image.url}
+                src={treatment?.image?.url}
                 alt={treatment?.title}
                 width={1310}
                 height={873}

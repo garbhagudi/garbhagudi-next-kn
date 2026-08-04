@@ -67,7 +67,7 @@ const Vas = ({ valueAddedService }) => {
         />
         <meta
           name="description"
-          content={valueAddedService?.content.text.slice(0, 180)}
+          content={valueAddedService?.content?.text?.slice(0, 180)}
         />
 
         {/* Open Graph / Facebook */}
@@ -80,10 +80,10 @@ const Vas = ({ valueAddedService }) => {
         <meta property="og:url" content="https://garbhagudi.com" />
         <meta
           property="og:description"
-          content={valueAddedService?.content.text.slice(0, 180)}
+          content={valueAddedService?.content?.text?.slice(0, 180)}
         />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content={valueAddedService?.image.url} />
+        <meta property="og:image" content={valueAddedService?.image?.url} />
 
         {/* Twitter*/}
 
@@ -95,9 +95,9 @@ const Vas = ({ valueAddedService }) => {
         />
         <meta
           name="twitter:description"
-          content={valueAddedService?.content.text.slice(0, 180)}
+          content={valueAddedService?.content?.text?.slice(0, 180)}
         />
-        <meta name="twitter:image" content={valueAddedService?.image.url} />
+        <meta name="twitter:image" content={valueAddedService?.image?.url} />
       </Head>
       <BreadCrumbs
         link1="/"
@@ -224,12 +224,12 @@ const Vas = ({ valueAddedService }) => {
               <figure>
                 <img
                   className="w-full rounded-lg mt-10 mb-5"
-                  src={valueAddedService?.image.url}
+                  src={valueAddedService?.image?.url}
                   alt={valueAddedService?.title}
                 />
               </figure>
               <div>
-                <RichText content={valueAddedService?.content.raw.children} />
+                <RichText content={valueAddedService?.content?.raw?.children} />
               </div>
             </div>
           ) : (

@@ -74,7 +74,7 @@ const Diagnosis = ({ diagnosis }) => {
         />
         <meta
           name='description'
-          content={diagnosis?.content?.text.slice(0, 180)}
+          content={diagnosis?.content?.text?.slice(0, 180)}
         />
 
         {/* Open Graph / Facebook */}
@@ -87,10 +87,10 @@ const Diagnosis = ({ diagnosis }) => {
         <meta property='og:url' content='https://garbhagudi.com' />
         <meta
           property='og:description'
-          content={diagnosis?.content?.text.slice(0, 180)}
+          content={diagnosis?.content?.text?.slice(0, 180)}
         />
         <meta property='og:type' content='website' />
-        <meta property='og:image' content={diagnosis?.image.url} />
+        <meta property='og:image' content={diagnosis?.image?.url} />
 
         {/* Twitter*/}
 
@@ -102,9 +102,9 @@ const Diagnosis = ({ diagnosis }) => {
         />
         <meta
           name='twitter:description'
-          content={diagnosis?.content?.text.slice(0, 180)}
+          content={diagnosis?.content?.text?.slice(0, 180)}
         />
-        <meta name='twitter:image' content={diagnosis?.image.url} />
+        <meta name='twitter:image' content={diagnosis?.image?.url} />
       </Head>
       <BreadCrumbs
         link1='/resources/diagnosis'

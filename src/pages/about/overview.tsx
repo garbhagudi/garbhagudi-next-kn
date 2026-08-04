@@ -78,7 +78,7 @@ const Overview = ({ directors }) => {
                         <div className='aspect-square'>
                           <img
                             className='object-fit shadow-2xl rounded-3xl w-96 h-96'
-                            src={item.image.url}
+                            src={item.image?.url}
                             alt={item.name}
                           />
                         </div>
