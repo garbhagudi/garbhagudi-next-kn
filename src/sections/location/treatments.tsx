@@ -53,7 +53,7 @@ const Data = [
     desc: "ಗರ್ಭಗುಡಿಯ ಅತ್ಯಾಧುನಿಕ IVF ಚಿಕಿತ್ಸಾ ಆಯ್ಕೆಗಳೊಂದಿಗೆ ನಿಮ್ಮ ತಾಯ್ತನದ ಕನಸನ್ನು ನನಸು ಮಾಡಿಕೊಳ್ಳಿ ಮತ್ತು ಕುಟುಂಬವನ್ನು ಪರಿಪೂರ್ಣಗೊಳಿಸಿಕೊಳ್ಳಿ.",
     link: "/resources/treatments/in-vitro-fertilization-ivf",
     image:
-      "https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/ivf_jwjqwf.webp",
+      "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75xwg6h0v007pngs2mcusa",
   },
   {
     id: 2,
@@ -61,7 +61,7 @@ const Data = [
     desc: "ಗರ್ಭಗುಡಿಯ ಅತ್ಯಾಧುನಿಕ ICSI ಚಿಕಿತ್ಸೆಯೊಂದಿಗೆ ನಿಮ್ಮ ಪೋಷಕತ್ವದೆಡೆಗೆ ಮೊದಲ ಹೆಜ್ಜೆ ಇರಿಸಿ. ಇದು ಸಂತಾನೋತ್ಪತ್ತಿ ಸಮಸ್ಯೆಯಿಂದ ಬಳಲುತ್ತಿರುವ ದಂಪತಿಗಳಿಗೆ ಹೆಚ್ಚಿನ ಯಶಸ್ಸಿನ ಪ್ರಮಾಣವನ್ನು ತಂದುಕೊಡುತ್ತದೆ.",
     link: "/resources/treatments/intracytoplasmic-sperm-injection-icsi",
     image:
-      "https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/fertilization_o5hpkk.webp",
+      "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75xwgsh0v407pnuirvx6v1",
   },
   {
     id: 3,
@@ -69,7 +69,7 @@ const Data = [
     desc: "ಗರ್ಭಗುಡಿಯ IUI ಚಿಕಿತ್ಸೆಯೊಂದಿಗೆ ನಿಮ್ಮ ಪೋಷಕತ್ವದ ಸಂತೋಷವನ್ನು ಅನುಭವಿಸಿ. ನೈಸರ್ಗಿಕವಾಗಿ ನಿಮ್ಮ ಗರ್ಭಧಾರಣೆಯ ಸಾಧ್ಯತೆ ಹೆಚ್ಚಾಗುವಂತೆ  ಇದನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ.",
     link: "/resources/treatments/intra-uterine-insemination-iui",
     image:
-      "https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/in-vitro_mujzkz.webp",
+      "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75xwhhh0v807pn6j9p68jj",
   },
   {
     id: 4,
@@ -77,7 +77,7 @@ const Data = [
     desc: "ಗರ್ಭಗುಡಿಯ TESA/PESA ಚಿಕಿತ್ಸೆಯೊಂದಿಗೆ ಮಗುವಿಗೆ ತಂದೆಯಾಗುವ ಅವಕಾಶವನ್ನು ಪಡೆದುಕೊಳ್ಳಿ. ಕಡಿಮೆ ಸ್ಪರ್ಮ್‌ ಕೌಂಟ್‌ ಅಥವಾ ವೀರ್ಯಾಣುವಿನ ಗುಣಮಟ್ಟ ಕಡಿಮೆ ಇರುವ ಪುರುಷರಿಗೆ ಇದು ಕ್ರಾಂತಿಕಾರಿ ಆಯ್ಕೆಯಾಗಿದೆ.",
     link: "/resources/treatments/pesa-and-tesa",
     image:
-      "https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/research_j8mdnk.webp",
+      "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75y8nfh0x107pnt4cytv4g",
   },
   {
     id: 5,
@@ -85,7 +85,7 @@ const Data = [
     desc: "ಬ್ಲಾಸ್ಟೊಸಿಸ್ಟ್ ಕಲ್ಚರ್ ಚಿಕಿತ್ಸೆಯೊಂದಿಗೆ ನಿಮ್ಮ ಅವಕಾಶಗಳನ್ನು ಹೆಚ್ಚಿಸಿಕೊಳ್ಳಿ, ಇದು ವರ್ಗಾವಣೆಯ ಮೊದಲು ಭ್ರೂಣಗಳು ದೀರ್ಘಕಾಲದವರೆಗೆ ಬೆಳೆಯಲು ಅನುವು ಮಾಡಿಕೊಡುತ್ತದೆ ಮತ್ತು ಇಂಪ್ಲಾಂಟೇಶನ್ ಸಾಧ್ಯತೆಗಳನ್ನು ಹೆಚ್ಚಿಸುತ್ತದೆ.",
     link: "/resources/treatments/in-vitro-fertilization-ivf",
     image:
-      "https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/sperm_utf0oe.webp",
+      "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75y8nsh0x507pn2ena7rc5",
   },
   {
     id: 6,
@@ -93,7 +93,7 @@ const Data = [
     desc: "ಗರ್ಭಗುಡಿಯ ಸಮಗ್ರ ಚಿಕಿತ್ಸಾ ವಿಧಾನಗಳೊಂದಿಗೆ ಸ್ತ್ರೀರೋಗ ಸಮಸ್ಯೆಗಳಿಗೆ ವಿದಾಯ ಹೇಳಿ. ವಿಶೇಷವಾಗಿ ನಿಮ್ಮನ್ನು ಆರೋಗ್ಯಕರವಾಗಿ ಮತ್ತು ಫಲವತ್ತಾಗಿ ಇರಿಸಲು ಇದನ್ನು ವಿನ್ಯಾಸಗೊಳಿಸಲಾಗಿದೆ.",
     link: "/resources/causes/polycystic-ovarian-syndrome-pcos",
     image:
-      "https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/gynecology_ynvds8.webp",
+      "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75y8ofh0x907pnpm4xtraw",
   },
   {
     id: 7,
@@ -101,7 +101,7 @@ const Data = [
     desc: "ಗರ್ಭಗುಡಿಯ ನೈಸರ್ಗಿಕ ಗರ್ಭಧಾರಣೆಯ ಕಾರ್ಯಕ್ರಮಗಳೊಂದಿಗೆ ನಿಮ್ಮ ತಾಯ್ತನದ ಪಯಣವನ್ನು ಇಂದೇ ಆರಂಭಿಸಿ. ಇದು ದಂಪತಿಗಳ ಫಲವತ್ತತೆಯನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ಮತ್ತು ಅವರ ಗರ್ಭಧರಿಸುವ ಸಾಧ್ಯತೆಗಳನ್ನು ಹೆಚ್ಚಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
     link: "/resources/treatments/natural-pregnancy",
     image:
-      "https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890412/Misc/ivf%20icons/maternity_cee8v2.webp",
+      "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75y8p0h0xd07pnzx4wnhdr",
   },
   {
     id: 8,
@@ -109,6 +109,6 @@ const Data = [
     desc: "ಗರ್ಭಗುಡಿಯ ಅತ್ಯಾಧುನಿಕ ವೀರ್ಯ ವಿಶ್ಲೇಷಣೆ / CASA ಸೇವೆಯೊಂದಿಗೆ ನಿಮ್ಮ ವೀರ್ಯದ ವಿವರವಾದ ವಿಶ್ಲೇಷಣೆಯನ್ನು ಪಡೆಯಿರಿ ಮತ್ತು ನಿಮ್ಮ ಫಲವತ್ತತೆಯ ಸ್ಥಿತಿಯನ್ನು ತಿಳಿದುಕೊಳ್ಳಿ.",
     link: "/resources/diagnosis/semen-analysis",
     image:
-      "https://res.cloudinary.com/garbhagudiivf/image/upload/v1674890580/Misc/ivf%20icons/semen_nqxd6s.webp",
+      "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms75y8plh0xh07pn6z5ixmoe",
   },
 ];

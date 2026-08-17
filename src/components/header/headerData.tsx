@@ -4,22 +4,22 @@ export const Contact = [
   {
     name: "GG CARE",
     href: "/gg-care",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643459544/Icons/Contact/GG_Care_e7e1pc.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8kwhvd3z9j07plhwzi0tdb",
   },
   {
     name: "ವೃತ್ತಿಗಳು",
     href: "https://garbhagudi.com/careers",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643264774/Icons/Contact/Careers_cgpaic.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8kwhvy3z9n07plt5u6ruvv",
   },
   {
     name: "ತರಬೇತಿ ಕಾರ್ಯಕ್ರಮ",
     href: "https://ggirhr.com",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643264793/Icons/Contact/Training_Program_dh9imv.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8kwhwf3z9r07ple7jfk7np",
   },
   {
     name: "ಪಾಲುದಾರಿಕೆ",
     href: "https://garbhagudi.com/contact/partnership",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643264809/Icons/Contact/Partnership_srnnr9.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8kwhy33z9v07pl4hh5l11s",
   },
 ];
 
@@ -39,25 +39,25 @@ export const Resources = [
     name: "ಬ್ಲಾಗ್‌ಗಳು",
     description: "ಬಂಜೆತನ, ಚಿಕಿತ್ಸೆ ಮತ್ತು ಪಿತೃತ್ವಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಬ್ಲಾಗ್‌ಗಳು",
     href: "/blogs/page/1",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839773/Icons/Resources/Blogs_duatrt.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8kwhz93za307pl4xxc6lqh",
   },
   {
     name: "ಕಾರಣಗಳು",
     description: "ಬಂಜೆತನಕ್ಕೆ ಪ್ರಮುಖ ಕಾರಣಗಳು",
     href: "/resources/causes",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839775/Icons/Resources/Causes_cfivce.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8kwhzr3za707pl5g76yjuk",
   },
   {
     name: "ರೋಗನಿರ್ಣಯ",
     description: "ಬಂಜೆತನ ರೋಗನಿರ್ಣಯಕ್ಕೆ ಪರೀಕ್ಷೆಗಳು",
     href: "/resources/diagnosis",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839791/Icons/Resources/Diagnosis_psjq8s.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8kwi0c3zab07plhr9ccok8",
   },
   {
     name: "FAQ",
     description: "ಪದೇ ಪದೇ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು",
     href: "/resources/faq",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1643264858/Icons/Resources/FAQs_x8rsvf.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m4n6545xh07pl3ackkkc5",
   },
 ];
 
@@ -128,47 +128,47 @@ export const ValueAddedServices = [
   {
     name: "ಐವಿಎಫ್‍ನ ಯಶಸ್ಸಿನ ಮಟ್ಟಗಳು",
     href: "/features/success-rates-of-ivf",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841374/Icons/Why%20GarbhaGudi/Success_Rate_abmaf0.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m4n8w45xx07pl0kgaa8ci",
   },
   {
     name: "ವಿಶ್ವ ದರ್ಜೆಯ ಫರ್ಟಿಲಿಟಿ ಆರೈಕೆ",
     href: "/features/world-class-fertility-care",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840286/Icons/Features/World_Class_Fertility_Care_un83f6.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m4n9g45y107plnrfnbx4v",
   },
   {
     name: "ಉನ್ನತ ಫಲವತ್ತತೆ ತಜ್ಞರು",
     href: "/fertility-experts",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840305/Icons/Features/Top_Fertility_Specialists_zkyl9x.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m4na445y507pllgyhyjjs",
   },
   {
     name: "ಕೈಗೆಟುಕುವ ಚಿಕಿತ್ಸೆಗಳು",
     href: "/features/affordable-treatments",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840310/Icons/Features/Affordable_Treatment_lwaaku.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/SHnkyCbHSlC4ViCU9J7a",
   },
   {
     name: "ಸಮಗ್ರ ಮಾರ್ಗ",
     href: "/features/holistic-approach",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841451/Icons/Why%20GarbhaGudi/Holistic_Approach_sxh54y.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m4nba45yd07plf457s1jy",
   },
   {
     name: "ಹಣಕಾಸು ನೆರವು ಆಯ್ಕೆಗಳು",
     href: "/features/financing-options",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840329/Icons/Features/Financial_Options_rrv8hi.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m4nbz45yh07pl47sdn9h6",
   },
   {
     name: "ಸಾಂಪ್ರದಾಯಿಕ ಶಿಷ್ಟಾಚಾರಗಳು",
     href: "/features/treatment-protocols",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840352/Icons/Features/Treatment_Protocols_hll4cu.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m8s6p465z07plihrpu576",
   },
   {
     name: "ಅತ್ಯುತ್ತಮ ಸೌಲಭ್ಯಗಳು",
     href: "/features/best-in-class-facilities",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642840357/Icons/Features/Best_in_Class_Facilities_fchmjr.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m8s7x466707plgbbzq1d4",
   },
   {
     name: "ಪರಿಪೂರ್ಣ",
     href: "/features/paripoorna",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642841468/Icons/Why%20GarbhaGudi/Paripoorna_nikziu.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m8s8g466b07plceh1vhim",
   },
 ];
 
@@ -176,27 +176,27 @@ export const AboutUs = [
   {
     name: "ನಮ್ಮ ಬಗ್ಗೆ",
     href: "/about/overview",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642838895/Icons/About/About_Us_01_yz3h95.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m4n8945xt07pltannvn9k",
   },
   {
     name: "ಡಾ ಆಶಾ ಎಸ್ ವಿಜಯ್",
     href: "/fertility-experts/dr-asha-s-vijay",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642838895/Icons/About/Asha_Vijay_zpq05s.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m8sa3466n07plsehmsdqv",
   },
   {
     name: "ಸಂಸ್ಥಾಪಕರು ಮತ್ತು ನಿರ್ದೇಶಕರು",
     href: "/about/overview",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839222/Icons/About/Directors_w3497h.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m8sbn466r07plsv6gxa89",
   },
   {
     name: "ನಮ್ಮ ಫಲವತ್ತತೆ ತಜ್ಞರು",
     href: "/fertility-experts",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642839012/Icons/About/Our_Fertility_Experts_bxsrrh.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8m8sc8466v07pltbnlx34t",
   },
   {
     name: "ಪ್ರಶಸ್ತಿಗಳು ಮತ್ತು ಪುರಸ್ಕಾರಗಳು",
     href: "/about/awards-and-accolades",
-    icon: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1642838895/Icons/About/Awards_Accorlads_z68rlr.svg",
+    icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8v87pd57nm07plnvyofgim",
   },
 ];
 

@@ -32,7 +32,7 @@ const Hero = () => {
             <div className="bg-white sm:max-w-md sm:w-full sm:mx-auto sm:rounded-lg sm:overflow-hidden">
               <div className="my-6">
                 <img
-                  src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1670926735/Home/Home-Experience_the_Joy_kvdfwj-min_i0j1gw.jpg"
+                  src="https://ap-south-1.graphassets.com/A7M5IxnSTWGtcRy2NVnmfz/cmsd0wvu3bnz706o4wdevg4bd"
                   alt="Experience the joy of being complete"
                   className="object-cover rounded-2xl"
                 />

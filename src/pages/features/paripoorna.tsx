@@ -40,7 +40,7 @@ const Paripoorna = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/garbhagudiivf/image/upload/v1731247437/paripoorna/Paripoorna_English_tfrujt.webp"
+          content="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vp44h5aq707pl7oyfbuqd"
         />
 
         {/* Twitter*/}
@@ -57,11 +57,11 @@ const Paripoorna = () => {
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/garbhagudiivf/image/upload/v1731247437/paripoorna/Paripoorna_English_tfrujt.webp"
+          content="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vp44h5aq707pl7oyfbuqd"
         />
       </Head>
 
-      <div className="bg-[url('https://res.cloudinary.com/garbhagudiivf/image/upload/v1669643962/Banner/Bunting_kgdona.webp')] bg-no-repeat bg-contain overflow-x-hidden">
+      <div className="bg-[url('https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8v87v657om07pl8iixbxn0')] bg-no-repeat bg-contain overflow-x-hidden">
         <Home />
         <Steps />
         <FAQ />

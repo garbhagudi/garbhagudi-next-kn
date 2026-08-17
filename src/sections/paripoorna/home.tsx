@@ -140,7 +140,7 @@ const Home = () => {
               ಸಹಯೋಗದೊಂದಿಗೆ ಅತ್ಯಂತ ಮಹತ್ವಾಕಾಂಕ್ಷೆಯ ಪರಿಪೂರ್ಣ ಕಾರ್ಯಕ್ರಮವನ್ನು
               ಜಾರಿಗೊಳಿಸಿದೆ.
               <Image
-                src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1731247437/paripoorna/Paripoorna_English_tfrujt.webp"
+                src="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vp44h5aq707pl7oyfbuqd"
                 alt="pp logo"
                 width={500}
                 height={500}
@@ -175,7 +175,7 @@ const Home = () => {
           </div>
           <div className="hidden md:flex flex-col items-center justify-center gap-5 lg:ml-10">
             <Image
-              src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1731247437/paripoorna/Paripoorna_English_tfrujt.webp"
+              src="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vp44h5aq707pl7oyfbuqd"
               alt="pp logo"
               width={500}
               height={500}

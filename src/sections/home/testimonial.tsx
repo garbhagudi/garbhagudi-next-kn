@@ -11,7 +11,7 @@ const data = [
     name: "Venu Athipatla",
     quote:
       "We are feeling so happy and blessed to knew about this place and its amazing hospital with fabulous doctor and staff. Thank you so much to Dr Sophia mam and all the staff members and team. They are very caring and treated very well and all the staff are well behaved. All the test results are accurate and helpful to know the issue and starts treatment within no time. A big thank you to all.",
-    logo: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1639556290/logos/google_aenn30.svg",
+    logo: "https://ap-south-1.graphassets.com/A7M5IxnSTWGtcRy2NVnmfz/cmsd0wvv9bnzf06o4mmn8votu",
     profile: generateDiceBearBottts(Math.random()),
   },
   {
@@ -19,7 +19,7 @@ const data = [
     name: "Jesudas Antonyraj",
     quote:
       "5 star service Always trying to help patients giving right treatment and suggestions. You will feel comfortable in hospital, respect your time and value Everyone in hospital are very proactive on procedure We had very positive news we got after consulting with Dr. Shwetha I will recommend this if you are planning to have baby..and thinking. All the best.",
-    logo: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1639556290/logos/google_aenn30.svg",
+    logo: "https://ap-south-1.graphassets.com/A7M5IxnSTWGtcRy2NVnmfz/cmsd0wvv9bnzf06o4mmn8votu",
     profile: generateDiceBearBottts(Math.random()),
   },
   {
@@ -27,7 +27,7 @@ const data = [
     name: "Shivamurthy",
     quote:
       "Thank you very much for making us happy in welcoming our baby… we got genuine treatment only here… we always get positive energy wennever we come Here .. thank you Dr. maheshwari mam and team.",
-    logo: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1639556290/logos/google_aenn30.svg",
+    logo: "https://ap-south-1.graphassets.com/A7M5IxnSTWGtcRy2NVnmfz/cmsd0wvv9bnzf06o4mmn8votu",
     profile: generateDiceBearBottts(Math.random()),
   },
 
@@ -36,7 +36,7 @@ const data = [
     name: "Close 2 Coast.",
     quote:
       "Organized hospital where the team are well disciplined and efficient in carrying out the treatments of its patients. Appointments are booked proactively by the team which ensure time to time planned appointments to take place at the the right time. They also respond to calls whenever you have a doubt or a query regarding medicine or the treatments. Treatment was carried out with transparency and integrity and all the details were shared with us by the doctor which enabled us to get the treatment effectively..",
-    logo: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1639556290/logos/google_aenn30.svg",
+    logo: "https://ap-south-1.graphassets.com/A7M5IxnSTWGtcRy2NVnmfz/cmsd0wvv9bnzf06o4mmn8votu",
     profile: generateDiceBearBottts(Math.random()),
   },
   {
@@ -44,7 +44,7 @@ const data = [
     name: "Harshitha Ashwin.",
     quote:
       "Good response with all doctors n I was suffering from last 5years was gone through for 2 hospital but I didn't get any success rate After some of my friend suggested to go garbhagudi n I was successfully got success with doctor dr Maheshwari.",
-    logo: "https://res.cloudinary.com/garbhagudiivf/image/upload/v1639556290/logos/google_aenn30.svg",
+    logo: "https://ap-south-1.graphassets.com/A7M5IxnSTWGtcRy2NVnmfz/cmsd0wvv9bnzf06o4mmn8votu",
     profile: generateDiceBearBottts(Math.random()),
   },
 ];

@@ -61,14 +61,14 @@ const AwardPage = ({ award }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{award?.title} | ಗರ್ಭಗುಡಿ</title>
         <meta name="title" content={`${award?.title} | ಗರ್ಭಗುಡಿ`} />
-        <meta name="description" content={award?.content?.text.slice(0, 160)} />
+        <meta name="description" content={award?.content?.text?.slice(0, 160)} />
         {/* Open Graph / Facebook */}
         <meta property="og:title" content={award?.title} />
         <meta property="og:site_name" content="GarbhaGudi IVF Centre" />
         <meta property="og:url" content="https://garbhagudi.com" />
         <meta
           property="og:description"
-          content={award?.content?.text.slice(0, 160)}
+          content={award?.content?.text?.slice(0, 160)}
         />
         <meta property="og:type" content="article" />
         <meta property="og:image" content={award?.image?.url} />
@@ -78,7 +78,7 @@ const AwardPage = ({ award }) => {
         <meta name="twitter:title" content={`${award?.title} | ಗರ್ಭಗುಡಿ`} />
         <meta
           name="twitter:description"
-          content={award?.content?.text.slice(0, 160)}
+          content={award?.content?.text?.slice(0, 160)}
         />
         <meta name="twitter:image" content={award?.image?.url} />
       </Head>
@@ -215,7 +215,7 @@ const AwardPage = ({ award }) => {
                 />
               </figure>
               <div>
-                <RichText content={award?.content?.raw.children} />
+                <RichText content={award?.content?.raw?.children} />
               </div>
               <div>
                 <Share pinmedia={award?.image?.url} />

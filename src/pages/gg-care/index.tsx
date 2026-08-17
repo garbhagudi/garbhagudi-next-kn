@@ -36,7 +36,7 @@ const IndexPage = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643802154/SEO/OG_images_GGCare_qclgw8.jpg"
+          content="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vb8oy585t07plz0qahkka"
         />
 
         {/* Twitter*/}
@@ -53,7 +53,7 @@ const IndexPage = () => {
         />
         <meta
           name="twitter:image"
-          content="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643802154/SEO/OG_images_GGCare_qclgw8.jpg"
+          content="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vb8oy585t07plz0qahkka"
         />
       </Head>
       <Hero />
@@ -61,7 +61,7 @@ const IndexPage = () => {
       <Stats />
       <Contact />
       <div className="mb-5">
-        <Share pinmedia="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643802154/SEO/OG_images_GGCare_qclgw8.jpg" />
+        <Share pinmedia="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vb8oy585t07plz0qahkka" />
       </div>
       <Cta />
     </div>

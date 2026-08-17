@@ -26,7 +26,7 @@ const Stat = () => {
           <div className="h-full xl:relative xl:col-start-2">
             <img
               className="h-full w-full object-cover opacity-70 xl:absolute xl:inset-0"
-              src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1670926739/Home/Our_never_ending_s0dbde-min_djdemx.jpg"
+              src="https://ap-south-1.graphassets.com/A7M5IxnSTWGtcRy2NVnmfz/cmsd0wvuobnzb06o48flm5xtt"
               alt="Garbhagudi Statistics"
             />
             <div

@@ -83,7 +83,7 @@ const Blog = ({ blog }) => {
           "@id": "https://garbhagudi.com/blogs/${blog?.slug}"
         },
         "headline": "${blog?.title}",
-        "description": "${blog?.content?.text.slice(0, 160)}",
+        "description": "${blog?.content?.text?.slice(0, 160)}",
         "image": {
           "@type": "ImageObject",
           "url": "${blog?.image?.url}",
@@ -99,7 +99,7 @@ const Blog = ({ blog }) => {
           "name": "GarbhaGudi IVF Centre",
           "logo": {
             "@type": "ImageObject",
-            "url": "https://res.cloudinary.com/garbhagudi/image/upload/v1633780956/garbhagudi-ivf/SVGs/logo_tyy9tg.svg",
+            "url": "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8v87q557nq07pls65nzuhg",
             "width": "256",
             "height": "54"
           }
@@ -120,7 +120,7 @@ const Blog = ({ blog }) => {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <title>{title}</title>
         <meta name='title' content={title} />
-        <meta name='description' content={blog?.content?.text.slice(0, 160)} />
+        <meta name='description' content={blog?.content?.text?.slice(0, 160)} />
 
         {/* Ld+JSON Data */}
 
@@ -136,7 +136,7 @@ const Blog = ({ blog }) => {
         <meta property='og:url' content='https://garbhagudi.com' />
         <meta
           property='og:description'
-          content={blog?.content?.text.slice(0, 160)}
+          content={blog?.content?.text?.slice(0, 160)}
         />
         <meta property='og:type' content='article' />
         <meta
@@ -144,7 +144,7 @@ const Blog = ({ blog }) => {
           content={blog?.publishedOn}
         />
         <meta property='og:article:author' content={blog?.doctor?.name} />
-        <meta property='og:image' content={blog?.image.url} />
+        <meta property='og:image' content={blog?.image?.url} />
         {/* Twitter*/}
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:site' content='@garbhagudiivf' />
@@ -154,7 +154,7 @@ const Blog = ({ blog }) => {
         />
         <meta
           name='twitter:description'
-          content={blog?.content?.text.slice(0, 160)}
+          content={blog?.content?.text?.slice(0, 160)}
         />
         <meta name='twitter:image' content={blog?.image?.url} />
       </Head>
@@ -292,7 +292,7 @@ const Blog = ({ blog }) => {
 
               <hr className='h-[6px] bg-gradient-to-r from-white  via-brandPurpleDark to-white rounded-3xl' />
               <div>
-                <RichText content={blog?.content?.raw.children} />
+                <RichText content={blog?.content?.raw?.children} />
               </div>
               <div>
                 <Share pinmedia={blog?.image?.url} />

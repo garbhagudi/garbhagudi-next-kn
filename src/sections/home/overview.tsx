@@ -48,7 +48,7 @@ const Overview = () => {
             <div className="relative pt-64 pb-10 rounded-2xl shadow-xl overflow-hidden">
               <img
                 className="absolute inset-0 h-full w-full object-cover"
-                src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1670926732/Home/Why_GarbhaGudi_oa1nv7-min_z7p9jv.jpg"
+                src="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms7ai6lj08v608pknr66yszg"
                 alt=""
               />
               <div className="absolute inset-0 bg-gray-200 mix-blend-multiply" />

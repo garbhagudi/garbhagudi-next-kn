@@ -119,7 +119,7 @@ const ExecutiveTeam = ({ director }) => {
       />
       <meta
         name="description"
-        content={director?.bio?.raw.children.slice(0, 180)}
+        content={director?.bio?.raw?.children?.slice(0, 180)}
       />
 
       {/* Open Graph / Facebook */}
@@ -132,12 +132,12 @@ const ExecutiveTeam = ({ director }) => {
       <meta property="og:url" content="https://garbhagudi.com" />
       <meta
         property="og:description"
-        content={director?.bio?.raw.children.slice(0, 180)}
+        content={director?.bio?.raw?.children?.slice(0, 180)}
       />
       <meta property="og:type" content="website" />
       <meta
         property="og:image"
-        content="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643802154/SEO/OG_images_Directors_jbvcep.jpg"
+        content="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8v87rf57ny07plvgs5r62x"
       />
 
       {/* Twitter*/}
@@ -150,11 +150,11 @@ const ExecutiveTeam = ({ director }) => {
       />
       <meta
         name="twitter:description"
-        content={director?.bio?.raw.children.slice(0, 180)}
+        content={director?.bio?.raw?.children?.slice(0, 180)}
       />
       <meta
         name="twitter:image"
-        content="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643802154/SEO/OG_images_Directors_jbvcep.jpg"
+        content="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8v87rf57ny07plvgs5r62x"
       />
     </Head>
 
@@ -175,14 +175,14 @@ const ExecutiveTeam = ({ director }) => {
             <img
               alt="content"
               className="object-cover h-full w-full"
-              src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1643287945/Banner/1200x500_4Directors_nqn9eg.jpg"
+              src="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8in1co3plm07pltvxsmg5z"
             />
           </div>
           <div className="flex flex-col sm:flex-row mt-10">
             <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
               <div className="w-72 md:w-64 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
                 <img
-                  src={director?.image.url}
+                  src={director?.image?.url}
                   alt={director?.name}
                   className="rounded-full"
                 />
@@ -200,12 +200,12 @@ const ExecutiveTeam = ({ director }) => {
             </div>
             <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 sm:text-left px-5">
               <div className="leading-relaxed text-lg mb-4 text-brandDark">
-                <RichText content={director?.bio?.raw.children} />
+                <RichText content={director?.bio?.raw?.children} />
               </div>
             </div>
           </div>
         </div>
-        <Share pinmedia={director.image.url} />
+        <Share pinmedia={director?.image?.url} />
       </div>
     </section>
   </div>

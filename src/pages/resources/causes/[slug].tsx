@@ -64,7 +64,7 @@ const CausePage = ({ cause }) => {
           name="title"
           content={`${cause?.title} | ಗರ್ಭಗುಡಿ ಐವಿಎಫ್ ಕೇಂದ್ರ`}
         />
-        <meta name="description" content={cause?.content?.text.slice(0, 180)} />
+        <meta name="description" content={cause?.content?.text?.slice(0, 180)} />
 
         {/* Open Graph / Facebook */}
 
@@ -76,10 +76,10 @@ const CausePage = ({ cause }) => {
         <meta property="og:url" content="https://garbhagudi.com" />
         <meta
           property="og:description"
-          content={cause?.content?.text.slice(0, 180)}
+          content={cause?.content?.text?.slice(0, 180)}
         />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content={cause?.image.url} />
+        <meta property="og:image" content={cause?.image?.url} />
 
         {/* Twitter*/}
 
@@ -91,9 +91,9 @@ const CausePage = ({ cause }) => {
         />
         <meta
           name="twitter:description"
-          content={cause?.content?.text.slice(0, 180)}
+          content={cause?.content?.text?.slice(0, 180)}
         />
-        <meta name="twitter:image" content={cause?.image.url} />
+        <meta name="twitter:image" content={cause?.image?.url} />
       </Head>
       <div className="relative py-16 bg-white overflow-hidden">
         <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">

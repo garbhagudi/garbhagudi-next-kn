@@ -91,7 +91,7 @@ const Doctor = ({ doctor }) => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{title}</title>
         <meta name="title" content={title} />
-        <meta name="description" content={doctor?.bio?.text.slice(0, 180)} />
+        <meta name="description" content={doctor?.bio?.text?.slice(0, 180)} />
 
         {/* Open Graph / Facebook */}
 
@@ -100,10 +100,10 @@ const Doctor = ({ doctor }) => {
         <meta property="og:url" content="https://garbhagudi.com" />
         <meta
           property="og:description"
-          content={doctor?.bio?.text.slice(0, 180)}
+          content={doctor?.bio?.text?.slice(0, 180)}
         />
         <meta property="og:type" content="website" />
-        <meta property="og:image" content={doctor?.image.url} />
+        <meta property="og:image" content={doctor?.image?.url} />
 
         {/* Twitter*/}
 
@@ -112,9 +112,9 @@ const Doctor = ({ doctor }) => {
         <meta name="twitter:title" content={title} />
         <meta
           name="twitter:description"
-          content={doctor?.bio?.text.slice(0, 180)}
+          content={doctor?.bio?.text?.slice(0, 180)}
         />
-        <meta name="twitter:image" content={doctor?.image.url} />
+        <meta name="twitter:image" content={doctor?.image?.url} />
       </Head>
       <BreadCrumbs
         text1={"Our Fertility Experts"}
@@ -132,7 +132,7 @@ const Doctor = ({ doctor }) => {
             className="bg-center bg-cover h-full w-full absolute top-0"
             style={{
               backgroundImage:
-                "url('https://res.cloudinary.com/garbhagudiivf/image/upload/v1643286880/Banner/Behind_Doctors_fssazq.jpg')",
+                "url('https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8vb8od585p07plknvgx4ja')",
             }}
           >
             <span
@@ -169,7 +169,7 @@ const Doctor = ({ doctor }) => {
                     <div className="relative">
                       <img
                         alt={doctor.name}
-                        src={doctor.image.url}
+                        src={doctor?.image?.url}
                         className="align-middle border-none h-auto rounded-full shadow-xl -m-16 -ml-20 -mt-44 lg:-ml-16 max-w-xs mb-4"
                       />
                     </div>

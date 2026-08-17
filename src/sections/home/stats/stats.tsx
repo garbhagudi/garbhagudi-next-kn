@@ -20,7 +20,7 @@ const StatsPC = (props: Props) => {
                 onMouseLeave={() => setTooltipStatus(0)}
               >
                 <Image
-                  src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1660830364/Icons/Why%20GarbhaGudi/11-Years_bvg1gg.webp"
+                  src="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms7ai6od08vm08pkbu54elhs"
                   alt="11+ years"
                   className="hover:scale-115 transition-all duration-500"
                   width={200}
@@ -41,7 +41,7 @@ const StatsPC = (props: Props) => {
               <div className="absolute w-[450px] h-[450px] rounded-full bg-transparent border-2 border-dashed border-brandPink4 animate-spinSlow -z-20"></div>
               <div className="flex items-center justify-center rounded-full ring-brandPink4 h-96 w-96 shadow-2xl border-4">
                 <Image
-                  src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1659164257/logos/GG_Vertical_Logo_nrcl5h.svg"
+                  src="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms7ai6oz08vq08pk9nuarsth"
                   alt="garbhagudi logo"
                   className="h-64 w-64"
                   width={256}
@@ -57,7 +57,7 @@ const StatsPC = (props: Props) => {
                 onMouseLeave={() => setTooltipStatus(0)}
               >
                 <Image
-                  src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1660830350/Icons/Why%20GarbhaGudi/Holistic-Approach_timeda.webp"
+                  src="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms7ai6po08vu08pkw8qrq5lo"
                   alt="Holostic Approach"
                   className="hover:scale-115 transition-all duration-500"
                   width={200}
@@ -78,7 +78,7 @@ const StatsPC = (props: Props) => {
                 onMouseLeave={() => setTooltipStatus(0)}
               >
                 <Image
-                  src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1660830350/Icons/Why%20GarbhaGudi/Humane-Touch_qvniyh.webp"
+                  src="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms7ai6qg08vy08pkkptynjq8"
                   alt="Humane Touch"
                   className="hover:scale-115 transition-all duration-500"
                   width={200}
@@ -97,7 +97,7 @@ const StatsPC = (props: Props) => {
                 onMouseLeave={() => setTooltipStatus(0)}
               >
                 <Image
-                  src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1660830505/Icons/Why%20GarbhaGudi/Successful-Pregnancy_1_xw1hbe.webp"
+                  src="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms7ai6r708w208pk0ok4tc0d"
                   alt="High Success Rate"
                   className="hover:scale-115 transition-all duration-500"
                   width={200}
@@ -118,7 +118,7 @@ const StatsPC = (props: Props) => {
                 onMouseLeave={() => setTooltipStatus(0)}
               >
                 <Image
-                  src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1660830350/Icons/Why%20GarbhaGudi/Reknowed-Doctor_x52vlx.webp"
+                  src="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8in18n3pky07pl537v57hy"
                   alt="Top Fertility Specialists"
                   className="hover:scale-115 transition-all duration-500"
                   width={200}
@@ -139,7 +139,7 @@ const StatsPC = (props: Props) => {
                 onMouseLeave={() => setTooltipStatus(0)}
               >
                 <Image
-                  src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1660830350/Icons/Why%20GarbhaGudi/Trasparent-Billing_rbt5lj.webp"
+                  src="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8in19g3pl207plhoea2w49"
                   alt="Transparent Pricing"
                   className="hover:scale-115 transition-all duration-500"
                   width={200}
@@ -161,7 +161,7 @@ const StatsPC = (props: Props) => {
                 onMouseLeave={() => setTooltipStatus(0)}
               >
                 <Image
-                  src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1660830350/Icons/Why%20GarbhaGudi/World-Class-Lab_yerlf1.webp"
+                  src="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8in1a63pl607plcz55wsz8"
                   alt="World Class Labs"
                   className="hover:scale-115 transition-all duration-500"
                   width={200}
@@ -182,7 +182,7 @@ const StatsPC = (props: Props) => {
                 onMouseLeave={() => setTooltipStatus(0)}
               >
                 <Image
-                  src="https://res.cloudinary.com/garbhagudiivf/image/upload/v1660830350/Icons/Why%20GarbhaGudi/Cutting-Edge_qpqb9w.webp"
+                  src="https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8in1ax3pla07plwitixgei"
                   alt="Cutting Edge Technologies"
                   className="hover:scale-115 transition-all duration-500"
                   width={200}
