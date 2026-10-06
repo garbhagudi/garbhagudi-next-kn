@@ -26,3 +26,38 @@ body {
     bottom: 70px;
   }
 }
+
+/* Desktop: the round phone button (FloatPhone) sits at the bottom and the SalesIQ chat bubble
+ * sits directly above it, same right edge. Only the position is forced (not size) since the
+ * widget's own dimensions can vary and forcing a smaller box than it needs makes its contents
+ * overflow the box and bleed down over FloatPhone — the gap below is sized generously instead
+ * so it clears FloatPhone either way.
+ * This site uses the same Zoho SalesIQ widget/account as garbhagudi-next-tamil (same widget
+ * code + domain in SalesIQ.js), so it renders `.zsiq_floatmain` / `.zls-sptwndw.siqembed`,
+ * not the `#zsiq_float` / `#zsiq_chat_wrap` ids used by the (different-account) English site.
+ * Mobile: FloatPhone is hidden, so the bubble is instead pinned to mirror FloatWhatsApp
+ * exactly (see the max-width rule below). */
+@media screen and (min-width: 768px) {
+  html.gg-phone-round-floats .zsiq_floatmain {
+    right: 20px !important;
+    bottom: 90px !important;
+  }
+}
+
+/* Mobile: FloatPhone is hidden here, so there's no overlap to avoid — park the bubble at the
+ * exact mirror of FloatWhatsApp's mobile position (bottom-24/left-2), same height, opposite side. */
+@media screen and (max-width: 767.98px) {
+  html.gg-phone-round-floats .zsiq_floatmain {
+    right: 8px !important;
+    bottom: 96px !important;
+  }
+}
+
+/* Desktop: keep the opened chat window from covering FloatPhone — push it up instead,
+ * clearing it with the same margin as the bubble above. */
+@media screen and (min-width: 768px) {
+  html.gg-phone-round-floats .zls-sptwndw.siqembed {
+    bottom: 90px !important;
+    max-height: calc(100vh - 160px) !important;
+  }
+}
