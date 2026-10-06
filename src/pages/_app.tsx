@@ -3,6 +3,7 @@ import "../styles/globals.css";
 import Footer from "components/footer/footer";
 import Nav from "components/header/header";
 import FloatPhone from "components/FloatPhone";
+import FloatWhatsApp from "components/FloatWhatsapp";
 import SalesIQ from "components/SalesIQ";
 import TagManager from "react-gtm-module";
 import { useEffect } from "react";
@@ -18,6 +19,12 @@ function MyApp({ Component, pageProps }) {
 
   useEffect(() => {
     TagManager.initialize({ gtmId: "GTM-MJRF25D" });
+  }, []);
+
+  /* Lets globals.css align the SalesIQ bubble above FloatPhone. */
+  useEffect(() => {
+    document.documentElement.classList.add("gg-phone-round-floats");
+    return () => document.documentElement.classList.remove("gg-phone-round-floats");
   }, []);
 
   useEffect(() => {
@@ -60,6 +67,7 @@ function MyApp({ Component, pageProps }) {
           </main>
           <SalesIQ />
           <FloatPhone />
+          <FloatWhatsApp />
           <FloatRequestCallBack />
           <FloatPhoneFooter />
           <Footer />
