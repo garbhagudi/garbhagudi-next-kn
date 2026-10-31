@@ -1,5 +1,6 @@
 import React from "react";
-import { GraphQLClient, gql } from "graphql-request";
+import { gql } from "graphql-request";
+import graphcms from "lib/graphcms";
 import { RichText } from "@graphcms/rich-text-react-renderer";
 import BlogFooter from "components/blogFooter";
 import Error from "next/error";
@@ -15,12 +16,6 @@ export const getServerSideProps = async (pageContext) => {
     };
   }
 
-  const url = process.env.ENDPOINT;
-  const graphQLClient = new GraphQLClient(url, {
-    headers: {
-      Authorization: `Bearer ${process.env.GRAPH_CMS_TOKEN}`,
-    },
-  });
 
   const query = gql`
     query ($pageSlug: String!) {
@@ -39,7 +34,7 @@ export const getServerSideProps = async (pageContext) => {
     }
   `;
 
-  const data = await graphQLClient.request(query, { pageSlug });
+  const data = await graphcms.request(query, { pageSlug });
   if (!data?.award) {
     return {
       notFound: true,

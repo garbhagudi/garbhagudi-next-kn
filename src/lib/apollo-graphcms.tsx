@@ -1,11 +1,15 @@
-import { ApolloClient, InMemoryCache } from "@apollo/client";
+import { ApolloClient, HttpLink, InMemoryCache } from "@apollo/client";
+import fetchWithRetry from "./fetchWithRetry";
 
 const apolloClient = new ApolloClient({
-  uri: process.env.ENDPOINT,
+  link: new HttpLink({
+    uri: process.env.ENDPOINT,
+    headers: {
+      Authorization: `Bearer ${process.env.GRAPH_CMS_TOKEN}`,
+    },
+    fetch: fetchWithRetry,
+  }),
   cache: new InMemoryCache(),
-  headers: {
-    Authorization: `Bearer ${process.env.GRAPH_CMS_TOKEN}`,
-  },
 });
 
 export default apolloClient;
