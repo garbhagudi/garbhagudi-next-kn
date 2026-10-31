@@ -1,5 +1,5 @@
-import Link from "next/link";
-import type { MouseEvent } from "react";
+import { useState, type MouseEvent } from "react";
+import BookingDialog from "./booking-dialog";
 import { ENQUIRY_URL, PHONE_HREF, PHONE_LABEL } from "./data";
 import Reveal from "./reveal";
 import { WRAP, button } from "./ui";
@@ -7,10 +7,12 @@ import { WRAP, button } from "./ui";
 const MOBILE_BTN =
   "max-[640px]:flex-[1_1_100%] max-[640px]:flex-wrap max-[640px]:gap-x-1.5 max-[640px]:gap-y-0 max-[640px]:whitespace-normal max-[640px]:text-center max-[640px]:leading-[1.45]";
 
-const Cta = ({ onBook }: { onBook: () => void }) => {
+const Cta = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   const handleBook = (e: MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
-    onBook();
+    setIsOpen(true);
   };
 
   return (
@@ -25,13 +27,13 @@ const Cta = ({ onBook }: { onBook: () => void }) => {
             ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ ಹತ್ತಿರದ ಗರ್ಭಗುಡಿ ಶಾಖೆಗೆ ಭೇಟಿ ನೀಡಿ
           </p>
           <div className="relative z-[1] mt-[30px] flex flex-wrap justify-center gap-3">
-            <Link
+            <a
               href={ENQUIRY_URL}
               onClick={handleBook}
               className={button("ink", MOBILE_BTN)}
             >
               ಬೇಟಿಗೆ ಸಮಯ ಕಾಯ್ದಿರಿಸಿ
-            </Link>
+            </a>
             <a href={PHONE_HREF} className={button("light", MOBILE_BTN)}>
               ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ ಸಂಪರ್ಕಿಸಿ{" "}
               <span className="whitespace-nowrap">{PHONE_LABEL}</span>
@@ -39,6 +41,7 @@ const Cta = ({ onBook }: { onBook: () => void }) => {
           </div>
         </Reveal>
       </div>
+      <BookingDialog open={isOpen} onClose={() => setIsOpen(false)} />
     </section>
   );
 };

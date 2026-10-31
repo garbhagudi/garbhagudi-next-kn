@@ -24,9 +24,9 @@ module.exports = {
         },
       },
       fontFamily: {
-        'pp-head': ['B612', '"Anek Kannada"', 'system-ui', 'sans-serif'],
-        'pp-ui': ['Lexend', '"Noto Sans Kannada"', 'system-ui', 'sans-serif'],
-        'pp-body': ['Nunito', '"Noto Sans Kannada"', 'system-ui', 'sans-serif'],
+        'pp-head': ['var(--font-pp-head)', '"Anek Kannada"', 'system-ui', 'sans-serif'],
+        'pp-ui': ['var(--font-pp-ui)', '"Noto Sans Kannada"', 'system-ui', 'sans-serif'],
+        'pp-body': ['var(--font-pp-body)', '"Noto Sans Kannada"', 'system-ui', 'sans-serif'],
       },
     },
     screens: {

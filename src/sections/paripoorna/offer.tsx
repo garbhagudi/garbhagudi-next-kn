@@ -24,6 +24,8 @@ const Offer = () => (
       <Reveal>
         <img
           src={PARIPOORNA_LOGO}
+          loading="lazy"
+          decoding="async"
           alt="ಪರಿಪೂರ್ಣ 2026"
           width="624"
           height="668"

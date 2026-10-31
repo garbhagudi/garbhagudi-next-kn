@@ -19,6 +19,8 @@ const Fertility360 = () => (
       <div>
         <img
           src={FERTILITY360_LOGO}
+          loading="lazy"
+          decoding="async"
           alt="ಫರ್ಟಿಲಿಟಿ 360"
           className="m-0 h-[clamp(64px,6.4vw,92px)] w-auto max-[640px]:h-[52px]"
         />
@@ -45,6 +47,8 @@ const Fertility360 = () => (
               alt=""
               width="170"
               height="170"
+              loading="lazy"
+              decoding="async"
               className="h-full w-full"
             />
           </span>

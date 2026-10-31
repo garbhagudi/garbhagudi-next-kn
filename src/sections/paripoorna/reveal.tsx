@@ -3,10 +3,9 @@ import { useEffect, useRef, useState, type ReactNode } from "react";
 type RevealProps = {
   children: ReactNode;
   className?: string;
-  id?: string;
 };
 
-const Reveal = ({ children, className = "", id }: RevealProps) => {
+const Reveal = ({ children, className = "" }: RevealProps) => {
   const ref = useRef<HTMLDivElement>(null);
   const [inView, setInView] = useState(false);
 
@@ -29,7 +28,6 @@ const Reveal = ({ children, className = "", id }: RevealProps) => {
   return (
     <div
       ref={ref}
-      id={id}
       data-in={inView}
       className={`group/reveal translate-y-6 opacity-0 transition-[opacity,transform] duration-1000 data-[in=true]:translate-y-0 data-[in=true]:opacity-100 motion-reduce:translate-y-0 motion-reduce:opacity-100 motion-reduce:transition-none ${className}`}
     >

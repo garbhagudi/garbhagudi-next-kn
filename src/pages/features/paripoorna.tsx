@@ -1,14 +1,28 @@
+import { B612, Lexend, Nunito } from "next/font/google";
 import Head from "next/head";
-import { useState } from "react";
-import BookingDialog from "sections/paripoorna/booking-dialog";
 import Cta from "sections/paripoorna/cta";
-import { HERO_IMAGE } from "sections/paripoorna/data";
 import Faq from "sections/paripoorna/faq";
 import Hero from "sections/paripoorna/hero";
 import Inclusions from "sections/paripoorna/inclusions";
 import Institution from "sections/paripoorna/institution";
 import Offer from "sections/paripoorna/offer";
 import Understanding from "sections/paripoorna/understanding";
+
+const head = B612({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  variable: "--font-pp-head",
+});
+const ui = Lexend({
+  weight: ["400", "500", "600"],
+  subsets: ["latin"],
+  variable: "--font-pp-ui",
+});
+const body = Nunito({
+  weight: ["400", "600", "700"],
+  subsets: ["latin"],
+  variable: "--font-pp-body",
+});
 
 const TITLE = "ಪರಿಪೂರ್ಣ 2026 | ₹1,75,000ಕ್ಕೆ ಸಂಪೂರ್ಣ IVF ಚಿಕಿತ್ಸೆ*";
 const DESCRIPTION =
@@ -38,8 +52,6 @@ const breadcrumbSchema = JSON.stringify({
 });
 
 const Paripoorna = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
     <>
       <Head>
@@ -62,24 +74,24 @@ const Paripoorna = () => {
         <meta name="twitter:title" content={TITLE} />
         <meta name="twitter:description" content={DESCRIPTION} />
         <meta name="twitter:image" content={OG_IMAGE} />
-        <link rel="preload" as="image" href={HERO_IMAGE} />
-        <style>{`html{scroll-behavior:smooth;scroll-padding-top:86px}@media (max-width:640px){html{scroll-padding-top:94px}}`}</style>
+        <style>{`html{scroll-padding-top:86px}@media (max-width:640px){html{scroll-padding-top:94px}}`}</style>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: breadcrumbSchema }}
           id="breadcrumbs-jsonld"
         />
       </Head>
-      <div className="overflow-x-clip bg-pp-bg font-pp-body text-[17px] leading-[1.75] text-pp-grey antialiased max-[767px]:bg-[#efe7e0] max-[640px]:text-[16px]">
+      <div
+        className={`${head.variable} ${ui.variable} ${body.variable} overflow-x-clip bg-pp-bg font-pp-body text-[17px] leading-[1.75] text-pp-grey antialiased max-[767px]:bg-[#efe7e0] max-[640px]:text-[16px]`}
+      >
         <Hero />
         <Understanding />
         <Offer />
         <Inclusions />
-        <Cta onBook={() => setIsOpen(true)} />
+        <Cta />
         <Institution />
         <Faq />
       </div>
-      <BookingDialog open={isOpen} onClose={() => setIsOpen(false)} />
     </>
   );
 };
