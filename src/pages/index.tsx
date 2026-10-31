@@ -2,7 +2,8 @@ import React from "react";
 import Head from "next/head";
 import HomeComponent from "sections/home";
 import Link from "next/link";
-import { gql, GraphQLClient } from "graphql-request";
+import { gql } from "graphql-request";
+import graphcms from "lib/graphcms";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Image from "next/image";
@@ -239,12 +240,6 @@ const Home = ({ homeData }) => {
 export default Home;
 
 export const getStaticProps = async () => {
-  const url = process.env.ENDPOINT;
-  const graphQLClient = new GraphQLClient(url, {
-    headers: {
-      Authorization: `Bearer ${process.env.GRAPH_CMS_TOKEN}`,
-    },
-  });
   const query = gql`
     query {
       doctors(orderBy: order_ASC) {
@@ -270,7 +265,7 @@ export const getStaticProps = async () => {
     }
   `;
 
-  const data = await graphQLClient.request(query);
+  const data = await graphcms.request(query);
   const homeData = data;
 
   return {

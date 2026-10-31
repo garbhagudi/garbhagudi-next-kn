@@ -1,16 +1,11 @@
 import React from "react";
-import { GraphQLClient, gql } from "graphql-request";
+import { gql } from "graphql-request";
+import graphcms from "lib/graphcms";
 import Link from "next/link";
 import BreadCrumbs from "components/breadcrumbs";
 import Head from "next/head";
 
 export const getServerSideProps = async () => {
-  const url = process.env.ENDPOINT;
-  const graphQLClient = new GraphQLClient(url, {
-    headers: {
-      Authorization: `Bearer ${process.env.GRAPH_CMS_TOKEN}`,
-    },
-  });
   const query = gql`
     query {
       awards {
@@ -24,7 +19,7 @@ export const getServerSideProps = async () => {
     }
   `;
 
-  const data = await graphQLClient.request(query);
+  const data = await graphcms.request(query);
   const award = data.awards;
 
   return {
