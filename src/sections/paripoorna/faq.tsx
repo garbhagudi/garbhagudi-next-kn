@@ -1,116 +1,129 @@
-import { useState } from "react";
-import AccordionLayout from "../Faq/FaqLayout";
+import { useState, type MouseEvent } from "react";
+import {
+  PHONE_HREF,
+  PHONE_LABEL,
+  WHATSAPP_HREF,
+  faqs,
+  terms,
+  termsIntro,
+} from "./data";
+import { H2, WRAP } from "./ui";
 
-const FAQ = () => {
-  const [activeIndex, setActiveIndex] = useState<string | number>(1);
+const footerLinks = [
+  { label: "ಫರ್ಟಿಲಿಟಿ 360", href: "#path" },
+  { label: "ಪರಿಪೂರ್ಣ 2026", href: "#paripoorna" },
+  { label: "ಪ್ರಶ್ನೆಗಳು", href: "#faqs" },
+  { label: "ಶಾಖೆಗಳು", href: "#institution" },
+  { label: "ವಾಟ್ಸ್ಯಾಪ್‌", href: WHATSAPP_HREF, external: true },
+  { label: PHONE_LABEL, href: PHONE_HREF },
+];
+
+const SUMMARY =
+  "flex cursor-pointer list-none items-center justify-between gap-5 font-pp-ui leading-[1.55] text-pp-char max-[640px]:px-[18px] max-[640px]:py-4 max-[640px]:text-[0.98rem] [&::-webkit-details-marker]:hidden";
+
+const BAR =
+  "before:absolute before:left-1/2 before:top-1/2 before:h-[2px] before:w-3 before:-translate-x-1/2 before:-translate-y-1/2 before:rounded-[2px] before:bg-pp-pink before:transition-transform before:duration-300 before:content-[''] group-open:before:bg-white after:absolute after:left-1/2 after:top-1/2 after:h-[2px] after:w-3 after:-translate-x-1/2 after:-translate-y-1/2 after:rotate-90 after:rounded-[2px] after:bg-pp-pink after:transition-transform after:duration-300 after:content-[''] group-open:after:rotate-0 group-open:after:bg-white";
+
+const PlusMinus = () => (
+  <span
+    className={`relative h-[34px] w-[34px] flex-none rounded-full bg-pp-pink-t transition-[background,transform] duration-300 group-open:bg-pp-pink max-[640px]:h-[30px] max-[640px]:w-[30px] ${BAR}`}
+  />
+);
+
+const Faq = () => {
+  const [openIndex, setOpenIndex] = useState(0);
+
+  const toggle = (i: number) => (e: MouseEvent) => {
+    e.preventDefault();
+    setOpenIndex((current) => (current === i ? -1 : i));
+  };
+
   return (
-    <div className="mx-auto px-4 pt-12 font-lexend sm:max-w-xl md:max-w-full md:px-24 lg:max-w-7xl lg:px-8 lg:pt-16">
-      <h3 className="text 3xl pb-12 text-center font-bold text-gray-800 dark:text-gray-200 lg:text-4xl">
-        ಪದೇಪದೆ ಕೇಳಲಾಗುವ ಪ್ರಶ್ನೆಗಳು
-      </h3>
-      {Data.map((items) => (
-        <AccordionLayout
-          title={items.title}
-          key={items.id}
-          index={items.id}
-          activeIndex={activeIndex}
-          setActiveIndex={setActiveIndex}
-        >
-          {items.contents}
-        </AccordionLayout>
-      ))}
-    </div>
+    <section
+      id="faqs"
+      className="relative bg-white pb-[110px] pt-11 max-[1040px]:pt-8 max-[640px]:pt-7"
+    >
+      <div
+        className={`${WRAP} grid max-w-[900px] grid-cols-1 items-start gap-9`}
+      >
+        <div className="text-center">
+          <h2 className={`${H2} max-[640px]:text-[1.9rem]`}>
+            ದಂಪತಿಗಳು ಸಾಮಾನ್ಯವಾಗಿ ಕೇಳುವ ಪ್ರಶ್ನೆಗಳು
+          </h2>
+          <p className="mt-4 text-pp-grey-2">
+            ಇನ್ನೂ ಗೊಂದಲವಿದೆಯೆ? ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ ಸಂಪರ್ಕಿಸಿ{" "}
+            <a
+              href={PHONE_HREF}
+              className="whitespace-nowrap font-bold text-pp-pink-d"
+            >
+              {PHONE_LABEL}
+            </a>
+          </p>
+        </div>
+        <div>
+          <div className="flex flex-col gap-3">
+            {faqs.map((faq, i) => (
+              <details
+                key={faq.q}
+                open={openIndex === i}
+                className="group rounded-[20px] border border-pp-line bg-white text-left transition-[border-color,background] duration-300 open:border-pp-mauve open:bg-pp-mauve-t"
+              >
+                <summary
+                  onClick={toggle(i)}
+                  className={`${SUMMARY} px-[26px] py-[22px] text-[1.06rem] font-semibold`}
+                >
+                  {faq.q}
+                  <PlusMinus />
+                </summary>
+                <div className="px-[26px] pb-6 text-[1rem] text-pp-grey max-[640px]:px-5 max-[640px]:pb-5 [&_a]:border-b [&_a]:border-current [&_a]:font-bold [&_a]:text-pp-pink-d">
+                  {faq.a}
+                </div>
+              </details>
+            ))}
+          </div>
+          <div id="terms" className="mt-6">
+            <details className="group rounded-[22px] border-2 border-pp-char bg-white">
+              <summary
+                className={`${SUMMARY} px-7 py-6 font-pp-head text-[1.4rem] font-bold`}
+              >
+                ನಿಯಮಗಳು ಮತ್ತು ಷರತ್ತುಗಳು
+                <PlusMinus />
+              </summary>
+              <div className="px-7 pb-7 text-[0.95rem] text-pp-grey max-[640px]:px-[22px] max-[640px]:pb-6">
+                {termsIntro.map((p) => (
+                  <p key={p} className="mb-3">
+                    {p}
+                  </p>
+                ))}
+                <ol className="mt-2 list-decimal pl-[22px]">
+                  {terms.map((term) => (
+                    <li
+                      key={term}
+                      className="py-[5px] pl-1.5 marker:font-bold marker:text-pp-pink"
+                    >
+                      {term}
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            </details>
+          </div>
+        </div>
+        <nav className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 border-t border-pp-line pt-8 font-pp-ui text-[0.98rem] font-semibold text-pp-char max-[640px]:gap-x-6">
+          {footerLinks.map(({ label, href, external }) => (
+            <a
+              key={label}
+              href={href}
+              {...(external && { target: "_blank", rel: "noopener noreferrer" })}
+              className="whitespace-nowrap transition-colors duration-200 hover:text-pp-pink-d"
+            >
+              {label}
+            </a>
+          ))}
+        </nav>
+      </div>
+    </section>
   );
 };
 
-export default FAQ;
-
-const Data = [
-  {
-    id: 1,
-    title: "ಪರಿಪೂರ್ಣ ಕೊಡುಗೆಗೆ ನೋಂದಾಯಿಸಿಕೊಳ್ಳುವುದು ಹೇಗೆ?",
-    contents: (
-      <div>
-        ಪರಿಪೂರ್ಣಗೆ ನೋಂದಾಯಿಸಿಕೊಳ್ಳಲು, ನಮ್ಮ ಯಾವುದೇ ಶಾಖೆಗೆ ಭೇಟಿ ನೀಡಿ. ಫಲವತ್ತತೆ
-        ತಜ್ಞರನ್ನು ಭೇಟಿ ಮಾಡಲು ಅಥವಾ ಸಮಾಲೋಚಿಸಲು 9108 9108 22 ನಂಬರ್‌ ಸಂಪರ್ಕಿಸಿ. ನಾವು
-        ನಿಮಗೆ ಪ್ರತಿಯೊಂದನ್ನೂ ಹಂತ ಹಂತವಾಗಿ ತಿಳಿಸುತ್ತೇವೆ ಮತ್ತು ಪ್ರಕ್ರಿಯೆಯನ್ನು
-        ಸರಾಗವಾಗಿ ಪೂರ್ಣಗೊಳಿಸಲು ನೆರವಾಗುತ್ತೇವೆ.
-      </div>
-    ),
-  },
-  {
-    id: 2,
-    title: "ಪರಿಪೂರ್ಣ ಪಡೆಯಲು ಯಾರು ಅರ್ಹರು?",
-    contents: (
-      <div>
-        ಸಂತಾನೋತ್ಪತ್ತಿ ಚಿಕಿತ್ಸೆ ಪಡೆಯಲು ಬಯಸುವ ದಂಪತಿಗಳಿಗೆ ಹಣಕಾಸಿನ ನೆರವು
-        ಅಗತ್ಯವಿದ್ದಲ್ಲಿ ಪರಿಪೂರ್ಣ ಕೊಡುಗೆ ಸಹಾಯವಾಗುತ್ತದೆ.
-      </div>
-    ),
-  },
-  {
-    id: 3,
-    title: `ನೋಂದಾಯಿಸಿಕೊಳ್ಳುವ ಪ್ರತಿಯೊಬ್ಬರೂ ಪರಿಪೂರ್ಣ ಪ್ರಯೋಜನವನ್ನು ಪಡೆಯಲು ಅರ್ಹರೇ?`,
-    contents: (
-      <div>
-        ನೋಂದಣಿಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಿದ ನಂತರ, ಫಲವತ್ತತೆ ತಜ್ಞರೊಂದಿಗೆ ಸಮಾಲೋಚನೆಗೆ ಒಳಗಾದ
-        ನಂತರ, ಪರೀಕ್ಷೆಯ ನಂತರ ಮತ್ತು ದಂಪತಿಗಳ ವಿಶಿಷ್ಟ ಅಗತ್ಯಗಳನ್ನು ಪೂರೈಸಲು
-        ಚಿಕಿತ್ಸೆಯನ್ನು ಸೂಚಿಸಿದ ನಂತರ ದಂಪತಿಗಳು ಪರಿಪೂರ್ಣಗೆ ಅರ್ಹರಾಗಿರುತ್ತಾರೆ.
-      </div>
-    ),
-  },
-  {
-    id: 4,
-    title: `ಅರ್ಹತೆಗೆ ಮಾನದಂಡ ಇದೆಯಾ?`,
-    contents: (
-      <div>
-        IVF ಚಿಕಿತ್ಸೆಯನ್ನು ಪಡೆಯಲು ಬಯಸುವ ದಂಪತಿಗಳಿಗೆ ಮಾತ್ರ ಪರಿಪೂರ್ಣ ಅನ್ವಯಿಸುತ್ತದೆ.
-      </div>
-    ),
-  },
-  {
-    id: 5,
-    title: `ಅರ್ಹತೆ ಇದ್ದರೆ, ನಾನು ಟ್ರೀಟ್ಮೆಂಟ್‌ ಪ್ಲಾನ್‌ ಪಡೆಯಬಹುದೆ?`,
-    contents: (
-      <div>
-        ಹೌದು, ನೀವು ಫಲವತ್ತತೆ ತಜ್ಞರಿಂದ ಟ್ರೀಟ್ಮೆಂಟ್‌ ಪ್ಲಾನ್‌ ಅನ್ನು ಪಡೆಯಬಹುದು.
-      </div>
-    ),
-  },
-  {
-    id: 6,
-    title: `ಪರಿಪೂರ್ಣ ಯೋಜನೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡದೆ ನಾನು ನನ್ನ ಚಿಕಿತ್ಸೆಯನ್ನು ಮುಂದುವರಿಸಬಹುದೇ?`,
-    contents: (
-      <div>
-        ಹೌದು, ಪರಿಪೂರ್ಣ ಉಡುಗೊರೆ ನಿಜವಾಗಿ ಅಗತ್ಯವಿರುವ ಇತರೆ ದಂಪತಿಗಳು ಪಡೆಯಲು
-        ಸಹಾಯವಾಗುತ್ತದೆ.{" "}
-      </div>
-    ),
-  },
-  {
-    id: 7,
-    title: `ಪರಿಪೂರ್ಣಗೆ ಅರ್ಜಿ ಸಲ್ಲಿಸಲು ಕೊನೆಯ ದಿನಾಂಕ ಯಾವುದು?`,
-    contents: <div>ಡಿಸೆಂಬರ್ 31, 2025 ರವರೆಗೆ ಪರಿಪೂರ್ಣ ಕೊಡುಗೆ ಲಭ್ಯವಿದೆ.</div>,
-  },
-  {
-    id: 8,
-    title: `ನಾನು ಇತರೆ ಆಸ್ಪತ್ರೆಯಲ್ಲಿ ಚಿಕಿತ್ಸೆ ಪಡೆಯುತ್ತಿದ್ದಾಗಲೂ, ಗರ್ಭಗುಡಿ IVF ಕೇಂದ್ರದಲ್ಲಿ ಪರಿಪೂರ್ಣ  ಪಡೆಯಲು  ಅರ್ಹನಾಗಿರುತ್ತೇನೆಯೆ?`,
-    contents: (
-      <div>
-        ಹೌದು, ನೀವು ಅರ್ಜಿ ಸಲ್ಲಿಸಬಹುದು, ಆದರೆ ಚಿಕಿತ್ಸೆಯನ್ನು ನಿಲ್ಲಿಸಬೇಡಿ ಎಂದು ನಾವು
-        ಶಿಫಾರಸು ಮಾಡುತ್ತೇವೆ, ಏಕೆಂದರೆ ಅದು ಅದರ ಯಶಸ್ಸಿನ ದರದ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರಬಹುದು.
-      </div>
-    ),
-  },
-  {
-    id: 9,
-    title: `ಗರ್ಭಗುಡಿ ಸೆಂಟರ್‌ಗೆ ಭೇಟಿ ನೀಡದೆ ನಾನು ಆನ್‌ಲೈನ್ ಮೂಲಕ ಪರಿಪೂರ್ಣಗೆ ನೋಂದಾಯಿಸಿಕೊಳ್ಳಬಹುದೇ?`,
-    contents: (
-      <div>
-        ನಮ್ಮ ಯಾವುದೇ ಗರ್ಭಗುಡಿ IVF ಕೇಂದ್ರಗಳಲ್ಲಿ ಮೊದಲು ಪರೀಕ್ಷೆ ಮಾಡಿಸಿಕೊಂಡು, ಅದರ
-        ಆಧಾರದ ಮೇಲೆ ಐವಿಎಫ್‌ ಚಿಕಿತ್ಸೆ ಪಡೆಯಲು ಅರ್ಹರಾಗಿರುವ ದಂಪತಿಗಳಿಗೆ ಮಾತ್ರ ಪರಿಪೂರ್ಣ
-        ಅನ್ವಯಿಸುತ್ತದೆ.
-      </div>
-    ),
-  },
-];
+export default Faq;
