@@ -2,8 +2,7 @@ import type { ReactNode } from "react";
 
 export const PARIPOORNA_LOGO =
   "https://ap-south-1.graphassets.com/A7M5IxnSTWGtcRy2NVnmfz/cmvw8hx7i2x1506pgnnlm9txa";
-export const FERTILITY360_LOGO =
-  "https://ap-south-1.graphassets.com/cmekvksn30ksu07o5fl5q801f/cmvuppyycnvxk06pho2kcd7vv";
+export const FERTILITY360_LOGO = "/paripoorna/fertility360-logo.png";
 export const GARBHAGNAN_LOGO = "/paripoorna/garbhagnan-foundation-logo.png";
 export const HERO_IMAGE = "/paripoorna/hero-pregnancy-test.jpg";
 export const ENQUIRY_URL = "/contact/enquiry?pageVisit=/features/paripoorna";

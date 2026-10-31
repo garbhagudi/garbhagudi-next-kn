@@ -10,10 +10,10 @@ export const H2 =
 export const EM = "not-italic text-pp-pink";
 
 const BTN =
-  "group inline-flex cursor-pointer items-center justify-center gap-2.5 rounded-full border-2 border-transparent py-[17px] font-pp-ui text-[0.95rem] font-semibold transition-[background,color,border-color,transform,box-shadow] duration-[250ms] hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-[3px] focus-visible:outline-pp-mauve";
+  "group inline-flex cursor-pointer items-center justify-center gap-2.5 rounded-full border-2 py-[17px] font-pp-ui text-[0.95rem] font-semibold transition-[background,color,border-color,transform,box-shadow] duration-[250ms] hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-[3px] focus-visible:outline-pp-mauve";
 
 const VARIANTS = {
-  ink: "bg-pp-pink text-white hover:bg-pp-pink-d",
+  ink: "border-transparent bg-pp-pink text-white hover:bg-pp-pink-d",
   line: "border-pp-char text-pp-char hover:bg-pp-char hover:text-white",
   light: "border-white text-white hover:bg-white hover:text-pp-char",
 };
