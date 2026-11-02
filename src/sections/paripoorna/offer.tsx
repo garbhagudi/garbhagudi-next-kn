@@ -80,6 +80,9 @@ const Offer = () => (
         <div className="font-pp-ui text-[1.2rem] text-pp-char">
           ಸಂಪೂರ್ಣ IVF ಚಿಕಿತ್ಸೆ
         </div>
+        <div className="font-pp-ui text-[1.2rem] uppercase text-pp-char before:relative before:top-[-1px] before:mr-[9px] before:inline-block before:h-[7px] before:w-[7px] before:rounded-full before:bg-pp-pink before:align-middle before:content-['']">
+          EMI ಸೌಲಭ್ಯ ದೊರೆಯುತ್ತದೆ
+        </div>
         <a
           href="#included"
           className={button("ink", "relative z-[5] mt-5", true)}
