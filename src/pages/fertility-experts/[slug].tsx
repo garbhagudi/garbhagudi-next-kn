@@ -333,7 +333,9 @@ const Doctor = ({ doctor }) => {
                   <div className="flex justify-center">
                     <div className="w-full lg:w-9/12 px-4">
                       <div className="text-gray-800 mb-4 prose">
-                        <RichText content={doctor?.bio?.raw?.children} />
+                        {doctor?.bio?.raw?.children && (
+                          <RichText content={doctor.bio.raw.children} />
+                        )}
                       </div>
                     </div>
                   </div>
