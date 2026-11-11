@@ -7,6 +7,7 @@ import Inclusions from "sections/paripoorna/inclusions";
 import Institution from "sections/paripoorna/institution";
 import Offer from "sections/paripoorna/offer";
 import Understanding from "sections/paripoorna/understanding";
+import VideoDialog from "sections/paripoorna/video-dialog";
 
 const head = B612({
   weight: ["400", "700"],
@@ -91,6 +92,7 @@ const Paripoorna = () => {
         <Cta />
         <Institution />
         <Faq />
+        <VideoDialog />
       </div>
     </>
   );
