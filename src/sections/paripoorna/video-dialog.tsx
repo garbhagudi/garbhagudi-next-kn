@@ -4,12 +4,8 @@ import { IoIosCloseCircleOutline } from "react-icons/io";
 
 const SHORT_ID = "7LJ9LlGClMY";
 
-// Auto-opens once per page load when the whole Paripoorna section is on screen
-// (or, where the section is taller than the screen, e.g. on phones, when it fills the screen)
 const VideoDialog = () => {
   const [open, setOpen] = useState(false);
-  // Browsers only autoplay with sound once the visitor has clicked/tapped the page (scrolling
-  // doesn't count), so start with sound when that has happened and muted otherwise.
   const [muted, setMuted] = useState(true);
 
   useEffect(() => {
