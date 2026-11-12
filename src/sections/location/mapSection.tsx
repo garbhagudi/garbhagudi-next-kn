@@ -48,7 +48,7 @@ const MapSection = ({ maplink, address, description, doctors, title }) => {
                 </div>
                 <p className="text-sm font-qs leading-relaxed">
                   <Link
-                    href="https://wa.me/918951813344?text=Hi."
+                    href="https://wa.me/919108910832?text=Hi."
                     target="_blank"
                     rel="noreferrer"
                   >
