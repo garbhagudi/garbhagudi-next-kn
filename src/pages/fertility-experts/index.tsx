@@ -151,7 +151,7 @@ const IndexPage = ({ branches }) => {
                             </h2>
                             <div className="leading-relaxed font-qs text-brandPink underline hover:text-lg transition-all duration-100">
                               <Link
-                                href="https://wa.me/918951813344?text=Hi."
+                                href="https://wa.me/919108910832?text=Hi."
                                 target="_blank"
                                 rel="noreferrer"
                               >
