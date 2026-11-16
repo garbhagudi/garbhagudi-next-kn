@@ -141,7 +141,7 @@ export const inclusions: { title: string; text: string; icon: ReactNode }[] = [
     ),
   },
   {
-    title: "ಪ್ರಗ್ನೆನ್ಸಿ ಕನ್‌ಫರ್ಮೇಷನ್‌",
+    title: "ಪ್ರಗ್ನೆನ್ಸಿ ಟೆಸ್ಟ್‌",
     text: "ಭ್ರೂಣ ವರ್ಗಾವಣೆಯ ನಂತರ ಪ್ರಗ್ನೆನ್ಸಿ ಟೆಸ್ಟ್‌",
     icon: (
       <>
