@@ -15,6 +15,7 @@ export const Contact = [
     name: "ತರಬೇತಿ ಕಾರ್ಯಕ್ರಮ",
     href: "https://ggirhr.com",
     icon: "https://ap-south-1.graphassets.com/ATvkR6mxuRke4HGT9LQrhz/cms8kwhwf3z9r07ple7jfk7np",
+    newTab: true,
   },
   {
     name: "ಪಾಲುದಾರಿಕೆ",

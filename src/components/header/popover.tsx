@@ -217,7 +217,14 @@ export function ContactUs() {
               <div className='overflow-hidden shadow-lg rounded-lg ring-1 ring-black ring-opacity-5'>
                 <div className='relative grid gap-8 p-5 bg-white lg:grid-cols-1'>
                   {Contact.map((item) => (
-                    <Link key={item.name} href={item.href} passHref>
+                    <Link
+                      key={item.name}
+                      href={item.href}
+                      passHref
+                      {...('newTab' in item && item.newTab
+                        ? { target: '_blank', rel: 'noopener noreferrer' }
+                        : {})}
+                    >
                       <div
                         onClick={() => close()}
                         className='flex items-center p-2 -m-3 transition duration-150 ease-in-out rounded-lg hover:bg-pink-100 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50'
