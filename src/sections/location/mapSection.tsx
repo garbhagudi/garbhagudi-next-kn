@@ -3,7 +3,14 @@ import Link from "next/link";
 import { RichText } from "@graphcms/rich-text-react-renderer";
 import Image from "next/image";
 
-const MapSection = ({ maplink, address, description, doctors, title }) => {
+const MapSection = ({
+  maplink,
+  address,
+  phone,
+  description,
+  doctors,
+  title,
+}) => {
   const [showFullText, setShowFullText] = useState(false);
   return (
     <div className="px-3">
@@ -37,24 +44,22 @@ const MapSection = ({ maplink, address, description, doctors, title }) => {
                     dreams@garbhagudi.com
                   </Link>
                 </div>
-                <div className="text-gray-900 text-xs font-qs font-semibold mt-4 tracking-widest">
-                  ದೂರವಾಣಿ
-                </div>
-                <p className="text-sm font-qs leading-relaxed">
-                  <Link href="tel:+919108910832">+91 9108 9108 32</Link>
-                </p>
-                <div className="text-gray-900 text-xs font-qs font-semibold mt-4 tracking-widest">
-                  WhatsApp
-                </div>
-                <p className="text-sm font-qs leading-relaxed">
-                  <Link
-                    href="https://wa.me/919108910832?text=Hi."
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    +91 89518 13344
-                  </Link>
-                </p>
+                {phone && (
+                  <>
+                    <div className="text-gray-900 text-xs font-qs font-semibold mt-4 tracking-widest">
+                      ದೂರವಾಣಿ
+                    </div>
+                    <p className="text-sm font-qs leading-relaxed">
+                      <Link
+                        href={`tel:${phone
+                          .replace(/[^\d+]/g, "")
+                          .replace(/^\+910/, "+91")}`}
+                      >
+                        {phone}
+                      </Link>
+                    </p>
+                  </>
+                )}
               </div>
             </div>
           </div>
