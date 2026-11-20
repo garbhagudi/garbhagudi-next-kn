@@ -46,6 +46,7 @@ const Branch = ({ branch }) => {
       <MapSection
         maplink={branch?.mapLink}
         address={branch?.address}
+        phone={branch?.phone}
         description={branch?.about?.raw?.children}
         doctors={branch?.doctors}
         title={branch?.title}
@@ -72,6 +73,7 @@ export const getStaticProps = async ({ params }) => {
           }
           title
           address
+          phone
           about {
             raw
           }
